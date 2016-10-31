@@ -1,0 +1,210 @@
+object TabbedwithNavigationForm: TTabbedwithNavigationForm
+  Left = 0
+  Top = 0
+  Caption = 'TabbedwithNavigation'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  OnKeyUp = FormKeyUp
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object TabControl1: TTabControl
+    Touch.GestureManager = GestureManager1
+    OnGesture = TabControl1Gesture
+    Align = alClient
+    FullSize = True
+    Height = 567.000000000000000000
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = tpBottom
+    Width = 384.000000000000000000
+    object TabItem1: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = True
+      StyleLookup = 'tabitemfavorites'
+      TabOrder = 0
+      Text = 'TabItem1'
+      Width = 96.000000000000000000
+      object TabControl2: TTabControl
+        Align = alClient
+        FullSize = True
+        Height = 518.000000000000000000
+        TabHeight = 49.000000000000000000
+        TabIndex = 0
+        TabOrder = 0
+        TabPosition = tpNone
+        Width = 384.000000000000000000
+        object TabItem5: TTabItem
+          WordWrap = False
+          Height = 8.000000000000000000
+          IsSelected = True
+          Position.X = 183.000000000000000000
+          Position.Y = 499.000000000000000000
+          TabOrder = 0
+          Text = 'TabItem5'
+          Width = 8.000000000000000000
+          object ToolBar1: TToolBar
+            Height = 48.000000000000000000
+            TabOrder = 0
+            Width = 384.000000000000000000
+            object lblTitle1: TLabel
+              Align = alContents
+              Height = 48.000000000000000000
+              StyleLookup = 'toollabel'
+              Text = 'Title'
+              TextAlign = taCenter
+              Width = 384.000000000000000000
+            end
+            object btnNext: TSpeedButton
+              Action = ChangeTabAction1
+              Align = alRight
+              Height = 48.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Position.X = 319.000000000000000000
+              Width = 60.000000000000000000
+            end
+          end
+        end
+        object TabItem6: TTabItem
+          WordWrap = False
+          Height = 8.000000000000000000
+          IsSelected = False
+          Position.X = 193.000000000000000000
+          Position.Y = 499.000000000000000000
+          TabOrder = 1
+          Text = 'TabItem6'
+          Width = 8.000000000000000000
+          object ToolBar2: TToolBar
+            Height = 48.000000000000000000
+            TabOrder = 0
+            Width = 384.000000000000000000
+            object lblTitle2: TLabel
+              Align = alContents
+              Height = 48.000000000000000000
+              StyleLookup = 'toollabel'
+              Text = 'Title'
+              TextAlign = taCenter
+              Width = 384.000000000000000000
+            end
+            object btnBack: TSpeedButton
+              Action = ChangeTabAction2
+              Align = alLeft
+              Height = 48.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Position.X = 5.000000000000000000
+              StyleLookup = 'backtoolbutton'
+              Width = 67.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      Position.X = 96.000000000000000000
+      StyleLookup = 'tabitemcontacts'
+      TabOrder = 1
+      Text = 'TabItem2'
+      Width = 96.000000000000000000
+      object ToolBar3: TToolBar
+        Height = 48.000000000000000000
+        TabOrder = 0
+        Width = 384.000000000000000000
+        object lblTitle3: TLabel
+          Align = alContents
+          Height = 48.000000000000000000
+          StyleLookup = 'toollabel'
+          Text = 'Title'
+          TextAlign = taCenter
+          Width = 384.000000000000000000
+        end
+      end
+    end
+    object TabItem3: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      Position.X = 192.000000000000000000
+      StyleLookup = 'tabitemsearch'
+      TabOrder = 2
+      Text = 'TabItem3'
+      Width = 96.000000000000000000
+      object ToolBar4: TToolBar
+        Height = 48.000000000000000000
+        TabOrder = 0
+        Width = 384.000000000000000000
+        object lblTitle4: TLabel
+          Align = alContents
+          Height = 48.000000000000000000
+          StyleLookup = 'toollabel'
+          Text = 'Title'
+          TextAlign = taCenter
+          Width = 384.000000000000000000
+        end
+      end
+    end
+    object TabItem4: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      Position.X = 288.000000000000000000
+      StyleLookup = 'tabitembookmarks'
+      TabOrder = 3
+      Text = 'TabItem4'
+      Width = 96.000000000000000000
+      object ToolBar5: TToolBar
+        Height = 48.000000000000000000
+        TabOrder = 0
+        Width = 384.000000000000000000
+        object lblTitle5: TLabel
+          Align = alContents
+          Height = 48.000000000000000000
+          StyleLookup = 'toollabel'
+          Text = 'Title'
+          TextAlign = taCenter
+          Width = 384.000000000000000000
+        end
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 64
+    Top = 120
+    object ChangeTabAction1: TChangeTabAction
+      CustomText = 'Next'
+      Tab = TabItem6
+      Transition = ttSlide
+    end
+    object ChangeTabAction2: TChangeTabAction
+      CustomText = ' Back'
+      Tab = TabItem5
+      Transition = ttSlide
+    end
+  end
+  object GestureManager1: TGestureManager
+    Left = 176
+    Top = 272
+    GestureData = <
+      item
+        Control = TabControl1
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+end

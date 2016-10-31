@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/20 11:07:08.000.715,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\FormUnit1.pas</Transaction>
+    <Transaction>2015/10/20 11:07:09.000.130,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/10/20 11:07:18.000.060,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\WebModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/20 11:07:24.000.917,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\CallbackFramework.js</Transaction>
+    <Transaction>2015/10/20 11:07:24.000.713,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\base64.js</Transaction>
+    <Transaction>2015/10/20 11:07:24.000.977,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\ServerFunctions.js</Transaction>
+    <Transaction>2015/10/20 11:07:24.000.833,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\json2.js</Transaction>
+    <Transaction>2015/10/20 11:07:24.000.800,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\ServerFunctionExecutor.js</Transaction>
+    <Transaction>2015/10/20 11:07:25.000.024,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\base64-min.js</Transaction>
+    <Transaction>2015/10/20 11:07:25.000.084,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\json2-min.js</Transaction>
+    <Transaction>2015/10/20 11:07:25.000.329,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\CallbackFramework-min.js</Transaction>
+    <Transaction>2015/10/20 11:07:25.000.458,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\connection.js</Transaction>
+    <Transaction>2015/10/20 11:07:25.000.218,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\ServerFunctionExecutor-min.js</Transaction>
+    <Transaction>2015/10/20 11:07:25.000.591,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\js\ServerFunctionInvoker.js</Transaction>
+    <Transaction>2015/10/20 11:07:26.000.146,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\css\main.css</Transaction>
+    <Transaction>2015/10/20 11:07:26.000.880,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\images\expand.png</Transaction>
+    <Transaction>2015/10/20 11:07:26.000.272,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\css\ServerFunctionInvoker.css</Transaction>
+    <Transaction>2015/10/20 11:07:26.000.536,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\templates\ServerFunctionInvoker.html</Transaction>
+    <Transaction>2015/10/20 11:07:26.000.783,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\images\collapse.png</Transaction>
+    <Transaction>2015/10/20 11:07:26.000.420,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\templates\ReverseString.html</Transaction>
+    <Transaction>2015/10/20 11:13:57.000.573,=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 11:53:41.000.740,C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\U_DSMPalestra.dfm=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\Unit1.dfm</Transaction>
+    <Transaction>2015/10/20 11:53:41.000.740,C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\U_DSMPalestra.pas=C:\Users\Laercio\Dropbox\CONF2015\Material\ServidorDataSnap\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

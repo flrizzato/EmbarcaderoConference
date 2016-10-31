@@ -1,0 +1,109 @@
+object frmConfig: TfrmConfig
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object GroupBox1: TGroupBox
+    Align = alTop
+    Height = 70.000000000000000000
+    Width = 320.000000000000000000
+    TabOrder = 0
+    object lblPedidos: TLabel
+      Font.Style = [fsBold]
+      StyledSettings = [ssFamily, ssSize, ssFontColor]
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Configura'#231#245'es'
+      Width = 169.000000000000000000
+      Trimming = ttCharacter
+    end
+    object SpeedButton2: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 264.000000000000000000
+      Position.Y = 8.000000000000000000
+      StyleLookup = 'stoptoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton2Click
+    end
+  end
+  object ListBox1: TListBox
+    Align = alClient
+    Height = 478.000000000000000000
+    TabOrder = 1
+    Width = 320.000000000000000000
+    DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    object edtHost: TClearingEdit
+      Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+      TabOrder = 0
+      Position.X = 104.000000000000000000
+      Position.Y = 16.000000000000000000
+      Width = 201.000000000000000000
+      Height = 30.000000000000000000
+      KillFocusByReturn = False
+    end
+    object edtPorta: TClearingEdit
+      Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+      TabOrder = 1
+      Position.X = 104.000000000000000000
+      Position.Y = 56.000000000000000000
+      Width = 201.000000000000000000
+      Height = 30.000000000000000000
+      KillFocusByReturn = False
+    end
+    object Label1: TLabel
+      Font.Style = [fsBold]
+      StyledSettings = [ssFamily, ssFontColor]
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 24.000000000000000000
+      Text = 'Host'
+      Width = 82.000000000000000000
+      Trimming = ttCharacter
+    end
+    object Label2: TLabel
+      Font.Style = [fsBold]
+      StyledSettings = [ssFamily, ssFontColor]
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 64.000000000000000000
+      Text = 'Porta'
+      Width = 82.000000000000000000
+      Trimming = ttCharacter
+    end
+    object SpeedButton1: TSpeedButton
+      Height = 29.000000000000000000
+      Position.X = 104.000000000000000000
+      Position.Y = 112.000000000000000000
+      StyleLookup = 'toolbuttonmiddle'
+      Text = 'Confirmar'
+      Trimming = ttCharacter
+      Width = 201.000000000000000000
+      OnClick = SpeedButton1Click
+    end
+    object lblMensagem: TLabel
+      Height = 21.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 176.000000000000000000
+      Text = 'Status:'
+      TextAlign = taCenter
+      Width = 305.000000000000000000
+      Trimming = ttCharacter
+    end
+  end
+end

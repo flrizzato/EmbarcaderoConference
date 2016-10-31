@@ -1,0 +1,20 @@
+inherited Form1_Moto360: TForm1_Moto360
+  ClientHeight = 218
+  ClientWidth = 240
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 240.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Button1: TButton
+      Position.X = 150.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited Button2: TButton
+      Size.Height = 48.000000000000000000
+    end
+  end
+  inherited ListView1: TListView
+    Size.Width = 240.000000000000000000
+    Size.Height = 170.000000000000000000
+  end
+end

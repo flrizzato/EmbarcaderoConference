@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/04 22:57:50.000.537,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 22:53:29.991,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 23:06:26.534,\\Mac\Home\Downloads\CONF2015\Exemplos\5-IconesNaApp\Unit1.fmx=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/10/20 23:06:26.534,\\Mac\Home\Downloads\CONF2015\Exemplos\5-IconesNaApp\Unit1.pas=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 23:06:30.124,\\Mac\Home\Downloads\CONF2015\Exemplos\5-IconesNaApp\IconsApp.dproj=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PHomenetwork iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

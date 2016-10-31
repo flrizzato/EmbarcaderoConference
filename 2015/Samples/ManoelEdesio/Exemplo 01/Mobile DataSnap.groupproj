@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8E2C3B6E-03C4-480A-B9C4-72272E3A668F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Cliente\MobileClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Servidor\ServerMobile.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MobileClient">
+        <MSBuild Projects="Cliente\MobileClient.dproj"/>
+    </Target>
+    <Target Name="MobileClient:Clean">
+        <MSBuild Projects="Cliente\MobileClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MobileClient:Make">
+        <MSBuild Projects="Cliente\MobileClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ServerMobile">
+        <MSBuild Projects="Servidor\ServerMobile.dproj"/>
+    </Target>
+    <Target Name="ServerMobile:Clean">
+        <MSBuild Projects="Servidor\ServerMobile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServerMobile:Make">
+        <MSBuild Projects="Servidor\ServerMobile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MobileClient;ServerMobile"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MobileClient:Clean;ServerMobile:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MobileClient:Make;ServerMobile:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

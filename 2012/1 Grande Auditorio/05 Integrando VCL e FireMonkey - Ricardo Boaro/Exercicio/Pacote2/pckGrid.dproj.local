@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/09/22 09:27:21.000.084,=rtl.dcp</Transaction>
+    <Transaction>2012/10/18 17:57:14.000.328,=rtl.dcp</Transaction>
+    <Transaction>2012/10/18 17:58:50.000.281,=rtl.dcp</Transaction>
+    <Transaction>2012/10/19 14:15:43.000.791,=rtl.dcp</Transaction>
+    <Transaction>2012/10/19 14:16:13.000.176,\\psf\Home\Documents\RAD Studio\Projects\Package1.dproj=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote2\pckGrid.dproj</Transaction>
+    <Transaction>2012/10/19 14:17:33.000.059,=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote2\uGridSlider.pas</Transaction>
+    <Transaction>2012/10/19 14:17:39.000.417,=bindcomp.dcp</Transaction>
+    <Transaction>2012/10/19 14:17:39.000.350,=dsnap.dcp</Transaction>
+    <Transaction>2012/10/19 14:17:39.000.384,=fmx.dcp</Transaction>
+    <Transaction>2012/10/19 14:17:39.000.432,=bindcompfmx.dcp</Transaction>
+    <Transaction>2012/10/19 14:17:39.000.369,=dbrtl.dcp</Transaction>
+    <Transaction>2012/10/19 14:17:39.000.401,=bindengine.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/08/08 15:27:58.000.497,=rtl.dcp</Transaction>
+    <Transaction>2014/08/08 15:28:05.000.317,=C:\Users\test\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/08 15:28:46.000.787,C:\Users\test\Documents\Embarcadero\Studio\Projects\Moto G View for Delphi\MotoG.pas=C:\Users\test\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/08 15:28:55.000.877,C:\Users\test\Documents\Embarcadero\Studio\Projects\Moto G View for Delphi\Moto.dproj=C:\Users\test\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

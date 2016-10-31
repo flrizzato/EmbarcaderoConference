@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/12 12:34:51.000.275,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2014/10/12 12:41:41.000.572,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/10/12 12:41:41.000.494,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2014/10/12 12:41:50.000.478,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\DelphiConferenceIntf.pas</Transaction>
+    <Transaction>2014/10/12 12:41:50.000.447,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\DelphiConferenceImpl.pas</Transaction>
+    <Transaction>2014/10/12 12:42:01.000.135,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\untDelphiConferenceIntf.pas=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\DelphiConferenceIntf.pas</Transaction>
+    <Transaction>2014/10/12 12:42:03.000.744,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\untDelphiConferenceImpl.pas=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\DelphiConferenceImpl.pas</Transaction>
+    <Transaction>2014/10/12 12:42:10.000.041,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\unfFrmServer.pas=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2014/10/12 12:42:10.000.041,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\unfFrmServer.dfm=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\FormUnit1.dfm</Transaction>
+    <Transaction>2014/10/12 12:42:18.000.869,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\untWebModule.pas=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/10/12 12:42:18.000.869,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\untWebModule.dfm=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2014/10/12 12:42:28.000.213,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\ServerWebServiceDC.dproj=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Project4.dproj</Transaction>
+    <Transaction>2014/10/12 12:57:30.000.416,=C:\Delphi Conference\Exemplos\WebService\Servidor - 01\Unit1.pas</Transaction>
+    <Transaction>2014/10/12 12:57:35.000.603,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\uDmDados.pas=C:\Delphi Conference\Exemplos\WebService\Servidor - 01\Unit1.pas</Transaction>
+    <Transaction>2014/10/12 12:57:35.000.603,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\uDmDados.dfm=C:\Delphi Conference\Exemplos\WebService\Servidor - 01\Unit1.dfm</Transaction>
+    <Transaction>2014/10/12 12:58:21.000.619,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\untDmDados.pas=C:\Delphi Conference\Exemplos\WebService\Servidor - 01\uDmDados.pas</Transaction>
+    <Transaction>2014/10/12 12:58:21.000.619,C:\Delphi Conference\Exemplos\WebService\Servidor - 01\untDmDados.dfm=C:\Delphi Conference\Exemplos\WebService\Servidor - 01\uDmDados.dfm</Transaction>
+    <Transaction>2014/10/12 13:30:34.000.978,=C:\Delphi Conference\Exemplos\WebService\Servidor - 01\IDelphiConference1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="unfFrmServer.pas"/>
+    <File Path="unfFrmServer.dfm"/>
+    <File Path="untDelphiConferenceImpl.pas"/>
+    <File Path="untDelphiConferenceIntf.pas"/>
+    <File Path="untDmDados.pas"/>
+    <File Path="untDmDados.dfm"/>
+    <File Path="untWebModule.pas"/>
+    <File Path="untWebModule.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

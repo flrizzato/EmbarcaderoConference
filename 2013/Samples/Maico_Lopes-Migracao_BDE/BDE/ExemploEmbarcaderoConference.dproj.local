@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/29 16:58:54.676.pas,C:\Users\maico.lopes\Desktop\Sample\uPrinicpal.pas=C:\Users\maico.lopes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 16:58:54.676.dfm,C:\Users\maico.lopes\Desktop\Sample\uPrinicpal.dfm=C:\Users\maico.lopes\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2013/10/29 16:59:08.111.dproj,C:\Users\maico.lopes\Desktop\Sample\ExemploEmbarcaderoConference.dproj=C:\Users\maico.lopes\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2013/10/29 20:28:17.000.690,C:\Users\Joker\Desktop\Exemplo\fPrinicpal.pas=C:\Users\Joker\Desktop\Exemplo\uPrinicpal.pas</Transaction>
+    <Transaction>2013/10/29 20:28:17.000.690,C:\Users\Joker\Desktop\Exemplo\fPrinicpal.dfm=C:\Users\Joker\Desktop\Exemplo\uPrinicpal.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

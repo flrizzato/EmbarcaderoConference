@@ -1,0 +1,35 @@
+inherited frmPrincipal_SmXhdpiPh: TfrmPrincipal_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 3
+  inherited memMsg: TMemo
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Position.Y = 152.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 223.000000000000000000
+  end
+  inherited btnDisparar: TButton
+    Position.Y = 108.000000000000000000
+    Size.Width = 250.000000000000000000
+  end
+  inherited pnlgendar: TPanel
+    Position.Y = 20.000000000000000000
+    Size.Width = 250.000000000000000000
+    inherited btnAgendar: TButton
+      Size.Width = 150.000000000000000000
+    end
+    inherited edtSegundos: TEdit
+      Position.X = 150.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited lblTitulo: TLabel
+    Size.Width = 250.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Notifica'#231#245'es Locais'
+  end
+  inherited btnCancelar: TButton
+    Position.Y = 64.000000000000000000
+    Size.Width = 250.000000000000000000
+  end
+end

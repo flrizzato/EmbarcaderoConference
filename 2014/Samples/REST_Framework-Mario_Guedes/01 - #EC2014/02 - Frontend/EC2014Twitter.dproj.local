@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/26 08:48:51.000.498,=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/29 21:42:12.000.412,=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/29 21:43:14.000.457,C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\DC2014_REST\00 - #EC2014\02 - Frontend\Principal.dfm</Transaction>
+    <Transaction>2014/09/29 21:43:14.000.457,C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\DC2014_REST\00 - #EC2014\02 - Frontend\Principal.pas</Transaction>
+    <Transaction>2014/09/29 21:43:26.000.961,C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\DC2014_REST\00 - #EC2014\02 - Frontend\EC2014Twitter.dproj</Transaction>
+    <Transaction>2014/09/30 23:11:00.000.886,=D:\DC2014_REST\00 - #EC2014\02 - Frontend\Unit1.pas</Transaction>
+    <Transaction>2014/09/30 23:14:26.000.923,D:\DC2014_REST\00 - #EC2014\02 - Frontend\Twittada.dfm=D:\DC2014_REST\00 - #EC2014\02 - Frontend\Unit1.dfm</Transaction>
+    <Transaction>2014/09/30 23:14:26.000.923,D:\DC2014_REST\00 - #EC2014\02 - Frontend\Twittada.pas=D:\DC2014_REST\00 - #EC2014\02 - Frontend\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

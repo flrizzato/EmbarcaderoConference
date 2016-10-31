@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{90C5ED5D-0800-4305-9C99-7785848C4E2E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="\\psf\Home\Documents\RAD Studio\Projects\PkgBotaoSeguro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Teste.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PkgBotaoSeguro">
+        <MSBuild Projects="\\psf\Home\Documents\RAD Studio\Projects\PkgBotaoSeguro.dproj"/>
+    </Target>
+    <Target Name="PkgBotaoSeguro:Clean">
+        <MSBuild Projects="\\psf\Home\Documents\RAD Studio\Projects\PkgBotaoSeguro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PkgBotaoSeguro:Make">
+        <MSBuild Projects="\\psf\Home\Documents\RAD Studio\Projects\PkgBotaoSeguro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Teste">
+        <MSBuild Projects="Teste.dproj"/>
+    </Target>
+    <Target Name="Teste:Clean">
+        <MSBuild Projects="Teste.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Teste:Make">
+        <MSBuild Projects="Teste.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PkgBotaoSeguro;Teste"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PkgBotaoSeguro:Clean;Teste:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PkgBotaoSeguro:Make;Teste:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,15 @@
+﻿[PrototypeBindSource1]
+Coordinates=10,10,143,270
+
+[]
+Coordinates=250,40,85,36
+
+[StringGrid1]
+Coordinates=172,1,80,58
+
+[BindingsList1]
+Coordinates=172,100,91,36
+
+[NavigatorPrototypeBindSource1]
+Coordinates=172,78,198,58
+

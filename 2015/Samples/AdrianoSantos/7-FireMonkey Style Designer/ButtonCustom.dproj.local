@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/04 22:57:50.000.537,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/21 00:16:10.000.256,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/21 00:16:16.200,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/21 00:20:41.014,\\Mac\Home\Downloads\CONF2015\Exemplos\7-FireMonkey Style Designer\Unit1.pas=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/21 00:20:41.014,\\Mac\Home\Downloads\CONF2015\Exemplos\7-FireMonkey Style Designer\Unit1.fmx=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/10/21 00:20:48.765,\\Mac\Home\Downloads\CONF2015\Exemplos\7-FireMonkey Style Designer\ButtonCustom.dproj=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PHomenetwork iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

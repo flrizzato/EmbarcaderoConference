@@ -1,0 +1,23 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Memo1: TMemo
+    Viewport.Width = 201.000000000000000000
+    Viewport.Height = 193.000000000000000000
+  end
+  inherited Timer1: TTimer [3]
+  end
+  inherited ToolBar1: TToolBar [4]
+    Size.Width = 450.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 450.000000000000000000
+    end
+  end
+  inherited edtNumero: TEdit [5]
+  end
+  inherited TetheringManager1: TTetheringManager [6]
+  end
+  inherited TetheringAppProfile1: TTetheringAppProfile [7]
+  end
+end

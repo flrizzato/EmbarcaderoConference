@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{00E161F7-A065-423F-9693-2855B15A398C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="QueueServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="QueueMobileClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="QueueServer">
+        <MSBuild Projects="QueueServer.dproj"/>
+    </Target>
+    <Target Name="QueueServer:Clean">
+        <MSBuild Projects="QueueServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QueueServer:Make">
+        <MSBuild Projects="QueueServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="QueueMobileClient">
+        <MSBuild Projects="QueueMobileClient.dproj"/>
+    </Target>
+    <Target Name="QueueMobileClient:Clean">
+        <MSBuild Projects="QueueMobileClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QueueMobileClient:Make">
+        <MSBuild Projects="QueueMobileClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="QueueServer;QueueMobileClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="QueueServer:Clean;QueueMobileClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="QueueServer:Make;QueueMobileClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

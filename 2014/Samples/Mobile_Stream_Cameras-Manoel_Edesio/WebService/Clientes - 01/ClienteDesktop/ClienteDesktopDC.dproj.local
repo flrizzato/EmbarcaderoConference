@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/12 12:34:51.000.275,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2014/10/12 13:02:34.000.666,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2014/10/12 13:02:47.000.853,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.dfm=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\uFrmCliente.dfm</Transaction>
+    <Transaction>2014/10/12 13:02:47.000.853,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\uFrmCliente.pas</Transaction>
+    <Transaction>2014/10/12 13:02:52.000.088,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Project4.dproj=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\ClienteDesktopDC.dproj</Transaction>
+    <Transaction>2014/10/12 13:05:13.000.369,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/12 13:05:19.000.088,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas</Transaction>
+    <Transaction>2014/10/12 13:21:04.000.900,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas=</Transaction>
+    <Transaction>2014/10/12 13:21:11.000.791,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/12 13:21:14.000.791,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas</Transaction>
+    <Transaction>2014/10/12 13:23:51.000.557,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/12 13:24:35.000.291,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/12 13:24:58.000.932,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas=</Transaction>
+    <Transaction>2014/10/12 13:25:02.000.494,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas</Transaction>
+    <Transaction>2014/10/12 13:30:19.000.603,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas=</Transaction>
+    <Transaction>2014/10/12 13:30:51.000.885,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/12 13:30:54.000.275,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas</Transaction>
+    <Transaction>2014/10/12 13:48:30.000.572,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas=</Transaction>
+    <Transaction>2014/10/12 13:48:39.000.385,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/12 13:48:42.000.900,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\IDelphiConference1.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteDesktop\untIDelphiConference.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="uFrmCliente.pas"/>
+    <File Path="uFrmCliente.dfm"/>
+    <File Path="untIDelphiConference.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

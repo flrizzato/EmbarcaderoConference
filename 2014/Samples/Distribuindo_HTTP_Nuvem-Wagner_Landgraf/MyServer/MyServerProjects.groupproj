@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C299BCF9-9608-413B-9B15-6AE4F1E32E7E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MyServerStandAlone.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RemoteDBClient\RemoteDBClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="XDataClient\XDataClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MyServerStandAlone">
+        <MSBuild Projects="MyServerStandAlone.dproj"/>
+    </Target>
+    <Target Name="MyServerStandAlone:Clean">
+        <MSBuild Projects="MyServerStandAlone.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MyServerStandAlone:Make">
+        <MSBuild Projects="MyServerStandAlone.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RemoteDBClient">
+        <MSBuild Projects="RemoteDBClient\RemoteDBClient.dproj"/>
+    </Target>
+    <Target Name="RemoteDBClient:Clean">
+        <MSBuild Projects="RemoteDBClient\RemoteDBClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RemoteDBClient:Make">
+        <MSBuild Projects="RemoteDBClient\RemoteDBClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="XDataClient">
+        <MSBuild Projects="XDataClient\XDataClient.dproj"/>
+    </Target>
+    <Target Name="XDataClient:Clean">
+        <MSBuild Projects="XDataClient\XDataClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="XDataClient:Make">
+        <MSBuild Projects="XDataClient\XDataClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MyServerStandAlone;RemoteDBClient;XDataClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MyServerStandAlone:Clean;RemoteDBClient:Clean;XDataClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MyServerStandAlone:Make;RemoteDBClient:Make;XDataClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

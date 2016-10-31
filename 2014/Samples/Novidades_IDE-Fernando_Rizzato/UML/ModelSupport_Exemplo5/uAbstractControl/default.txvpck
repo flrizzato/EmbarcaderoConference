@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="uxbkcz7vdx8ot3ddf_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Exemplo5:uAbstractControl.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Exemplo5:uAbstractControl.@unitclass.MO_ExceptionMsg" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Exemplo5:uAbstractControl.TAbstractControl">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,214,282" />
+      <reference referencedUin="delphi:e_field:src:Exemplo5:uAbstractControl.TAbstractControl.fTD" />
+      <reference referencedUin="delphi:e_field:src:Exemplo5:uAbstractControl.TAbstractControl.fDBConnection" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.SetTD(Data.SqlExpr.TTransactionDesc)" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.GetTD()" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.SetDBConnection(Data.SqlExpr.TSQLConnection)" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.GetDBConnection()" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.Create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.Destroy()" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.CreateDefaultDM()" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.CreateDefaultForm()" />
+      <reference referencedUin="delphi:e_property:src:Exemplo5:uAbstractControl.TAbstractControl.TD" />
+      <reference referencedUin="delphi:e_property:src:Exemplo5:uAbstractControl.TAbstractControl.DBConnection" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uAbstractControl.TAbstractControl.DataFormat(System.Variant,System.Char)" />
+    </reference>
+  </view>
+</nodeSet>

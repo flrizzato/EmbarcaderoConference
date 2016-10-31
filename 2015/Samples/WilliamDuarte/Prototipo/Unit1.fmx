@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 16.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 201.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Viewport.Width = 201.000000000000000000
+    Viewport.Height = 193.000000000000000000
+  end
+  object btnEnviar: TButton
+    Enabled = False
+    Position.X = 120.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 6
+    Text = 'Enviar'
+    OnClick = btnEnviarClick
+  end
+  object btnConectar: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Conectar'
+    OnClick = btnConectarClick
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'N'#227'o Conectado'
+    end
+  end
+  object edtNumero: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 12
+    Text = '34322'
+    Position.X = 24.000000000000000000
+    Position.Y = 144.000000000000000000
+  end
+  object TetheringManager1: TTetheringManager
+    OnRequestManagerPassword = TetheringManager1RequestManagerPassword
+    OnEndAutoConnect = TetheringManager1EndAutoConnect
+    Password = '1234'
+    Text = 'TetheringManager1'
+    AllowedAdapters = 'Bluetooth'
+    Left = 40
+    Top = 208
+  end
+  object TetheringAppProfile1: TTetheringAppProfile
+    Manager = TetheringManager1
+    Text = 'TetheringAppProfile1'
+    Group = 'NFCE'
+    Actions = <>
+    Resources = <>
+    Left = 160
+    Top = 208
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = Timer1Timer
+    Left = 56
+    Top = 272
+  end
+end

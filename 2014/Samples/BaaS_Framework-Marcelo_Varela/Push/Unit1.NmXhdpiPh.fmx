@@ -1,0 +1,15 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 400.000000000000000000
+    inherited Text1: TText
+      Size.Width = 400.000000000000000000
+    end
+  end
+  inherited Memo1: TMemo
+    Size.Width = 400.000000000000000000
+    Size.Height = 575.000000000000000000
+  end
+end

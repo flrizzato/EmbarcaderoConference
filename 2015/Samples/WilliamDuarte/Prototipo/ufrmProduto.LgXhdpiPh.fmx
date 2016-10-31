@@ -1,0 +1,56 @@
+inherited Form2_LgXhdpiPh: TForm2_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Button1: TButton
+      Position.Y = 24.000000000000000000
+    end
+  end
+  inherited GridPanelLayout1: TGridPanelLayout
+    Size.Width = 450.000000000000000000
+    inherited Edit1: TEdit
+      Size.Width = 225.000000000000000000
+    end
+    inherited Edit2: TEdit
+      Size.Width = 225.000000000000000000
+    end
+  end
+  inherited GridPanelLayout2: TGridPanelLayout
+    Size.Width = 450.000000000000000000
+    inherited Edit3: TEdit
+      Size.Width = 225.000000000000000000
+    end
+    inherited Edit4: TEdit
+      Size.Width = 225.000000000000000000
+    end
+  end
+  inherited GridPanelLayout3: TGridPanelLayout
+    Size.Width = 450.000000000000000000
+    inherited Edit5: TEdit
+      Size.Width = 225.000000000000000000
+    end
+    inherited Edit6: TEdit
+      Size.Width = 225.000000000000000000
+    end
+  end
+  inherited GridPanelLayout4: TGridPanelLayout
+    Size.Width = 450.000000000000000000
+    inherited Edit7: TEdit
+      Size.Width = 225.000000000000000000
+    end
+    inherited Edit8: TEdit
+      Size.Width = 225.000000000000000000
+    end
+  end
+  inherited GridPanelLayout5: TGridPanelLayout
+    Size.Width = 450.000000000000000000
+    inherited Edit9: TEdit
+      Size.Width = 225.000000000000000000
+    end
+    inherited Edit10: TEdit
+      Size.Width = 225.000000000000000000
+    end
+  end
+end

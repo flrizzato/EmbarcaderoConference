@@ -1,0 +1,11 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Button1: TButton
+    Position.X = 112.000000000000000000
+  end
+  inherited WebBrowser1: TWebBrowser
+    Position.X = 8.000000000000000000
+  end
+end

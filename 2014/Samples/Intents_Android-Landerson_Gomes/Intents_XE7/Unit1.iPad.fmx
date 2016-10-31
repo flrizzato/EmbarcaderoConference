@@ -1,0 +1,20 @@
+inherited Form1_iPad: TForm1_iPad
+  ClientHeight = 1004
+  ClientWidth = 768
+  DesignerMasterStyle = 3
+  inherited Label1: TLabel
+    Size.Width = 768.000000000000000000
+  end
+  inherited ComboBox1: TComboBox
+    Size.Width = 768.000000000000000000
+    Size.Height = 30.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.Y = 960.000000000000000000
+    Size.Width = 768.000000000000000000
+  end
+  inherited Image1: TImage
+    Size.Width = 768.000000000000000000
+    Size.Height = 907.000000000000000000
+  end
+end

@@ -1,0 +1,155 @@
+object FrmPedidos: TFrmPedidos
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object lstPedidos: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = alClient
+    Height = 478.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    ItemAppearanceObjects.ItemObjects.Text.Font.Size = 10.000000000000000000
+    ItemAppearanceObjects.ItemObjects.Text.Align = Trailing
+    ItemAppearanceObjects.ItemObjects.Accessory.AccessoryType = Detail
+    ItemAppearanceObjects.HeaderObjects.Text.Font.Style = [fsBold]
+    ItemAppearanceObjects.HeaderObjects.Text.TextColor = claSlateblue
+    OnClick = lstPedidosClick
+  end
+  object GroupBox1: TGroupBox
+    Align = alTop
+    Height = 70.000000000000000000
+    Width = 320.000000000000000000
+    TabOrder = 1
+    object btnApply: TSpeedButton
+      Enabled = False
+      Height = 44.000000000000000000
+      Position.X = 192.000000000000000000
+      StyleLookup = 'replytoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = btnApplyClick
+    end
+    object btnEdit: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 232.000000000000000000
+      StyleLookup = 'composetoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = btnEditClick
+    end
+    object lblPedidos: TLabel
+      Font.Style = [fsBold]
+      StyledSettings = [ssFamily, ssSize, ssFontColor]
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Pedidos'
+      Width = 105.000000000000000000
+      Trimming = ttCharacter
+    end
+    object SpeedButton1: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 269.000000000000000000
+      StyleLookup = 'refreshtoolbutton'
+      Text = 'SpeedButton1'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton1Click
+    end
+    object SpeedButton2: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 144.000000000000000000
+      StyleLookup = 'stoptoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton2Click
+    end
+  end
+  object DSProPedidos: TDSProviderConnection
+    ServerClassName = 'TServerDelphiConference'
+    Connected = True
+    SQLConnection = DMDados.SQLConnection1
+    Left = 24
+    Top = 304
+  end
+  object cdsPedidos: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspPedidos'
+    RemoteServer = DSProPedidos
+    Left = 24
+    Top = 368
+    object cdsPedidosID: TIntegerField
+      FieldName = 'ID'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object cdsPedidosNUMERO: TStringField
+      DisplayLabel = 'Nr Pedido'
+      FieldName = 'NUMERO'
+      Size = 15
+    end
+    object cdsPedidosINCLUSAO: TSQLTimeStampField
+      FieldName = 'INCLUSAO'
+    end
+    object cdsPedidosPREV_ENTREGA: TSQLTimeStampField
+      FieldName = 'PREV_ENTREGA'
+    end
+    object cdsPedidosENTREGA: TSQLTimeStampField
+      FieldName = 'ENTREGA'
+    end
+    object cdsPedidosSTATUS: TStringField
+      FieldName = 'STATUS'
+      Size = 2
+    end
+    object cdsPedidosVALOR_TOTAL: TFloatField
+      FieldName = 'VALOR_TOTAL'
+    end
+    object cdsPedidosCLIENTE: TIntegerField
+      FieldName = 'CLIENTE'
+    end
+    object cdsPedidossqlItensPedido: TDataSetField
+      FieldName = 'sqlItensPedido'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = cdsPedidos
+    ScopeMappings = <>
+    Left = 24
+    Top = 248
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 28
+    Top = 197
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'PREV_ENTREGA'
+      Control = lstPedidos
+      FillExpressions = <>
+      AutoBufferCount = False
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'NUMERO'
+      FillBreakGroups = <>
+    end
+  end
+end

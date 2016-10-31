@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>  <PEmbt-Mac iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>  <Transactions>
+    <Transaction>2015/10/20 16:04:26.889,C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-AdicionandoElementos\UntPrincipal.pas=C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-AdicionandoElementos\AddThumbAndCaptionMainFormU.pas</Transaction>
+    <Transaction>2015/10/20 16:04:26.889,C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-AdicionandoElementos\UntPrincipal.fmx=C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-AdicionandoElementos\AddThumbAndCaptionMainFormU.fmx</Transaction>
+    <Transaction>2015/10/20 16:04:48.851,C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-AdicionandoElementos\LstThumbCap.dproj=C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-AdicionandoElementos\SampleListViewAddThumbAndCaptionProject.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

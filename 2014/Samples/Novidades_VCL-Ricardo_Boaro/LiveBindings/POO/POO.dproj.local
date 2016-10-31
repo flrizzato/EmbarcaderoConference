@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/13 19:26:52.000.651,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/16 08:59:31.000.774,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/16 08:59:31.000.908,=\\psf\Home\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/08/16 08:59:32.000.003,=\\psf\Home\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2014/08/20 06:36:28.000.917,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/01 06:32:58.000.040,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 06:30:12.000.143,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 06:31:08.000.016,\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uPrincipal.pas</Transaction>
+    <Transaction>2014/09/24 06:31:08.000.016,\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.fmx=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uPrincipal.fmx</Transaction>
+    <Transaction>2014/09/24 06:31:12.000.233,\\psf\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\POO.dproj</Transaction>
+    <Transaction>2014/09/24 06:31:29.000.618,=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 06:31:35.000.511,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uClientes.pas</Transaction>
+    <Transaction>2014/09/24 06:47:28.000.837,=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 06:47:35.000.596,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uDmDados.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 06:47:35.000.596,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uDmDados.dfm=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.dfm</Transaction>
+    <Transaction>2014/09/24 16:30:59.000.914,=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit2.pas</Transaction>
+    <Transaction>2014/09/24 16:31:16.000.467,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit2.fmx=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCadClientes.fmx</Transaction>
+    <Transaction>2014/09/24 16:31:16.000.467,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit2.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCadClientes.pas</Transaction>
+    <Transaction>2014/09/27 09:57:30.000.144,=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit2.pas</Transaction>
+    <Transaction>2014/09/27 09:57:44.000.298,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCadPedidos.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit2.pas</Transaction>
+    <Transaction>2014/09/27 09:57:44.000.298,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCadPedidos.fmx=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit2.fmx</Transaction>
+    <Transaction>2014/10/01 18:54:59.000.315,=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/10/01 18:55:05.000.671,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCidades.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/10/01 18:57:31.000.488,=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/10/01 18:57:40.000.502,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uLoadObjetos.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/10/01 19:10:14.000.162,=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas</Transaction>
+    <Transaction>2014/10/01 19:10:45.000.748,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.fmx=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCadCidades.fmx</Transaction>
+    <Transaction>2014/10/01 19:10:45.000.748,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\Unit1.pas=Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCadCidades.pas</Transaction>
+    <Transaction>2014/10/04 08:10:00.490,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\POO\uCadPedidos.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

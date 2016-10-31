@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/04 11:22:30.000.227,=C:\Users\Maico\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/04 11:24:02.000.885,C:\Desenv\PushNotification\fPrincipal.fmx=C:\Users\Maico\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2014/10/04 11:24:02.000.885,C:\Desenv\PushNotification\fPrincipal.pas=C:\Users\Maico\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/04 11:24:07.000.086,C:\Desenv\PushNotification\PushNotification.dproj=C:\Users\Maico\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

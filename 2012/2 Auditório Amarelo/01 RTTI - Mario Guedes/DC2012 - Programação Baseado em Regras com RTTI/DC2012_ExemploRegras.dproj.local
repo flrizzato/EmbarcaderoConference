@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/09/20 23:45:48.000.745,=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 19:34:53.000.230,=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 19:49:17.000.283,F:\DC2012\Exemplo_Regras\Unt_FrontEnd.pas=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 19:49:17.000.283,F:\DC2012\Exemplo_Regras\Unt_FrontEnd.dfm=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2012/10/20 19:49:30.000.439,F:\DC2012\Exemplo_Regras\DC2012_ExemploRegras.dproj=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2012/10/20 19:53:44.000.498,=F:\DC2012\Exemplo_Regras\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 19:53:49.000.529,=F:\DC2012\Exemplo_Regras\Unit2.pas</Transaction>
+    <Transaction>2012/10/20 19:53:52.000.545,=F:\DC2012\Exemplo_Regras\Unit3.pas</Transaction>
+    <Transaction>2012/10/20 19:54:23.000.321,F:\DC2012\Exemplo_Regras\Unt_ClasseLista.pas=F:\DC2012\Exemplo_Regras\Unit3.pas</Transaction>
+    <Transaction>2012/10/20 19:54:43.000.536,F:\DC2012\Exemplo_Regras\Unt_ClassesLinhas.pas=F:\DC2012\Exemplo_Regras\Unit2.pas</Transaction>
+    <Transaction>2012/10/20 19:54:54.000.409,F:\DC2012\Exemplo_Regras\Unt_ClassesAtributos.pas=F:\DC2012\Exemplo_Regras\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 19:55:56.000.692,=F:\DC2012\Exemplo_Regras\ModelSupport_DC2012_ExemploRegras\default.txaPackage</Transaction>
+    <Transaction>2012/10/20 19:57:05.000.620,=F:\DC2012\Exemplo_Regras\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 19:57:23.000.470,F:\DC2012\Exemplo_Regras\Unt_ClasseLinhaBase.pas=F:\DC2012\Exemplo_Regras\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 21:08:55.000.849,=F:\DC2012\Exemplo_Regras\Unit1.pas</Transaction>
+    <Transaction>2012/10/20 21:09:20.000.017,F:\DC2012\Exemplo_Regras\Unt_ClasseException.pas=F:\DC2012\Exemplo_Regras\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 01:51:55.000.988,=F:\DC2012\Exemplo_Regras\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 01:52:26.000.868,F:\DC2012\Exemplo_Regras\Unit1.pas=F:\DC2012\Exemplo_Regras\Unt_PreencheDados.pas</Transaction>
+    <Transaction>2012/10/21 01:52:26.000.868,F:\DC2012\Exemplo_Regras\Unit1.dfm=F:\DC2012\Exemplo_Regras\Unt_PreencheDados.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,119 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 1
+  object StringGrid1: TStringGrid
+    Align = Bottom
+    Position.Y = 152.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 328.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    RowCount = 100
+    RowHeight = 21.000000000000000000
+  end
+  object SpeedButton1: TSpeedButton
+    Position.X = 512.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Carregar'
+    OnClick = SpeedButton1Click
+  end
+  object edtUrlPath: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Position.X = 120.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtHost: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 9
+    Position.X = 296.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtPorta: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 10
+    Position.X = 8.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 15.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Porta'
+  end
+  object UrlPath: TLabel
+    Position.X = 120.000000000000000000
+    Position.Y = 15.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'UrlPath'
+  end
+  object Host: TLabel
+    Position.X = 296.000000000000000000
+    Position.Y = 15.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Host'
+  end
+  object SpeedButton2: TSpeedButton
+    Position.X = 511.000000000000000000
+    Position.Y = 25.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Configurar'
+    OnClick = SpeedButton2Click
+  end
+  object FDMemTable1: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired]
+    UpdateOptions.CheckRequired = False
+    AutoCommitUpdates = False
+    Left = 64
+    Top = 192
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDMemTable1
+    ScopeMappings = <>
+    Left = 64
+    Top = 312
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 64
+    Top = 253
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = StringGrid1
+      Columns = <>
+    end
+  end
+end

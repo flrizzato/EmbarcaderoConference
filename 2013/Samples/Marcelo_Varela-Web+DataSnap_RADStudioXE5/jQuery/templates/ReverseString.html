@@ -1,0 +1,249 @@
+<!-- !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html>
+<head>
+<title>DataSnap REST Project</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="jquery/css/smoothness/jquery-ui-1.10.3.custom.css" />
+
+<!-- jQuery JavaScript -->
+<script type="text/javascript" src="jquery/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="jquery/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="jquery/ui/i18n/jquery.ui.datepicker-pt-BR.min.js"></script>
+
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+<script type="text/javascript" src="js/connection.js"></script>
+<script type="text/javascript" src="<#serverfunctionsjs>"></script>
+<script type="text/javascript">
+
+var loginRequired = false;
+
+function onLoad()
+{
+  showTime();
+  loginRequired = <#loginRequired>;
+  setConnection('<#host>', '<#port>', '<#urlpath>');
+  if (loginRequired)
+  {
+    showLogin(true);
+  }
+  else
+  {
+    showLogin(false);
+  }
+}
+
+function onLogin()
+{
+  if (loginRequired)
+  {
+    if (AdminInst == null)
+    {
+        if (!setCredentials(document.getElementById('userField').value, document.getElementById('passwrdField').value))
+        {
+          loginCorrect(false);
+          return;
+        }
+        else
+        {
+          loginCorrect(true);
+          showLogin(false);
+        }
+    }
+  }
+  else
+    showLogin(false);
+}
+
+function loginCorrect(isCorrect)
+{
+  var errorDiv = document.getElementById('loginError');
+  if ( errorDiv != null )
+  {
+    errorDiv.innerHTML= isCorrect ? "" : "login incorrect";
+  }
+}
+
+function showLogin(show)
+{
+  var loginDiv = document.getElementById('logindiv');
+  var contentDiv = document.getElementById('contentdiv');
+  if (show)
+  {
+      // show div
+      loginDiv.style.display="block";
+      contentDiv.style.display="none";
+  }
+  else
+  {
+      // show div
+      loginDiv.style.display="none";
+      contentDiv.style.display="block";
+  }
+}
+
+function showTime()
+{
+  var d = new Date();
+  var h = d.getHours();
+  var m = d.getMinutes();
+  var s = d.getSeconds();
+  var timeElement = document.getElementById('timeElement');
+  if ( timeElement != null )
+  {
+    timeElement.innerText=
+      (h <= 9 ? "0" : "") + h + ":" +
+      (m <= 9 ? "0" : "") + m + ":" +
+      (s <= 9 ? "0" : "") + s;
+  }
+}
+
+function serverMethods()
+{
+  return new <#classname>(connectionInfo);
+}
+
+function onReverseStringClick()
+{
+  if (loginRequired && (AdminInst == null))
+  {
+    showLogin(true);
+    return;
+  }
+  var valueField = document.getElementById('valueField');
+  var s = serverMethods().ReverseString(valueField.value);
+  valueField.value = s.result;
+}
+
+function onInsertDados()
+{
+    var CustomerID = $('#CustomerID');
+    var CompanyName = $('#CompanyName');
+    var ContactName = $('#ContactName');
+    var City = $('#City').val();
+    var allFields = $([]).add(CustomerID).add(CompanyName).add(ContactName).add(City);
+    $("#dialog-form").dialog({
+      autoOpen: false,
+      height: 320,
+      width: 540,
+      modal: true,
+      buttons: {
+        "Salvar": function() {
+            onCustomersInsert();
+            $(this).dialog("close");
+        },
+        Cancel: function() {
+          $(this).dialog("close");
+        }
+      },
+      close: function() {
+        allFields.val("");
+        onGetDados();
+      }
+    });
+    $("#dialog-form").dialog("open");
+}
+
+function onGetDados()
+{
+    var myTable = document.getElementById('tbResult');
+    var s = serverMethods().GetDados();
+
+    var strHeadTable = '<tr class="ui-widget-header">';
+    for (var n=0; n < s.result.table.length; n++) {
+      strHeadTable = strHeadTable + '<th>' + s.result.table[n][0] + '</th>';
+    }
+    strHeadTable = strHeadTable + '</tr>';
+    for (var rowTable=0; rowTable < s.result.CustomerID.length; rowTable++) {
+        var strRowTable = '<tr>';
+        strRowTable += '<td>' + s.result.CustomerID[rowTable] + '</td>';
+        strRowTable += '<td>' + s.result.CompanyName[rowTable] + '</td>';
+        strRowTable += '<td>' + s.result.ContactName[rowTable] + '</td>';
+        strRowTable += '<td>' + s.result.City[rowTable] + '</td>';
+        strRowTable += '</tr>';
+        strHeadTable += strRowTable;
+    }
+    myTable.innerHTML = strHeadTable;
+}
+
+function onCustomersInsert()
+{
+  if (loginRequired && (AdminInst == null))
+  {
+    showLogin(true);
+    return;
+  }
+  var CustomerID = $('#CustomerID').val();
+  var CompanyName = $('#CompanyName').val();
+  var ContactName = $('#ContactName').val();
+  var City = $('#City').val();
+
+  var s = serverMethods().CustomersInsert(CustomerID, CompanyName, ContactName, City);
+  return s.result;
+}
+
+$(document).ready(function()
+{
+    $("#dialog-form").dialog({autoOpen: false});
+	onLoad();
+});
+
+</script>
+</head>
+<body>
+  <#serverfunctioninvoker>
+    <h1>DataSnap REST Project</h1>
+    <div> Page loaded at <span id="timeElement"></span>
+    </div>
+    <div id="logindiv" style="display:none">
+      <p class="divlabel">Login</p><br />
+      <form onsubmit="onLogin(); return false;">
+        <table class="authtable">
+          <tr>
+            <td>User Name:</td>
+            <td><input id="userField" class="loginField" type="text" /></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input id="passwrdField" class="loginField" type="password" /></td>
+          </tr>
+        </table>
+        <div id="loginError" class="errorMsg"></div><br /><input id="loginButton" type="submit" value="LOG IN" />
+      </form>
+    </div>
+    <div id="contentdiv" class="contentdiv" style="display:none">
+      <table>
+        <tr>
+          <td><input id="valueField" class="loginField" type="text" value="A B C" /></td>
+          <td><button onclick='javascript:onReverseStringClick();'>ReverseString</button></td>
+          <td><button onclick='javascript:onGetDados();'>GetDados</button></td>
+          <td><button onclick='javascript:onInsertDados();'>Insert</button></td>
+        </tr>
+      </table>
+      <table id="tbResult" border="1" cellpadding="0" cellspacing="0" class="ui-widget ui-widget-content"></table>
+        <div id="dialog-form" title="Create new user">
+            <form>
+            <table>
+                <tr>
+                    <td><label for="CustomerID">Customer ID</label></td>
+                    <td><input type="text" name="CustomerID" id="CustomerID" class="text ui-widget-content ui-corner-all" /></td>
+                </tr>
+                <tr>
+                    <td><label for="CompanyName">Company Name</label></td>
+                    <td><input type="text" name="CompanyName" id="CompanyName" value="" class="text ui-widget-content ui-corner-all" /></td>
+                </tr>
+                <tr>
+                    <td><label for="ContactName">Contact Name</label></td>
+                    <td><input type="text" name="ContactName" id="ContactName" value="" class="text ui-widget-content ui-corner-all" /></td>
+                </tr>
+                <tr>
+                    <td><label for="City">City</label></td>
+                    <td><input type="text" name="City" id="City" value="" class="text ui-widget-content ui-corner-all" /></td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

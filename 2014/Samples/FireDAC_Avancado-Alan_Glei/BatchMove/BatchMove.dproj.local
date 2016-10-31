@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/09 16:54:59.000.667,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/10 15:41:32.000.894,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/10 15:41:49.000.592,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/14 00:47:41.000.154,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/14 00:59:32.000.193,\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Programacao\EC 2014\BatchMove\Unit1.pas</Transaction>
+    <Transaction>2014/10/14 00:59:32.000.193,\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Programacao\EC 2014\BatchMove\Unit1.dfm</Transaction>
+    <Transaction>2014/10/14 00:59:43.000.958,\\psf\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Programacao\EC 2014\BatchMove\BatchMove.dproj</Transaction>
+    <Transaction>2014/10/14 22:26:31.000.080,=C:\Programacao\EC 2014\BatchMove\Unit2.pas</Transaction>
+    <Transaction>2014/10/14 22:28:35.000.207,C:\Programacao\EC 2014\BatchMove\Dm.dfm=C:\Programacao\EC 2014\BatchMove\Unit2.dfm</Transaction>
+    <Transaction>2014/10/14 22:28:35.000.207,C:\Programacao\EC 2014\BatchMove\Dm.pas=C:\Programacao\EC 2014\BatchMove\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

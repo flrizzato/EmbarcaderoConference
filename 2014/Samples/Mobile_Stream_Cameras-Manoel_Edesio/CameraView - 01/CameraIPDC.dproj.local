@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/22 15:08:20.000.812,=C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/23 15:18:34.000.656,=C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/23 15:19:59.000.781,C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\MeridianPerformance\Tools\CameraView\uFrmMain.pas=C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/23 15:19:59.000.781,C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\MeridianPerformance\Tools\CameraView\uFrmMain.fmx=C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2014/07/23 15:20:01.000.625,C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\MeridianPerformance\Tools\CameraView\CameraView.dproj=C:\Documents and Settings\Administrator\My Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2014/10/11 20:09:23.000.642,=C:\Delphi Conference\Diversos\CameraView - 01\Unit1.pas</Transaction>
+    <Transaction>2014/10/14 23:22:23.000.118,C:\Delphi Conference\Diversos\CameraView - 01\Unit1.pas=</Transaction>
+    <Transaction>2014/10/14 23:29:11.000.947,C:\Delphi Conference\Diversos\CameraView - 01\CameraView.dproj=C:\Delphi Conference\Diversos\CameraView - 01\CameraIPDC.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>BY900DDQLL</MobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

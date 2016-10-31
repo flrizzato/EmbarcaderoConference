@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/05/03 10:17:00.000.696,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/07/16 14:52:52.000.791,=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/07/16 16:26:04.000.363,C:\Projetos\iOS\ShoppingSalvador\v1\Unit1.pas=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/07/16 16:26:04.000.363,C:\Projetos\iOS\ShoppingSalvador\v1\Unit1.fmx=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2013/07/16 16:26:19.000.114,C:\Projetos\iOS\ShoppingSalvador\v1\LojasShopping.dproj=C:\Documents and Settings\Administrador\Meus documentos\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2013/07/24 16:21:27.505,C:\Projetos\iOS\ShoppingSalvador\v1\SalvadorShopping.dproj=C:\Projetos\iOS\ShoppingSalvador\v1\LojasShopping.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>iPhone</MobileDevice>  <BT_BuildType>Ad-hoc</BT_BuildType>
+</BorlandProject>

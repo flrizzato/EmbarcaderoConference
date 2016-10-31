@@ -1,0 +1,20 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Interfaced Objects'
+  ClientHeight = 74
+  ClientWidth = 431
+  FormFactor.Width = 1280
+  FormFactor.Height = 800
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  object btnUtilizandoContagemReferencias: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 32.000000000000000000
+    Position.Y = 24.000000000000000000
+    Text = 'Utilizando a contagem de refer'#234'ncias'
+    Width = 361.000000000000000000
+    OnClick = btnUtilizandoContagemReferenciasClick
+  end
+end

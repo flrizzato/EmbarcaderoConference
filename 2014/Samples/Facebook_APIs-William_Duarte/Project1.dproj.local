@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/25 03:53:54.000.212,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 00:02:14.000.167,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 18:11:09.000.410,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/18 02:20:49.000.048,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/18 03:43:35.000.822,C:\Projetos\Mobile\Facebook\Unit1.fmx=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2014/09/18 03:43:35.000.822,C:\Projetos\Mobile\Facebook\Unit1.pas=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/18 03:43:36.000.965,C:\Projetos\Mobile\Facebook\Project1.dproj=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<BT_BuildType>Debug</BT_BuildType>
+	<MobileDevice>Nexus</MobileDevice>
+</BorlandProject>

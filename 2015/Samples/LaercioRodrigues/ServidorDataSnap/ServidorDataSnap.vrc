@@ -1,0 +1,26 @@
+/* ----- VS_VERSION.dwFileFlags ----- */
+#define VS_FF_DEBUG             0x00000001L
+#define VS_FF_PRERELEASE        0x00000002L
+#define VS_FF_PATCHED           0x00000004L
+#define VS_FF_PRIVATEBUILD      0x00000008L
+#define VS_FF_INFOINFERRED      0x00000010L
+#define VS_FF_SPECIALBUILD      0x00000020L
+#define VS_FFI_FILEFLAGSMASK    0x0000003FL
+
+/* ----- VS_VERSION.dwFileOS ----- */
+#define VOS_UNKNOWN             0x00000000L
+#define VOS_DOS                 0x00010000L
+#define VOS_OS216               0x00020000L
+#define VOS_OS232               0x00030000L
+#define VOS_NT                  0x00040000L
+#define VOS_WINCE               0x00050000L
+
+#define VOS__BASE               0x00000000L
+#define VOS__WINDOWS16          0x00000001L
+#define VOS__PM16               0x00000002L
+#define VOS__PM32               0x00000003L
+#define VOS__WINDOWS32          0x00000004L
+
+#define VOS_DOS_WINDOWS16       0x00010001L
+#define VOS_DOS_WINDOWS32       0x00010004L
+#define VOS_OS216_PM16          0x000

@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9522374F-9AB4-4B52-90B6-A618909BC6A9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01 - Intents\IntentsDelphi10Seattle.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02 - RecebeTypePas\RecebeType.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03 - RecebeScheme\RecebeScheme.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="04 - RecebeBundle\RecebeBundle.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="IntentsDelphi10Seattle">
+        <MSBuild Projects="01 - Intents\IntentsDelphi10Seattle.dproj"/>
+    </Target>
+    <Target Name="IntentsDelphi10Seattle:Clean">
+        <MSBuild Projects="01 - Intents\IntentsDelphi10Seattle.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="IntentsDelphi10Seattle:Make">
+        <MSBuild Projects="01 - Intents\IntentsDelphi10Seattle.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RecebeType">
+        <MSBuild Projects="02 - RecebeTypePas\RecebeType.dproj"/>
+    </Target>
+    <Target Name="RecebeType:Clean">
+        <MSBuild Projects="02 - RecebeTypePas\RecebeType.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RecebeType:Make">
+        <MSBuild Projects="02 - RecebeTypePas\RecebeType.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RecebeScheme">
+        <MSBuild Projects="03 - RecebeScheme\RecebeScheme.dproj"/>
+    </Target>
+    <Target Name="RecebeScheme:Clean">
+        <MSBuild Projects="03 - RecebeScheme\RecebeScheme.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RecebeScheme:Make">
+        <MSBuild Projects="03 - RecebeScheme\RecebeScheme.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RecebeBundle">
+        <MSBuild Projects="04 - RecebeBundle\RecebeBundle.dproj"/>
+    </Target>
+    <Target Name="RecebeBundle:Clean">
+        <MSBuild Projects="04 - RecebeBundle\RecebeBundle.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RecebeBundle:Make">
+        <MSBuild Projects="04 - RecebeBundle\RecebeBundle.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="IntentsDelphi10Seattle;RecebeType;RecebeScheme;RecebeBundle"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="IntentsDelphi10Seattle:Clean;RecebeType:Clean;RecebeScheme:Clean;RecebeBundle:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="IntentsDelphi10Seattle:Make;RecebeType:Make;RecebeScheme:Make;RecebeBundle:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

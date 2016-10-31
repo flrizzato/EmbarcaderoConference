@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/30 02:05:42.000.967,=C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2013/10/31 00:54:27.039,=C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2013/10/31 00:55:30.057,C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo04\Unit2.pas=C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2013/10/31 00:55:30.057,C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo04\Unit2.fmx=C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2013/10/31 00:55:30.952,C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo04\Project2.dproj=C:\Users\marcelo\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

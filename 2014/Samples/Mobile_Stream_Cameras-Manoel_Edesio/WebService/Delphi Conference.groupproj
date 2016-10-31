@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B932B161-4B37-4CDE-9E44-D9F720D9305F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Servidor - 01\ServerWebServiceDC.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Clientes - 01\ClienteDesktop\ClienteDesktopDC.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Clientes - 01\ClienteMobile\ClienteMobileDC.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ServerWebServiceDC">
+        <MSBuild Projects="Servidor - 01\ServerWebServiceDC.dproj"/>
+    </Target>
+    <Target Name="ServerWebServiceDC:Clean">
+        <MSBuild Projects="Servidor - 01\ServerWebServiceDC.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServerWebServiceDC:Make">
+        <MSBuild Projects="Servidor - 01\ServerWebServiceDC.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClienteDesktopDC">
+        <MSBuild Projects="Clientes - 01\ClienteDesktop\ClienteDesktopDC.dproj"/>
+    </Target>
+    <Target Name="ClienteDesktopDC:Clean">
+        <MSBuild Projects="Clientes - 01\ClienteDesktop\ClienteDesktopDC.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClienteDesktopDC:Make">
+        <MSBuild Projects="Clientes - 01\ClienteDesktop\ClienteDesktopDC.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClienteMobileDC">
+        <MSBuild Projects="Clientes - 01\ClienteMobile\ClienteMobileDC.dproj"/>
+    </Target>
+    <Target Name="ClienteMobileDC:Clean">
+        <MSBuild Projects="Clientes - 01\ClienteMobile\ClienteMobileDC.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClienteMobileDC:Make">
+        <MSBuild Projects="Clientes - 01\ClienteMobile\ClienteMobileDC.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ServerWebServiceDC;ClienteDesktopDC;ClienteMobileDC"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ServerWebServiceDC:Clean;ClienteDesktopDC:Clean;ClienteMobileDC:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ServerWebServiceDC:Make;ClienteDesktopDC:Make;ClienteMobileDC:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

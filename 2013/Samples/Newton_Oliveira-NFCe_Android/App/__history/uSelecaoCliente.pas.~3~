@@ -1,0 +1,26 @@
+unit uSelecaoCliente;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  uNFCe, FMX.Objects, FMX.Layouts, FMX.ListBox;
+
+type
+  TfrmPrincipal1 = class(TfrmPrincipal)
+    ListBox1: TListBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal1: TfrmPrincipal1;
+
+implementation
+
+{$R *.fmx}
+
+end.

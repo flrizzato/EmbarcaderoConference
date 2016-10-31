@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/09 10:26:22.000.591,=C:\Users\Luiz\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/09 11:50:21.000.562,=C:\Users\Luiz\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/09 15:04:35.000.127,C:\Users\Luiz\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Conference\Fast\Exemplo1_Simples\fPrincipal.pas</Transaction>
+    <Transaction>2015/10/09 15:04:35.000.127,C:\Users\Luiz\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Conference\Fast\Exemplo1_Simples\fPrincipal.dfm</Transaction>
+    <Transaction>2015/10/09 15:04:41.000.717,C:\Users\Luiz\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Conference\Fast\Exemplo1_Simples\Exemplo1Simples.dproj</Transaction>
+    <Transaction>2015/10/09 16:07:07.000.628,=C:\Conference\Fast\Exemplo1_Simples\Unit1.pas</Transaction>
+    <Transaction>2015/10/09 16:08:02.000.869,C:\Conference\Fast\Exemplo1_Simples\Unit1.dfm=C:\Conference\Fast\Comom_Fast\uDMConexao.dfm</Transaction>
+    <Transaction>2015/10/09 16:08:02.000.869,C:\Conference\Fast\Exemplo1_Simples\Unit1.pas=C:\Conference\Fast\Comom_Fast\uDMConexao.pas</Transaction>
+    <Transaction>2015/10/09 16:23:11.000.770,=C:\Conference\Fast\Exemplo1_Simples\Unit1.pas</Transaction>
+    <Transaction>2015/10/09 16:23:34.000.461,C:\Conference\Fast\Exemplo1_Simples\Unit1.dfm=C:\Conference\Fast\Comom_Fast\uDMDataBase.dfm</Transaction>
+    <Transaction>2015/10/09 16:23:34.000.461,C:\Conference\Fast\Exemplo1_Simples\Unit1.pas=C:\Conference\Fast\Comom_Fast\uDMDataBase.pas</Transaction>
+    <Transaction>2015/10/10 22:02:24.000.176,C:\Conference\Fast\Exemplo1_Simples\FastReport.dproj=C:\Conference\Fast\Exemplo1_Simples\Exemplo1Simples.dproj</Transaction>
+    <Transaction>2015/10/10 22:09:23.000.797,=C:\Conference\Fast\FastReport\uDMConexao.pas</Transaction>
+    <Transaction>2015/10/10 22:09:33.000.200,=C:\Conference\Fast\FastReport\uDMDataBase.pas</Transaction>
+    <Transaction>2015/10/10 22:09:57.000.819,C:\Conference\Fast\FastReport\uDMDataBase.dfm=C:\Conference\Fast\FastReport\uDMConsultas.dfm</Transaction>
+    <Transaction>2015/10/10 22:09:57.000.819,C:\Conference\Fast\FastReport\uDMDataBase.pas=C:\Conference\Fast\FastReport\uDMConsultas.pas</Transaction>
+    <Transaction>2015/10/11 21:32:36.000.814,=C:\Conference\Fast\FastReport\Unit2.pas</Transaction>
+    <Transaction>2015/10/12 15:55:24.000.884,=C:\Conference\Fast\FastReport\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 15:55:53.000.962,C:\Conference\Fast\FastReport\Unit1.pas=C:\Conference\Fast\FastReport\uMetodosClient.pas</Transaction>
+    <Transaction>2015/10/12 16:10:36.000.300,C:\Conference\Fast\FastReport\uMetodosClient.pas=</Transaction>
+    <Transaction>2015/10/12 16:10:43.000.612,=C:\Conference\Fast\FastReport\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 16:11:05.000.253,C:\Conference\Fast\FastReport\Unit1.pas=C:\Conference\Fast\FastReport\uMetodosClient.pas</Transaction>
+  </Transactions>
+</BorlandProject>

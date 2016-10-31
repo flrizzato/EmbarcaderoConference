@@ -1,0 +1,152 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 244
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 8
+    Top = 24
+    Width = 145
+    Height = 89
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 157
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 8
+    Top = 184
+    Width = 121
+    Height = 21
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 135
+    Top = 182
+    Width = 75
+    Height = 25
+    Caption = 'Certificado'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 216
+    Top = 182
+    Width = 75
+    Height = 25
+    Caption = 'Emitir'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object TetheringManager1: TTetheringManager
+    OnRequestManagerPassword = TetheringManager1RequestManagerPassword
+    Password = '1234'
+    Text = 'TetheringManager1'
+    AllowedAdapters = 'Bluetooth'
+    Left = 208
+    Top = 96
+  end
+  object TetheringAppProfile1: TTetheringAppProfile
+    Manager = TetheringManager1
+    Text = 'Emissor NFCe'
+    Group = 'NFCE'
+    Actions = <>
+    Resources = <>
+    OnResourceReceived = TetheringAppProfile1ResourceReceived
+    Left = 312
+    Top = 96
+  end
+  object ACBrNFe1: TACBrNFe
+    Configuracoes.Geral.SSLLib = libCapicomDelphiSoap
+    Configuracoes.Geral.FormatoAlerta = 'TAG:%TAGNIVEL% ID:%ID%/%TAG%(%DESCRICAO%) - %MSG%.'
+    Configuracoes.Geral.ModeloDF = moNFCe
+    Configuracoes.Geral.IncluirQRCodeXMLNFCe = True
+    Configuracoes.Arquivos.PathSchemas = 'C:\Projetos\Mobile\NFCe\Servidor\Win32\Debug\Schemas\'
+    Configuracoes.WebServices.UF = 'RJ'
+    Configuracoes.WebServices.AguardarConsultaRet = 0
+    Configuracoes.WebServices.QuebradeLinha = '|'
+    DANFE = ACBrNFeDANFCeFortes1
+    Left = 264
+    Top = 64
+  end
+  object ACBrNFeDANFeRL1: TACBrNFeDANFeRL
+    MostrarPreview = True
+    MostrarStatus = True
+    TipoDANFE = tiNFCe
+    NumCopias = 1
+    ImprimirDescPorc = False
+    ImprimirTotalLiquido = True
+    MargemInferior = 0.700000000000000000
+    MargemSuperior = 0.700000000000000000
+    MargemEsquerda = 0.700000000000000000
+    MargemDireita = 0.700000000000000000
+    CasasDecimais.Formato = tdetInteger
+    CasasDecimais._qCom = 4
+    CasasDecimais._vUnCom = 4
+    CasasDecimais._Mask_qCom = '###,###,###,##0.00'
+    CasasDecimais._Mask_vUnCom = '###,###,###,##0.00'
+    ExibirResumoCanhoto = False
+    FormularioContinuo = False
+    TamanhoFonte_DemaisCampos = 10
+    ProdutosPorPagina = 0
+    ImprimirDetalhamentoEspecifico = True
+    NFeCancelada = False
+    LocalImpCanhoto = 0
+    ImprimirItens = True
+    ViaConsumidor = True
+    TributosSeparadamente = False
+    LarguraCodProd = 54
+    ExibirEAN = False
+    QuebraLinhaEmVeiculos = True
+    Left = 392
+    Top = 176
+  end
+  object ACBrNFeDANFCeFortes1: TACBrNFeDANFCeFortes
+    ACBrNFe = ACBrNFe1
+    MostrarPreview = True
+    MostrarStatus = True
+    TipoDANFE = tiNFCe
+    NumCopias = 1
+    ImprimirDescPorc = False
+    ImprimirTotalLiquido = True
+    MargemInferior = 0.800000000000000000
+    MargemSuperior = 0.800000000000000000
+    MargemEsquerda = 0.600000000000000000
+    MargemDireita = 0.510000000000000000
+    CasasDecimais.Formato = tdetInteger
+    CasasDecimais._qCom = 2
+    CasasDecimais._vUnCom = 2
+    CasasDecimais._Mask_qCom = '###,###,###,##0.00'
+    CasasDecimais._Mask_vUnCom = '###,###,###,##0.00'
+    ExibirResumoCanhoto = False
+    FormularioContinuo = False
+    TamanhoFonte_DemaisCampos = 10
+    ProdutosPorPagina = 0
+    ImprimirDetalhamentoEspecifico = True
+    NFeCancelada = False
+    LocalImpCanhoto = 0
+    ImprimirItens = True
+    ViaConsumidor = True
+    TributosSeparadamente = False
+    PosCanhoto = prCabecalho
+    Left = 336
+    Top = 8
+  end
+end

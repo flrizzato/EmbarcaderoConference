@@ -1,0 +1,76 @@
+inherited Form5_NmXhdpiPh: TForm5_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Height = 321.000000000000000000
+    inherited TabItem1: TTabItem
+      inherited edtnome: TEdit
+        Size.Width = 409.000000000000000000
+      end
+      inherited btnPesquisar: TButton
+        Position.X = 8.000000000000000000
+        Position.Y = 136.000000000000000000
+      end
+    end
+    inherited TabItem2: TTabItem
+      inherited Button1: TButton
+        Position.X = 408.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 193.000000000000000000
+        Size.Height = 33.000000000000000000
+      end
+      inherited Label3: TLabel
+        Position.X = 24.000000000000000000
+        Position.Y = 16.000000000000000000
+      end
+      inherited Label4: TLabel
+        Position.X = 24.000000000000000000
+        Position.Y = 64.000000000000000000
+      end
+      inherited Label5: TLabel
+        Position.X = 24.000000000000000000
+        Position.Y = 112.000000000000000000
+      end
+      inherited Label6: TLabel
+        Position.X = 24.000000000000000000
+        Position.Y = 160.000000000000000000
+        Size.Width = 233.000000000000000000
+      end
+      inherited Label7: TLabel
+        Position.X = 24.000000000000000000
+        Position.Y = 208.000000000000000000
+      end
+      inherited edtCodigo2: TEdit
+        Position.X = 200.000000000000000000
+        Position.Y = 8.000000000000000000
+      end
+      inherited edtSexo: TEdit
+        Position.X = 200.000000000000000000
+        Position.Y = 104.000000000000000000
+      end
+      inherited edtDataNasc: TEdit
+        Position.X = 200.000000000000000000
+        Position.Y = 144.000000000000000000
+      end
+      inherited edtCidade: TEdit
+        Position.X = 200.000000000000000000
+        Position.Y = 200.000000000000000000
+      end
+      inherited edtNomeCompleto: TEdit
+        Position.X = 200.000000000000000000
+        Position.Y = 56.000000000000000000
+      end
+    end
+    inherited TabItem3: TTabItem
+      inherited Button2: TButton
+        Position.X = 328.000000000000000000
+      end
+    end
+  end
+  inherited cdsListaClientes: TClientDataSet
+    Top = 280
+  end
+end

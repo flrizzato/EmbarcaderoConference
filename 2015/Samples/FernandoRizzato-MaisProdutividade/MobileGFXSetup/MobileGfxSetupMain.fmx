@@ -1,0 +1,229 @@
+object frmMobileGfxSetup: TfrmMobileGfxSetup
+  Left = 0
+  Top = 0
+  Caption = 'Mobile Gfx Setup '#169'2014-2015, Thomas G. Grubb'
+  ClientHeight = 609
+  ClientWidth = 663
+  Padding.Left = 20.000000000000000000
+  Padding.Top = 20.000000000000000000
+  Padding.Right = 20.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop, dkiPhone, dkiPad]
+  OnCreate = FormCreate
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object TabControl1: TTabControl
+    Align = alClient
+    Height = 539.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    Width = 623.000000000000000000
+    OnChange = TabControl1Change
+    object tiIntro: TTabItem
+      WordWrap = False
+      Height = 23.000000000000000000
+      IsSelected = True
+      Position.X = 1.000000000000000000
+      TabOrder = 0
+      Text = 'Introduction'
+      Width = 80.000000000000000000
+      object Memo1: TMemo
+        Touch.InteractiveGestures = [igPan, igLongTap, igDoubleTap]
+        Align = alClient
+        Height = 516.000000000000000000
+        Padding.Left = 10.000000000000000000
+        Padding.Top = 10.000000000000000000
+        Padding.Right = 10.000000000000000000
+        Padding.Bottom = 10.000000000000000000
+        TabOrder = 0
+        Width = 623.000000000000000000
+        Lines.Strings = (
+          
+            'If you have ever tried to create the graphic icons and launchers' +
+            ' for Delphi Android and iOS applications, you have quickly reali' +
+            'zed that the process is fairly ridiculous.  There are 2 differen' +
+            't platforms (iOS and Android), 3 different device types (iPhone,' +
+            ' iPad, Android), and 9 different ratios (1:1, 1.33:1, etc) of ic' +
+            'on/launcher graphic sizes all combining to require a whopping to' +
+            'tal of 37 different png files to be created.  Talk about taking ' +
+            'the Rapid out of Rapid Application Development! :-)'
+          ''
+          
+            'The utility works by allowing you to specify base image(s) for e' +
+            'ach graphic ratio, optionally defining what portion of the image' +
+            ' to extract for each ratio, and then generating the png files.  ' +
+            'You have the option of creating iPhone, iPad, and/or Android fil' +
+            'es.  In addition, the utility will even make the .optset files w' +
+            'hich Delphi uses to fill in the blanks (Click Apply... for each ' +
+            'configuration and select the optset file).')
+        ReadOnly = True
+        Font.Size = 14.000000000000000000
+        WordWrap = True
+        StyledSettings = [ssFamily, ssStyle, ssFontColor]
+      end
+    end
+    object tiGraphics: TTabItem
+      WordWrap = False
+      Height = 23.000000000000000000
+      IsSelected = False
+      Position.X = 81.000000000000000000
+      TabOrder = 1
+      Text = 'Graphics'
+      Width = 62.000000000000000000
+      object VertScrollBox1: TVertScrollBox
+        Align = alClient
+        Height = 496.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        TabOrder = 0
+        Width = 603.000000000000000000
+      end
+    end
+    object tiSetup: TTabItem
+      WordWrap = False
+      Height = 23.000000000000000000
+      IsSelected = False
+      Position.X = 143.000000000000000000
+      TabOrder = 2
+      Text = 'Setup'
+      Width = 48.000000000000000000
+      object ListBox1: TListBox
+        Anchors = [akLeft, akTop, akRight]
+        Height = 129.000000000000000000
+        Position.X = 144.000000000000000000
+        Position.Y = 120.000000000000000000
+        TabOrder = 0
+        Width = 401.000000000000000000
+        ItemIndex = 3
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        GroupingKind = gsGrouped
+        ShowCheckboxes = True
+        object ListBoxGroupHeader1: TListBoxGroupHeader
+          Height = 19.000000000000000000
+          StyleLookup = 'listboxgroupheader'
+          Text = 'Output Devices'
+          Width = 397.000000000000000000
+        end
+        object lbiiPhone: TListBoxItem
+          Height = 19.000000000000000000
+          IsChecked = True
+          Position.Y = 19.000000000000000000
+          Text = 'iPhone'
+          Width = 397.000000000000000000
+        end
+        object lbiiPad: TListBoxItem
+          Height = 19.000000000000000000
+          IsChecked = True
+          Position.Y = 38.000000000000000000
+          Text = 'iPad'
+          Width = 397.000000000000000000
+        end
+        object lbiAndroid: TListBoxItem
+          Height = 19.000000000000000000
+          IsChecked = True
+          IsSelected = True
+          Position.Y = 57.000000000000000000
+          Text = 'Android'
+          Width = 397.000000000000000000
+        end
+      end
+      object cbOptset: TCheckBox
+        Anchors = [akLeft, akTop, akRight]
+        Height = 19.000000000000000000
+        IsChecked = True
+        Position.X = 144.000000000000000000
+        Position.Y = 264.000000000000000000
+        TabOrder = 1
+        Text = 'Generate .optset file(s)'
+        Width = 273.000000000000000000
+      end
+      object ceBaseName: TComboEdit
+        Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+        TabOrder = 2
+        ItemHeight = 19.000000000000000000
+        ItemIndex = -1
+        Position.X = 144.000000000000000000
+        Position.Y = 56.000000000000000000
+        Width = 401.000000000000000000
+        Height = 22.000000000000000000
+        KillFocusByReturn = False
+        object Label1: TLabel
+          Height = 17.000000000000000000
+          Position.X = -128.000000000000000000
+          Position.Y = 5.000000000000000000
+          Text = 'Base Filename'
+          TextAlign = taTrailing
+          Width = 120.000000000000000000
+        end
+      end
+      object Button1: TButton
+        Height = 22.000000000000000000
+        Position.X = 144.000000000000000000
+        Position.Y = 80.000000000000000000
+        TabOrder = 3
+        Text = 'Browse...'
+        Width = 80.000000000000000000
+        OnClick = Button1Click
+      end
+    end
+    object tiGenerate: TTabItem
+      WordWrap = False
+      Height = 23.000000000000000000
+      IsSelected = False
+      Position.X = 191.000000000000000000
+      TabOrder = 3
+      Text = 'Generate'
+      Width = 64.000000000000000000
+      object mmOutput: TMemo
+        Touch.InteractiveGestures = [igPan, igLongTap, igDoubleTap]
+        Align = alClient
+        Height = 476.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        TabOrder = 0
+        Width = 583.000000000000000000
+      end
+    end
+  end
+  object Layout1: TLayout
+    Align = alBottom
+    Height = 50.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 559.000000000000000000
+    Width = 623.000000000000000000
+  end
+  object Button2: TButton
+    Action = actGenerate
+    Enabled = False
+    Height = 22.000000000000000000
+    Position.X = 560.000000000000000000
+    Position.Y = 576.000000000000000000
+    TabOrder = 2
+    Width = 80.000000000000000000
+  end
+  object OpenDialog1: TOpenDialog
+    Options = [ofHideReadOnly, ofPathMustExist, ofEnableSizing]
+    Left = 280
+    Top = 120
+  end
+  object ActionList1: TActionList
+    Left = 360
+    Top = 120
+    object actGenerate: TAction
+      Text = 'Generate'
+      Enabled = False
+      OnExecute = actGenerateExecute
+    end
+  end
+end

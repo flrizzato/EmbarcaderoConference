@@ -1,0 +1,32 @@
+object TestePainel: TTestePainel
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop, dkiPhone, dkiPad]
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Button1: TButton
+    Height = 22.000000000000000000
+    Position.X = 272.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 0
+    Text = 'N'#227'o'
+    Width = 80.000000000000000000
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Height = 17.000000000000000000
+    Position.X = 280.000000000000000000
+    Position.Y = 192.000000000000000000
+    Text = 'Label1'
+    Width = 120.000000000000000000
+  end
+end

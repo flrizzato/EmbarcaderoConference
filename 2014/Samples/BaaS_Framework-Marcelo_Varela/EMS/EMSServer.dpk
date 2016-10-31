@@ -1,0 +1,50 @@
+package EMSServer;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  emsserverapi,
+  RESTComponents,
+  FireDACCommon,
+  FireDACODBCDriver,
+  FireDACCommonDriver,
+  FireDACMSSQLDriver,
+  FireDAC,
+  vcl,
+  vclFireDAC;
+
+contains
+  Negocio in 'Negocio.pas',
+  Unit2 in 'Unit2.pas' {ECResource1: TDataModule},
+  Unit3 in 'Unit3.pas' {FDResource1: TDataModule},
+  Unit5 in 'Unit5.pas' {DadosResource1: TDataModule};
+
+end.
+

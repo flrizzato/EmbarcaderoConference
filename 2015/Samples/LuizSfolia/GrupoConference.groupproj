@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C2E2A1AA-C7F0-47A9-9744-340FA2FE6068}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Fast\FastReport\FastReport.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\DemosFast\Demos\InteractiveReport\InteractiveReport.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\DemosFast\Demos\EmbedDesigner\EmbedDesigner.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\DemosFast\Demos\PrintStringGrid\StringGridPrint.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\DemosFast\Demos\ClientServer\Server\FRServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Fast\Importacao2\Importador.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FastReport">
+        <MSBuild Projects="Fast\FastReport\FastReport.dproj"/>
+    </Target>
+    <Target Name="FastReport:Clean">
+        <MSBuild Projects="Fast\FastReport\FastReport.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FastReport:Make">
+        <MSBuild Projects="Fast\FastReport\FastReport.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="InteractiveReport">
+        <MSBuild Projects="C:\DemosFast\Demos\InteractiveReport\InteractiveReport.dproj"/>
+    </Target>
+    <Target Name="InteractiveReport:Clean">
+        <MSBuild Projects="C:\DemosFast\Demos\InteractiveReport\InteractiveReport.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="InteractiveReport:Make">
+        <MSBuild Projects="C:\DemosFast\Demos\InteractiveReport\InteractiveReport.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EmbedDesigner">
+        <MSBuild Projects="C:\DemosFast\Demos\EmbedDesigner\EmbedDesigner.dproj"/>
+    </Target>
+    <Target Name="EmbedDesigner:Clean">
+        <MSBuild Projects="C:\DemosFast\Demos\EmbedDesigner\EmbedDesigner.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmbedDesigner:Make">
+        <MSBuild Projects="C:\DemosFast\Demos\EmbedDesigner\EmbedDesigner.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StringGridPrint">
+        <MSBuild Projects="C:\DemosFast\Demos\PrintStringGrid\StringGridPrint.dproj"/>
+    </Target>
+    <Target Name="StringGridPrint:Clean">
+        <MSBuild Projects="C:\DemosFast\Demos\PrintStringGrid\StringGridPrint.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StringGridPrint:Make">
+        <MSBuild Projects="C:\DemosFast\Demos\PrintStringGrid\StringGridPrint.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FRServer">
+        <MSBuild Projects="C:\DemosFast\Demos\ClientServer\Server\FRServer.dproj"/>
+    </Target>
+    <Target Name="FRServer:Clean">
+        <MSBuild Projects="C:\DemosFast\Demos\ClientServer\Server\FRServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FRServer:Make">
+        <MSBuild Projects="C:\DemosFast\Demos\ClientServer\Server\FRServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Importador">
+        <MSBuild Projects="Fast\Importacao2\Importador.dproj"/>
+    </Target>
+    <Target Name="Importador:Clean">
+        <MSBuild Projects="Fast\Importacao2\Importador.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Importador:Make">
+        <MSBuild Projects="Fast\Importacao2\Importador.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FastReport;InteractiveReport;EmbedDesigner;StringGridPrint;FRServer;Importador"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FastReport:Clean;InteractiveReport:Clean;EmbedDesigner:Clean;StringGridPrint:Clean;FRServer:Clean;Importador:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FastReport:Make;InteractiveReport:Make;EmbedDesigner:Make;StringGridPrint:Make;FRServer:Make;Importador:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

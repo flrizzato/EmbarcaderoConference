@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/18 18:47:29.000.321,=C:\Users\Luiz\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2015/10/18 18:48:09.000.353,=C:\Conference\Fast\Importacao\fImportadorRelatorios.pas</Transaction>
+    <Transaction>2015/10/18 18:48:27.000.604,C:\Conference\Fast\Importacao\Importador.dproj=C:\Users\Luiz\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2015/10/19 10:55:39.000.953,=C:\Program Files\FastReports\FastReport 5\LibD23\ConverterRR2FR.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,10 @@
+*** To initialize an repository: 
+git init
+
+*** To add files to an remote repository:
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/flrizzato/DCONF2014.git
+git push -u origin master

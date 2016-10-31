@@ -1,0 +1,120 @@
+object frmProdutos: TfrmProdutos
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object ToolBar1: TToolBar
+    Height = 44.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    object Label1: TLabel
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Produtos'
+      Width = 82.000000000000000000
+      Trimming = ttCharacter
+    end
+    object SpeedButton2: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 232.000000000000000000
+      StyleLookup = 'stoptoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton2Click
+    end
+    object SpeedButton1: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 272.000000000000000000
+      StyleLookup = 'refreshtoolbutton'
+      Text = 'SpeedButton1'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton1Click
+    end
+  end
+  object ListBox1: TListBox
+    Align = alClient
+    Height = 504.000000000000000000
+    TabOrder = 1
+    Width = 320.000000000000000000
+    DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    object SearchBox1: TSearchBox
+      Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+      Align = alTop
+      TabOrder = 0
+      Width = 320.000000000000000000
+      Height = 44.000000000000000000
+      KillFocusByReturn = False
+    end
+  end
+  object DSProProdutos: TDSProviderConnection
+    ServerClassName = 'TServerDelphiConference'
+    SQLConnection = DMDados.SQLConnection1
+    Left = 44
+    Top = 108
+  end
+  object cdsProdutos: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspProdutos'
+    RemoteServer = DSProProdutos
+    Left = 40
+    Top = 164
+    object cdsProdutosID: TIntegerField
+      FieldName = 'ID'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object cdsProdutosDESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Size = 30
+    end
+    object cdsProdutosESTOQUE: TFloatField
+      FieldName = 'ESTOQUE'
+    end
+    object cdsProdutosPRECO: TFloatField
+      FieldName = 'PRECO'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = cdsProdutos
+    ScopeMappings = <>
+    Left = 40
+    Top = 272
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 44
+    Top = 213
+    object LinkFillControlToField1: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'ID'
+      Control = ListBox1
+      Track = True
+      FillDataSource = BindSourceDB1
+      FillDisplayFieldName = 'DESCRICAO'
+      AutoFill = True
+      BufferCount = -1
+      AutoBufferCount = False
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+end

@@ -1,0 +1,77 @@
+object RatioFrame: TRatioFrame
+  Height = 160
+  Width = 505
+  object GroupBox1: TGroupBox
+    Align = alClient
+    Height = 160.000000000000000000
+    Text = '1:1 (Icons && Spotlight)'
+    Width = 505.000000000000000000
+    TabOrder = 0
+    object Button1: TButton
+      Height = 22.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 48.000000000000000000
+      TabOrder = 0
+      Text = 'Browse...'
+      Width = 80.000000000000000000
+      OnClick = Button1Click
+    end
+    object imPreview: TImage
+      Anchors = [akTop, akRight]
+      Height = 122.000000000000000000
+      Position.X = 310.000000000000000000
+      Position.Y = 24.000000000000000000
+      Width = 129.000000000000000000
+      object pbPreview: TPaintBox
+        Align = alClient
+        Height = 122.000000000000000000
+        Width = 129.000000000000000000
+        OnMouseDown = pbPreviewMouseDown
+        OnMouseMove = pbPreviewMouseMove
+        OnMouseUp = pbPreviewMouseUp
+        OnPaint = pbPreviewPaint
+      end
+    end
+    object Label2: TLabel
+      Height = 57.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 80.000000000000000000
+      Text = 'Select 152x152 or larger'
+      Width = 217.000000000000000000
+    end
+    object ceFilename: TComboEdit
+      Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 3
+      ItemHeight = 19.000000000000000000
+      ItemIndex = -1
+      Position.X = 16.000000000000000000
+      Position.Y = 24.000000000000000000
+      Width = 281.000000000000000000
+      Height = 22.000000000000000000
+      KillFocusByReturn = False
+      OnChange = ceFilenameChange
+    end
+    object sbSelectAll: TSpeedButton
+      Anchors = [akTop, akRight]
+      Height = 22.000000000000000000
+      Position.X = 264.000000000000000000
+      Position.Y = 48.000000000000000000
+      StyleLookup = 'passwordeditbutton'
+      Text = 'sbSelectAll'
+      Width = 33.000000000000000000
+      OnClick = sbSelectAllClick
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 
+      'All (*.gif;*.jpg;*.jpeg;*.png;*.bmp;*.tif;*.tiff)|*.gif;*.jpg;*.' +
+      'jpeg;*.png;*.bmp;*.tif;*.tiff|GIF Image (*.gif)|*.gif|JPEG Image' +
+      ' File (*.jpg)|*.jpg|JPEG Image File (*.jpeg)|*.jpeg|Portable Net' +
+      'work Graphics (*.png)|*.png|Bitmaps (*.bmp)|*.bmp|TIFF Images (*' +
+      '.tif)|*.tif|TIFF Images (*.tiff)|*.tiff'
+    Options = [ofFileMustExist, ofEnableSizing]
+    Left = 272
+    Top = 96
+  end
+end

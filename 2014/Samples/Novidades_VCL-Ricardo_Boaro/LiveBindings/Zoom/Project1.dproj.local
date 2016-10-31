@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/13 11:47:06.000.655,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/13 11:58:22.000.373,\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.fmx=\\psf\Home\Documents\Embarcadero\Studio\Projects\LiveBindings\06 Demo\Unit1.fmx</Transaction>
+    <Transaction>2014/07/13 11:58:22.000.373,\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas=\\psf\Home\Documents\Embarcadero\Studio\Projects\LiveBindings\06 Demo\Unit1.pas</Transaction>
+    <Transaction>2014/07/13 11:58:23.000.448,\\psf\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj=\\psf\Home\Documents\Embarcadero\Studio\Projects\LiveBindings\06 Demo\Project1.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>iPhone5</MobileDevice>
+</BorlandProject>

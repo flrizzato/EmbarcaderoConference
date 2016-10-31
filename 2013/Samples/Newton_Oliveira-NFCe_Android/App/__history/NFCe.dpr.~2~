@@ -1,0 +1,15 @@
+program NFCe;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  uNFCe in 'uNFCe.pas' {Form4};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.FormFactor.Orientations := [TFormOrientation.soInvertedLandscape];
+  Application.CreateForm(TForm4, Form4);
+  Application.Run;
+end.

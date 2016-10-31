@@ -1,0 +1,145 @@
+object FrmItens: TFrmItens
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 638
+  ClientWidth = 942
+  StyleBook = DataModule1.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object StatusBar1: TStatusBar
+    Position.Y = 616.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 942.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    StyledSettings = [Family, Size, Style, Other]
+    Position.X = 704.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 232.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Qtde Registros Retornados'
+    TextSettings.FontColor = claBlue
+    TabOrder = 1
+    object lblreg: TLabel
+      StyledSettings = [Family, Size, Style]
+      Position.X = 56.000000000000000000
+      Position.Y = 32.000000000000000000
+      TextSettings.FontColor = claBlue
+      Text = 'lblreg'
+    end
+  end
+  object edtDescProd: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 8.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 921.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtCodProd: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 8.000000000000000000
+    Position.Y = 144.000000000000000000
+  end
+  object edtNF: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 8.000000000000000000
+    Position.Y = 104.000000000000000000
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 88.000000000000000000
+    Text = 'NF:'
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 128.000000000000000000
+    Text = 'C'#243'd.Prod.:'
+  end
+  object Label3: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 168.000000000000000000
+    Text = 'Produto:'
+  end
+  object StringGrid1: TStringGrid
+    Align = Bottom
+    Position.Y = 216.000000000000000000
+    Size.Width = 942.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    RowCount = 100
+    RowHeight = 21.000000000000000000
+  end
+  object BindNavigator1: TBindNavigator
+    Size.Width = 680.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    DataSource = BindSourceDB1
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object chkActive: TCheckBox
+    Position.X = 712.000000000000000000
+    Position.Y = 88.000000000000000000
+    TabOrder = 14
+    Text = 'Active'
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DataModule1.QryItens
+    ScopeMappings = <>
+    Left = 456
+    Top = 304
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Ine_descProd'
+      Control = edtDescProd
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Ine_CodProd'
+      Control = edtCodProd
+      Track = False
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Ine_Numero'
+      Control = edtNF
+      Track = False
+    end
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = StringGrid1
+      Columns = <>
+    end
+    object LinkControlToPropertyActive: TLinkControlToProperty
+      Category = 'Quick Bindings'
+      Control = chkActive
+      Track = True
+      Component = DataModule1.QryItens
+      ComponentProperty = 'Active'
+    end
+  end
+end

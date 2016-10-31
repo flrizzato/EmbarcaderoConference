@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1DA67DC6-2567-471D-A753-FD33C378F792}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ExemploEmbConf2015.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Teste\EmbConf2015DUnitXTest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Teste\EmbConf2015DUnitXMonitorTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ExemploEmbConf2015">
+        <MSBuild Projects="ExemploEmbConf2015.dproj"/>
+    </Target>
+    <Target Name="ExemploEmbConf2015:Clean">
+        <MSBuild Projects="ExemploEmbConf2015.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExemploEmbConf2015:Make">
+        <MSBuild Projects="ExemploEmbConf2015.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EmbConf2015DUnitXTest">
+        <MSBuild Projects="Teste\EmbConf2015DUnitXTest.dproj"/>
+    </Target>
+    <Target Name="EmbConf2015DUnitXTest:Clean">
+        <MSBuild Projects="Teste\EmbConf2015DUnitXTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmbConf2015DUnitXTest:Make">
+        <MSBuild Projects="Teste\EmbConf2015DUnitXTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EmbConf2015DUnitXMonitorTest">
+        <MSBuild Projects="Teste\EmbConf2015DUnitXMonitorTest.dproj"/>
+    </Target>
+    <Target Name="EmbConf2015DUnitXMonitorTest:Clean">
+        <MSBuild Projects="Teste\EmbConf2015DUnitXMonitorTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmbConf2015DUnitXMonitorTest:Make">
+        <MSBuild Projects="Teste\EmbConf2015DUnitXMonitorTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ExemploEmbConf2015;EmbConf2015DUnitXTest;EmbConf2015DUnitXMonitorTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ExemploEmbConf2015:Clean;EmbConf2015DUnitXTest:Clean;EmbConf2015DUnitXMonitorTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ExemploEmbConf2015:Make;EmbConf2015DUnitXTest:Make;EmbConf2015DUnitXMonitorTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

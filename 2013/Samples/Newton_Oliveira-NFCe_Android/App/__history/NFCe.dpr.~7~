@@ -1,0 +1,18 @@
+program NFCe;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  uSelecaoCliente in 'uSelecaoCliente.pas' {frmSelecaoClientes},
+  uNFCe in 'uNFCe.pas' {frmNota},
+  uDMNFCe in 'uDMNFCe.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmSelecaoClientes, frmSelecaoClientes);
+  Application.CreateForm(TfrmNota, frmNota);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

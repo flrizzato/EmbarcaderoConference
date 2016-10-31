@@ -1,0 +1,12 @@
+﻿[ClientModule1.cdsLojaEspecificaOuGrupo]
+Visible=False
+
+[ClientModule1.cdsQryEDS_Mensagem]
+Visible=False
+
+[ClientModule1.cdsQryEDS_CameraSelecionada]
+Visible=False
+
+[ClientModule1.cdsQryCameraGrupo]
+Visible=False
+

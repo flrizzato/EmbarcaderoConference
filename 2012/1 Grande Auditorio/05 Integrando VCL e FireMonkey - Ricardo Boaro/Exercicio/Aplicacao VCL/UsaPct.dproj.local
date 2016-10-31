@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/07/28 18:17:45.000.973,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/08/25 20:49:58.000.619,=\\psf\Home\Documents\RAD Studio\Projects\GroupedItems1.pas</Transaction>
+    <Transaction>2012/08/25 20:49:59.000.666,=\\psf\Home\Documents\RAD Studio\Projects\ItemDetail1.pas</Transaction>
+    <Transaction>2012/08/25 20:50:13.000.768,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/09/19 20:00:54.000.395,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/09/19 20:03:29.000.238,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/10 20:27:34.000.926,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/17 17:24:50.000.114,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/17 17:25:03.000.029,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/17 17:25:19.000.110,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/18 13:40:19.000.214,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/18 13:40:49.000.375,\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas=E:\Embarcadero\Palestras\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\teste\uUsaPct.pas</Transaction>
+    <Transaction>2012/10/18 13:40:49.000.375,\\psf\Home\Documents\RAD Studio\Projects\Unit1.dfm=E:\Embarcadero\Palestras\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\teste\uUsaPct.dfm</Transaction>
+    <Transaction>2012/10/18 13:40:54.000.552,\\psf\Home\Documents\RAD Studio\Projects\Project1.dproj=E:\Embarcadero\Palestras\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\teste\UsaPct.dproj</Transaction>
+    <Transaction>2012/10/18 13:44:20.000.370,=E:\Embarcadero\Palestras\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\teste\uformVCL.pas</Transaction>
+  </Transactions>
+</BorlandProject>

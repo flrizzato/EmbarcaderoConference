@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/25 17:56:18.000.728,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/26 09:47:30.000.496,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/26 12:12:36.000.917,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/27 12:27:19.000.587,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/27 12:28:00.000.933,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\RecebeScheme.dproj</Transaction>
+    <Transaction>2015/09/27 12:28:27.000.511,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeScheme\Unit1.pas</Transaction>
+    <Transaction>2015/09/27 12:28:27.000.511,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeScheme\Unit1.fmx</Transaction>
+    <Transaction>2015/09/27 12:28:29.000.640,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\RecebeScheme.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeScheme\RecebeScheme.dproj</Transaction>
+    <Transaction>2015/09/27 12:30:12.000.678,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeScheme\Unit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeScheme\frmRecebeSchemeUnt.pas</Transaction>
+    <Transaction>2015/09/27 12:30:12.000.678,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeScheme\Unit1.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeScheme\frmRecebeSchemeUnt.fmx</Transaction>
+    <Transaction>2015/10/18 10:03:07.000.380,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeBundle\RecebeScheme.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeBundle\RecebeBundle.dproj</Transaction>
+    <Transaction>2015/10/18 10:18:18.000.982,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeBundle\frmRecebeSchemeUnt.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeBundle\frmRecebeBundleUnt.fmx</Transaction>
+    <Transaction>2015/10/18 10:18:18.000.982,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeBundle\frmRecebeSchemeUnt.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeBundle\frmRecebeBundleUnt.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="AVD_for_Nexus_4_by_Google"/>
+	</ActiveMobileDevice>
+</BorlandProject>

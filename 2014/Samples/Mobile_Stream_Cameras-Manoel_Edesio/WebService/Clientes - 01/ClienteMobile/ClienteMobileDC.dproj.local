@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/12 12:34:51.000.275,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2014/10/12 14:16:31.000.869,=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2014/10/12 14:16:58.000.541,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.fmx=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\ClienteDesktop.fmx</Transaction>
+    <Transaction>2014/10/12 14:16:58.000.541,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Unit5.pas=C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\ClienteDesktop.pas</Transaction>
+    <Transaction>2014/10/12 14:17:18.000.119,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\Project4.dproj=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\ClienteMobileDC.dproj</Transaction>
+    <Transaction>2014/10/12 14:17:36.000.338,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\ClienteDesktop.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\uFrmPrincipal.pas</Transaction>
+    <Transaction>2014/10/12 14:17:36.000.338,C:\Documents and Settings\Administrador\Meus documentos\Embarcadero\Studio\Projects\ClienteDesktop.fmx=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\uFrmPrincipal.fmx</Transaction>
+    <Transaction>2014/10/12 14:22:45.000.025,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/12 14:23:02.000.072,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\IDelphiConference1.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\untIDelphiConference.pas</Transaction>
+    <Transaction>2014/10/12 14:27:16.000.338,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\Unit1.pas</Transaction>
+    <Transaction>2014/10/12 14:27:22.000.635,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\Unit1.pas=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\uFrmPrincipal2.pas</Transaction>
+    <Transaction>2014/10/12 14:27:22.000.635,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\Unit1.fmx=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\uFrmPrincipal2.fmx</Transaction>
+    <Transaction>2014/10/12 14:30:10.000.025,C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\uFrmPrincipal2.pas=</Transaction>
+    <Transaction>2014/10/15 23:34:29.000.649,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\IDelphiConference1.pas</Transaction>
+    <Transaction>2014/10/15 23:57:57.000.259,=C:\Delphi Conference\Exemplos\WebService\Clientes - 01\ClienteMobile\IDelphiConference1.pas</Transaction>
+  </Transactions>
+	<MobileDevice>BY900DDQLL</MobileDevice>
+</BorlandProject>

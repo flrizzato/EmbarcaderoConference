@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2013/10/29 23:24:04.385,=C:\Users\manoel\Documents\RAD Studio\Projects\Unit56.pas</Transaction>
+    <Transaction>2013/10/29 23:24:38.010,C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\uFrmDC.dfm=C:\Users\manoel\Documents\RAD Studio\Projects\Unit56.dfm</Transaction>
+    <Transaction>2013/10/29 23:24:38.010,C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\uFrmDC.pas=C:\Users\manoel\Documents\RAD Studio\Projects\Unit56.pas</Transaction>
+    <Transaction>2013/10/29 23:24:43.720,C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\ClienteVCLDC.dproj=C:\Users\manoel\Documents\RAD Studio\Projects\Project51.dproj</Transaction>
+    <Transaction>2013/10/29 23:25:10.645,=C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 23:25:16.859,C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\uDMDados.pas=C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 23:25:16.859,C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\uDMDados.dfm=C:\Users\manoel\Desktop\Delphi Conference 2013\Exemplos\Clientes\Win32\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

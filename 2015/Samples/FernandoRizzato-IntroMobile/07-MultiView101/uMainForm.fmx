@@ -1,0 +1,95 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LayoutMain: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object ToolBar1: TToolBar
+      Size.Width = 640.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object butMultiView: TButton
+        Align = Left
+        Margins.Left = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'detailstoolbutton'
+        TabOrder = 0
+      end
+    end
+    object LayoutForm: TLayout
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 432.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+  object MultiViewMain: TMultiView
+    PopoverOptions.StyleLookup = ''
+    PopoverOptions.PopupHeight = 150.000000000000000000
+    MasterButton = butMultiView
+    NavigationPaneOptions.CollapsedWidth = 100.000000000000000000
+    Size.Width = 150.000000000000000000
+    Size.Height = 150.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ListBoxMainMenu: TListBox
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 470.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 85.000000000000000000
+      Viewport.Height = 466.000000000000000000
+      object ListBoxGroupHeader1: TListBoxGroupHeader
+        TextSettings.HorzAlign = Center
+        StyledSettings = [Family, Size, Style, FontColor]
+        Size.Width = 85.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'Main Menu'
+      end
+      object ListBoxItem1: TListBoxItem
+        Position.Y = 44.000000000000000000
+        TabOrder = 0
+        Text = 'Menu 1'
+        OnClick = ListBoxItem1Click
+      end
+      object ListBoxItem2: TListBoxItem
+        Position.Y = 63.000000000000000000
+        TabOrder = 1
+        Text = 'Menu 2'
+        OnClick = ListBoxItem2Click
+      end
+      object ListBoxItem3: TListBoxItem
+        Position.Y = 82.000000000000000000
+        TabOrder = 2
+        Text = 'Menu 3'
+        OnClick = ListBoxItem3Click
+      end
+    end
+  end
+end

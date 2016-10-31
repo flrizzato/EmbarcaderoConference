@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/10/21 16:48:50.000.564,=C:\Users\Tatiany\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 16:49:29.000.874,C:\Delphi Conference 2012\Auteticação Simples\Servidor\UServer.dfm=C:\Users\Tatiany\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2012/10/21 16:49:29.000.874,C:\Delphi Conference 2012\Auteticação Simples\Servidor\UServer.pas=C:\Users\Tatiany\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 16:49:41.000.698,C:\Delphi Conference 2012\Auteticação Simples\Servidor\DprServer.dproj=C:\Users\Tatiany\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

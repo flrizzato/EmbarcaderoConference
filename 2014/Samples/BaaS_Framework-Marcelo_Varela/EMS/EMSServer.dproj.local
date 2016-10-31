@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/15 15:45:59.000.456,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/15 15:45:59.000.385,=emsserverapi.dcp</Transaction>
+    <Transaction>2014/10/15 15:46:13.000.063,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit2.dfm</Transaction>
+    <Transaction>2014/10/15 15:46:13.000.063,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit2.pas</Transaction>
+    <Transaction>2014/10/15 15:46:17.000.707,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\EMSServer.dproj</Transaction>
+    <Transaction>2014/10/15 15:48:59.000.130,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit3.pas</Transaction>
+    <Transaction>2014/10/15 15:49:07.000.703,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit3.pas=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Negocio.pas</Transaction>
+    <Transaction>2014/10/15 16:06:14.000.202,=RESTComponents.dcp</Transaction>
+    <Transaction>2014/10/15 17:01:22.000.834,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit3.pas</Transaction>
+    <Transaction>2014/10/15 17:26:04.000.343,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2014/10/15 17:26:04.000.334,=FireDACCommon.dcp</Transaction>
+    <Transaction>2014/10/15 17:26:04.000.348,=FireDACMSSQLDriver.dcp</Transaction>
+    <Transaction>2014/10/15 17:26:04.000.351,=FireDAC.dcp</Transaction>
+    <Transaction>2014/10/15 17:26:04.000.338,=FireDACODBCDriver.dcp</Transaction>
+    <Transaction>2014/10/15 17:35:16.000.058,=vcl.dcp</Transaction>
+    <Transaction>2014/10/15 17:35:16.000.063,=vclFireDAC.dcp</Transaction>
+    <Transaction>2014/10/15 21:41:06.000.044,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit2.pas=</Transaction>
+    <Transaction>2014/10/15 21:42:12.000.258,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit2.pas</Transaction>
+    <Transaction>2014/10/15 21:42:20.000.691,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit3.pas=</Transaction>
+    <Transaction>2014/10/15 21:52:38.000.620,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit3.pas</Transaction>
+    <Transaction>2014/10/15 21:53:06.000.762,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\EC2014\EMS\Unit5.pas</Transaction>
+  </Transactions>
+</BorlandProject>

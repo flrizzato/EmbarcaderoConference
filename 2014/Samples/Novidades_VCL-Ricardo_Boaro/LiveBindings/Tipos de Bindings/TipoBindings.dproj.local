@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/13 19:26:52.000.651,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/16 08:59:31.000.774,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/16 08:59:31.000.908,=\\psf\Home\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/08/16 08:59:32.000.003,=\\psf\Home\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2014/08/20 06:36:28.000.917,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/01 06:32:58.000.040,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 17:04:35.668,=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 17:05:01.591,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\Tipos de Bindings\Unit1.pas=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/24 17:05:01.591,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\Tipos de Bindings\Unit1.dfm=\\psf\Home\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/09/24 17:05:07.152,Z:\Documents\Embarcadero\Conference 2014\Exemplos\LiveBindings\Tipos de Bindings\TipoBindings.dproj=\\psf\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

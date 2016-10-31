@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<PRIZZATO iOSSimulator="_iossimulator_CFC2B974-8ABE-4659-B804-2B98229C831D" iOSDevice64="_iosdevice_7112cfd6ce9983e12d46ee84fbffa466ff670ccf" iOSDevice32="_iosdevice_7112cfd6ce9983e12d46ee84fbffa466ff670ccf"/>
+		<NoProfile Android="04db9f214811d5d3"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="-1" SortType="1"/>
+</BorlandProject>

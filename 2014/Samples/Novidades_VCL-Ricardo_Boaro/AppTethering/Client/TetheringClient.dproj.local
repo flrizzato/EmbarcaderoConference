@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/05/12 22:16:21.000.300,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/05/12 22:16:51.000.548,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/05/12 22:25:04.000.380,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\AppTethering1\Client\Unit2.pas</Transaction>
+    <Transaction>2014/05/12 22:25:04.000.380,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\AppTethering1\Client\Unit2.fmx</Transaction>
+    <Transaction>2014/05/12 22:25:05.000.261,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\AppTethering1\Client\Project2.dproj</Transaction>
+    <Transaction>2014/05/20 01:14:37.000.444,C:\DTOURXE6\08_AppTethering\0-AppTethering101\Client\Project2.dproj=C:\DTOURXE6\08_AppTethering\0-AppTethering101\Client\TetheringClient.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>%iosdevice%9423306d1a3afaa2ee710d1d1b3bafd92b577664</MobileDevice>
+</BorlandProject>

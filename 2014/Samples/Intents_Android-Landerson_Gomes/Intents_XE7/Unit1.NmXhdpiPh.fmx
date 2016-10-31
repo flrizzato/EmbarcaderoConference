@@ -1,0 +1,19 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Label1: TLabel
+    Size.Width = 400.000000000000000000
+  end
+  inherited ComboBox1: TComboBox
+    Size.Width = 400.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.Y = 571.000000000000000000
+    Size.Width = 400.000000000000000000
+  end
+  inherited Image1: TImage
+    Size.Width = 400.000000000000000000
+    Size.Height = 516.000000000000000000
+  end
+end

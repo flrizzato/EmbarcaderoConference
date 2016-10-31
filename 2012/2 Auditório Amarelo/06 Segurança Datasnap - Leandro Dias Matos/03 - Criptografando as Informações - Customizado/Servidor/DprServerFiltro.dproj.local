@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/10/21 18:42:44.000.750,=C:\Users\Tatiany\Documents\RAD Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2012/10/21 18:42:44.000.807,=C:\Users\Tatiany\Documents\RAD Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2012/10/21 18:43:47.000.770,C:\Delphi Conference 2012\Criptografia da Informação\Servidor\ServerContainerUnit.dfm=C:\Users\Tatiany\Documents\RAD Studio\Projects\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2012/10/21 18:43:47.000.770,C:\Delphi Conference 2012\Criptografia da Informação\Servidor\ServerContainerUnit.pas=C:\Users\Tatiany\Documents\RAD Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2012/10/21 18:43:50.000.189,C:\Delphi Conference 2012\Criptografia da Informação\Servidor\ServerMethodsUnit.pas=C:\Users\Tatiany\Documents\RAD Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2012/10/21 18:43:50.000.189,C:\Delphi Conference 2012\Criptografia da Informação\Servidor\ServerMethodsUnit.dfm=C:\Users\Tatiany\Documents\RAD Studio\Projects\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2012/10/21 18:43:59.000.170,C:\Delphi Conference 2012\Criptografia da Informação\Servidor\DprServerFiltro.dproj=C:\Users\Tatiany\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2012/10/21 18:47:11.000.434,=C:\Delphi Conference 2012\Criptografia da Informação\Package\UFilterCustomizado.pas</Transaction>
+  </Transactions>
+</BorlandProject>

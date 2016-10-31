@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/11 23:12:49.000.272,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/27 19:10:30.000.455,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/27 19:10:50.000.533,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 22:37:35.000.981,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 22:38:52.000.879,\\psf\Home\Documents\RAD Studio\Projects\Unit1.fmx=C:\Evento\BtnDialogo\uTestePainel.fmx</Transaction>
+    <Transaction>2013/10/29 22:38:52.000.879,\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas=C:\Evento\BtnDialogo\uTestePainel.pas</Transaction>
+    <Transaction>2013/10/29 22:39:33.000.808,\\psf\Home\Documents\RAD Studio\Projects\Project1.dproj=C:\Evento\BtnDialogo\Teste.dproj</Transaction>
+    <Transaction>2013/10/29 22:39:46.000.135,=C:\Evento\BtnDialogo\Unit2.pas</Transaction>
+    <Transaction>2013/10/29 22:40:01.000.967,C:\Evento\BtnDialogo\Unit2.fmx=C:\Evento\BtnDialogo\uTesteDialogo.fmx</Transaction>
+    <Transaction>2013/10/29 22:40:01.000.967,C:\Evento\BtnDialogo\Unit2.pas=C:\Evento\BtnDialogo\uTesteDialogo.pas</Transaction>
+    <Transaction>2013/10/29 22:40:17.000.148,=C:\Evento\BtnDialogo\Unit3.pas</Transaction>
+    <Transaction>2013/10/29 22:40:32.000.119,C:\Evento\BtnDialogo\Unit3.fmx=C:\Evento\BtnDialogo\uTesteDesign.fmx</Transaction>
+    <Transaction>2013/10/29 22:40:32.000.119,C:\Evento\BtnDialogo\Unit3.pas=C:\Evento\BtnDialogo\uTesteDesign.pas</Transaction>
+  </Transactions>
+</BorlandProject>

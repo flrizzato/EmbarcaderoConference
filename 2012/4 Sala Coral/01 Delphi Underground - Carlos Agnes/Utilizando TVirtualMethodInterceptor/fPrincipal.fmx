@@ -1,0 +1,29 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'TVirtualMethodInterceptor'
+  ClientHeight = 127
+  ClientWidth = 539
+  FormFactor.Width = 1280
+  FormFactor.Height = 800
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  object btnTVirtualMethodInterceptor: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = 'TVirtualMethod'
+    Width = 505.000000000000000000
+    OnClick = btnTVirtualMethodInterceptorClick
+  end
+  object btnSimulandoOrientacaoAspectos: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 56.000000000000000000
+    Text = 'Simulando a orienta'#231#227'o a aspectos'
+    Width = 505.000000000000000000
+    OnClick = btnSimulandoOrientacaoAspectosClick
+  end
+end

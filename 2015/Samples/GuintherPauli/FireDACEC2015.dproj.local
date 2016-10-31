@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/16 19:37:09.000.227,=C:\Users\Guinther\Documents\Embarcadero\Studio\Projects\Unit22.pas</Transaction>
+    <Transaction>2015/10/16 19:37:29.000.479,C:\Users\Guinther\Desktop\FireDAC2015\uFrmRecoveringConnection.dfm=C:\Users\Guinther\Documents\Embarcadero\Studio\Projects\Unit22.dfm</Transaction>
+    <Transaction>2015/10/16 19:37:29.000.479,C:\Users\Guinther\Desktop\FireDAC2015\uFrmRecoveringConnection.pas=C:\Users\Guinther\Documents\Embarcadero\Studio\Projects\Unit22.pas</Transaction>
+    <Transaction>2015/10/16 19:37:35.000.813,C:\Users\Guinther\Desktop\FireDAC2015\RecoveringConnection.dproj=C:\Users\Guinther\Documents\Embarcadero\Studio\Projects\Project15.dproj</Transaction>
+    <Transaction>2015/10/16 19:38:17.000.126,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 19:38:20.000.363,C:\Users\Guinther\Desktop\FireDAC2015\uDM.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 19:38:20.000.363,C:\Users\Guinther\Desktop\FireDAC2015\uDM.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/16 19:49:03.000.689,C:\Users\Guinther\Desktop\FireDAC2015\FireDACEC2015.dproj=C:\Users\Guinther\Desktop\FireDAC2015\RecoveringConnection.dproj</Transaction>
+    <Transaction>2015/10/16 20:02:44.000.549,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 20:03:03.000.731,C:\Users\Guinther\Desktop\FireDAC2015\uFrmOffliningConnection.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 20:03:03.000.731,C:\Users\Guinther\Desktop\FireDAC2015\uFrmOffliningConnection.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/16 20:20:58.000.888,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 20:21:08.000.997,C:\Users\Guinther\Desktop\FireDAC2015\uFrmSQLDialectAbstraction.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/16 20:21:08.000.997,C:\Users\Guinther\Desktop\FireDAC2015\uFrmSQLDialectAbstraction.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 20:47:23.000.904,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 20:47:35.000.133,C:\Users\Guinther\Desktop\FireDAC2015\uFrmSubstitutionVariablesMacros.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/16 20:47:35.000.133,C:\Users\Guinther\Desktop\FireDAC2015\uFrmSubstitutionVariablesMacros.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 21:03:29.000.367,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 21:03:40.000.165,C:\Users\Guinther\Desktop\FireDAC2015\uFrmArrayDML.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/16 21:03:40.000.165,C:\Users\Guinther\Desktop\FireDAC2015\uFrmArrayDML.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 16:22:13.000.400,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 16:22:31.000.971,C:\Users\Guinther\Desktop\FireDAC2015\uFrmExecutingSQLScripts.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/17 16:22:31.000.971,C:\Users\Guinther\Desktop\FireDAC2015\uFrmExecutingSQLScripts.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 17:00:32.000.127,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 17:00:43.000.404,C:\Users\Guinther\Desktop\FireDAC2015\uFrmLocalSQL.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 17:00:43.000.404,C:\Users\Guinther\Desktop\FireDAC2015\uFrmLocalSQL.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/17 17:49:56.000.757,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 17:50:04.000.842,C:\Users\Guinther\Desktop\FireDAC2015\uFrmETL.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/17 17:50:04.000.842,C:\Users\Guinther\Desktop\FireDAC2015\uFrmETL.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 19:31:15.000.470,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 19:31:22.000.639,C:\Users\Guinther\Desktop\FireDAC2015\uFrmMain.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 19:31:22.000.639,C:\Users\Guinther\Desktop\FireDAC2015\uFrmMain.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/18 15:30:15.000.250,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/18 15:30:38.000.906,C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm=C:\Users\Guinther\Desktop\FireDAC2015\uFrmMetaData.dfm</Transaction>
+    <Transaction>2015/10/18 15:30:38.000.872,C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas=C:\Users\Guinther\Desktop\FireDAC2015\uFrmMetaData.pas</Transaction>
+    <Transaction>2015/10/19 22:20:47.000.790,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/19 22:21:18.000.716,C:\Users\Guinther\Desktop\FireDAC2015\uFrmCache.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/19 22:21:18.000.716,C:\Users\Guinther\Desktop\FireDAC2015\uFrmCache.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/19 22:46:28.000.046,C:\Users\Guinther\Desktop\FireDAC2015\uFrmCacheUpdate.dfm=C:\Users\Guinther\Desktop\FireDAC2015\uFrmCache.dfm</Transaction>
+    <Transaction>2015/10/19 22:46:28.000.046,C:\Users\Guinther\Desktop\FireDAC2015\uFrmCacheUpdate.pas=C:\Users\Guinther\Desktop\FireDAC2015\uFrmCache.pas</Transaction>
+    <Transaction>2015/10/19 23:21:02.000.597,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/19 23:21:12.000.427,C:\Users\Guinther\Desktop\FireDAC2015\uFrmSaveToFile.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/19 23:21:12.000.427,C:\Users\Guinther\Desktop\FireDAC2015\uFrmSaveToFile.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/19 23:51:47.000.168,=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+    <Transaction>2015/10/19 23:51:55.000.160,C:\Users\Guinther\Desktop\FireDAC2015\uFrmFetch.dfm=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.dfm</Transaction>
+    <Transaction>2015/10/19 23:51:55.000.160,C:\Users\Guinther\Desktop\FireDAC2015\uFrmFetch.pas=C:\Users\Guinther\Desktop\FireDAC2015\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

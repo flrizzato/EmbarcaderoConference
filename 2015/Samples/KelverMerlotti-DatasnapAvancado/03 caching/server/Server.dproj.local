@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/12 03:38:56.000.598,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/10/12 03:38:56.000.426,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\FormUnit1.pas</Transaction>
+    <Transaction>2015/10/12 03:38:56.000.750,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\WebModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.525,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\ServerFunctionExecutor.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.713,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\CallbackFramework-min.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.827,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\css\main.css</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.689,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\ServerFunctionExecutor-min.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.491,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\base64.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.592,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\CallbackFramework.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.664,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\json2-min.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.917,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\templates\ServerFunctionInvoker.html</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.975,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\images\expand.png</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.563,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\json2.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.946,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\images\collapse.png</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.645,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\base64-min.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.623,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\ServerFunctions.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.887,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\templates\ReverseString.html</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.861,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\css\ServerFunctionInvoker.css</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.732,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\connection.js</Transaction>
+    <Transaction>2015/10/12 03:38:57.000.779,=D:\CodeRage X USA\Samples\04 RequestFilters\Server\js\ServerFunctionInvoker.js</Transaction>
+    <Transaction>2015/10/12 18:27:34.000.688,=D:\CodeRage X USA\Samples\03 Caching\Server\Unit2.pas</Transaction>
+    <Transaction>2015/10/12 18:54:23.000.127,D:\CodeRage X USA\Samples\03 Caching\Server\Unit2.dfm=D:\CodeRage X USA\Samples\03 Caching\Server\uServerMethodsCachedData.dfm</Transaction>
+    <Transaction>2015/10/12 18:54:23.000.127,D:\CodeRage X USA\Samples\03 Caching\Server\Unit2.pas=D:\CodeRage X USA\Samples\03 Caching\Server\uServerMethodsCachedData.pas</Transaction>
+  </Transactions>
+</BorlandProject>

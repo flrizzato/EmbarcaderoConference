@@ -1,0 +1,31 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited memMsg: TMemo
+    Position.Y = 351.000000000000000000
+    Size.Width = 400.000000000000000000
+  end
+  inherited btnDisparar: TButton
+    Position.Y = 307.000000000000000000
+    Size.Width = 400.000000000000000000
+  end
+  inherited pnlgendar: TPanel
+    Position.Y = 263.000000000000000000
+    Size.Width = 400.000000000000000000
+    inherited btnAgendar: TButton
+      Size.Width = 300.000000000000000000
+    end
+    inherited edtSegundos: TEdit
+      Position.X = 300.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited lblTitulo: TLabel
+    Size.Width = 400.000000000000000000
+  end
+  inherited btnCancelar: TButton
+    Position.Y = 219.000000000000000000
+    Size.Width = 400.000000000000000000
+  end
+end

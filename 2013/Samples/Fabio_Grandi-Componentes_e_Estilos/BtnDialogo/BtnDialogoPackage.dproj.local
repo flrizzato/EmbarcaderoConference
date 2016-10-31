@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/29 22:19:35.000.301,=rtl.dcp</Transaction>
+    <Transaction>2013/10/29 22:33:05.000.951,\\psf\Home\Documents\RAD Studio\Projects\Package1.dproj=C:\Evento\BtnDialogo\BtnDialogoPackage.dproj</Transaction>
+    <Transaction>2013/10/29 22:36:54.000.237,=C:\Evento\BtnDialogo\uBtnDialogo.pas</Transaction>
+    <Transaction>2013/10/29 22:36:54.000.251,=fmx.dcp</Transaction>
+    <Transaction>2013/10/29 23:20:40.000.545,=C:\Evento\BtnDialogo\uBtnDialogo.android.rc</Transaction>
+    <Transaction>2013/10/29 23:20:40.000.566,=C:\Evento\BtnDialogo\uBtnDialogo.mac.rc</Transaction>
+    <Transaction>2013/10/29 23:20:40.000.554,=C:\Evento\BtnDialogo\uBtnDialogo.ios.rc</Transaction>
+    <Transaction>2013/10/29 23:20:40.000.575,=C:\Evento\BtnDialogo\uBtnDialogo.win.rc</Transaction>
+    <Transaction>2013/10/29 23:21:28.000.117,=C:\Evento\BtnDialogo\BtnDialogoPanel_ios.style</Transaction>
+    <Transaction>2013/10/29 23:21:28.000.109,=C:\Evento\BtnDialogo\BtnDialogoPanel_android.style</Transaction>
+    <Transaction>2013/10/29 23:21:28.000.128,=C:\Evento\BtnDialogo\BtnDialogoPanel_mac.style</Transaction>
+    <Transaction>2013/10/29 23:21:28.000.137,=C:\Evento\BtnDialogo\BtnDialogoPanel_win.style</Transaction>
+    <Transaction>2013/10/30 00:20:18.378,C:\Evento\BtnDialogo\BtnDialogoPanel_android.style=</Transaction>
+    <Transaction>2013/10/30 00:20:18.399,C:\Evento\BtnDialogo\BtnDialogoPanel_ios.style=</Transaction>
+    <Transaction>2013/10/30 00:20:29.100,C:\Evento\BtnDialogo\uBtnDialogo.android.rc=</Transaction>
+    <Transaction>2013/10/30 00:20:29.124,C:\Evento\BtnDialogo\uBtnDialogo.ios.rc=</Transaction>
+  </Transactions>
+</BorlandProject>

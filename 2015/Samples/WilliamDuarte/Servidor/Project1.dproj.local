@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/25 03:53:54.000.212,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 00:02:14.000.167,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 18:11:09.000.410,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/06 12:08:12.000.207,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/27 20:33:30.000.435,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/03 19:37:04.000.420,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/02/07 00:55:57.000.981,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\ItemDetail1.pas</Transaction>
+    <Transaction>2015/02/07 00:55:57.000.770,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\GroupedItems1.pas</Transaction>
+    <Transaction>2015/02/07 00:57:07.000.960,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\SplitItemDetail1.pas</Transaction>
+    <Transaction>2015/02/07 00:57:07.000.778,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\GroupedItems1.pas</Transaction>
+    <Transaction>2015/02/07 21:33:34.000.405,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/05/16 10:54:44.000.052,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/01 03:55:39.000.997,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/05 18:21:59.000.311,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/05 18:23:14.000.805,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/05 19:19:45.000.143,C:\Projetos\Mobile\NFCe\Servidor\Unit1.pas=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/05 19:19:45.000.143,C:\Projetos\Mobile\NFCe\Servidor\Unit1.dfm=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/09/05 19:19:47.000.160,C:\Projetos\Mobile\NFCe\Servidor\Project1.dproj=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/09/17 02:42:55.000.712,=C:\Projetos\Mobile\NFCe\Prototipo\classes\uNotaFiscal.pas</Transaction>
+    <Transaction>2015/09/17 02:42:55.000.682,=C:\Projetos\Mobile\NFCe\Prototipo\classes\uEmpresa.pas</Transaction>
+    <Transaction>2015/09/17 02:42:55.000.786,=C:\Projetos\Mobile\NFCe\Prototipo\classes\uProduto.pas</Transaction>
+  </Transactions>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

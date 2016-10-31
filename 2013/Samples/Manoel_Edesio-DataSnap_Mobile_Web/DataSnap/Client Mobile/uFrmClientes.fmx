@@ -1,0 +1,151 @@
+object frmClientes: TfrmClientes
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object ToolBar1: TToolBar
+    Height = 44.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    object SpeedButton1: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 272.000000000000000000
+      StyleLookup = 'refreshtoolbutton'
+      Text = 'SpeedButton1'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton1Click
+    end
+    object Label1: TLabel
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Clientes'
+      Width = 82.000000000000000000
+      Trimming = ttCharacter
+    end
+    object SpeedButton2: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 232.000000000000000000
+      StyleLookup = 'stoptoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton2Click
+    end
+    object SpeedButton3: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 192.000000000000000000
+      StyleLookup = 'addtoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton3Click
+    end
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = alClient
+    Height = 504.000000000000000000
+    TabOrder = 1
+    Width = 320.000000000000000000
+    ItemAppearanceObjects.ItemObjects.Text.Font.Size = 9.000000000000000000
+    ItemAppearanceObjects.ItemObjects.Text.TextColor = claRed
+    ItemAppearanceObjects.HeaderObjects.Text.Font.Style = [fsBold]
+    OnClick = ListView1Click
+  end
+  object DSProClientes: TDSProviderConnection
+    ServerClassName = 'TServerDelphiConference'
+    Connected = True
+    SQLConnection = DMDados.SQLConnection1
+    Left = 32
+    Top = 72
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 28
+    Top = 189
+    object LinkFillControlToField1: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      Track = True
+      FillDataSource = BindSourceDB1
+      FillDisplayFieldName = 'NOME'
+      AutoFill = True
+      BufferCount = -1
+      AutoBufferCount = False
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'ENDERECO'
+      Control = ListView1
+      FillExpressions = <>
+      AutoBufferCount = False
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'NOME'
+      FillBreakGroups = <>
+    end
+  end
+  object cdsClientes: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspClientes'
+    RemoteServer = DSProClientes
+    Left = 32
+    Top = 128
+    object cdsClientesID: TIntegerField
+      FieldName = 'ID'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object cdsClientesNOME: TStringField
+      FieldName = 'NOME'
+      Size = 50
+    end
+    object cdsClientesENDERECO: TStringField
+      FieldName = 'ENDERECO'
+      Size = 50
+    end
+    object cdsClientesCIDADE: TStringField
+      FieldName = 'CIDADE'
+      Size = 30
+    end
+    object cdsClientesESTADO: TStringField
+      FieldName = 'ESTADO'
+      Size = 2
+    end
+    object cdsClientesTELEFONE: TStringField
+      FieldName = 'TELEFONE'
+      Size = 15
+    end
+  end
+  object dsClientes: TDataSource
+    DataSet = cdsClientes
+    Left = 32
+    Top = 244
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSource = dsClientes
+    DataSet = cdsClientes
+    ScopeMappings = <>
+    Left = 32
+    Top = 296
+  end
+end

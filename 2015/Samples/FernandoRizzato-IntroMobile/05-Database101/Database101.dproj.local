@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/06/24 09:37:25.000.347,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/06/24 09:42:11.000.718,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Database101\uMainForm.pas</Transaction>
+    <Transaction>2015/06/24 09:42:11.000.718,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Database101\uMainForm.fmx</Transaction>
+    <Transaction>2015/06/24 09:42:18.000.566,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Database101\Database101.dproj</Transaction>
+    <Transaction>2015/10/21 01:53:17.277,=C:\Users\Public\Documents\Embarcadero\Studio\17.0\Samples\Data\EMPLOYEE.GDB</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PRIZZATO iOSSimulator="iPhone5"/>
+		<NoProfile Android="04db9f214811d5d3"/>
+	</ActiveMobileDevice>
+</BorlandProject>

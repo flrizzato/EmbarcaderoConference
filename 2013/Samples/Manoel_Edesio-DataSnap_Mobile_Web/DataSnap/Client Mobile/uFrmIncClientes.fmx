@@ -1,0 +1,109 @@
+object frmIncClientes: TfrmIncClientes
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object ToolBar1: TToolBar
+    Height = 44.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    object Label1: TLabel
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Inclus'#227'o de Clientes'
+      Width = 193.000000000000000000
+      Trimming = ttCharacter
+    end
+    object SpeedButton2: TSpeedButton
+      Height = 44.000000000000000000
+      Position.X = 264.000000000000000000
+      StyleLookup = 'stoptoolbutton'
+      Text = 'SpeedButton2'
+      Trimming = ttCharacter
+      Width = 44.000000000000000000
+      OnClick = SpeedButton2Click
+    end
+  end
+  object Label2: TLabel
+    Height = 21.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 56.000000000000000000
+    Text = 'ID'
+    Width = 82.000000000000000000
+    Trimming = ttCharacter
+  end
+  object Label3: TLabel
+    Height = 21.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 104.000000000000000000
+    Text = 'Nome'
+    Width = 73.000000000000000000
+    Trimming = ttCharacter
+  end
+  object edtID: TEdit
+    Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+    TabOrder = 3
+    Position.X = 120.000000000000000000
+    Position.Y = 56.000000000000000000
+    Width = 185.000000000000000000
+    Height = 30.000000000000000000
+    KillFocusByReturn = False
+    object ClearEditButton1: TClearEditButton
+      CanFocus = False
+      Height = 27.000000000000000000
+      TabOrder = 0
+      Width = 22.000000000000000000
+    end
+  end
+  object edtNome: TEdit
+    Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+    TabOrder = 4
+    Position.X = 120.000000000000000000
+    Position.Y = 96.000000000000000000
+    Width = 185.000000000000000000
+    Height = 30.000000000000000000
+    KillFocusByReturn = False
+    object ClearEditButton2: TClearEditButton
+      CanFocus = False
+      Height = 27.000000000000000000
+      TabOrder = 0
+      Width = 22.000000000000000000
+    end
+  end
+  object SpeedButton1: TSpeedButton
+    Height = 29.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 144.000000000000000000
+    StyleLookup = 'toolbuttonmiddle'
+    Text = 'Gravar'
+    Trimming = ttCharacter
+    Width = 281.000000000000000000
+    OnClick = SpeedButton1Click
+  end
+  object DSProviderConnection1: TDSProviderConnection
+    ServerClassName = 'TServerDelphiConference'
+    Connected = True
+    SQLConnection = DMDados.SQLConnection1
+    Left = 88
+    Top = 424
+  end
+  object cdsInclusao: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspDinamico'
+    RemoteServer = DSProviderConnection1
+    Left = 24
+    Top = 424
+  end
+end

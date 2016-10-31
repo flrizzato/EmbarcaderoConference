@@ -1,0 +1,1 @@
+Apenas mostrada a forma de instalação do componente ListView com MultiDetail

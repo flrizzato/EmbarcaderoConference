@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E5C268D7-D106-4A74-BC51-B887348B7291}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01 - Ola Mundo\01 - Monolitico\01 - Executável\DC2013.OlaMundo.Monolitico.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="01 - Ola Mundo\02 - Modularizado\02 - Módulo\DC2013.OlaMundo.Pacote.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="01 - Ola Mundo\02 - Modularizado\01 - Executável\DC2013.OlaMundo.Modularizado.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="01 - Ola Mundo\02 - Modularizado\03 - Executável carga dinâmica\DC2013.OlaMundo.CargaDinamica.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DC2013_OlaMundo_Monolitico">
+        <MSBuild Projects="01 - Ola Mundo\01 - Monolitico\01 - Executável\DC2013.OlaMundo.Monolitico.dproj"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Monolitico:Clean">
+        <MSBuild Projects="01 - Ola Mundo\01 - Monolitico\01 - Executável\DC2013.OlaMundo.Monolitico.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Monolitico:Make">
+        <MSBuild Projects="01 - Ola Mundo\01 - Monolitico\01 - Executável\DC2013.OlaMundo.Monolitico.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Pacote">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\02 - Módulo\DC2013.OlaMundo.Pacote.dproj"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Pacote:Clean">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\02 - Módulo\DC2013.OlaMundo.Pacote.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Pacote:Make">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\02 - Módulo\DC2013.OlaMundo.Pacote.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Modularizado">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\01 - Executável\DC2013.OlaMundo.Modularizado.dproj"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Modularizado:Clean">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\01 - Executável\DC2013.OlaMundo.Modularizado.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_Modularizado:Make">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\01 - Executável\DC2013.OlaMundo.Modularizado.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_CargaDinamica">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\03 - Executável carga dinâmica\DC2013.OlaMundo.CargaDinamica.dproj"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_CargaDinamica:Clean">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\03 - Executável carga dinâmica\DC2013.OlaMundo.CargaDinamica.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_CargaDinamica:Make">
+        <MSBuild Projects="01 - Ola Mundo\02 - Modularizado\03 - Executável carga dinâmica\DC2013.OlaMundo.CargaDinamica.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DC2013_OlaMundo_Monolitico;DC2013_OlaMundo_Pacote;DC2013_OlaMundo_Modularizado;DC2013_OlaMundo_CargaDinamica"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DC2013_OlaMundo_Monolitico:Clean;DC2013_OlaMundo_Pacote:Clean;DC2013_OlaMundo_Modularizado:Clean;DC2013_OlaMundo_CargaDinamica:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DC2013_OlaMundo_Monolitico:Make;DC2013_OlaMundo_Pacote:Make;DC2013_OlaMundo_Modularizado:Make;DC2013_OlaMundo_CargaDinamica:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

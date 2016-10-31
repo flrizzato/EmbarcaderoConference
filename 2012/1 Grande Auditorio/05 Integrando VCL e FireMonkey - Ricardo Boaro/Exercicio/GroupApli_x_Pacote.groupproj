@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A8E0ECD8-9C2B-443C-9019-00A50432CFCF}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Aplicacao VCL\UsaPct.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Pacote\pckFormFiremonkeyHD.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Pacote2\pckGrid.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="UsaPct">
+			<MSBuild Projects="Aplicacao VCL\UsaPct.dproj"/>
+		</Target>
+		<Target Name="UsaPct:Clean">
+			<MSBuild Projects="Aplicacao VCL\UsaPct.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="UsaPct:Make">
+			<MSBuild Projects="Aplicacao VCL\UsaPct.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="pckFormFiremonkeyHD">
+			<MSBuild Projects="Pacote\pckFormFiremonkeyHD.dproj"/>
+		</Target>
+		<Target Name="pckFormFiremonkeyHD:Clean">
+			<MSBuild Projects="Pacote\pckFormFiremonkeyHD.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="pckFormFiremonkeyHD:Make">
+			<MSBuild Projects="Pacote\pckFormFiremonkeyHD.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="pckGrid">
+			<MSBuild Projects="Pacote2\pckGrid.dproj"/>
+		</Target>
+		<Target Name="pckGrid:Clean">
+			<MSBuild Projects="Pacote2\pckGrid.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="pckGrid:Make">
+			<MSBuild Projects="Pacote2\pckGrid.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="UsaPct;pckFormFiremonkeyHD;pckGrid"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="UsaPct:Clean;pckFormFiremonkeyHD:Clean;pckGrid:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="UsaPct:Make;pckFormFiremonkeyHD:Make;pckGrid:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

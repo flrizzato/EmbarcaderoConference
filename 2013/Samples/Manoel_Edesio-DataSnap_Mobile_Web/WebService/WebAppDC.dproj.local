@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/29 16:52:13.409.pas,C:\Documents and Settings\Administrator\My Documents\RAD Studio\Projects\DCIntf.pas=C:\ServiceDC\DCIntf.pas</Transaction>
+    <Transaction>2013/10/29 16:52:14.550.pas,C:\Documents and Settings\Administrator\My Documents\RAD Studio\Projects\DCImpl.pas=C:\ServiceDC\DCImpl.pas</Transaction>
+    <Transaction>2013/10/29 16:52:27.300.dfm,C:\Documents and Settings\Administrator\My Documents\RAD Studio\Projects\Unit2.dfm=C:\ServiceDC\uWebModule.dfm</Transaction>
+    <Transaction>2013/10/29 16:52:27.300.pas,C:\Documents and Settings\Administrator\My Documents\RAD Studio\Projects\Unit2.pas=C:\ServiceDC\uWebModule.pas</Transaction>
+    <Transaction>2013/10/29 16:52:31.956.dproj,C:\Documents and Settings\Administrator\My Documents\RAD Studio\Projects\Project2.dproj=C:\ServiceDC\ServiceDC.dproj</Transaction>
+    <Transaction>2013/10/29 16:52:43.753.pas,C:\ServiceDC\Unit1.pas=C:\ServiceDC\uDM.pas</Transaction>
+    <Transaction>2013/10/29 16:52:43.753.dfm,C:\ServiceDC\Unit1.dfm=C:\ServiceDC\uDM.dfm</Transaction>
+    <Transaction>2013/10/29 16:54:26.284.pas,C:\ServiceDC\Unit1.pas=C:\ServiceDC\uClasses.pas</Transaction>
+    <Transaction>2013/10/29 17:17:53.316.dproj,C:\ServiceDC\ServiceDC.dproj=C:\ServiceDC\WebAppDCexe.dproj</Transaction>
+    <Transaction>2013/10/29 17:18:25.394.dproj,C:\ServiceDC\WebAppDCexe.dproj=C:\ServiceDC\WebAppDC.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

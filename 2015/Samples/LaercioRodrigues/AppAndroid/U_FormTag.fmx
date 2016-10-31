@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 550
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Acionar Controladora'
+    OnClick = Button1Click
+  end
+  object SQLConnection: TSQLConnection
+    DriverName = 'DataSnap'
+    LoginPrompt = False
+    Params.Strings = (
+      'DriverUnit=Data.DBXDataSnap'
+      'HostName=192.168.25.60'
+      'Port=8765'
+      'CommunicationProtocol=http'
+      'DatasnapContext=datasnap/'
+      
+        'DriverAssemblyLoader=Borland.Data.TDBXClientDriverLoader,Borland' +
+        '.Data.DbxClientDriver,Version=23.0.0.0,Culture=neutral,PublicKey' +
+        'Token=91d62ebb5b0d1b1b'
+      'Filters={}')
+    Left = 128
+    Top = 304
+    UniqueId = '{57D1F206-F911-43FB-80A1-BC9AFB3A0973}'
+  end
+end

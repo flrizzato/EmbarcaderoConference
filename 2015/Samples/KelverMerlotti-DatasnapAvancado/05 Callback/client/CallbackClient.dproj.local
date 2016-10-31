@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/05/23 14:40:41.000.723,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/30 17:50:41.000.083,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2014/07/30 17:51:25.000.959,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2014/07/30 17:52:28.000.274,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\ClienteCallback\uProxy.pas</Transaction>
+    <Transaction>2014/07/30 17:52:34.000.036,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit5.dfm=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\ClienteCallback\Unit5.dfm</Transaction>
+    <Transaction>2014/07/30 17:52:34.000.036,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit5.pas=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\ClienteCallback\Unit5.pas</Transaction>
+    <Transaction>2014/07/30 17:53:08.000.164,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\ClienteCallback\ClienteCallback.dproj</Transaction>
+    <Transaction>2015/10/12 12:44:34.000.982,D:\CodeRage X USA\Samples\05 Callback\Client\CallbackClient.dproj=D:\CodeRage X USA\Samples\05 Callback\Client\ClienteCallback.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

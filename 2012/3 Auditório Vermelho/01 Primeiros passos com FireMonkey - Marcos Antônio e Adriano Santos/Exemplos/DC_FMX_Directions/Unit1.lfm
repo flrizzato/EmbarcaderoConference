@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Localiza'#231#227'o'
+  ClientHeight = 480
+  ClientWidth = 320
+  Visible = False
+  StyleLookup = 'backgroundstyle'
+  object Button1: TButton
+    Position.Point = '(32,232)'
+    Width = 257.000000000000000000
+    Height = 49.000000000000000000
+    OnClick = Button1Click
+    TabOrder = 0
+    Font.Family = 'Arial'
+    Font.Size = 16.000000000000000000
+    Font.Style = [fsBold]
+    Text = 'Dire'#231#227'o...'
+  end
+  object Edit2: TEdit
+    Position.Point = '(32,192)'
+    Width = 257.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 1
+    KeyboardType = vktDefault
+    Password = False
+    Text = 'Avenida Rebou'#231'as 600, Pinheiros, S'#227'o Paulo'
+  end
+  object iOSMap1: TiOSMap
+    Left = 144
+    Top = 48
+  end
+  object Edit1: TEdit
+    Position.Point = '(32,160)'
+    Width = 257.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 2
+    KeyboardType = vktDefault
+    Password = False
+    Text = 'Alameda Lorena, 521, Jardim Paulista S'#227'o Paulo'
+  end
+end

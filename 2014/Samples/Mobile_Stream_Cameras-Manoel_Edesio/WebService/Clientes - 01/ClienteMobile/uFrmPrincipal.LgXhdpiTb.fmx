@@ -1,0 +1,20 @@
+inherited Form5_LgXhdpiTb: TForm5_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 0
+  inherited TabControl1: TTabControl
+    Size.Width = 777.000000000000000000
+    inherited TabItem1: TTabItem
+      Size.Width = 259.000000000000000000
+      Text = 'C'#243'digo'
+    end
+    inherited TabItem2: TTabItem
+      Size.Width = 259.000000000000000000
+      Text = 'Classe'
+    end
+    inherited TabItem3: TTabItem
+      Size.Width = 259.000000000000000000
+      Text = 'Lista'
+    end
+  end
+end

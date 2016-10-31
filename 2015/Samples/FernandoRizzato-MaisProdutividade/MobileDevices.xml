@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MobileDevices RepositoryVersion="3">
+  <MobileDevice>
+    <Name>Windows</Name>
+    <Order>100</Order>
+    <Displayname>Windows Desktop</Displayname>
+    <DevicePlatform>0</DevicePlatform>
+    <FormFactor>0</FormFactor>
+    <Portrait Enabled="True" Width="640" Height="480" Left="0" Top="0" StatusbarHeight="0" Artwork=""/>
+  </MobileDevice>
+    <MobileDevice>
+    <Displayname>Surface Pro</Displayname>
+    <Order>200</Order>
+    <Name>Surface</Name>
+    <DevicePlatform>0</DevicePlatform>
+    <FormFactor>3</FormFactor>
+    <Portrait Enabled="True" Width="1080" Height="1920" Top="171" Left="175" StatusbarHeight="0" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\SurfacePro.cpng"/>
+    <UpsideDown Enabled="True" Width="1080" Height="1920" Top="178" Left="172" StatusbarHeight="0" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\SurfacePro180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="1920" Height="1080" Top="175" Left="178" StatusbarHeight="0" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\SurfacePro90.cpng"/>
+    <LandscapeRight Enabled="True" Width="1920" Height="1080" Top="172" Left="171" StatusbarHeight="0" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\SurfacePro270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Name>Macintosh</Name>
+    <Order>500</Order>
+    <Displayname>OS X Desktop</Displayname>
+    <DevicePlatform>1</DevicePlatform>
+    <FormFactor>0</FormFactor>
+    <Portrait Enabled="True" Width="640" Height="480" Left="0" Top="0" StatusbarHeight="0" Artwork=""/>
+  </MobileDevice>
+  <MobileDevice>
+    <Name>iPhone</Name>
+    <Order>1010</Order>
+    <Displayname>iPhone 3.5"</Displayname>
+    <DevicePlatform>2</DevicePlatform>
+    <FormFactor>2</FormFactor>
+    <Portrait Enabled="True" Width="320" Height="480" Left="43" Top="132" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone.cpng"/>
+    <UpsideDown Enabled="True" Width="320" Height="480" Left="43" Top="130" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="480" Height="320" Left="131" Top="37" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone90.cpng"/>
+    <LandscapeRight Enabled="True" Width="480" Height="320" Left="133" Top="37" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Displayname>iPhone 4"</Displayname>
+    <Order>1020</Order>
+    <Name>iPhone4in</Name>
+    <DevicePlatform Default = "True">2</DevicePlatform>
+    <FormFactor>2</FormFactor>
+    <Portrait Enabled="True" Width="320" Height="568" Top="127" Left="39" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone5.cpng" StatusBarPos="0"/>
+    <UpsideDown Enabled="True" Width="320" Height="568" Top="124" Left="34" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone5180.cpng" StatusBarPos="0"/>
+    <LandscapeLeft Enabled="True" Width="568" Height="320" Top="39" Left="124" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone590.cpng" StatusBarPos="0"/>
+    <LandscapeRight Enabled="True" Width="568" Height="320" Top="34" Left="127" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\iphone5270.cpng" StatusBarPos="0"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Name>iPad</Name>
+    <Order>1030</Order>
+    <Displayname>iPad</Displayname>
+    <DevicePlatform>2</DevicePlatform>
+    <FormFactor>3</FormFactor>
+    <Portrait Enabled="True" Width="768" Height="1024" Left="132" Top="132" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\ipad.cpng"/>
+    <UpsideDown Enabled="True" Width="768" Height="1024" Left="132" Top="124" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\ipad180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="1024" Height="768" Left="125" Top="129" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\ipad90.cpng"/>
+    <LandscapeRight Enabled="True" Width="1024" Height="768" Left="132" Top="129" StatusbarHeight="20" Artwork="$(BDS)\ObjRepos\en\Devices\images\ipad270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Displayname>Android 3.5" Phone</Displayname>
+    <Order>2030</Order>
+    <Default>True</Default>
+    <Name>SmXhdpiPh</Name>
+    <DevicePlatform Default = "True">3</DevicePlatform>
+    <FormFactor>2</FormFactor>
+    <Portrait Enabled="True" Width="250" Height="400" Top="60" Left="25" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android35.cpng"/>
+    <UpsideDown Enabled="True" Width="250" Height="400" Top="73" Left="25" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android35180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="400" Height="250" Top="25" Left="70" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android3590.cpng"/>
+    <LandscapeRight Enabled="True" Width="400" Height="250" Top="22" Left="60" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android35270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Displayname>Android 4" Phone</Displayname>
+    <Order>2040</Order>
+    <Default>True</Default>
+    <Name>NmXhdpiPh</Name>
+    <DevicePlatform Default = "True">3</DevicePlatform>
+    <FormFactor>2</FormFactor>
+    <Portrait Enabled="True" Width="400" Height="640" Top="60" Left="25" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android4.cpng"/>
+    <UpsideDown Enabled="True" Width="400" Height="640" Top="73" Left="25" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android4180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="640" Height="400" Top="25" Left="70" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android490.cpng"/>
+    <LandscapeRight Enabled="True" Width="640" Height="400" Top="25" Left="60" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android4270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Displayname>Android 5" Phone</Displayname>
+    <Order>2050</Order>
+    <Default>True</Default>
+    <Name>LgXhdpiPh</Name>
+    <DevicePlatform Default = "True">3</DevicePlatform>
+    <FormFactor>2</FormFactor>
+    <Portrait Enabled="True" Width="450" Height="720" Top="60" Left="25" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android5.cpng"/>
+    <UpsideDown Enabled="True" Width="450" Height="720" Top="81" Left="29" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android5180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="720" Height="450" Top="25" Left="81" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android590.cpng"/>
+    <LandscapeRight Enabled="True" Width="720" Height="450" Top="29" Left="60" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android5270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Displayname>Android 7" Tablet</Displayname>
+    <Order>2073</Order>
+    <Name>LgXhdpiTb</Name>
+    <DevicePlatform>3</DevicePlatform>
+    <FormFactor>3</FormFactor>
+    <Portrait Enabled="True" Width="480" Height="854" Top="61" Left="44" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android7.cpng"/>
+    <UpsideDown Enabled="True" Width="480" Height="854" Top="69" Left="47" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android7180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="854" Height="480" Top="44" Left="69" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android790.cpng"/>
+    <LandscapeRight Enabled="True" Width="854" Height="480" Top="47" Left="61" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android7270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Displayname>Android 10" Tablet</Displayname>
+    <Order>2100</Order>
+    <Name>XLgXhdpiTb</Name>
+    <DevicePlatform>3</DevicePlatform>
+    <FormFactor>3</FormFactor>
+    <Portrait Enabled="True" Width="800" Height="1280" Top="61" Left="44" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android10.cpng"/>
+    <UpsideDown Enabled="True" Width="800" Height="1280" Top="68" Left="47" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android10180.cpng"/>
+    <LandscapeLeft Enabled="True" Width="1280" Height="800" Top="44" Left="68" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android1090.cpng"/>
+    <LandscapeRight Enabled="True" Width="1280" Height="800" Top="47" Left="61" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Android10270.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Name>GGlass</Name>
+    <Order>2400</Order>
+    <Displayname>Google Glass</Displayname>
+    <DevicePlatform>3</DevicePlatform>
+    <FormFactor>2</FormFactor>
+    <LandscapeRight Enabled="False" Width="0" Height="0" Top="0" Left="0" StatusbarHeight="0" StatusBarPos="0" Artwork=""/>
+    <UpsideDown Enabled="False" Width="0" Height="0" Top="0" Left="0" StatusbarHeight="0" StatusBarPos="0" Artwork=""/>
+    <LandscapeLeft Enabled="False" Width="0" Height="0" Top="0" Left="0" StatusbarHeight="0" StatusBarPos="0" Artwork=""/>
+    <Portrait Enabled="True" Width="427" Height="240" Top="68" Left="68" StatusbarHeight="25" StatusBarPos="0" Artwork="$(BDS)\ObjRepos\en\Devices\images\Google Glass.cpng"/>
+  </MobileDevice>
+  <MobileDevice>
+    <Displayname>GearLive</Displayname>
+    <Name>GearLive</Name>
+    <DevicePlatform>3</DevicePlatform>
+    <FormFactor>2</FormFactor>
+    <Portrait Enabled="True" Width="213" Height="213" Top="227" Left="313" StatusbarHeight="0" StatusBarPos="0" Artwork="C:\DCONF2014\GearLive.png" />
+    <UpsideDown Enabled="False" Width="213" Height="213" Top="0" Left="0" StatusbarHeight="0" StatusBarPos="0" Artwork="" />
+    <LandscapeLeft Enabled="False" Width="213" Height="213" Top="0" Left="0" StatusbarHeight="0" StatusBarPos="0" Artwork="" />
+    <LandscapeRight Enabled="False" Width="213" Height="213" Top="0" Left="0" StatusbarHeight="0" StatusBarPos="0" Artwork="" />
+    </MobileDevice>
+</MobileDevices>

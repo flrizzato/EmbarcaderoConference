@@ -1,0 +1,112 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'ListView'
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TMultiDetailItemAppearance'
+    ItemEditAppearanceClassName = 'TMultiDetailDeleteAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    ItemIndex = 0
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Margins.Left = 4.000000000000000000
+      Margins.Top = 4.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 4.000000000000000000
+      Position.X = 232.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'buttonstyle'
+      Text = 'Agrupar'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object PrototypeBindSource1: TPrototypeBindSource
+    AutoActivate = True
+    AutoPost = False
+    RecordCount = 40
+    FieldDefs = <
+      item
+        Name = 'fldFoto'
+        FieldType = ftBitmap
+        Generator = 'ContactBitmaps'
+        ReadOnly = False
+      end
+      item
+        Name = 'fldNome'
+        Generator = 'ContactNames'
+        ReadOnly = False
+      end
+      item
+        Name = 'fldAniversario'
+        FieldType = ftDateTime
+        Generator = 'DateTime'
+        ReadOnly = False
+      end
+      item
+        Name = 'fldSalarioHora'
+        FieldType = ftCurrency
+        Generator = 'Currency'
+        ReadOnly = False
+      end
+      item
+        Name = 'fldCargo'
+        Generator = 'ContactTitles'
+        ReadOnly = False
+      end>
+    ScopeMappings = <>
+    Left = 232
+    Top = 160
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 232
+    Top = 221
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = PrototypeBindSource1
+      FieldName = 'fldNome'
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'fldFoto'
+          ControlMemberName = 'Bitmap'
+        end
+        item
+          SourceMemberName = 'fldAniversario'
+          ControlMemberName = 'Detail1'
+        end
+        item
+          SourceMemberName = 'fldSalarioHora'
+          ControlMemberName = 'Detail2'
+        end
+        item
+          SourceMemberName = 'fldCargo'
+          ControlMemberName = 'Detail3'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+end

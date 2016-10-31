@@ -1,0 +1,355 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 460
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 480
+  DesignerDeviceName = 'iPhone'
+  DesignerOrientation = 0
+  object TabControl1: TTabControl
+    Align = alClient
+    FullSize = True
+    Height = 460.000000000000000000
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = tpNone
+    Width = 320.000000000000000000
+    object TabLista: TTabItem
+      WordWrap = False
+      Height = 8.000000000000000000
+      IsSelected = True
+      Position.X = 146.000000000000000000
+      Position.Y = 441.000000000000000000
+      TabOrder = 0
+      Text = 'Lista de Lojas'
+      Trimming = ttCharacter
+      Width = 8.000000000000000000
+      object ListBoxLista: TListBox
+        Align = alClient
+        Height = 416.000000000000000000
+        TabOrder = 0
+        Width = 320.000000000000000000
+        ItemHeight = 50.000000000000000000
+        DefaultItemStyles.ItemStyle = 'listboxitemrightdetail'
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        OnItemClick = ListBoxListaItemClick
+        object SearchBox1: TSearchBox
+          Align = alTop
+          TabOrder = 0
+          Width = 320.000000000000000000
+          Height = 44.000000000000000000
+          KillFocusByReturn = False
+        end
+      end
+      object ToolBar1: TToolBar
+        Height = 44.000000000000000000
+        TabOrder = 1
+        Width = 320.000000000000000000
+        object Label1: TLabel
+          Anchors = [akLeft, akTop, akRight]
+          Height = 21.000000000000000000
+          Position.X = 64.000000000000000000
+          Position.Y = 12.000000000000000000
+          StyleLookup = 'toollabel'
+          Text = 'Lista de Lojas'
+          TextAlign = taCenter
+          Width = 193.000000000000000000
+          Trimming = ttCharacter
+        end
+      end
+    end
+    object TabLoja: TTabItem
+      WordWrap = False
+      Height = 8.000000000000000000
+      IsSelected = False
+      Position.X = 156.000000000000000000
+      Position.Y = 441.000000000000000000
+      TabOrder = 1
+      Text = 'Detalhes da Loja'
+      Trimming = ttCharacter
+      Width = 8.000000000000000000
+      object ListBoxDetalhe: TListBox
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Height = 186.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 208.000000000000000000
+        TabOrder = 1
+        Width = 304.000000000000000000
+        DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        object ListBoxItem1: TListBoxItem
+          Height = 44.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          Text = 'Loja'
+          Width = 304.000000000000000000
+          object LabelLoja: TLabel
+            Anchors = [akLeft, akTop, akRight]
+            Height = 21.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 13.000000000000000000
+            Text = 'Numero da Loja'
+            Width = 217.000000000000000000
+            Trimming = ttCharacter
+          end
+        end
+        object ListBoxItem3: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 44.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          Text = 'Fone'
+          Width = 304.000000000000000000
+          OnClick = ListBoxItem3Click
+          object LabelTel: TLabel
+            Anchors = [akLeft, akTop, akRight]
+            Height = 21.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 13.000000000000000000
+            Text = 'Fone da Loja'
+            Width = 217.000000000000000000
+            Trimming = ttCharacter
+          end
+        end
+        object ListBoxItem4: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 88.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          Text = 'Site'
+          Width = 304.000000000000000000
+          OnClick = ListBoxItem4Click
+          object LabelSite: TLabel
+            Anchors = [akLeft, akTop, akRight]
+            Height = 21.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 13.000000000000000000
+            Text = 'Site da Loja'
+            Width = 217.000000000000000000
+            Trimming = ttCharacter
+          end
+        end
+        object ListBoxItem5: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 132.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          Text = 'Tipo'
+          Width = 304.000000000000000000
+          object LabelTipo: TLabel
+            Anchors = [akLeft, akTop, akRight]
+            Height = 21.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 13.000000000000000000
+            Text = 'Tipo da Loja'
+            Width = 217.000000000000000000
+            Trimming = ttCharacter
+          end
+        end
+      end
+      object ToolBar2: TToolBar
+        Height = 44.000000000000000000
+        TabOrder = 0
+        Width = 320.000000000000000000
+        object LabelNome1: TLabel
+          Anchors = [akLeft, akTop, akRight]
+          Height = 21.000000000000000000
+          Position.X = 48.000000000000000000
+          Position.Y = 12.000000000000000000
+          StyleLookup = 'toollabel'
+          Text = 'Nome da Loja'
+          TextAlign = taCenter
+          Width = 257.000000000000000000
+          Trimming = ttCharacter
+        end
+        object SpeedButton1: TSpeedButton
+          Action = ChangeTabActionLista
+          Height = 31.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 6.000000000000000000
+          StyleLookup = 'arrowlefttoolbuttonbordered'
+          Trimming = ttCharacter
+          Width = 33.000000000000000000
+        end
+      end
+      object BotaoMapa: TButton
+        Action = ChangeTabActionMapa
+        Anchors = [akLeft, akRight, akBottom]
+        Height = 44.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 406.000000000000000000
+        TabOrder = 2
+        Text = 'Ver Mapa'
+        Trimming = ttCharacter
+        Width = 305.000000000000000000
+        OnClick = BotaoMapaClick
+      end
+      object Image1: TImage
+        Anchors = [akLeft, akTop, akRight]
+        Height = 153.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 48.000000000000000000
+        Width = 305.000000000000000000
+      end
+    end
+    object TabMapa: TTabItem
+      WordWrap = False
+      Height = 8.000000000000000000
+      IsSelected = False
+      Position.X = 166.000000000000000000
+      Position.Y = 441.000000000000000000
+      TabOrder = 2
+      Text = 'Mapa do Piso'
+      Trimming = ttCharacter
+      Width = 8.000000000000000000
+      object ToolBar3: TToolBar
+        Height = 44.000000000000000000
+        TabOrder = 0
+        Width = 320.000000000000000000
+        object SpeedButton2: TSpeedButton
+          Action = ChangeTabActionLoja
+          Height = 31.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 6.000000000000000000
+          StyleLookup = 'arrowlefttoolbuttonbordered'
+          Trimming = ttCharacter
+          Width = 33.000000000000000000
+        end
+        object LabelNome2: TLabel
+          Height = 21.000000000000000000
+          Position.X = 48.000000000000000000
+          Position.Y = 13.000000000000000000
+          StyleLookup = 'toollabel'
+          Text = 'Nome da Loja'
+          TextAlign = taCenter
+          Width = 265.000000000000000000
+          Trimming = ttCharacter
+        end
+      end
+      object Image2: TImage
+        Align = alClient
+        Height = 416.000000000000000000
+        Width = 320.000000000000000000
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 40
+    Top = 312
+    object Action1: TAction
+      Text = 'Action1'
+    end
+    object ChangeTabActionLoja: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabLoja
+      Transition = ttSlide
+    end
+    object ChangeTabActionLista: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabLista
+      Transition = ttSlide
+    end
+    object ChangeTabActionMapa: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabMapa
+      Transition = ttSlide
+    end
+  end
+  object ssashopping: TSQLConnection
+    ConnectionName = 'ssashopping'
+    DriverName = 'SQLite'
+    LoginPrompt = False
+    Params.Strings = (
+      'DriverName=SQLite'
+      'DriverUnit=Data.DbxSqlite'
+      
+        'DriverPackageLoader=TDBXSqliteDriverLoader,DBXSqliteDriver170.bp' +
+        'l'
+      
+        'MetaDataPackageLoader=TDBXSqliteMetaDataCommandFactory,DbxSqlite' +
+        'Driver170.bpl'
+      'FailIfMissing=False'
+      'Database=C:\Projetos\iOS\ShoppingSalvador\Banco\ssashopping.s3db')
+    AfterConnect = ssashoppingAfterConnect
+    BeforeConnect = ssashoppingBeforeConnect
+    Connected = True
+    Left = 200
+    Top = 104
+  end
+  object lojas: TSQLDataSet
+    Active = True
+    CommandText = 'lojas'
+    CommandType = ctTable
+    DbxCommandType = 'Dbx.Table'
+    MaxBlobSize = 1
+    Params = <>
+    SQLConnection = ssashopping
+    Left = 144
+    Top = 104
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = lojas
+    ScopeMappings = <>
+    Left = 248
+    Top = 200
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 232
+    Top = 256
+    object LinkFillControlToField1: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      Control = ListBoxLista
+      Track = True
+      FillDataSource = BindSourceDB1
+      FillDisplayFieldName = 'nome'
+      AutoFill = True
+      BufferCount = -1
+      AutoBufferCount = False
+      FillExpressions = <
+        item
+          SourceMemberName = 'piso'
+          ControlMemberName = 'Detail'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object IdHTTP1: TIdHTTP
+    AllowCookies = True
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.ContentRangeEnd = -1
+    Request.ContentRangeStart = -1
+    Request.ContentRangeInstanceLength = -1
+    Request.Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    Request.Ranges.Units = 'bytes'
+    Request.Ranges = <>
+    HTTPOptions = [hoForceEncodeParams]
+    Left = 40
+    Top = 256
+  end
+  object QryLocateLoja: TSQLQuery
+    MaxBlobSize = -1
+    Params = <
+      item
+        DataType = ftString
+        Name = 'nome'
+        ParamType = ptUnknown
+      end>
+    SQL.Strings = (
+      'select * from lojas where nome = :nome')
+    SQLConnection = ssashopping
+    Left = 104
+    Top = 112
+  end
+end

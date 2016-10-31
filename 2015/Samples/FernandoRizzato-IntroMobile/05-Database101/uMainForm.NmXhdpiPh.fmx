@@ -1,0 +1,20 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 400.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Button1: TButton
+      Position.X = 310.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited Button2: TButton
+      Size.Height = 48.000000000000000000
+    end
+  end
+  inherited ListView1: TListView
+    Size.Width = 400.000000000000000000
+    Size.Height = 567.000000000000000000
+  end
+end

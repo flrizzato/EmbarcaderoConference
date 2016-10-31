@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.uAbstractControl" Type="System.String" Value="uAbstractControl" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uUserControl" Type="System.String" Value="uUserControl" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uMsgControl" Type="System.String" Value="uMsgControl" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uUserForm" Type="System.String" Value="uUserForm" Category="General" IsBrowsable="False" />
+</TgConfig>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/15 13:37:04.000.859,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\WebModuleUnit2.pas</Transaction>
+    <Transaction>2015/09/15 13:37:04.000.546,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\FormUnit2.pas</Transaction>
+    <Transaction>2015/09/15 13:37:04.000.724,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit2.pas</Transaction>
+    <Transaction>2015/10/21 09:50:47.347,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/10/21 09:53:35.341,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Client\Unit1.dfm=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2015/10/21 09:53:35.341,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Client\Unit1.pas=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/10/21 09:53:39.564,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Client\Project2.dproj=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

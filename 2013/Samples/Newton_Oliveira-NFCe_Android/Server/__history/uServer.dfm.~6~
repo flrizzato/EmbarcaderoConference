@@ -1,0 +1,57 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 319
+  ClientWidth = 472
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 21
+    Width = 108
+    Height = 13
+    Caption = 'Numero Inicial da Nota'
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 69
+    Width = 178
+    Height = 13
+    Caption = 'Numero de Serie do certificado digital'
+  end
+  object Edit1: TEdit
+    Left = 24
+    Top = 40
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object ButtonedEdit1: TButtonedEdit
+    Left = 24
+    Top = 88
+    Width = 257
+    Height = 21
+    TabOrder = 1
+    Text = 'ButtonedEdit1'
+  end
+  object ACBrNFe1: TACBrNFe
+    Configuracoes.Geral.PathSalvar = 'C:\Program Files (x86)\Embarcadero\RAD Studio\12.0\bin\'
+    Configuracoes.Geral.ExibirErroSchema = True
+    Configuracoes.Geral.FormatoAlerta = 'TAG:%TAGNIVEL% ID:%ID%/%TAG%(%DESCRICAO%) - %MSG%.'
+    Configuracoes.WebServices.UF = 'SP'
+    Configuracoes.WebServices.AguardarConsultaRet = 0
+    Configuracoes.WebServices.IntervaloTentativas = 0
+    Configuracoes.WebServices.AjustaAguardaConsultaRet = False
+    Left = 376
+    Top = 24
+  end
+end

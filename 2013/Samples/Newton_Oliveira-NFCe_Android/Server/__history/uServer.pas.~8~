@@ -1,0 +1,47 @@
+unit uServer;
+
+interface
+
+uses Winapi.Windows,
+  Winapi.Messages,
+  System.SysUtils,
+  System.Variants,
+  System.Classes,
+  Vcl.Graphics,
+  Vcl.Controls,
+  Vcl.Forms,
+  Vcl.Dialogs,
+  Vcl.StdCtrls,
+  ACBrNFe,
+  Vcl.ExtCtrls,
+  Vcl.ImgList;
+
+type
+  TForm4 = class(TForm)
+    Edit1: TEdit;
+    Label1: TLabel;
+    ACBrNFe1: TACBrNFe;
+    edtNumeroSerieCertificado: TButtonedEdit;
+    Label2: TLabel;
+    ImageList1: TImageList;
+    procedure edtNumeroSerieCertificadoRightButtonClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm4.edtNumeroSerieCertificadoRightButtonClick(Sender: TObject);
+begin
+  edtNumeroSerieCertificado.Text := ACBrNFe1.Configuracoes.Certificados.
+    SelecionarCertificado;
+end;
+
+end.

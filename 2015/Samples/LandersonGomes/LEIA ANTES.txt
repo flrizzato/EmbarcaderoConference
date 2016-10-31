@@ -1,0 +1,72 @@
+Olá seja muito bem vindo.
+Numerei os exemplos de 01 a 05 para um melhor aprendizado.
+Como sugestão compile, distribua e execute a aplicação para ver o resultado de cada um dos botões, os 2 primeiros boõtes dizem respeito a aplicações já existentes no S.O Android,  então... depois vá adicionando as próximas e vendo que as intents passam a ser atendidas por suas aplicações criadas em sequência.
+
+
+Os exemplos da apresentação formam o seguinte cenário:
+
+01 - Intents 
+Uma aplicação Delphi Android contendo chamadas a intents através dos cliques nos botões:
+
+Primeiro Botão chama o Twitter via intent explícita passando uma mensagem.
+
+Segundo Botão utiliza uma intent implícita com o filtro de esquema GEO que no device será recebido por googlemaps, waze e outros aplicativos mais que tenham esse filtro registrado.
+
+
+Terceiro Botão chama uma aplicação desenvolvida em Delphi com o filtro configurado no seu arquivo manifesto para receber ACTION VIEW com texto do tipo PAS, tem como base o exemplo que acompanha a instalação do RAD Studio 10 Seattle vide na url: http://docwiki.embarcadero.com/CodeExamples/Seattle/en/FMX.Android_Intents_Sample#How_Android_Handles_Incoming_Intents
+
+Quarto Botão, com base nos estudos desse novo recurso eu criei meu próprio exemplo de esquema para o filtro, ou seja criei um esquema chamado Delphi e vamos chamar através de intent implícita a aplicação que tenha o esquema Delphi registrado.
+
+Quinto Botão chama uma aplicação com o filtro para a ACTION_ANSWER, muito provavelmente você só terá a que será criada nos exemplos abordados futuramente.
+
+=== Aqui vamos para as aplicações que receberão as Intents da Aplicação 01 ===
+
+02 - Aplicação que recebe a intent enviada pelo Terceiro botão.
+No diretório da aplicação alteramos o arquivo AndroidManifest.template.xml, substituindo nele o trecho que contém o nó <intent-filter>, como segue:
+            <intent-filter> 
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="text/pas" />
+            </intent-filter> 
+
+Isso possbilita que ao utilizarmos o código descrito no OnCreate do Form, a aplicação seja registrada para captar Intents do tipo ACTION_VIEW, e o tipo TXT/pas.
+
+Essa é nova possibilidade que nos é dada pelo Delphi 10 Seattle, em sua Unit Androidapi.JNI.Embarcadero através da procedure registerIntentAction.
+
+
+03 - Aplicação recebe a intent enviada pelo Quarto botão.
+Para essa aplicação no arquivo AndroidManifest.template.xml lançamos o seguinte no nó <intent-filter>:
+
+				<intent-filter>
+					<action android:name="android.intent.action.VIEW" />
+					<data android:scheme="delphi" />
+					<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+
+E na aplicação o comportamento é basicamente o mesmo do exemplo anterior, registrando o ACTION_VIEW.
+
+04 - Aplicação recebe a intent enviada pelo Quinto Botão.
+Essa aplicação trata um como receber valores separados, como se fossem campos do banco de dados por exemplo, o conceito de Bundle do Android pode ser usado para definir bem o que fazemos aqui.
+Antes da aplicação vale lembrar que neste caso o arquivo AndroidManifest.template.xml tem 2 nós <intent-filter>:
+            <intent-filter>  
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+			<!-- Adicionei filtro para a ACTION ANSWER-->
+			<intent-filter>
+				<action android:name="android.intent.action.ANSWER" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+O primeiro deles faz a aplicação ser visualizada pelo menu de aplicação do Android, e o segundo faz com que a possa ser registrada para receber intents ACTION ANSWER.
+Falando do primeiro Filter, note que as outras 2 aplicações anteriores não são vistas quando você clica nos 3 pontinhos no Android, somente através do caminho: Configurar -> Aplicativos, inclusive é lá que você poderá fazer a desinstalação delas após seus estudos.
+
+Veja que esta aplicação recebe os EXTRAS lançados no quinto botão separando-os uma para cada componente.
+
+
+É isso pessoal, em breve estarei lançando uma postagem abordando todo o tema no blog e também um vídeo no youtube, acompanhe:
+http://vivaitaocara.com.br/landersongomes/
+https://www.youtube.com/user/Landinho6
+
+

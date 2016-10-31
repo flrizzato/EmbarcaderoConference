@@ -1,0 +1,108 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B88FB9C4-3DBF-4A20-BD2D-47CD82CB133E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="VCL_CommonDialogStyling\VCLDialogStyling.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="WebBrowser\WebBrowser.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RelativePanel\RelativePanel.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SplitView\SplitView.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ToggleSwitch\ToggleSwitch.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SearchBox\SearchBox.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ActivityIndicator\ActivityIndicator.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="VCLDialogStyling">
+        <MSBuild Projects="VCL_CommonDialogStyling\VCLDialogStyling.dproj"/>
+    </Target>
+    <Target Name="VCLDialogStyling:Clean">
+        <MSBuild Projects="VCL_CommonDialogStyling\VCLDialogStyling.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VCLDialogStyling:Make">
+        <MSBuild Projects="VCL_CommonDialogStyling\VCLDialogStyling.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebBrowser">
+        <MSBuild Projects="WebBrowser\WebBrowser.dproj"/>
+    </Target>
+    <Target Name="WebBrowser:Clean">
+        <MSBuild Projects="WebBrowser\WebBrowser.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebBrowser:Make">
+        <MSBuild Projects="WebBrowser\WebBrowser.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RelativePanel">
+        <MSBuild Projects="RelativePanel\RelativePanel.dproj"/>
+    </Target>
+    <Target Name="RelativePanel:Clean">
+        <MSBuild Projects="RelativePanel\RelativePanel.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RelativePanel:Make">
+        <MSBuild Projects="RelativePanel\RelativePanel.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SplitView">
+        <MSBuild Projects="SplitView\SplitView.dproj"/>
+    </Target>
+    <Target Name="SplitView:Clean">
+        <MSBuild Projects="SplitView\SplitView.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SplitView:Make">
+        <MSBuild Projects="SplitView\SplitView.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ToggleSwitch">
+        <MSBuild Projects="ToggleSwitch\ToggleSwitch.dproj"/>
+    </Target>
+    <Target Name="ToggleSwitch:Clean">
+        <MSBuild Projects="ToggleSwitch\ToggleSwitch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ToggleSwitch:Make">
+        <MSBuild Projects="ToggleSwitch\ToggleSwitch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SearchBox">
+        <MSBuild Projects="SearchBox\SearchBox.dproj"/>
+    </Target>
+    <Target Name="SearchBox:Clean">
+        <MSBuild Projects="SearchBox\SearchBox.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SearchBox:Make">
+        <MSBuild Projects="SearchBox\SearchBox.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ActivityIndicator">
+        <MSBuild Projects="ActivityIndicator\ActivityIndicator.dproj"/>
+    </Target>
+    <Target Name="ActivityIndicator:Clean">
+        <MSBuild Projects="ActivityIndicator\ActivityIndicator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ActivityIndicator:Make">
+        <MSBuild Projects="ActivityIndicator\ActivityIndicator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="VCLDialogStyling;WebBrowser;RelativePanel;SplitView;ToggleSwitch;SearchBox;ActivityIndicator"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="VCLDialogStyling:Clean;WebBrowser:Clean;RelativePanel:Clean;SplitView:Clean;ToggleSwitch:Clean;SearchBox:Clean;ActivityIndicator:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="VCLDialogStyling:Make;WebBrowser:Make;RelativePanel:Make;SplitView:Make;ToggleSwitch:Make;SearchBox:Make;ActivityIndicator:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

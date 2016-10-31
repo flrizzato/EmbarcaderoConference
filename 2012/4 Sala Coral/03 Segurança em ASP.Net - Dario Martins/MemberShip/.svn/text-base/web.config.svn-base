@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- 
+    Note: As an alternative to hand editing this file you can use the 
+    web admin tool to configure settings for your application. Use
+    the Website->Asp.Net Configuration option in Visual Studio.
+    A full list of settings and comments can be found in 
+    machine.config.comments usually located in 
+    \Windows\Microsoft.Net\Framework\v2.x\Config 
+-->
+<configuration>
+  <connectionStrings>
+    <!--<add name="ApplicationServices" connectionString="data source=HSDESENV25\SQLEXPRESS;Integrated Security=SSPI;initial catalog=aspnetdb;" providerName="System.Data.SqlClient"/>-->
+    <add name="ApplicationServices" connectionString="data source=TECHNOLOGIES\SQL2008; Integrated Security=false;initial catalog=aspnetdb; User ID=sa;Password=997220201;" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.5"/>
+    <authentication mode="Forms" >
+      <forms loginUrl="~/publica/login.aspx" timeout="1"></forms>
+    </authentication>
+    <membership>
+      <providers>
+        <clear/>
+        <add name="AspNetSqlMembershipProvider" type="System.Web.Security.SqlMembershipProvider" connectionStringName="ApplicationServices" enablePasswordRetrieval="false" enablePasswordReset="true" requiresQuestionAndAnswer="false" requiresUniqueEmail="false" maxInvalidPasswordAttempts="5" minRequiredPasswordLength="6" minRequiredNonalphanumericCharacters="0" passwordAttemptWindow="10" applicationName="/"/>
+      </providers>
+    </membership>
+    <profile>
+      <providers>
+        <clear/>
+        <add name="AspNetSqlProfileProvider" type="System.Web.Profile.SqlProfileProvider" connectionStringName="ApplicationServices" applicationName="/"/>
+      </providers>
+    </profile>
+    <roleManager enabled="true">
+      <providers>
+        <clear />
+        <add connectionStringName="ApplicationServices" applicationName="/"
+          name="AspNetSqlRoleProvider" type="System.Web.Security.SqlRoleProvider" />
+        <add applicationName="/" name="AspNetWindowsTokenRoleProvider"
+          type="System.Web.Security.WindowsTokenRoleProvider" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <system.webServer>
+    <modules runAllManagedModulesForAllRequests="false"/>
+  </system.webServer>
+  <system.net>
+    <mailSettings>
+      <smtp from="edlaine@solidersolutions.com.br">
+        <network host="smtp.solidersolutions.com.br" password="dario997"
+          port="587" userName="dario@solidersolutions.com.br" />
+      </smtp>
+    </mailSettings>
+  </system.net>
+</configuration>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/11/03 23:58:02.000.738,=C:\Users\Administrador\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/11/03 23:58:43.000.340,C:\DCONF2013\VLB_crud\MobileCRUD.dproj=C:\Users\Administrador\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2013/11/03 23:59:03.000.868,=C:\DCONF2013\VLB_crud\uAppLib.pas</Transaction>
+    <Transaction>2013/11/03 23:59:07.000.446,=C:\DCONF2013\VLB_crud\uMainForm.pas</Transaction>
+    <Transaction>2013/11/14 00:57:14.000.763,=C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\Mac\Jet.style</Transaction>
+    <Transaction>2013/11/14 00:57:14.000.760,=C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\Win\Jet.style</Transaction>
+    <Transaction>2013/11/14 00:57:14.000.759,=C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\iOS\iOSJet.style</Transaction>
+    <Transaction>2013/11/14 00:57:14.000.755,=C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\Android\AndroidJet.style</Transaction>
+    <Transaction>2013/11/14 01:26:43.000.994,C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\Win\Jet.style=</Transaction>
+    <Transaction>2013/11/14 01:26:44.000.349,C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\iOS\iOSJet.style=</Transaction>
+    <Transaction>2013/11/14 01:26:44.000.336,C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\Android\AndroidJet.style=</Transaction>
+    <Transaction>2013/11/14 01:26:44.000.348,C:\Users\Public\Documents\RAD Studio\12.0\PremiumStylePack\Mac\Jet.style=</Transaction>
+    <Transaction>2013/11/14 01:52:45.000.309,=C:\DTOURXE5\PremiumStylePack\Android\AndroidJet.style</Transaction>
+    <Transaction>2013/11/14 01:52:45.000.311,=C:\DTOURXE5\PremiumStylePack\iOS\iOS7Jet.style</Transaction>
+  </Transactions>
+	<MobileDevice>04db9f214811d5d3</MobileDevice>
+	<BT_BuildType>AppStore</BT_BuildType>  <ActiveMobileDevice>   <PRIZZATO iOSSimulator="iPhone5"/>
+    <NoProfile Android="04db9f214811d5d3"/>
+  </ActiveMobileDevice>
+</BorlandProject>

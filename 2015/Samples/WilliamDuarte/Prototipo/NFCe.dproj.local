@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/25 03:53:54.000.212,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 00:02:14.000.167,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/26 18:11:09.000.410,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/06 12:08:12.000.207,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/12/27 20:33:30.000.435,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/03 19:37:04.000.420,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/02/07 00:55:57.000.981,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\ItemDetail1.pas</Transaction>
+    <Transaction>2015/02/07 00:55:57.000.770,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\GroupedItems1.pas</Transaction>
+    <Transaction>2015/02/07 00:57:07.000.960,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\SplitItemDetail1.pas</Transaction>
+    <Transaction>2015/02/07 00:57:07.000.778,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\GroupedItems1.pas</Transaction>
+    <Transaction>2015/02/07 21:33:34.000.405,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/05/16 10:54:44.000.052,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/01 19:31:11.000.638,=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/01 20:50:57.000.979,C:\Projetos\Mobile\NFCe\Prototipo\Unit1.pas=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/01 20:50:57.000.979,C:\Projetos\Mobile\NFCe\Prototipo\Unit1.fmx=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/08/01 20:50:59.000.347,C:\Projetos\Mobile\NFCe\Prototipo\Project1.dproj=C:\Users\WILLIAM\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/08/01 22:09:26.000.775,=C:\Projetos\Mobile\NFCe\Prototipo\Unit2.pas</Transaction>
+    <Transaction>2015/08/01 22:09:48.000.701,=C:\Projetos\Mobile\NFCe\Prototipo\Unit2.pas</Transaction>
+    <Transaction>2015/08/01 22:10:56.000.408,C:\Projetos\Mobile\NFCe\Prototipo\uDM_ModuloEnvio.pas=C:\Projetos\Mobile\NFCe\Prototipo\Unit2.pas</Transaction>
+    <Transaction>2015/08/01 22:10:56.000.408,C:\Projetos\Mobile\NFCe\Prototipo\uDM_ModuloEnvio.dfm=C:\Projetos\Mobile\NFCe\Prototipo\Unit2.dfm</Transaction>
+    <Transaction>2015/08/01 22:12:52.000.262,=C:\Projetos\Mobile\NFCe\Prototipo\Unit2.pas</Transaction>
+    <Transaction>2015/08/01 22:13:34.000.072,=C:\Projetos\Mobile\NFCe\Prototipo\Unit3.pas</Transaction>
+    <Transaction>2015/08/01 22:56:27.000.391,C:\Projetos\Mobile\NFCe\Prototipo\classes\uProduto.pas=C:\Projetos\Mobile\NFCe\Prototipo\Unit3.pas</Transaction>
+    <Transaction>2015/08/02 00:31:16.000.357,=C:\Projetos\Mobile\NFCe\Prototipo\Unit3.pas</Transaction>
+    <Transaction>2015/08/02 01:05:19.000.939,C:\Projetos\Mobile\NFCe\Prototipo\classes\uEmpresa.pas=C:\Projetos\Mobile\NFCe\Prototipo\Unit3.pas</Transaction>
+    <Transaction>2015/08/02 01:43:07.000.669,C:\Projetos\Mobile\NFCe\Prototipo\classes\uNotaFiscal.pas=C:\Projetos\Mobile\NFCe\Prototipo\Unit2.pas</Transaction>
+    <Transaction>2015/09/05 17:26:18.000.375,=C:\Projetos\Mobile\NFCe\Prototipo\Unit2.pas</Transaction>
+    <Transaction>2015/09/05 18:15:17.000.493,C:\Projetos\Mobile\NFCe\Prototipo\Unit2.fmx=C:\Projetos\Mobile\NFCe\Prototipo\ufrmProduto.fmx</Transaction>
+    <Transaction>2015/09/05 18:15:17.000.493,C:\Projetos\Mobile\NFCe\Prototipo\Unit2.pas=C:\Projetos\Mobile\NFCe\Prototipo\ufrmProduto.pas</Transaction>
+    <Transaction>2015/09/19 02:40:15.000.298,C:\Projetos\Mobile\NFCe\Prototipo\Project1.dproj=C:\Projetos\Mobile\NFCe\Prototipo\NFCe.dproj</Transaction>
+  </Transactions>
+	<BT_BuildType>Debug</BT_BuildType>
+	<MobileDevice>0422254467-Android</MobileDevice>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0422254467"/>
+	</ActiveMobileDevice>
+</BorlandProject>

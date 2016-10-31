@@ -1,0 +1,50 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object BitmapAnimation1: TBitmapAnimation
+    Duration = 0.200000002980232200
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 128.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Position.X = 384.000000000000000000
+    Position.Y = 168.000000000000000000
+    TabOrder = 2
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object frxHTTPClient1: TfrxHTTPClient
+    Active = False
+    ClientFields.AcceptEncoding = 'gzip'
+    ClientFields.HTTPVer = 'HTTP/1.1'
+    ClientFields.QueryType = qtGet
+    ClientFields.UserAgent = 'FastReport/4.0'
+    Host = 'localhost'
+    MIC = True
+    Port = 8097
+    ProxyPort = 8080
+    RetryCount = 3
+    RetryTimeOut = 5
+    ServerFields.AnswerCode = 200
+    ServerFields.ContentEncoding = 'gzip'
+    ServerFields.ContentMD5 = '6ceb8933950d163b474f0132706fcd1b'
+    ServerFields.ContentLength = 3950
+    TimeOut = 30
+    Left = 120
+    Top = 144
+  end
+end

@@ -1,0 +1,120 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D42EDEB2-44AC-4E93-B8CB-AA41E59C7760}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CopyPaste\CopyPasteDemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DragAndDrop\DragAndDrop.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MouseOverHints\MouseOverHints.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="PlatformScrollBox\ScrollBoxPlatform.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Controls\UIControls.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FireMonkeyHints\FireMonkeyHints.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Settings Project\SettingsDemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Windows 10 NavigationPane\NavigationPaneDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CopyPasteDemo">
+        <MSBuild Projects="CopyPaste\CopyPasteDemo.dproj"/>
+    </Target>
+    <Target Name="CopyPasteDemo:Clean">
+        <MSBuild Projects="CopyPaste\CopyPasteDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CopyPasteDemo:Make">
+        <MSBuild Projects="CopyPaste\CopyPasteDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DragAndDrop">
+        <MSBuild Projects="DragAndDrop\DragAndDrop.dproj"/>
+    </Target>
+    <Target Name="DragAndDrop:Clean">
+        <MSBuild Projects="DragAndDrop\DragAndDrop.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DragAndDrop:Make">
+        <MSBuild Projects="DragAndDrop\DragAndDrop.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MouseOverHints">
+        <MSBuild Projects="MouseOverHints\MouseOverHints.dproj"/>
+    </Target>
+    <Target Name="MouseOverHints:Clean">
+        <MSBuild Projects="MouseOverHints\MouseOverHints.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MouseOverHints:Make">
+        <MSBuild Projects="MouseOverHints\MouseOverHints.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ScrollBoxPlatform">
+        <MSBuild Projects="PlatformScrollBox\ScrollBoxPlatform.dproj"/>
+    </Target>
+    <Target Name="ScrollBoxPlatform:Clean">
+        <MSBuild Projects="PlatformScrollBox\ScrollBoxPlatform.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ScrollBoxPlatform:Make">
+        <MSBuild Projects="PlatformScrollBox\ScrollBoxPlatform.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UIControls">
+        <MSBuild Projects="Controls\UIControls.dproj"/>
+    </Target>
+    <Target Name="UIControls:Clean">
+        <MSBuild Projects="Controls\UIControls.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UIControls:Make">
+        <MSBuild Projects="Controls\UIControls.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FireMonkeyHints">
+        <MSBuild Projects="FireMonkeyHints\FireMonkeyHints.dproj"/>
+    </Target>
+    <Target Name="FireMonkeyHints:Clean">
+        <MSBuild Projects="FireMonkeyHints\FireMonkeyHints.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FireMonkeyHints:Make">
+        <MSBuild Projects="FireMonkeyHints\FireMonkeyHints.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SettingsDemo">
+        <MSBuild Projects="Settings Project\SettingsDemo.dproj"/>
+    </Target>
+    <Target Name="SettingsDemo:Clean">
+        <MSBuild Projects="Settings Project\SettingsDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SettingsDemo:Make">
+        <MSBuild Projects="Settings Project\SettingsDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NavigationPaneDemo">
+        <MSBuild Projects="Windows 10 NavigationPane\NavigationPaneDemo.dproj"/>
+    </Target>
+    <Target Name="NavigationPaneDemo:Clean">
+        <MSBuild Projects="Windows 10 NavigationPane\NavigationPaneDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NavigationPaneDemo:Make">
+        <MSBuild Projects="Windows 10 NavigationPane\NavigationPaneDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CopyPasteDemo;DragAndDrop;MouseOverHints;ScrollBoxPlatform;UIControls;FireMonkeyHints;SettingsDemo;NavigationPaneDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CopyPasteDemo:Clean;DragAndDrop:Clean;MouseOverHints:Clean;ScrollBoxPlatform:Clean;UIControls:Clean;FireMonkeyHints:Clean;SettingsDemo:Clean;NavigationPaneDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CopyPasteDemo:Make;DragAndDrop:Make;MouseOverHints:Make;ScrollBoxPlatform:Make;UIControls:Make;FireMonkeyHints:Make;SettingsDemo:Make;NavigationPaneDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

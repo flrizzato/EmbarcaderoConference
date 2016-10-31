@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/11 23:12:49.000.272,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/27 19:10:30.000.455,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/27 19:10:50.000.533,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 14:48:25.000.809,=\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 14:49:51.000.055,\\psf\Home\Documents\RAD Studio\Projects\Unit1.pas=C:\Evento\Botao\uTeste.pas</Transaction>
+    <Transaction>2013/10/29 14:49:51.000.055,\\psf\Home\Documents\RAD Studio\Projects\Unit1.fmx=C:\Evento\Botao\uTeste.fmx</Transaction>
+    <Transaction>2013/10/29 14:49:54.000.520,\\psf\Home\Documents\RAD Studio\Projects\Project1.dproj=C:\Evento\Botao\Teste.dproj</Transaction>
+    <Transaction>2013/10/29 18:06:14.000.768,=C:\Evento\Botao\Estilos.style</Transaction>
+    <Transaction>2013/10/29 18:06:14.000.773,=C:\Evento\Botao\Estilos2.style</Transaction>
+    <Transaction>2013/10/29 20:59:52.000.316,=C:\Evento\Botao\Estilos.mac.style</Transaction>
+  </Transactions>
+</BorlandProject>

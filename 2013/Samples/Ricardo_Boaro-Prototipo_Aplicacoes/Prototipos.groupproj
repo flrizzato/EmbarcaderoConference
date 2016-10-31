@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{67760872-958E-4028-B805-5F685C3B4C41}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Prototipando.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MobilePrototipando.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Prototipando">
+        <MSBuild Projects="Prototipando.dproj"/>
+    </Target>
+    <Target Name="Prototipando:Clean">
+        <MSBuild Projects="Prototipando.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Prototipando:Make">
+        <MSBuild Projects="Prototipando.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MobilePrototipando">
+        <MSBuild Projects="MobilePrototipando.dproj"/>
+    </Target>
+    <Target Name="MobilePrototipando:Clean">
+        <MSBuild Projects="MobilePrototipando.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MobilePrototipando:Make">
+        <MSBuild Projects="MobilePrototipando.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Prototipando;MobilePrototipando"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Prototipando:Clean;MobilePrototipando:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Prototipando:Make;MobilePrototipando:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

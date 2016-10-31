@@ -1,0 +1,82 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Anonymous Threads'
+  ClientHeight = 340
+  ClientWidth = 640
+  FormFactor.Width = 1280
+  FormFactor.Height = 800
+  FormFactor.Devices = [dkDesktop]
+  object btnProcessamentoSerial: TButton
+    Action = actProcessamentoSerial
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 144.000000000000000000
+    Position.Y = 16.000000000000000000
+    Width = 193.000000000000000000
+  end
+  object spbEnesimo: TSpinBox
+    TabOrder = 0
+    Cursor = crIBeam
+    DisableFocusEffect = False
+    KeyboardType = vktDefault
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Width = 100.000000000000000000
+    Height = 22.000000000000000000
+  end
+  object btnProcessamentoThreadDedicada: TButton
+    Action = actProcessamentoThreadDedicada
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 144.000000000000000000
+    Position.Y = 48.000000000000000000
+    Width = 193.000000000000000000
+  end
+  object btnProcessamentoThreadAnonima: TButton
+    Action = actProcessamentoThreadAnonima
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 144.000000000000000000
+    Position.Y = 112.000000000000000000
+    Width = 193.000000000000000000
+  end
+  object btnSintaxe: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 144.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 3
+    Text = 'Sintaxe'
+    Width = 193.000000000000000000
+    OnClick = btnSintaxeClick
+  end
+  object memLog: TMemo
+    Touch.InteractiveGestures = [igPan]
+    Align = alBottom
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Height = 196.000000000000000000
+    Position.Y = 144.000000000000000000
+    Width = 640.000000000000000000
+    DisableFocusEffect = False
+    KeyboardType = vktDefault
+  end
+  object aclPrincipal: TActionList
+    Left = 552
+    Top = 24
+    object actProcessamentoSerial: TAction
+      Text = 'Processamento Serial'
+      OnExecute = actProcessamentoSerialExecute
+    end
+    object actProcessamentoThreadDedicada: TAction
+      Text = 'Processamento Thread Dedicada'
+      OnExecute = actProcessamentoThreadDedicadaExecute
+      OnUpdate = actProcessamentoThreadDedicadaUpdate
+    end
+    object actProcessamentoThreadAnonima: TAction
+      Text = 'Processamento Thread An'#244'nima'
+      OnExecute = actProcessamentoThreadAnonimaExecute
+      OnUpdate = actProcessamentoThreadAnonimaUpdate
+    end
+  end
+end

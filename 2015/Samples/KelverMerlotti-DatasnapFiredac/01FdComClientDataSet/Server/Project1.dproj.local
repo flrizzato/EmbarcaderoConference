@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/15 10:51:53.000.877,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/15 10:51:56.000.286,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/09/15 10:52:06.000.637,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/21 09:47:02.011,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/21 09:47:02.169,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit2.pas</Transaction>
+    <Transaction>2015/10/21 09:47:03.020,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/21 09:48:05.998,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\Unit1.dfm=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/10/21 09:48:05.998,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\Unit1.pas=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/21 09:48:07.540,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerContainerUnit1.dfm=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2015/10/21 09:48:07.540,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerContainerUnit1.pas=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/21 09:48:08.884,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerMethodsUnit2.dfm=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit2.dfm</Transaction>
+    <Transaction>2015/10/21 09:48:08.884,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerMethodsUnit2.pas=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit2.pas</Transaction>
+    <Transaction>2015/10/21 09:48:12.693,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\Project1.dproj=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/10/21 09:53:09.436,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerMethodsUnit1.dfm=D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerMethodsUnit2.dfm</Transaction>
+    <Transaction>2015/10/21 09:53:09.436,D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerMethodsUnit1.pas=D:\CONF2015\Datasnap com FireDAC\Samples\FdComClientDataSet\Server\ServerMethodsUnit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

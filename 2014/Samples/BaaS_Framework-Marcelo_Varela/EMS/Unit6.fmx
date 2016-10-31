@@ -1,0 +1,119 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = 'Form6'
+  ClientHeight = 378
+  ClientWidth = 379
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Grid1: TGrid
+    Position.X = 16.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 305.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    RowCount = 100
+    RowHeight = 21.000000000000000000
+    TextSettings.Font.Size = 20.000000000000000000
+    StyledSettings = [Family, Style, FontColor]
+  end
+  object Button1: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'Get'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 104.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = 'Post'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 192.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = 'Delete'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = Button3Click
+  end
+  object EMSProvider1: TEMSProvider
+    ApiVersion = '1'
+    URLHost = 'localhost'
+    URLPort = 8080
+    Left = 184
+    Top = 120
+  end
+  object FDSchemaAdapter2: TFDSchemaAdapter
+    Left = 56
+    Top = 40
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 296
+    Top = 88
+  end
+  object memPessoa: TFDMemTable
+    CachedUpdates = True
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired]
+    UpdateOptions.CheckRequired = False
+    AutoCommitUpdates = False
+    Adapter = taPessoa
+    Left = 56
+    Top = 96
+  end
+  object taPessoa: TFDTableAdapter
+    SchemaAdapter = FDSchemaAdapter2
+    DatSTableName = 'qrPessoa'
+    Left = 56
+    Top = 152
+  end
+  object EMSFireDACClient1: TEMSFireDACClient
+    Resource = 'Dados'
+    Provider = EMSProvider1
+    SchemaAdapter = FDSchemaAdapter2
+    Left = 184
+    Top = 64
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = memPessoa
+    ScopeMappings = <>
+    Left = 264
+    Top = 184
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <>
+    end
+  end
+end

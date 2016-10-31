@@ -1,0 +1,20 @@
+inherited Form1_GearLive: TForm1_GearLive
+  ClientHeight = 213
+  ClientWidth = 213
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 213.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Button1: TButton
+      Position.X = 123.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited Button2: TButton
+      Size.Height = 48.000000000000000000
+    end
+  end
+  inherited ListView1: TListView
+    Size.Width = 213.000000000000000000
+    Size.Height = 165.000000000000000000
+  end
+end

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/29 13:54:24.000.197,=C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2013/10/29 13:56:10.000.572,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Unit4.fmx=C:\EmbarcaderoConference\App\uNFCe.fmx</Transaction>
+    <Transaction>2013/10/29 13:56:10.000.572,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Unit4.pas=C:\EmbarcaderoConference\App\uNFCe.pas</Transaction>
+    <Transaction>2013/10/29 13:56:12.000.755,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Project4.dproj=C:\EmbarcaderoConference\App\NFCe.dproj</Transaction>
+    <Transaction>2013/10/29 14:24:33.000.133,=C:\EmbarcaderoConference\App\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 14:24:51.000.832,C:\EmbarcaderoConference\App\Unit1.fmx=C:\EmbarcaderoConference\App\uSelecaoCliente.fmx</Transaction>
+    <Transaction>2013/10/29 14:24:51.000.832,C:\EmbarcaderoConference\App\Unit1.pas=C:\EmbarcaderoConference\App\uSelecaoCliente.pas</Transaction>
+    <Transaction>2013/10/29 14:33:16.000.809,C:\EmbarcaderoConference\App\uSelecaoCliente.pas=</Transaction>
+    <Transaction>2013/10/29 14:33:26.000.496,C:\EmbarcaderoConference\App\uNFCe.pas=C:\EmbarcaderoConference\App\uSelecaoCliente.pas</Transaction>
+    <Transaction>2013/10/29 14:33:26.000.496,C:\EmbarcaderoConference\App\uNFCe.fmx=C:\EmbarcaderoConference\App\uSelecaoCliente.fmx</Transaction>
+    <Transaction>2013/10/29 14:34:08.000.377,=C:\EmbarcaderoConference\App\uNFCe.pas</Transaction>
+    <Transaction>2013/10/29 17:05:22.000.790,=C:\EmbarcaderoConference\App\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 17:07:17.000.563,C:\EmbarcaderoConference\App\Unit1.pas=C:\EmbarcaderoConference\App\uDMNFCe.pas</Transaction>
+    <Transaction>2013/10/29 17:07:17.000.563,C:\EmbarcaderoConference\App\Unit1.dfm=C:\EmbarcaderoConference\App\uDMNFCe.dfm</Transaction>
+    <Transaction>2013/10/29 19:02:32.000.056,C:\EmbarcaderoConference\App\uSelecaoCliente.pas=</Transaction>
+    <Transaction>2013/10/29 20:26:32.000.649,=C:\EmbarcaderoConference\App\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 20:26:50.000.963,C:\EmbarcaderoConference\App\uServerDataSnap.pas=C:\EmbarcaderoConference\App\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 20:28:57.000.615,=C:\EmbarcaderoConference\Server\uNota.pas</Transaction>
+  </Transactions>
+	<MobileDevice>41030f114a5650c9</MobileDevice>
+</BorlandProject>

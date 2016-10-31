@@ -1,0 +1,30 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Tratamento de Exce'#231#245'es'
+  ClientHeight = 175
+  ClientWidth = 540
+  FormFactor.Width = 1280
+  FormFactor.Height = 800
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  object btnTratamentoStackExcecoes: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 64.000000000000000000
+    Text = 'Tratamento de exce'#231#245'es com stack'
+    Width = 505.000000000000000000
+    OnClick = btnTratamentoStackExcecoesClick
+  end
+  object btnSintaxe: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 24.000000000000000000
+    TabOrder = 0
+    Text = 'Sintaxe'
+    Width = 505.000000000000000000
+    OnClick = btnSintaxeClick
+  end
+end

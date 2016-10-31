@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TMultiDetailItemAppearance'
+    ItemEditAppearanceClassName = 'TMultiDetailDeleteAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    ItemIndex = 0
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ItemAppearanceObjects.ItemObjects.Text.Font.Size = 18.000000000000000000
+    ItemAppearanceObjects.ItemObjects.Text.Font.Style = [fsBold]
+    ItemAppearanceObjects.ItemObjects.MultiDetail1.Font.Style = [fsItalic]
+    ItemAppearanceObjects.ItemObjects.MultiDetail2.Font.Family = 'Segoe UI Semibold'
+    ItemAppearanceObjects.ItemObjects.MultiDetail2.Font.Style = [fsBold]
+    ItemAppearanceObjects.ItemObjects.MultiDetail2.TextColor = claBlue
+    ItemAppearanceObjects.ItemObjects.MultiDetail3.Font.Style = [fsBold, fsItalic]
+    ItemAppearanceObjects.ItemObjects.MultiDetail3.TextColor = claYellowgreen
+  end
+  object PrototypeBindSource1: TPrototypeBindSource
+    AutoActivate = True
+    AutoPost = False
+    FieldDefs = <
+      item
+        Name = 'ContactName1'
+        Generator = 'ContactNames'
+        ReadOnly = False
+      end
+      item
+        Name = 'BitmapName1'
+        Generator = 'BitmapNames'
+        ReadOnly = False
+      end
+      item
+        Name = 'ColorsName1'
+        Generator = 'ColorsNames'
+        ReadOnly = False
+      end
+      item
+        Name = 'ContactTitle1'
+        Generator = 'ContactTitles'
+        ReadOnly = False
+      end
+      item
+        Name = 'CurrencyField1'
+        FieldType = ftCurrency
+        Generator = 'Currency'
+        ReadOnly = False
+      end>
+    ScopeMappings = <>
+    Left = 224
+    Top = 24
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 220
+    Top = 77
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = PrototypeBindSource1
+      FieldName = 'ContactName1'
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'BitmapName1'
+          ControlMemberName = 'Detail1'
+        end
+        item
+          SourceMemberName = 'ColorsName1'
+          ControlMemberName = 'Detail2'
+        end
+        item
+          SourceMemberName = 'ContactTitle1'
+          ControlMemberName = 'Detail3'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+end

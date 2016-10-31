@@ -1,0 +1,81 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 289
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object memMsg: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    Align = MostBottom
+    Position.Y = 216.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 264.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ReadOnly = True
+  end
+  object btnDisparar: TButton
+    Align = Bottom
+    Position.Y = 172.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Disparar'
+    OnClick = btnDispararClick
+  end
+  object pnlgendar: TPanel
+    Align = Bottom
+    Position.Y = 128.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnAgendar: TButton
+      Align = Client
+      Size.Width = 189.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Agendar'
+      OnClick = btnAgendarClick
+    end
+    object edtSegundos: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Right
+      TabOrder = 1
+      KeyboardType = NumberPad
+      Position.X = 189.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object lblTitulo: TLabel
+    Align = MostTop
+    Size.Width = 289.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Notifica'#231#245'es'
+  end
+  object btnCancelar: TButton
+    Align = Bottom
+    Position.Y = 84.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Cancelar'
+    OnClick = btnCancelarClick
+  end
+  object NotificationCenter: TNotificationCenter
+    OnReceiveLocalNotification = NotificationCenterReceiveLocalNotification
+    Left = 168
+    Top = 32
+  end
+end

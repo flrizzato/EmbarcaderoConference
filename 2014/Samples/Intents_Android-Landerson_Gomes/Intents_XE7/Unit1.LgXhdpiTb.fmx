@@ -1,0 +1,20 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Label1: TLabel
+    Size.Width = 480.000000000000000000
+  end
+  inherited ComboBox1: TComboBox
+    Size.Width = 480.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.Y = 785.000000000000000000
+    Size.Width = 480.000000000000000000
+    OnClick = Button1Click
+  end
+  inherited Image1: TImage
+    Size.Width = 480.000000000000000000
+    Size.Height = 730.000000000000000000
+  end
+end

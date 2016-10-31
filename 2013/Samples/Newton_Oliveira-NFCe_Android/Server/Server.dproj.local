@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/29 19:30:39.000.963,=C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2013/10/29 19:30:42.000.751,=C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2013/10/29 19:30:58.000.349,=C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2013/10/29 19:31:42.000.566,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Unit4.dfm=C:\EmbarcaderoConference\Server\uServer.dfm</Transaction>
+    <Transaction>2013/10/29 19:31:42.000.566,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Unit4.pas=C:\EmbarcaderoConference\Server\uServer.pas</Transaction>
+    <Transaction>2013/10/29 19:31:59.000.853,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\ServerContainerUnit1.dfm=C:\EmbarcaderoConference\Server\uServerContainer.dfm</Transaction>
+    <Transaction>2013/10/29 19:31:59.000.853,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\ServerContainerUnit1.pas=C:\EmbarcaderoConference\Server\uServerContainer.pas</Transaction>
+    <Transaction>2013/10/29 19:32:17.000.499,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\ServerMethodsUnit1.dfm=C:\EmbarcaderoConference\Server\uServerMetodo.dfm</Transaction>
+    <Transaction>2013/10/29 19:32:17.000.499,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\ServerMethodsUnit1.pas=C:\EmbarcaderoConference\Server\uServerMetodo.pas</Transaction>
+    <Transaction>2013/10/29 19:32:25.000.465,C:\Users\Newton Oliveira\Documents\RAD Studio\Projects\Project4.dproj=C:\EmbarcaderoConference\Server\Server.dproj</Transaction>
+    <Transaction>2013/10/29 20:01:32.000.287,=C:\EmbarcaderoConference\Server\Unit1.pas</Transaction>
+    <Transaction>2013/10/29 20:01:47.000.804,C:\EmbarcaderoConference\Server\Unit1.pas=C:\EmbarcaderoConference\Server\uNota.pas</Transaction>
+    <Transaction>2013/10/30 07:14:53.000.144,=C:\EmbarcaderoConference\Server\Unit1.pas</Transaction>
+    <Transaction>2013/10/30 07:15:08.000.819,C:\EmbarcaderoConference\Server\Unit1.pas=C:\EmbarcaderoConference\Server\uCNotaFiscalEletronica.pas</Transaction>
+    <Transaction>2013/10/30 07:41:24.000.449,C:\EmbarcaderoConference\Server\uCNotaFiscalEletronica.pas=</Transaction>
+    <Transaction>2013/10/30 09:14:16.000.552,=C:\EmbarcaderoConference\Server\Unit1.pas</Transaction>
+    <Transaction>2013/10/30 09:14:29.000.989,C:\EmbarcaderoConference\Server\Unit1.pas=C:\EmbarcaderoConference\Server\uCURLQrCode.pas</Transaction>
+    <Transaction>2013/10/30 09:24:42.000.697,C:\EmbarcaderoConference\Server\uCURLQrCode.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

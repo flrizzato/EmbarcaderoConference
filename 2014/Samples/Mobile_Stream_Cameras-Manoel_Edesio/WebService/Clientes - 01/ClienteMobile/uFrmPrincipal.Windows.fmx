@@ -1,0 +1,17 @@
+inherited Form5_Windows: TForm5_Windows
+  Caption = 'Windows'
+  ClientHeight = 469
+  ClientWidth = 931
+  Fill.Kind = Gradient
+  StyleLookup = 'panelstyle'
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    inherited TabItem3: TTabItem
+      Size.Width = 198.000000000000000000
+    end
+  end
+  inherited cdsListaClientes: TClientDataSet
+    Left = 800
+    Top = 32
+  end
+end

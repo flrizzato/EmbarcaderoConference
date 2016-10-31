@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 460
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 480
+  DesignerDeviceName = 'iPhone'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object ComboBox1: TComboBox
+    Align = alTop
+    DisableFocusEffect = False
+    Height = 31.000000000000000000
+    Margins.Left = 50.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 50.000000000000000000
+    Position.X = 50.000000000000000000
+    Position.Y = 50.000000000000000000
+    TabOrder = 0
+    Width = 220.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      Height = 44.000000000000000000
+      Text = 'ListBoxItem1'
+      Width = 44.000000000000000000
+    end
+    object ListBoxItem2: TListBoxItem
+      Height = 44.000000000000000000
+      Text = 'ListBoxItem2'
+      Width = 44.000000000000000000
+    end
+    object ListBoxItem3: TListBoxItem
+      Height = 44.000000000000000000
+      Text = 'ListBoxItem3'
+      Width = 44.000000000000000000
+    end
+    object ListBoxItem4: TListBoxItem
+      Height = 44.000000000000000000
+      Text = 'ListBoxItem4'
+      Width = 44.000000000000000000
+    end
+    object ListBoxItem5: TListBoxItem
+      Height = 44.000000000000000000
+      Text = 'ListBoxItem5'
+      Width = 44.000000000000000000
+    end
+  end
+  object CalendarEdit1: TCalendarEdit
+    Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+    Align = alTop
+    TabOrder = 1
+    Cursor = crIBeam
+    Date = 41573.000000000000000000
+    Height = 31.000000000000000000
+    Margins.Left = 50.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 50.000000000000000000
+    Position.X = 50.000000000000000000
+    Position.Y = 131.000000000000000000
+    Width = 220.000000000000000000
+  end
+end

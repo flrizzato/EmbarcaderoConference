@@ -1,0 +1,19 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 290
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnVerificarIdiomaTecladoCorrente: TButton
+    Align = Center
+    Size.Width = 218.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Verificar Idioma Teclado Corrente'
+    OnClick = btnVerificarIdiomaTecladoCorrenteClick
+  end
+end

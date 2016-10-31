@@ -1,0 +1,3 @@
+Infelizmente o projeto demonstrado em Android não pode ser distribuído por conter arquivos protegidos contra cópia indevida. No entanto, faço questão de esclarecer qualquer dúvida ou até mesmo ajudar no consumo de SDKs Android no XE7. Para tanto, basta que você me envie um e-mail através do endereço carlos.agnes@aquasoft.com.br.
+
+Obrigado!

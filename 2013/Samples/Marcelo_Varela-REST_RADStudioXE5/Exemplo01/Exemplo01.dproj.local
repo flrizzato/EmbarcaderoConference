@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/10/30 02:05:42.000.967,=C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2013/10/30 19:43:05.000.291,=C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2013/10/30 19:43:36.000.692,C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.fmx=C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\Unit2.fmx</Transaction>
+    <Transaction>2013/10/30 19:43:36.000.692,C:\Users\marcelo\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\Unit2.pas</Transaction>
+    <Transaction>2013/10/30 19:43:37.000.356,C:\Users\marcelo\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\Project2.dproj</Transaction>
+    <Transaction>2013/10/30 19:43:46.000.526,C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\Project2.dproj=C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\Exemplo01.dproj</Transaction>
+    <Transaction>2013/10/30 19:44:45.000.007,=C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\Unit1.pas</Transaction>
+    <Transaction>2013/10/30 19:44:56.000.086,C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\Unit1.pas=C:\Users\marcelo\Documents\RAD Studio\Projects\DC2013\Palestra REST\Exemplo01\UsuarioUnit.pas</Transaction>
+  </Transactions>
+</BorlandProject>

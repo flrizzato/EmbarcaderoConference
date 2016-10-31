@@ -1,0 +1,120 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{11F8E7C0-8DEE-4F22-A7A6-766BBB5BE494}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Command Batches\CommandBatches.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Array DML\ArrayDML.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Asynchronous Command\AsynchronousCommand.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Data Type Unification\DataTypeUnification.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SQL Dialect Abstraction\SqlDialectAbstraction.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Macros\Macros.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Exceptions Unified\ExceptionsUnified.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Mestre Detalhe\MestreDetalhe.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CommandBatches">
+        <MSBuild Projects="Command Batches\CommandBatches.dproj"/>
+    </Target>
+    <Target Name="CommandBatches:Clean">
+        <MSBuild Projects="Command Batches\CommandBatches.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CommandBatches:Make">
+        <MSBuild Projects="Command Batches\CommandBatches.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArrayDML">
+        <MSBuild Projects="Array DML\ArrayDML.dproj"/>
+    </Target>
+    <Target Name="ArrayDML:Clean">
+        <MSBuild Projects="Array DML\ArrayDML.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArrayDML:Make">
+        <MSBuild Projects="Array DML\ArrayDML.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AsynchronousCommand">
+        <MSBuild Projects="Asynchronous Command\AsynchronousCommand.dproj"/>
+    </Target>
+    <Target Name="AsynchronousCommand:Clean">
+        <MSBuild Projects="Asynchronous Command\AsynchronousCommand.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AsynchronousCommand:Make">
+        <MSBuild Projects="Asynchronous Command\AsynchronousCommand.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataTypeUnification">
+        <MSBuild Projects="Data Type Unification\DataTypeUnification.dproj"/>
+    </Target>
+    <Target Name="DataTypeUnification:Clean">
+        <MSBuild Projects="Data Type Unification\DataTypeUnification.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataTypeUnification:Make">
+        <MSBuild Projects="Data Type Unification\DataTypeUnification.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SqlDialectAbstraction">
+        <MSBuild Projects="SQL Dialect Abstraction\SqlDialectAbstraction.dproj"/>
+    </Target>
+    <Target Name="SqlDialectAbstraction:Clean">
+        <MSBuild Projects="SQL Dialect Abstraction\SqlDialectAbstraction.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SqlDialectAbstraction:Make">
+        <MSBuild Projects="SQL Dialect Abstraction\SqlDialectAbstraction.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Macros">
+        <MSBuild Projects="Macros\Macros.dproj"/>
+    </Target>
+    <Target Name="Macros:Clean">
+        <MSBuild Projects="Macros\Macros.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Macros:Make">
+        <MSBuild Projects="Macros\Macros.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExceptionsUnified">
+        <MSBuild Projects="Exceptions Unified\ExceptionsUnified.dproj"/>
+    </Target>
+    <Target Name="ExceptionsUnified:Clean">
+        <MSBuild Projects="Exceptions Unified\ExceptionsUnified.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExceptionsUnified:Make">
+        <MSBuild Projects="Exceptions Unified\ExceptionsUnified.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MestreDetalhe">
+        <MSBuild Projects="Mestre Detalhe\MestreDetalhe.dproj"/>
+    </Target>
+    <Target Name="MestreDetalhe:Clean">
+        <MSBuild Projects="Mestre Detalhe\MestreDetalhe.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MestreDetalhe:Make">
+        <MSBuild Projects="Mestre Detalhe\MestreDetalhe.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CommandBatches;ArrayDML;AsynchronousCommand;DataTypeUnification;SqlDialectAbstraction;Macros;ExceptionsUnified;MestreDetalhe"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CommandBatches:Clean;ArrayDML:Clean;AsynchronousCommand:Clean;DataTypeUnification:Clean;SqlDialectAbstraction:Clean;Macros:Clean;ExceptionsUnified:Clean;MestreDetalhe:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CommandBatches:Make;ArrayDML:Make;AsynchronousCommand:Make;DataTypeUnification:Make;SqlDialectAbstraction:Make;Macros:Make;ExceptionsUnified:Make;MestreDetalhe:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

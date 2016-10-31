@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="kunq8bzs2mp_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Exemplo5:uMsgControl.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Exemplo5:uMsgControl.TMsgControl">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,167,160" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uMsgControl.TMsgControl.PostNotification(System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uMsgControl.TMsgControl.GetInstance()" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uMsgControl.TMsgControl.CreateDefaultForm()" />
+      <reference referencedUin="delphi:e_method:src:Exemplo5:uMsgControl.TMsgControl.CreateDefaultDM()" />
+      <reference referencedUin="delphi:e_field:src:Exemplo5:uMsgControl.TMsgControl.FInstance" />
+      <reference referencedUin="delphi:l_ast:src:Exemplo5:uMsgControl.TMsgControl.FInstance">
+        <property name="sourceAnchor" value="177,162" />
+        <property name="targetAnchor" value="169,170" />
+        <property name="bendpoints" value="210,162,210,203,169,203" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

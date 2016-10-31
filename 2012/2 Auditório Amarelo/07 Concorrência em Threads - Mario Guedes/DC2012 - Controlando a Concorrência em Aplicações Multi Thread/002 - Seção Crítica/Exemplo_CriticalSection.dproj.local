@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/09/20 23:45:48.000.745,=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 17:09:57.000.744,=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 17:10:46.000.655,C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unt_Tela.pas</Transaction>
+    <Transaction>2012/10/21 17:10:46.000.655,C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.dfm=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unt_Tela.dfm</Transaction>
+    <Transaction>2012/10/21 17:11:02.000.948,C:\Users\mario.guedes\Documents\RAD Studio\Projects\Project1.dproj=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Exemplo_CriticalSection.dproj</Transaction>
+    <Transaction>2012/10/21 17:11:09.000.756,=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 17:12:05.000.800,F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unit1.pas=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unt_ThreadProcessamento.pas</Transaction>
+    <Transaction>2012/10/21 17:37:46.000.989,=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 17:37:58.000.147,F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unit1.pas=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\002 - Seção Crítica\Unt_ThreadCliente.pas</Transaction>
+  </Transactions>
+</BorlandProject>

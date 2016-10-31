@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/14 23:56:54.000.091,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/10/14 23:56:54.000.271,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/10/14 23:58:28.000.257,=\\psf\Home\Downloads\Delphi Conference 2014\1 - FireDACJSONReflectionXE7\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/10/14 23:58:54.000.092,C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=\\psf\Home\Downloads\Delphi Conference 2014\2 - Apache-Server\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2014/10/14 23:58:54.000.092,C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas=\\psf\Home\Downloads\Delphi Conference 2014\2 - Apache-Server\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/10/14 23:59:08.000.454,C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\mod_delphiconference.dproj=\\psf\Home\Downloads\Delphi Conference 2014\2 - Apache-Server\mod_delphiconference.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

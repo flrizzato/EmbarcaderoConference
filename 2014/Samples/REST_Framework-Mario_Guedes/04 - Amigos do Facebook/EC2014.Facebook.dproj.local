@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/26 08:48:51.000.498,=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/11 01:21:13.000.091,=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/13 23:49:07.000.646,=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/13 23:52:26.000.228,D:\DC2014_REST\04 - Amigos do Facebook\Unt_Principal.pas=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/13 23:52:26.000.228,D:\DC2014_REST\04 - Amigos do Facebook\Unt_Principal.dfm=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/10/13 23:52:37.000.933,D:\DC2014_REST\04 - Amigos do Facebook\EC2014.Facebook.dproj=C:\Users\mario.guedes\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2014/10/13 23:53:05.000.440,=D:\DC2014_REST\04 - Amigos do Facebook\Unit1.pas</Transaction>
+    <Transaction>2014/10/13 23:53:21.000.123,D:\DC2014_REST\04 - Amigos do Facebook\Unt_Nucleo.dfm=D:\DC2014_REST\04 - Amigos do Facebook\Unit1.dfm</Transaction>
+    <Transaction>2014/10/13 23:53:21.000.123,D:\DC2014_REST\04 - Amigos do Facebook\Unt_Nucleo.pas=D:\DC2014_REST\04 - Amigos do Facebook\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

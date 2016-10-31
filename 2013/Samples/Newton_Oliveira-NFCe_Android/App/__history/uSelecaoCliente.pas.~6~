@@ -1,0 +1,34 @@
+unit uSelecaoCliente;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects;
+
+type
+  TfrmSelecaoClientes = class(TForm)
+    tbrTopo: TToolBar;
+    tbrRodape: TToolBar;
+    Label1: TLabel;
+    ToolBar1: TToolBar;
+    btnClientes: TSpeedButton;
+    btnPagamento: TSpeedButton;
+    btnEnvia: TSpeedButton;
+    btnvenda: TSpeedButton;
+    imgVenda: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSelecaoClientes: TfrmSelecaoClientes;
+
+implementation
+
+{$R *.fmx}
+
+end.

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/25 07:21:45.000.563,=C:\Users\rboar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 17:24:46.000.596,=C:\Users\rboar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 17:25:13.000.950,C:\Conferencia\Bluetooth\DiscoverDevices_my\Unit1.pas=C:\Users\rboar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 17:25:13.000.951,C:\Conferencia\Bluetooth\DiscoverDevices_my\Unit1.fmx=C:\Users\rboar\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/10/12 17:25:22.000.376,C:\Conferencia\Bluetooth\DiscoverDevices_my\DiscoverDevices.dproj=C:\Users\rboar\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pmac iOSSimulator="iPhone5"/>
+		<NoProfile Android="0016257409"/>
+	</ActiveMobileDevice>
+</BorlandProject>

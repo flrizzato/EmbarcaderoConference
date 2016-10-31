@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{47B897FA-1DC4-493F-9670-28AAEA37C675}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Server\CallbackServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Client\CallbackClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CallbackServer">
+        <MSBuild Projects="Server\CallbackServer.dproj"/>
+    </Target>
+    <Target Name="CallbackServer:Clean">
+        <MSBuild Projects="Server\CallbackServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CallbackServer:Make">
+        <MSBuild Projects="Server\CallbackServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CallbackClient">
+        <MSBuild Projects="Client\CallbackClient.dproj"/>
+    </Target>
+    <Target Name="CallbackClient:Clean">
+        <MSBuild Projects="Client\CallbackClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CallbackClient:Make">
+        <MSBuild Projects="Client\CallbackClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CallbackServer;CallbackClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CallbackServer:Clean;CallbackClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CallbackServer:Make;CallbackClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

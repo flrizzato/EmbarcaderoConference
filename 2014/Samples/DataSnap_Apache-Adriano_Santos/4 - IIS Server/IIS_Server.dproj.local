@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/15 00:43:26.000.014,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/10/15 00:43:26.000.287,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/10/15 00:44:48.000.912,\\psf\Home\Downloads\Delphi Conference 2014\4 - IIS Server\UWebModule.pas=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/10/15 00:44:48.000.912,\\psf\Home\Downloads\Delphi Conference 2014\4 - IIS Server\UWebModule.dfm=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2014/10/15 00:45:45.000.047,=\\psf\Home\Downloads\Delphi Conference 2014\1 - FireDACJSONReflectionXE7\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/10/15 00:46:14.000.856,\\psf\Home\Downloads\Delphi Conference 2014\4 - IIS Server\IIS_Server.dproj=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

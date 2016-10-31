@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D3007EF2-6736-48BD-9CD8-3EC3F0456C06}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Server\Server.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="App\NFCe.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Server">
+        <MSBuild Projects="Server\Server.dproj"/>
+    </Target>
+    <Target Name="Server:Clean">
+        <MSBuild Projects="Server\Server.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Server:Make">
+        <MSBuild Projects="Server\Server.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NFCe">
+        <MSBuild Projects="App\NFCe.dproj"/>
+    </Target>
+    <Target Name="NFCe:Clean">
+        <MSBuild Projects="App\NFCe.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NFCe:Make">
+        <MSBuild Projects="App\NFCe.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Server;NFCe"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Server:Clean;NFCe:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Server:Make;NFCe:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

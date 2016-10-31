@@ -1,0 +1,19 @@
+inherited Form1_GGlass: TForm1_GGlass
+  ClientHeight = 215
+  ClientWidth = 427
+  DesignerMasterStyle = 3
+  inherited Label1: TLabel
+    Size.Width = 427.000000000000000000
+  end
+  inherited ComboBox1: TComboBox
+    Size.Width = 427.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.Y = 171.000000000000000000
+    Size.Width = 427.000000000000000000
+  end
+  inherited Image1: TImage
+    Size.Width = 427.000000000000000000
+    Size.Height = 116.000000000000000000
+  end
+end

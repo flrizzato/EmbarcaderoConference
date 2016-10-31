@@ -1,0 +1,11 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited WBCamera: TWebBrowser
+    Align = Bottom
+    Size.Width = 392.000000000000000000
+    Size.Height = 524.000000000000000000
+    Position.Y = 87.000000000000000000
+  end
+end

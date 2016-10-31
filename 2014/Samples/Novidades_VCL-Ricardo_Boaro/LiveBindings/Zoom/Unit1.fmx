@@ -1,0 +1,243 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnGesture = FormGesture
+  DesignerMasterStyle = 0
+  object EdtCod: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 84.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Style, FontColor]
+  end
+  object EdtName: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 269.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Style, FontColor]
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Cod.:'
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Name:'
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Label3: TLabel
+      Align = Center
+      AutoSize = True
+      Size.Width = 56.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.WordWrap = False
+      Text = 'Customer'
+    end
+  end
+  object Label4: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Adress:'
+  end
+  object EdtAdress: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 269.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Style, FontColor, Other]
+  end
+  object Label5: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Font Size:'
+  end
+  object TrackBar1: TTrackBar
+    Max = 24.000000000000000000
+    Min = 8.000000000000000000
+    Orientation = Horizontal
+    Position.X = 8.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 269.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Value = 8.000000000000000000
+    OnChange = TrackBar1Change
+  end
+  object EdtFontSize: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 15
+    Position.X = 8.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label6: TLabel
+    Position.X = 112.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label6'
+  end
+  object ListBox1: TListBox
+    Position.X = 40.000000000000000000
+    Position.Y = 376.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 256
+    Top = 96
+    object BindExpression1: TBindExpression
+      Category = 'Binding Expressions'
+      ControlComponent = EdtCod
+      SourceComponent = TrackBar1
+      SourceExpression = 'Value'
+      ControlExpression = 'TextSettings.Font.Size'
+      NotifyOutputs = False
+      Direction = dirSourceToControl
+    end
+    object BindExpression2: TBindExpression
+      Category = 'Binding Expressions'
+      ControlComponent = EdtName
+      SourceComponent = TrackBar1
+      SourceExpression = 'Value'
+      ControlExpression = 'TextSettings.Font.Size'
+      NotifyOutputs = False
+      Direction = dirSourceToControl
+    end
+    object BindExpression3: TBindExpression
+      Category = 'Binding Expressions'
+      ControlComponent = EdtAdress
+      SourceComponent = TrackBar1
+      SourceExpression = 'Value'
+      ControlExpression = 'TextSettings.Font.Size'
+      NotifyOutputs = False
+      Direction = dirSourceToControl
+    end
+    object BindExpression4: TBindExpression
+      Category = 'Binding Expressions'
+      ControlComponent = EdtFontSize
+      SourceComponent = TrackBar1
+      SourceExpression = 'Value'
+      ControlExpression = 'Text'
+      NotifyOutputs = False
+      Direction = dirSourceToControl
+    end
+    object LinkControlToProperty1: TLinkControlToProperty
+      Category = 'Quick Bindings'
+      Control = TrackBar1
+      Track = False
+      Component = Label6
+      ComponentProperty = 'Text'
+      CustomFormat = 'Value'
+    end
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Nome'
+      Control = ListBox1
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Nome'
+      Control = EdtName
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Codigo'
+      Control = EdtCod
+      Track = False
+    end
+    object BindList1: TBindList
+      Category = 'Lists'
+      ControlComponent = ListBox1
+      SourceComponent = BindSourceDB1
+      SourceMemberName = 'Nome'
+      FormatExpressions = <>
+      FormatControlExpressions = <>
+      ClearControlExpressions = <>
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = ClientDataSet1
+    ScopeMappings = <>
+    Left = 184
+    Top = 64
+  end
+  object ClientDataSet1: TClientDataSet
+    PersistDataPacket.Data = {
+      420000009619E0BD010000001800000002000000000003000000420006436F64
+      69676F0400010000000000044E6F6D6501004900000001000557494454480200
+      020064000000}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 32
+    object ClientDataSet1Codigo: TIntegerField
+      FieldName = 'Codigo'
+    end
+    object ClientDataSet1Nome: TStringField
+      FieldName = 'Nome'
+      Size = 100
+    end
+  end
+end

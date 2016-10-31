@@ -1,0 +1,11 @@
+﻿[BotaoSeguro1]
+Coordinates=64,10,84,87
+ExplicitSubNodes=Confirma;Mensagem
+Visible=True
+
+[CheckBox1]
+Coordinates=340,10,70,51
+
+[]
+Coordinates=10,10,40,51
+

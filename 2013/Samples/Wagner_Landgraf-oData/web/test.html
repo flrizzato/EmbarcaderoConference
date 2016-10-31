@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" type="text/css" media="screen" href="/css/redmond/jquery-ui-1.10.3.custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/ui.jqgrid.css" />
+
+<script src="/js/jquery.js"></script> 
+<script src="/js/i18n/grid.locale-en.js"></script>
+<script src="/js/jquery.jqGrid.js"></script> 
+
+<table id="grid"></table>
+<div id="pager"></div>
+
+<script>
+	jQuery("#grid").jqGrid({
+		url: "http://localhost:2001/tms/entities/TContact?$orderby=FName",
+		datatype: "json",
+		colNames:["FId", "FName", "FPhone"],
+		colModel:[
+			{name: "FId", index: "FId", width:50, sorttype:"int"},
+			{name: "FName", index: "FName", width:150},
+			{name: "FPhone", index: "FPhone", width:200}
+		],
+		rowList:[10,20,30],
+		pager: "#pager",
+		sortname: "FId",
+		viewrecords: true,
+		sortorder: "desc",
+		loadonce: true,
+		caption: "Contacts",
+		jsonReader: {
+			root: "d"
+		}
+	});
+</script>
+
+</body>
+</html>

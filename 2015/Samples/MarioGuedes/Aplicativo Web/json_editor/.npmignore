@@ -1,0 +1,13 @@
+bower.json
+downloads
+misc
+node_modules
+test
+tools
+.idea
+component.json
+gulpfile.js
+.npmignore
+.gitignore
+*.zip
+npm-debug.log

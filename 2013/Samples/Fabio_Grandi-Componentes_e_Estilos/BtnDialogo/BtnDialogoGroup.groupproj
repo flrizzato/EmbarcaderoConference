@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EDBD4A2A-94B1-4993-B7BD-E4E196635FAA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="BtnDialogoPackage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Teste.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="BtnDialogoPackage">
+        <MSBuild Projects="BtnDialogoPackage.dproj"/>
+    </Target>
+    <Target Name="BtnDialogoPackage:Clean">
+        <MSBuild Projects="BtnDialogoPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BtnDialogoPackage:Make">
+        <MSBuild Projects="BtnDialogoPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Teste">
+        <MSBuild Projects="Teste.dproj"/>
+    </Target>
+    <Target Name="Teste:Clean">
+        <MSBuild Projects="Teste.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Teste:Make">
+        <MSBuild Projects="Teste.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="BtnDialogoPackage;Teste"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="BtnDialogoPackage:Clean;Teste:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="BtnDialogoPackage:Make;Teste:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

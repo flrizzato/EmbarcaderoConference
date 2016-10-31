@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/08/19 14:11:57.000.960,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/19 14:14:43.000.858,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Camera101\uMainForm.pas</Transaction>
+    <Transaction>2015/08/19 14:14:43.000.858,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Camera101\uMainForm.fmx</Transaction>
+    <Transaction>2015/08/19 14:14:48.000.438,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Camera101\Camera101.dproj</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <PRIZZATO iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

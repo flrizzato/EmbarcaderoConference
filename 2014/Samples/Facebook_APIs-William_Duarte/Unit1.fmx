@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Login Facebook'
+    OnClick = Button1Click
+  end
+  object WebBrowser1: TWebBrowser
+    Size.Width = 384.000000000000000000
+    Size.Height = 455.000000000000000000
+    Size.PlatformDefault = False
+    Position.Y = 80.000000000000000000
+    OnShouldStartLoadWithRequest = WebBrowser1ShouldStartLoadWithRequest
+  end
+  object RESTClient1: TRESTClient
+    Authenticator = OAuth2Authenticator1
+    Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    BaseURL = 'http://graph.facebook.com'
+    Params = <>
+    HandleRedirects = True
+    Left = 64
+    Top = 160
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <>
+    Resource = 'me?fields=cover'
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 64
+    Top = 256
+  end
+  object RESTResponse1: TRESTResponse
+    Left = 272
+    Top = 176
+  end
+  object OAuth2Authenticator1: TOAuth2Authenticator
+    AccessToken = '5943504385093u85094r5309584309540'
+    Left = 184
+    Top = 328
+  end
+end

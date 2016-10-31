@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/09/22 09:27:21.000.084,=rtl.dcp</Transaction>
+    <Transaction>2012/10/18 14:05:10.000.943,=rtl.dcp</Transaction>
+    <Transaction>2012/10/18 14:05:50.000.291,\\psf\Home\Documents\RAD Studio\Projects\Package1.dproj=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\pckFormFiremonkeyHD.dproj</Transaction>
+    <Transaction>2012/10/18 14:06:15.000.217,=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit1.pas</Transaction>
+    <Transaction>2012/10/18 14:07:32.000.842,=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit7.pas</Transaction>
+    <Transaction>2012/10/18 14:08:06.000.890,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit7.fmx=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uFiremonkeyHD.fmx</Transaction>
+    <Transaction>2012/10/18 14:08:06.000.890,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit7.pas=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uFiremonkeyHD.pas</Transaction>
+    <Transaction>2012/10/18 14:08:17.000.997,=bindcomp.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:17.000.950,=dbexpress.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:17.000.922,=dbrtl.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:17.000.964,=fmx.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:17.000.936,=DbxCommonDriver.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:17.000.982,=bindengine.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:17.000.907,=dsnap.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:18.000.054,=IndyProtocols.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:18.000.040,=IndySystem.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:18.000.025,=IndyCore.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:18.000.011,=bindcompfmx.dcp</Transaction>
+    <Transaction>2012/10/18 14:08:18.000.070,=DBXInterBaseDriver.dcp</Transaction>
+    <Transaction>2012/10/19 13:41:33.000.350,=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\PacoteGrid\uGridSlider.pas</Transaction>
+    <Transaction>2012/10/19 13:42:30.000.573,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\PacoteGrid\uGridSlider.pas=</Transaction>
+    <Transaction>2012/10/19 13:45:57.000.089,=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit7.pas</Transaction>
+    <Transaction>2012/10/19 13:50:50.000.450,=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit1.pas</Transaction>
+    <Transaction>2012/10/19 13:51:07.000.516,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit1.fmx=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uGridSlider.fmx</Transaction>
+    <Transaction>2012/10/19 13:51:07.000.516,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit1.pas=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uGridSlider.pas</Transaction>
+    <Transaction>2012/10/19 13:58:24.000.517,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uGridSlider.pas=</Transaction>
+    <Transaction>2012/10/19 14:02:44.000.243,=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit1.pas</Transaction>
+    <Transaction>2012/10/19 14:05:23.000.681,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit1.pas=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uGridSlider.pas</Transaction>
+    <Transaction>2012/10/19 14:05:23.000.681,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit1.fmx=C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uGridSlider.fmx</Transaction>
+    <Transaction>2012/10/19 14:11:12.000.878,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\Unit7.pas=</Transaction>
+    <Transaction>2012/10/19 14:14:25.000.167,C:\Delphi Conference 2012\Integrando a VCL com o Firemonkey\Exercicio\Pacote\uGridSlider.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

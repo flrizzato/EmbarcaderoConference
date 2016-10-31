@@ -1,0 +1,10 @@
+﻿[ToolBar1]
+Coordinates=230,490,67,36
+
+[SpeedButton1]
+Coordinates=124,490,96,58
+
+[]
+Coordinates=18,490,96,58
+Visible=True
+

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/30 09:53:01.000.581,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/07/30 09:53:01.000.233,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/30 09:53:03.000.153,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2014/07/30 10:06:46.000.745,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/07/30 10:06:46.000.745,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2014/07/30 10:06:49.000.352,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2014/07/30 10:06:49.000.352,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2014/07/30 10:06:55.000.692,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\Unit1.pas</Transaction>
+    <Transaction>2014/07/30 10:06:55.000.692,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\Unit1.dfm</Transaction>
+    <Transaction>2014/07/30 10:07:06.000.648,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\Project1.dproj</Transaction>
+    <Transaction>2014/07/30 10:24:00.000.453,C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\Project1.dproj=C:\Users\Kelver\Desktop\desbravador\DataSnap\Exemplo1\Servidor\Server.dproj</Transaction>
+    <Transaction>2015/10/12 12:44:40.000.168,D:\CodeRage X USA\Samples\05 Callback\Server\CallbackServer.dproj=D:\CodeRage X USA\Samples\05 Callback\Server\Server.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

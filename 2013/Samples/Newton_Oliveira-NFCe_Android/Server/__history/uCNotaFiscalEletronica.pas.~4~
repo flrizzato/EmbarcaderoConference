@@ -1,0 +1,37 @@
+unit uCNotaFiscalEletronica;
+
+interface
+
+uses
+  System.SysUtils,
+  System.Variants,
+  System.Classes,
+  ACBrNFe,
+  pcnConversao;
+
+type
+  TNotaFiscal = class
+  public
+    function EnviaNFe: string;
+  end;
+
+implementation
+
+{ TNotaFiscal }
+
+function TNotaFiscal.EnviaNFe: string;
+var
+  lACBrNFe: TACBrNFe;
+begin
+
+  lACBrNFe := TACBrNFe.Create(nil);
+  lACBrNFe.Configuracoes.Certificados.NumeroSerie := '0EA583324600E3FB';
+  lACBrNFe.Configuracoes.WebServices.UF := 'AM';
+  lACBrNFe.Configuracoes.WebServices.UFCodigo := '13';
+  lACBrNFe.Configuracoes.WebServices.Ambiente := taHomologacao;
+
+
+
+end;
+
+end.

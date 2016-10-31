@@ -1,0 +1,13 @@
+﻿[ToolBar1]
+Coordinates=121,10,58,33
+Visible=True
+
+[]
+Coordinates=30,230,66,33
+ExplicitSubNodes=
+Visible=True
+
+[ListBox1]
+Coordinates=126,62,89,195
+Visible=True
+

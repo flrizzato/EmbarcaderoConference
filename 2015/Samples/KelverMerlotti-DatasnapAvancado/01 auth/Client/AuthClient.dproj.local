@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/15 10:51:53.000.877,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/15 10:51:56.000.286,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/09/15 10:52:06.000.637,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/12 01:52:10.000.719,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/10/12 01:52:36.000.130,D:\CodeRage X USA\Samples\01 Auth\Client\Unit1.dfm=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2015/10/12 01:52:36.000.130,D:\CodeRage X USA\Samples\01 Auth\Client\Unit1.pas=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/10/12 01:52:41.000.702,D:\CodeRage X USA\Samples\01 Auth\Client\AuthClient.dproj=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

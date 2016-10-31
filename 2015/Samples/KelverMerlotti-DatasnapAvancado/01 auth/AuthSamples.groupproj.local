@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/12 01:53:06.000.505,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=D:\CodeRage X USA\Samples\01 Auth\Server\AuthSamples.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="D:\CONF2015\Datasnap Avançado\Samples\01 Auth\Client\AuthClient.dproj"/>
+	</Default.Personality>
+</BorlandProject>

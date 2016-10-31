@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/09 10:22:36.000.633,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/09 16:47:49.000.242,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/10 11:17:24.000.285,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/21 16:00:01.000.681,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/01 16:21:41.000.983,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/01 16:37:24.000.704,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 16:41:34.412,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 16:47:14.447,C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-HeaderFont\Unit1.fmx=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/10/20 16:47:14.447,C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-HeaderFont\Unit1.pas=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 16:47:21.648,C:\Users\adrianosantos\Downloads\CONF2015\Exemplos\2-HeaderFont\HeaderFont.dproj=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0434191710"/>
+		<PEmbt-Mac iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3582FDFE-85D5-491B-8085-C45D7673C002}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DataSnap\Servidor DC\ServerDelphiConference.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DataSnap\Client Mobile\ClientMobile.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="WebService\WebAppDC.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Clientes\Intraweb\ClienteIW\ClienteIW.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ServerDelphiConference">
+        <MSBuild Projects="DataSnap\Servidor DC\ServerDelphiConference.dproj"/>
+    </Target>
+    <Target Name="ServerDelphiConference:Clean">
+        <MSBuild Projects="DataSnap\Servidor DC\ServerDelphiConference.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServerDelphiConference:Make">
+        <MSBuild Projects="DataSnap\Servidor DC\ServerDelphiConference.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClientMobile">
+        <MSBuild Projects="DataSnap\Client Mobile\ClientMobile.dproj"/>
+    </Target>
+    <Target Name="ClientMobile:Clean">
+        <MSBuild Projects="DataSnap\Client Mobile\ClientMobile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClientMobile:Make">
+        <MSBuild Projects="DataSnap\Client Mobile\ClientMobile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebAppDC">
+        <MSBuild Projects="WebService\WebAppDC.dproj"/>
+    </Target>
+    <Target Name="WebAppDC:Clean">
+        <MSBuild Projects="WebService\WebAppDC.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebAppDC:Make">
+        <MSBuild Projects="WebService\WebAppDC.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClienteIW">
+        <MSBuild Projects="Clientes\Intraweb\ClienteIW\ClienteIW.dproj"/>
+    </Target>
+    <Target Name="ClienteIW:Clean">
+        <MSBuild Projects="Clientes\Intraweb\ClienteIW\ClienteIW.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClienteIW:Make">
+        <MSBuild Projects="Clientes\Intraweb\ClienteIW\ClienteIW.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ServerDelphiConference;ClientMobile;WebAppDC;ClienteIW"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ServerDelphiConference:Clean;ClientMobile:Clean;WebAppDC:Clean;ClienteIW:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ServerDelphiConference:Make;ClientMobile:Make;WebAppDC:Make;ClienteIW:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

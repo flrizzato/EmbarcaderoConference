@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014/06/04 12:26:29.217,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/06/04 12:29:52.193,C:\DTOURXE6\08_AppTethering\0-AppTethering101\ManagerFM\Unit1.fmx=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2014/06/04 12:29:52.193,C:\DTOURXE6\08_AppTethering\0-AppTethering101\ManagerFM\Unit1.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/06/04 12:29:52.813,C:\DTOURXE6\08_AppTethering\0-AppTethering101\ManagerFM\Project1.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

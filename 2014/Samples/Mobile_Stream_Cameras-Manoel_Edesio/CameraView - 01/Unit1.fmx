@@ -1,0 +1,35 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Button1'
+  end
+  object WBCamera: TWebBrowser
+    Align = Top
+    Size.Width = 632.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 4.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 4.000000000000000000
+    Position.X = 4.000000000000000000
+    Position.Y = 4.000000000000000000
+    URL = 
+      'file:///C:/Delphi%20Conference/Diversos/CameraView%20-%2001/Win3' +
+      '2/Debug/CameraIP.html'
+  end
+end

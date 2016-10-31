@@ -1,0 +1,16 @@
+﻿html, body{height: 98%;width: 100%;overflow-y: auto;overflow-x: hidden;}
+#jsoneditor {width: 500px;}
+.btn{background-color: #F0F0F0;border: solid 2px #000;}
+.btn:hover{background-color: #25b2ed;}
+
+
+.diego{
+  position: fixed;
+  bottom: 0px;
+  padding: 20px;
+  font-size: 16px;
+  background: #F0F0F0;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}

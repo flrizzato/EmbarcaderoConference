@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{ED6B8D16-0F0C-4311-BEE6-4121B55E006D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CustomersApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EntitiesPackage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Server\CustomerServer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CustomersApp">
+        <MSBuild Projects="CustomersApp.dproj"/>
+    </Target>
+    <Target Name="CustomersApp:Clean">
+        <MSBuild Projects="CustomersApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CustomersApp:Make">
+        <MSBuild Projects="CustomersApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EntitiesPackage">
+        <MSBuild Projects="EntitiesPackage.dproj"/>
+    </Target>
+    <Target Name="EntitiesPackage:Clean">
+        <MSBuild Projects="EntitiesPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EntitiesPackage:Make">
+        <MSBuild Projects="EntitiesPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CustomerServer">
+        <MSBuild Projects="Server\CustomerServer.dproj"/>
+    </Target>
+    <Target Name="CustomerServer:Clean">
+        <MSBuild Projects="Server\CustomerServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CustomerServer:Make">
+        <MSBuild Projects="Server\CustomerServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CustomersApp;EntitiesPackage;CustomerServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CustomersApp:Clean;EntitiesPackage:Clean;CustomerServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CustomersApp:Make;EntitiesPackage:Make;CustomerServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/20 13:28:02.000.224,=C:\Users\Laercio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 13:32:01.000.302,C:\Users\Laercio\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Laercio\Dropbox\CONF2015\Material\AppAndroid\U_FormTag.fmx</Transaction>
+    <Transaction>2015/10/20 13:32:01.000.302,C:\Users\Laercio\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Laercio\Dropbox\CONF2015\Material\AppAndroid\U_FormTag.pas</Transaction>
+    <Transaction>2015/10/20 13:32:16.000.406,C:\Users\Laercio\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Laercio\Dropbox\CONF2015\Material\AppAndroid\AppAcionaTag.dproj</Transaction>
+    <Transaction>2015/10/20 13:33:39.000.595,=C:\Users\Laercio\Dropbox\CONF2015\Material\AppAndroid\Unit1.pas</Transaction>
+    <Transaction>2015/10/20 13:34:06.000.423,C:\Users\Laercio\Dropbox\CONF2015\Material\AppAndroid\U_Proxy.pas=C:\Users\Laercio\Dropbox\CONF2015\Material\AppAndroid\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="c1e14ebc"/>
+	</ActiveMobileDevice>
+</BorlandProject>

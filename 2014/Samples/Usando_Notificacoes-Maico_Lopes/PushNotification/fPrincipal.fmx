@@ -1,0 +1,48 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  ClientHeight = 475
+  ClientWidth = 345
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Size.Width = 345.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'Notifica'#231#245'es Remota'
+  end
+  object Memo: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    Align = Client
+    Size.Width = 345.000000000000000000
+    Size.Height = 442.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ReadOnly = True
+  end
+  object KinveyProvider: TKinveyProvider
+    ApiVersion = '3'
+    AppKey = 'kid_Wyl5RQ5rN'
+    AppSecret = 'ca8e40d3ecea4fe09c9195eea7dfb133'
+    MasterSecret = '5b9c0187fe5e4bd496a5ad8d8b488cc8'
+    UserName = 'aquasoft'
+    Password = 'aquasoft'
+    AndroidPush.GCMAppID = '139384495498'
+    Left = 88
+    Top = 144
+  end
+  object PushEvents: TPushEvents
+    Provider = KinveyProvider
+    OnDeviceTokenRequestFailed = PushEventsDeviceTokenRequestFailed
+    OnPushReceived = PushEventsPushReceived
+    Left = 184
+    Top = 144
+  end
+end

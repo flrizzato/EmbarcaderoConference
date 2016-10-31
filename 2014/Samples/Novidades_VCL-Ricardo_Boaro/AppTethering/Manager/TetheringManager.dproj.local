@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/05/12 17:17:28.000.887,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/05/12 17:17:28.000.412,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2014/05/12 17:17:30.000.906,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/05/12 22:09:38.000.696,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/05/12 22:10:52.000.243,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\AppTethering1\Manager\Unit1.dfm</Transaction>
+    <Transaction>2014/05/12 22:10:52.000.243,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\AppTethering1\Manager\Unit1.pas</Transaction>
+    <Transaction>2014/05/12 22:10:53.000.214,C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\AppTethering1\Manager\Project1.dproj</Transaction>
+    <Transaction>2014/05/20 01:14:07.000.550,C:\DTOURXE6\08_AppTethering\0-AppTethering101\Manager\TetheringManager.dproj=C:\DTOURXE6\08_AppTethering\0-AppTethering101\Manager\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

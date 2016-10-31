@@ -1,0 +1,89 @@
+object FrmHome: TFrmHome
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 320
+  StyleLookup = 'bottomtoolbar'
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object ToolBar1: TToolBar
+    Height = 44.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    object Label1: TLabel
+      Font.Style = [fsBold]
+      StyledSettings = [ssFamily, ssSize, ssFontColor]
+      Height = 21.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Delphi Conference'
+      Width = 297.000000000000000000
+      Trimming = ttCharacter
+    end
+  end
+  object ListBox1: TListBox
+    Align = alClient
+    Height = 504.000000000000000000
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 1
+    Width = 320.000000000000000000
+    DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    GroupingKind = gsGrouped
+    object ListBoxItem1: TListBoxItem
+      Height = 44.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'Clientes'
+      Width = 320.000000000000000000
+      OnClick = ListBoxItem1Click
+    end
+    object ListBoxItem2: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 44.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'Produtos'
+      Width = 320.000000000000000000
+      OnClick = ListBoxItem2Click
+    end
+    object ListBoxItem3: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 88.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'Pedidos'
+      Width = 320.000000000000000000
+      OnClick = ListBoxItem3Click
+    end
+    object ListBoxItem4: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 132.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'Configura'#231#245'es'
+      Width = 320.000000000000000000
+      OnClick = ListBoxItem4Click
+    end
+    object ListBoxGroupFooter1: TListBoxGroupFooter
+      Height = 56.000000000000000000
+      Position.Y = 176.000000000000000000
+      StyleLookup = 'listboxgroupheader'
+      Text = 'WebService'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem5: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 232.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'Busca Cliente'
+      Width = 320.000000000000000000
+      OnClick = ListBoxItem5Click
+    end
+  end
+end

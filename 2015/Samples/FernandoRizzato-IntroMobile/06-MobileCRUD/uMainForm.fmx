@@ -1,0 +1,432 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 3
+  object TabControlMain: TTabControl
+    Align = Client
+    FullSize = True
+    Size.Width = 384.000000000000000000
+    Size.Height = 567.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = None
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TListItemRightDetailAppearance'
+        ItemEditAppearanceClassName = 'TListItemRightDetailShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 384.000000000000000000
+        Size.Height = 519.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        OnItemClick = ListView1ItemClick
+        SearchVisible = True
+      end
+      object ToolBar1: TToolBar
+        Size.Width = 384.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label1: TLabel
+          Align = Center
+          Size.Width = 336.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'toollabel'
+          TextSettings.HorzAlign = Center
+          TextSettings.WordWrap = False
+          Text = 'Seattle + FireDAC + IBLite'
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object edtSalario: TEdit
+        Tag = 99
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        KeyboardType = NumbersAndPunctuation
+        ReturnKeyType = Next
+        ReadOnly = True
+        Position.X = 10.000000000000000000
+        Position.Y = 142.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Sal'#225'rio'
+        OnKeyDown = edtSalarioKeyDown
+      end
+      object edtNome: TEdit
+        Tag = 99
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        ReturnKeyType = Next
+        ReadOnly = True
+        Position.X = 10.000000000000000000
+        Position.Y = 58.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Nome'
+        OnKeyDown = edtNomeKeyDown
+      end
+      object edtSobrenome: TEdit
+        Tag = 99
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        ReturnKeyType = Next
+        ReadOnly = True
+        Position.X = 10.000000000000000000
+        Position.Y = 100.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Sobrenome'
+        OnKeyDown = edtSobrenomeKeyDown
+      end
+      object ToolBar2: TToolBar
+        Size.Width = 384.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object butVoltar: TSpeedButton
+          Action = ChangeTabAction1
+          Align = Left
+          Enabled = True
+          ImageIndex = -1
+          Margins.Left = 5.000000000000000000
+          Position.X = 5.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          Visible = True
+        end
+        object butMenu: TSpeedButton
+          Align = Right
+          Margins.Right = 5.000000000000000000
+          Position.X = 331.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'detailstoolbutton'
+          OnClick = butMenuClick
+        end
+        object butGravar: TSpeedButton
+          Action = LiveBindingsBindNavigatePost1
+          Align = Left
+          Enabled = True
+          ImageIndex = -1
+          Margins.Left = 5.000000000000000000
+          Position.X = 58.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'donetoolbutton'
+          Visible = True
+        end
+        object butCancel: TSpeedButton
+          Action = LiveBindingsBindNavigateCancel1
+          Align = Left
+          Enabled = True
+          ImageIndex = -1
+          Margins.Left = 5.000000000000000000
+          Position.X = 111.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'deletetoolbutton'
+          Visible = True
+        end
+      end
+      object lsbMenu: TListBox
+        Anchors = [akTop, akRight]
+        Position.X = 593.000000000000000000
+        Position.Y = 50.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 140.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Visible = False
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 120.000000000000000000
+        Viewport.Height = 140.000000000000000000
+        object ListBoxItem1: TListBoxItem
+          Size.Width = 120.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Incluir'
+          OnClick = ListBoxItem1Click
+        end
+        object ListBoxItem2: TListBoxItem
+          Position.Y = 44.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Editar'
+          OnClick = ListBoxItem2Click
+        end
+        object ListBoxItem3: TListBoxItem
+          Position.Y = 88.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Excluir'
+          OnClick = ListBoxItem3Click
+        end
+        object ShadowEffect1: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+          Enabled = False
+        end
+      end
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'User_Name=sysdba'
+      'Password=masterkey'
+      'DriverID=IBLite')
+    LoginPrompt = False
+    BeforeConnect = FDConnection1BeforeConnect
+    Left = 112
+    Top = 192
+  end
+  object FDQuery1: TFDQuery
+    AutoCalcFields = False
+    AfterPost = FDQuery1AfterPost
+    AfterCancel = FDQuery1AfterCancel
+    AfterDelete = FDQuery1AfterDelete
+    OnCalcFields = FDQuery1CalcFields
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT'
+      '    T.EMPNO,'
+      '    T.LASTNAME,'
+      '    T.FIRSTNAME,'
+      '    T.PHONEEXT,'
+      '    T.HIREDATE,'
+      '    T.SALARY'
+      'FROM EMPLOYEE T'
+      'ORDER BY T.EMPNO')
+    Left = 112
+    Top = 248
+    object FDQuery1EMPNO: TIntegerField
+      FieldName = 'EMPNO'
+      Origin = 'EMPNO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object FDQuery1LASTNAME: TStringField
+      FieldName = 'LASTNAME'
+      Origin = 'LASTNAME'
+    end
+    object FDQuery1FIRSTNAME: TStringField
+      FieldName = 'FIRSTNAME'
+      Origin = 'FIRSTNAME'
+      Size = 15
+    end
+    object FDQuery1PHONEEXT: TStringField
+      FieldName = 'PHONEEXT'
+      Origin = 'PHONEEXT'
+      Size = 4
+    end
+    object FDQuery1HIREDATE: TSQLTimeStampField
+      FieldName = 'HIREDATE'
+      Origin = 'HIREDATE'
+    end
+    object FDQuery1SALARY: TFloatField
+      FieldName = 'SALARY'
+      Origin = 'SALARY'
+      OnSetText = FDQuery1SALARYSetText
+      DisplayFormat = '###,###.00'
+    end
+    object FDQuery1FULLNAME: TStringField
+      FieldKind = fkCalculated
+      FieldName = 'FULLNAME'
+      Size = 50
+      Calculated = True
+    end
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 104
+    Top = 360
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'FIRSTNAME'
+      Control = edtNome
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'LASTNAME'
+      Control = edtSobrenome
+      Track = False
+    end
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'FULLNAME'
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'SALARY'
+          ControlMemberName = 'Detail'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'SALARY'
+      Control = edtSalario
+      Track = False
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSource.AutoEdit = False
+    DataSource.OnStateChange = BindSourceDB1SubDataSourceStateChange
+    DataSet = FDQuery1
+    ScopeMappings = <>
+    Left = 112
+    Top = 304
+  end
+  object FDPhysIBDriverLink1: TFDPhysIBDriverLink
+    Left = 216
+    Top = 192
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 216
+    Top = 248
+  end
+  object ActionList1: TActionList
+    Left = 216
+    Top = 304
+    object ChangeTabAction1: TChangeTabAction
+      Category = 'Tab'
+      CustomText = 'Voltar'
+    end
+    object LiveBindingsBindNavigateFirst1: TFMXBindNavigateFirst
+      Category = 'LiveBindings'
+      Text = 'First'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigatePrior1: TFMXBindNavigatePrior
+      Category = 'LiveBindings'
+      Text = 'Prior'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateNext1: TFMXBindNavigateNext
+      Category = 'LiveBindings'
+      Text = 'Next'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateLast1: TFMXBindNavigateLast
+      Category = 'LiveBindings'
+      Text = 'Last'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateInsert1: TFMXBindNavigateInsert
+      Category = 'LiveBindings'
+      Text = 'Insert'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateDelete1: TFMXBindNavigateDelete
+      Category = 'LiveBindings'
+      Text = 'Delete'
+      DataSource = BindSourceDB1
+      ConfirmDelete = False
+    end
+    object LiveBindingsBindNavigateEdit1: TFMXBindNavigateEdit
+      Category = 'LiveBindings'
+      Text = 'Edit'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigatePost1: TFMXBindNavigatePost
+      Category = 'LiveBindings'
+      Text = 'Gravar'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateCancel1: TFMXBindNavigateCancel
+      Category = 'LiveBindings'
+      Text = 'Canc'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateRefresh1: TFMXBindNavigateRefresh
+      Category = 'LiveBindings'
+      Text = 'Refresh'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateApplyUpdates1: TFMXBindNavigateApplyUpdates
+      Category = 'LiveBindings'
+      Text = 'Apply Updates'
+      DataSource = BindSourceDB1
+    end
+    object LiveBindingsBindNavigateCancelUpdates1: TFMXBindNavigateCancelUpdates
+      Category = 'LiveBindings'
+      Text = 'Cancel Updates'
+      DataSource = BindSourceDB1
+    end
+  end
+end

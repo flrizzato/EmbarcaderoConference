@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6DD5352A-0877-4520-ABB2-3738672F356F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="03 - DataSnap REST\01 - Servidor DataSnap REST\DC2013.OlaMundo.ServidorREST.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03 - DataSnap REST\02 - PlugIn DataSnap\DC2013.PlugIn.OlaMundo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DC2013_OlaMundo_ServidorREST">
+        <MSBuild Projects="03 - DataSnap REST\01 - Servidor DataSnap REST\DC2013.OlaMundo.ServidorREST.dproj"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_ServidorREST:Clean">
+        <MSBuild Projects="03 - DataSnap REST\01 - Servidor DataSnap REST\DC2013.OlaMundo.ServidorREST.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DC2013_OlaMundo_ServidorREST:Make">
+        <MSBuild Projects="03 - DataSnap REST\01 - Servidor DataSnap REST\DC2013.OlaMundo.ServidorREST.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DC2013_PlugIn_OlaMundo">
+        <MSBuild Projects="03 - DataSnap REST\02 - PlugIn DataSnap\DC2013.PlugIn.OlaMundo.dproj"/>
+    </Target>
+    <Target Name="DC2013_PlugIn_OlaMundo:Clean">
+        <MSBuild Projects="03 - DataSnap REST\02 - PlugIn DataSnap\DC2013.PlugIn.OlaMundo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DC2013_PlugIn_OlaMundo:Make">
+        <MSBuild Projects="03 - DataSnap REST\02 - PlugIn DataSnap\DC2013.PlugIn.OlaMundo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DC2013_OlaMundo_ServidorREST;DC2013_PlugIn_OlaMundo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DC2013_OlaMundo_ServidorREST:Clean;DC2013_PlugIn_OlaMundo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DC2013_OlaMundo_ServidorREST:Make;DC2013_PlugIn_OlaMundo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

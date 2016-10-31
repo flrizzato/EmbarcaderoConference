@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/15 10:51:53.000.877,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/15 10:51:56.000.286,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/09/15 10:52:06.000.637,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/12 03:47:02.000.521,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/10/12 03:47:28.000.542,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\CodeRage X USA\Samples\04 RequestFilters\Client\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 03:47:28.000.542,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\CodeRage X USA\Samples\04 RequestFilters\Client\Unit1.dfm</Transaction>
+    <Transaction>2015/10/12 03:47:37.000.703,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\CodeRage X USA\Samples\04 RequestFilters\Client\Client.dproj</Transaction>
+    <Transaction>2015/10/12 03:50:58.000.903,=D:\CodeRage X USA\Samples\04 RequestFilters\Client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2015/10/12 03:50:59.000.055,=D:\CodeRage X USA\Samples\04 RequestFilters\Client\ClientModuleUnit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

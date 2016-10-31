@@ -1,0 +1,68 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'Record Helpers for Simple Types'
+  ClientHeight = 137
+  ClientWidth = 518
+  FormFactor.Width = 1280
+  FormFactor.Height = 800
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  object spbDiaDaSemana: TSpinBox
+    Cursor = crIBeam
+    Max = 6.000000000000000000
+    DisableFocusEffect = False
+    KeyboardType = vktDefault
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Width = 113.000000000000000000
+    Height = 22.000000000000000000
+  end
+  object btnDiaDaSemana: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 152.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = 'Dia Da Semana'
+    Width = 345.000000000000000000
+    OnClick = btnDiaDaSemanaClick
+  end
+  object cleDateToString: TCalendarEdit
+    Cursor = crIBeam
+    Date = 41205.000000000000000000
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 56.000000000000000000
+    Width = 113.000000000000000000
+  end
+  object btnDateToString: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 152.000000000000000000
+    Position.Y = 56.000000000000000000
+    Text = 'Date To String'
+    Width = 345.000000000000000000
+    OnClick = btnDateToStringClick
+  end
+  object edtTexto: TEdit
+    DisableFocusEffect = False
+    KeyboardType = vktDefault
+    Password = False
+    Text = 'Delphi'
+    Position.X = 16.000000000000000000
+    Position.Y = 96.000000000000000000
+    Width = 113.000000000000000000
+    Height = 22.000000000000000000
+  end
+  object btnLength: TButton
+    DisableFocusEffect = False
+    Height = 22.000000000000000000
+    Position.X = 152.000000000000000000
+    Position.Y = 96.000000000000000000
+    Text = 'Length'
+    Width = 345.000000000000000000
+    OnClick = btnLengthClick
+  end
+end

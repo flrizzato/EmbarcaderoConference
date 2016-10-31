@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/25 17:56:18.000.728,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/26 09:47:30.000.496,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/26 12:12:36.000.917,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/27 11:05:45.000.241,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/27 11:10:09.000.842,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\frmPrincipalUnt.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/27 11:10:09.000.842,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\frmPrincipalUnt.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2015/09/27 11:10:25.000.779,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\IntentsDX.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/09/27 11:11:20.000.956,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\frmIntentsDXUnt.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\frmPrincipalUnt.pas</Transaction>
+    <Transaction>2015/09/27 11:11:20.000.956,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\frmIntentsDXUnt.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\frmPrincipalUnt.fmx</Transaction>
+    <Transaction>2015/10/18 10:31:38.000.808,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\IntentsDX.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\Intents_2\IntentsDelphi10Seattle.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="AVD_for_Nexus_4_by_Google"/>
+	</ActiveMobileDevice>
+</BorlandProject>

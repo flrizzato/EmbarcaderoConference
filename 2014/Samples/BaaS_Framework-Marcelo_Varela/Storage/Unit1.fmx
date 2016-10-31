@@ -1,0 +1,409 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 615
+  ClientWidth = 360
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    FullSize = True
+    Size.Width = 360.000000000000000000
+    Size.Height = 615.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 1
+    TabPosition = Top
+    object tbListar: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 120.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'tbListar'
+      object ToolBar1: TToolBar
+        Size.Width = 360.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Text1: TText
+          Align = Contents
+          Size.Width = 360.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Listagem'
+          TextSettings.Font.Size = 26.000000000000000000
+          object SpeedButton4: TSpeedButton
+            Align = Left
+            Margins.Left = 4.000000000000000000
+            Position.X = 4.000000000000000000
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'refreshtoolbutton'
+            Text = 'SpeedButton4'
+            OnClick = SpeedButton4Click
+          end
+        end
+        object SpeedButton1: TSpeedButton
+          Action = GoTbNovo
+          Align = Right
+          Enabled = True
+          Margins.Right = 4.000000000000000000
+          Position.X = 308.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'addtoolbutton'
+          Visible = True
+        end
+      end
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 0
+        Align = Client
+        Size.Width = 360.000000000000000000
+        Size.Height = 518.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        ItemAppearance.ItemHeight = 52
+        CanSwipeDelete = False
+        OnItemClick = ListView1ItemClick
+      end
+    end
+    object tbDetalhes: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 120.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'tbDetalhes'
+      object ToolBar3: TToolBar
+        Size.Width = 360.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Text3: TText
+          Align = Contents
+          Size.Width = 360.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Detalhe'
+          TextSettings.Font.Size = 26.000000000000000000
+          object SpeedButton6: TSpeedButton
+            Align = Right
+            Margins.Right = 4.000000000000000000
+            Position.X = 308.000000000000000000
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'trashtoolbutton'
+            Text = 'SpeedButton6'
+            OnClick = SpeedButton6Click
+          end
+        end
+        object SpeedButton5: TSpeedButton
+          Action = GoTbListar
+          Align = Left
+          Enabled = True
+          Margins.Left = 4.000000000000000000
+          Position.X = 4.000000000000000000
+          Size.Width = 85.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          Text = 'Voltar'
+          Visible = True
+        end
+      end
+      object Text4: TText
+        Position.X = 24.000000000000000000
+        Position.Y = 88.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 29.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Nome:'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.HorzAlign = Leading
+      end
+      object Text5: TText
+        Position.X = 24.000000000000000000
+        Position.Y = 182.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 29.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Fone:'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.HorzAlign = Leading
+      end
+      object txtTelefone: TText
+        Position.X = 24.000000000000000000
+        Position.Y = 211.000000000000000000
+        Size.Width = 297.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 28.000000000000000000
+        TextSettings.HorzAlign = Leading
+      end
+      object txtDataNascimento: TText
+        Position.X = 24.000000000000000000
+        Position.Y = 305.000000000000000000
+        Size.Width = 297.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Text = '30/12/1899'
+        TextSettings.Font.Size = 28.000000000000000000
+        TextSettings.HorzAlign = Leading
+      end
+      object txtNome: TText
+        Position.X = 24.000000000000000000
+        Position.Y = 117.000000000000000000
+        Size.Width = 297.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 28.000000000000000000
+        TextSettings.HorzAlign = Leading
+      end
+      object Text9: TText
+        Position.X = 24.000000000000000000
+        Position.Y = 276.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 29.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Data nasc.:'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.HorzAlign = Leading
+      end
+    end
+    object tbNovo: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 120.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'tbNovo'
+      object ListBox1: TListBox
+        Align = Client
+        Margins.Top = 20.000000000000000000
+        Size.Width = 360.000000000000000000
+        Size.Height = 498.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        object ListBoxItem1: TListBoxItem
+          Size.Width = 360.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Nome:'
+          object Edit1: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Right
+            TabOrder = 1
+            Position.X = 122.000000000000000000
+            Margins.Right = 6.000000000000000000
+            Size.Width = 232.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object ListBoxItem2: TListBoxItem
+          Position.Y = 44.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Telefone:'
+          object Edit2: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Right
+            TabOrder = 1
+            Position.X = 122.000000000000000000
+            Margins.Right = 6.000000000000000000
+            Size.Width = 232.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object ListBoxItem3: TListBoxItem
+          Position.Y = 88.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Data nasc.:'
+          object DateEdit1: TDateEdit
+            Date = 41790.000000000000000000
+            Position.X = 240.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 113.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+          end
+        end
+      end
+      object ToolBar2: TToolBar
+        Size.Width = 360.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Text2: TText
+          Align = Contents
+          Size.Width = 360.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Novo'
+          TextSettings.Font.Size = 26.000000000000000000
+        end
+        object SpeedButton2: TSpeedButton
+          Margins.Right = 4.000000000000000000
+          Position.X = 265.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'donetoolbutton'
+          Text = 'Salvar'
+          OnClick = SpeedButton2Click
+        end
+        object SpeedButton3: TSpeedButton
+          Action = GoTbListar
+          Align = Left
+          Enabled = True
+          Margins.Left = 4.000000000000000000
+          Position.X = 4.000000000000000000
+          Size.Width = 101.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          Visible = True
+        end
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 168
+    Top = 296
+    object GoTbNovo: TChangeTabAction
+      Category = 'Tab'
+      Tab = tbNovo
+      Transition = None
+    end
+    object GoTbListar: TChangeTabAction
+      Category = 'Tab'
+      CustomText = 'Cancelar'
+      Tab = tbListar
+      Transition = None
+    end
+    object GoDetalhes: TChangeTabAction
+      Category = 'Tab'
+      Tab = tbDetalhes
+      Transition = None
+    end
+  end
+  object AdapterBindSource1: TAdapterBindSource
+    AutoActivate = True
+    OnCreateAdapter = AdapterBindSource1CreateAdapter
+    Adapter = DataGeneratorAdapter1
+    ScopeMappings = <>
+    Left = 200
+    Top = 296
+  end
+  object DataGeneratorAdapter1: TDataGeneratorAdapter
+    FieldDefs = <
+      item
+        Name = 'Nome'
+        ReadOnly = False
+      end
+      item
+        Name = 'Telefone'
+        ReadOnly = False
+      end
+      item
+        Name = 'DataNascimento'
+        FieldType = ftDateTime
+        ReadOnly = False
+      end>
+    Active = True
+    AutoPost = False
+    Options = [loptAllowInsert, loptAllowDelete, loptAllowModify]
+    Left = 200
+    Top = 328
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 168
+    Top = 328
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'Nome'
+      Control = ListView1
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkPropertyToFieldText: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'Nome'
+      Component = txtNome
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText2: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'Telefone'
+      Component = txtTelefone
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText3: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'DataNascimento'
+      Component = txtDataNascimento
+      ComponentProperty = 'Text'
+    end
+  end
+  object KinveyProvider1: TKinveyProvider
+    ApiVersion = '3'
+    AppKey = 'XXXXX'
+    AppSecret = 'XXXXX'
+    MasterSecret = 'XXXXX'
+    Left = 232
+    Top = 176
+  end
+  object BackendQuery1: TBackendQuery
+    Provider = KinveyProvider1
+    BackendClassName = 'Cliente'
+    BackendService = 'Storage'
+    Left = 48
+    Top = 257
+  end
+  object BackendStorage1: TBackendStorage
+    Provider = KinveyProvider1
+    Left = 232
+    Top = 225
+  end
+end

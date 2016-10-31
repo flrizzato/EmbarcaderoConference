@@ -1,0 +1,77 @@
+object frmSelecaoClientes: TfrmSelecaoClientes
+  Left = 0
+  Top = 0
+  Caption = 'Selecao de Clientes'
+  ClientHeight = 951
+  ClientWidth = 600
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 600
+  DesignerHeight = 976
+  DesignerDeviceName = '7.0 WSVGA Android Tablet'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object tbrTopo: TToolBar
+    Height = 48.000000000000000000
+    TabOrder = 0
+    Width = 600.000000000000000000
+    object Label1: TLabel
+      Align = alClient
+      Height = 48.000000000000000000
+      Text = 'NFC-e (Nota Fiscal Eletr'#244'nica ao Consumidor Final)'
+      TextAlign = taCenter
+      Width = 600.000000000000000000
+      Trimming = ttCharacter
+    end
+  end
+  object tbrRodape: TToolBar
+    Align = alBottom
+    Height = 48.000000000000000000
+    Position.Y = 903.000000000000000000
+    TabOrder = 1
+    Width = 600.000000000000000000
+    object ToolBar1: TToolBar
+      Align = alBottom
+      Height = 48.000000000000000000
+      TabOrder = 0
+      Width = 600.000000000000000000
+      object btnvenda: TSpeedButton
+        Align = alLeft
+        Height = 48.000000000000000000
+        Trimming = ttCharacter
+        Width = 57.000000000000000000
+        object imgVenda: TImage
+          MultiResBitmap.Width = 48
+          MultiResBitmap = <
+            item
+              Width = 48
+              Height = 48
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0193494441546843ED97815104210C45572BD00AB403ED403BB134B5921B2BD0
+                0EB403ED406127B909D9642F8BC40DEBBE993F0186E3F810E0EE6CB0F10D7129
+                D6F1ABB17C41EDE4115713E710BB6537B036FFE2106B7053EE9395D8CFC0DAEC
+                06D666CEC021291F544D1CA94F2BBD272DE231491A684DBD264DD076E01A6224
+                6E211668062E2066F2FD5E238ED4C7A22AE8D6D5D2620C04C7A10B3BD2DB2D34
+                4923C940C4FC57B118A0A9B0441E4C16B7B7143219D85C0AB5E03729453F7B05
+                F1C85FA6103D1F4B4431A5D00DC42E900C4C1E8B4098DE81C89816F73349CBC3
+                B9B22464AE4C8558FA8CF4964299228DAC2944DD6B6509AD2F2D532C7D8A05E6
+                06C4DFDC09FAD3562B4B687D699962E953C00D444F9FCCB653E81E2282DBC8B7
+                55AB23BCFD543DC3DB785DC4BA0391B88338D2A381026EA07097C03CE479A9D5
+                11DE7EAA9EE16DBC2EC20D3C438CCC0BC49D104857D46CCE05A0983337107DF2
+                C871DE9BBB465BF30572C3D3C05BD225E8293778E06980BE296EEF8BA701FAAA
+                3F406C8EF735FA9194CF80F647A90669CEBD320C3FDAF4CE360853B5C8000000
+                0049454E44AE426082}
+              FileName = 'Z:\Transfer'#234'ncias\1383081418_Cash_register.png'
+            end>
+          Align = alClient
+          Height = 48.000000000000000000
+          Width = 57.000000000000000000
+        end
+      end
+    end
+  end
+end

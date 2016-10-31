@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="AVD_for_Nexus_4_by_Google"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2015/10/17 11:32:15.000.232,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\RecebeType.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\ReceiveIntent.dproj</Transaction>
+    <Transaction>2015/10/17 11:38:42.000.641,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebe.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 11:38:42.000.641,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebe.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\Unit1.fmx</Transaction>
+    <Transaction>2015/10/17 11:38:51.000.281,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebeType.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebe.pas</Transaction>
+    <Transaction>2015/10/17 11:38:51.000.281,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebeType.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebe.fmx</Transaction>
+    <Transaction>2015/10/17 11:38:57.000.509,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebeTypeUnt.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebeType.pas</Transaction>
+    <Transaction>2015/10/17 11:38:57.000.509,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebeTypeUnt.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Intents_ECon2015\RecebeTypePas\frmRecebeType.fmx</Transaction>
+  </Transactions>
+</BorlandProject>

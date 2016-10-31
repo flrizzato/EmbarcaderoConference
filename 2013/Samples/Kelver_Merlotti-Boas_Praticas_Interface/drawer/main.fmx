@@ -1,0 +1,178 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object ListBox1: TListBox
+    Align = alClient
+    Height = 548.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    object ListBoxGroupHeader1: TListBoxGroupHeader
+      Height = 23.000000000000000000
+      Text = 'ListBoxGroupHeader1'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem1: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 23.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem1'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem2: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 67.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem2'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem3: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 111.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem3'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem4: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 155.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem4'
+      Width = 320.000000000000000000
+    end
+    object ListBoxGroupHeader2: TListBoxGroupHeader
+      Height = 23.000000000000000000
+      Position.Y = 199.000000000000000000
+      Text = 'ListBoxGroupHeader2'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem5: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 222.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem5'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem6: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 266.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem6'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem7: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 310.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem7'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem8: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 354.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem8'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem9: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 398.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem9'
+      Width = 320.000000000000000000
+    end
+    object ListBoxGroupHeader3: TListBoxGroupHeader
+      Height = 23.000000000000000000
+      Position.Y = 442.000000000000000000
+      Text = 'ListBoxGroupHeader3'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem10: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 465.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem10'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem11: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 509.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem11'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem12: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 553.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem12'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem13: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 597.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem13'
+      Width = 320.000000000000000000
+    end
+    object ListBoxItem14: TListBoxItem
+      Height = 44.000000000000000000
+      Position.Y = 641.000000000000000000
+      StyleLookup = 'listboxitemnodetail'
+      Text = 'ListBoxItem14'
+      Width = 320.000000000000000000
+    end
+  end
+  object Panel1: TPanel
+    Align = alClient
+    Height = 548.000000000000000000
+    Width = 320.000000000000000000
+    TabOrder = 1
+    object ToolBar1: TToolBar
+      Height = 44.000000000000000000
+      TabOrder = 0
+      Width = 320.000000000000000000
+      object SpeedButton1: TSpeedButton
+        Align = alLeft
+        Height = 30.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 7.000000000000000000
+        StyleLookup = 'detailstoolbuttonbordered'
+        Text = 'SpeedButton1'
+        Trimming = ttCharacter
+        Width = 36.000000000000000000
+        OnClick = SpeedButton1Click
+      end
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+      TabOrder = 1
+      Position.X = 32.000000000000000000
+      Position.Y = 64.000000000000000000
+      Width = 97.000000000000000000
+      Height = 31.000000000000000000
+      KillFocusByReturn = False
+    end
+    object AnimateDrawer: TFloatAnimation
+      Duration = 0.200000002980232200
+      PropertyName = 'Position.X'
+      StartValue = 0.000000000000000000
+      StopValue = 0.000000000000000000
+    end
+  end
+end

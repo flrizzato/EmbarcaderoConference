@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/15 10:51:53.000.877,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/09/15 10:51:56.000.286,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/09/15 10:52:06.000.637,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/12 00:29:47.000.480,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/10/12 00:29:47.000.325,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 00:29:48.000.105,=C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/12 00:33:59.000.256,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas=D:\CodeRage X USA\Samples\01 Auth\Server\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/12 00:33:59.000.256,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm=D:\CodeRage X USA\Samples\01 Auth\Server\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2015/10/12 00:34:01.000.779,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\CodeRage X USA\Samples\01 Auth\Server\Unit1.dfm</Transaction>
+    <Transaction>2015/10/12 00:34:01.000.779,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\CodeRage X USA\Samples\01 Auth\Server\Unit1.pas</Transaction>
+    <Transaction>2015/10/12 00:34:03.000.446,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm=D:\CodeRage X USA\Samples\01 Auth\Server\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2015/10/12 00:34:03.000.446,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas=D:\CodeRage X USA\Samples\01 Auth\Server\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/10/12 00:34:11.000.273,C:\Users\Kelver\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\CodeRage X USA\Samples\01 Auth\Server\AuthServer.dproj</Transaction>
+    <Transaction>2015/10/12 00:34:40.000.483,=D:\CodeRage X USA\Samples\01 Auth\Server\Unit2.pas</Transaction>
+    <Transaction>2015/10/12 01:17:08.000.498,D:\CodeRage X USA\Samples\01 Auth\Server\Unit2.dfm=D:\CodeRage X USA\Samples\01 Auth\Server\uDmAuth.dfm</Transaction>
+    <Transaction>2015/10/12 01:17:08.000.498,D:\CodeRage X USA\Samples\01 Auth\Server\Unit2.pas=D:\CodeRage X USA\Samples\01 Auth\Server\uDmAuth.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/09/20 23:45:48.000.745,=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 21:55:54.404,=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 22:00:56.127,F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\003 - TEvent\Unt_Tela.pas=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 22:00:56.127,F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\003 - TEvent\Unt_Tela.dfm=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2012/10/21 22:01:04.612,F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\003 - TEvent\Exemplo_TEvent.dproj=C:\Users\mario.guedes\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2012/10/21 22:02:39.758,=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\003 - TEvent\Unit1.pas</Transaction>
+    <Transaction>2012/10/21 22:02:57.175,F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\003 - TEvent\Unt_ThreadComEvent.pas=F:\DC2012\DC2012 - Controlando a Concorrência em Aplicações Multi Thread\003 - TEvent\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

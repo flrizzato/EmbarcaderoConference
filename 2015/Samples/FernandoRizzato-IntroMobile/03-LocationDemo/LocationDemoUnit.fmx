@@ -1,0 +1,335 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 684
+  ClientWidth = 1280
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 930.000000000000000000
+    Size.Height = 684.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    object ToolBar1: TToolBar
+      Size.Width = 930.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label1: TLabel
+        Align = Client
+        Size.Width = 930.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'toollabel'
+        TextSettings.HorzAlign = Center
+        Text = 'Location Demo'
+        object Button1: TButton
+          Align = Client
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'detailstoolbutton'
+          TabOrder = 1
+          Text = 'Button1'
+          Visible = False
+        end
+      end
+    end
+    object MapView1: TMapView
+      Align = Client
+      Size.Width = 930.000000000000000000
+      Size.Height = 636.000000000000000000
+      Size.PlatformDefault = False
+      MapType = Hybrid
+      OnMarkerClick = MapView1MarkerClick
+      object BitmapSource: TImage
+        MultiResBitmap = <
+          item
+            Width = 59
+            Height = 86
+            PNG = {
+              89504E470D0A1A0A0000000D494844520000003B000000560806000000714FEE
+              37000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              08B649444154785EED9B6B6C1C5715C7CF9D19DBEB5DBF623B35CACB769BA6A4
+              5288948A474B8B107C0012EFDAE50BA9C497AA52AB82A0484848ADC4874A0824
+              1012A282221E0289220A1492ECAE53F850A4D0F4A926691BD4B8AE89BD8E5335
+              F53B8EBD7676672EF75C9F9D9DF57A776776EFAC07E4DF179F73ADF53D7FDF33
+              F771E62E6CF37F0AA39F4AB97520BE2FCBD97D9A66DD2BDC8F7280FD37396B6D
+              62D0BEC661B191F125D1F198F8DD886569670DC65FBC9C8C4DCA0FFB8832B1FB
+              BF787A4FD6C83EC42DF82AD3613F35BB869B30C63478C6C81ABF19FBFBD1296A
+              564ACD62FB62273F09A6F613D0E053D4543B16BC0ABAF5AD89F8D06BD4A284AA
+              C5F60F9E38C4B3FAD342E4A7A9C9C68C34C2EADE1DB0BAA71D323B2290ED6806
+              AB5107ABC9006D2D0BDA4D138C853434CC2F43686A114257E6415FBE499F7660
+              C14BCC301F1D3F75FF456AA989AAC4F60FC4A322ED7E0B06745113708DC1CAED
+              3BE1C6A15D90DEDB21FEB2873FCD39345F5980968BEF43F8BD69609678CA7364
+              61563C160F8E2763096AA91ACF627BA3A71E67C0BE4FAE64F9600FCCDFDD2F47
+              B05670C477BC320E914BD7A8651D0EFC895462F007E4568527B1BD03F19F8A01
+              FB06B9906D0FC1CC170E8A741523A998D0D40274FFE312188BABD42213E0A954
+              32F64D723DE35A6C5FF4E4CF00B4AF910B2BB776C3CC970ECAE7D02FF0F9EE7E
+              FE12842FCF500B62FD7C2231F475723CA1D3CFB2F4454F7D4774FD04B9B0F4B1
+              5D5228375C7DBC6AB8A1C1F21DB780BE72139AAE2D512BFB78C71DC7D30BA3CF
+              BE440DAEA938B2BDC7124799C687C985A5C3BB61F6F307C8AB1F5D2F8C42EB5B
+              57C913FF088B1D4B0D474F93EB0A8D7E6ECAAEA1BF75312DF34B7221DDDF05B3
+              9FBB9DBCFA82FD62FF39C48CFDAB0303F16E725D51566C83A98BC9C0D88D76B6
+              3504D322753D2D292A11FD62FF1887C4805D6B8CDB93A51B4A46BE6F207E442C
+              9DE7C8856B5F3E0CE9BE4EF2B68EE6D41CF4FCF52DF2C474C5E1AEC964EC3CB9
+              652939B2E2174F9109CB076E09845024DDDB29E3C9E18CB3129B8A159BFA9D62
+              CCEF918E489F857BFAA51914643CB9C749C4D91F3DD5B3EE946753B1E2F4F208
+              99B0725B37643AC3E405038C67657F7E6E129BCB87C92CCBE669CCE101B2E49A
+              1A440AE2B2D871B2CA5224B6F768F223A2F54EB4AD5003ACEEDB21DB83069EAA
+              303E8988D74D2A1789D50CF33E3221BDAF439E668208C6B58AA7AB1C0C3E4356
+              498AC48AA91C4B2992B5DDEA37F82A711E409C7197A2F899B598D839AC13B489
+              692305F139E22E459158A659B791091905E7533FC974E4C532AB72DDAB48EC1A
+              D7EC0DA83D0104142B943F5EAEE95071D75324B669095AC99475A320E33C4B37
+              B18536324B52247619AB3E44412D2880B08C4916125921A324C523DB020B64CA
+              4A4190D11C623399861B6496A448ACCEC0AECC1B4B6B640513FD46BEFCDAA0C3
+              FB6496A4482C30FE0E59D0302B923AC014C4A7E5E32E459158B15F7A834C68B4
+              EB3EC1A4E983EB64492ABE3D2812CB193F4B26344FCE93154C9CF139E32E4591
+              D8547CE882F8E81CDA9826414DE5C2D8F8DC7ADCE5297E66059CB3E7C884960D
+              95F9A0D032928FCB196F393615AB71F60C99F2FD0BCB3AD7B3AD07E369793B3F
+              F98A2DEE1FC82CCBA662C787A32F02982368EBE90CB45DC8D76B8300C68371AD
+              638E4CC487FE454E5936158B70AE3F4E26B4BF3621D6B460ACB91807C693C319
+              67254A8A4D2563274DB064CD12DFA776FD7354B66F351807C683607C18A7745C
+              50522CA273ED3132213C36036DE7AF90B735B49D9F9271E470C6E786B2622792
+              B133C0E1BBE442E799FF40F3845C95EA0E16C73BCFE09D1342C425E3F380AB02
+              535FF4E4CBE2FF7237DAF8E6EEDAFD8764C1AB5EE035849E13171DAB82F5CA44
+              6268BDAEED81B2236B63E98F8A939F9C92B1C39E136F4364F443F92BBF89BCFB
+              A1ECCF169A151B7E198F775C970EFB8F253E616A6652036D2735C1F5237B61EE
+              B39E6F01B906D3B6ED5C7E9EB0C09AD62D7D402C8DAF539327DC8DAC003B3018
+              1C153DDAA70B9CB0F22F89D5625C5F2D10CAC1FA37F65FAD50C4B558E4727CE8
+              0D6698C7F1CA0E3541C4B16D5349C16322FA4B1DB97018FBA796AAF024169177
+              9274EBDBE442D8A767373C3A4D9640E33F82279FB4C8AB1ACF6211BC7996052B
+              8536563342571765BB2A30859D67D589442C4E664D5425163180FD914C088B19
+              53251B5358CCA34A2A7F558BE5A6FE273221F29E088EABAB4416A4B06EFD90AC
+              9AA95A6CEAF4C09B7893146DBC7718BA6217256BA22885E383355FE3CB51B558
+              89CEED7364E45D35B3B25F298CD42696B367C912A93CA3A4A8EE570A23358915
+              C7AB91DC26435BCD40A8C64302DE53F42B8591DA4656C019FC9ECC9AF7CB72A2
+              CBA13885110562B93D2B87C7A6C586BDFAB5DFCF14466A163B99181C7756349A
+              C76765BB57FC4E61A466B18806EC7764563D2BFB9DC28812B160EAF6AC1CBE3C
+              67D788BCE0770A234AC48A0DC60742B1BC3F8887ECE682CBD09571A6F075585C
+              137B6F257BE18DA819590107EDD7648A639FB759D999C2ADD0FA673295A34EAC
+              954F652C8E797991ED4C61C6C0D5AB8C6A502676727860DE022EAB08CCB4E457
+              56DC50AF14469489451867BF205316CADC50AF1446948A3543693B95E5B7B056
+              36F916D6069C67613F5318512A76EAB9AFA4C51AF92ADA7828A894CA3285ED82
+              9DB9EA670A234AC52262AF6CDFECAE94CACE14E6C0FE42A66F28179BBAEB5C3E
+              95AF2E967DFB57CF1446948B9555400E2F4B9BF392A35BEF1446D48B158893D0
+              8FC92C29B6DE298CF8223695889D2053AEA1C6629ABC3CF54E61C417B1B8E2AE
+              9F5CD6D938BA5B91C2884F62C5294DB7ECEFBA6E14EBAC68D42B8511DFC44EC6
+              8786CD34C8E16B9CBE010D73F94BA3CE57261AD7FEF7C5225A73BE64933BD46F
+              4C61155FEF768BAF62B9B3D44AC7BEAD4A61C457B193C9D80BF80219ED86F915
+              99CE5B95C288AF6211C6353B95DB5F4F6D590A23BE8BE59AF5349905B33207AD
+              AA7B11B5E0BB58312BBFC3817F8F5C09FAA9C4A05D91AC1775FBEED99E6389DD
+              06E3F766393B3B351C0DD665C86DB6D9669B6DEA06C07F01A62D6FB13ED19820
+              0000000049454E44AE426082}
+          end>
+        Position.X = 32.000000000000000000
+        Position.Y = 16.000000000000000000
+      end
+    end
+  end
+  object MultiView1: TMultiView
+    TargetControl = Layout1
+    DrawerOptions.Mode = PushingDetailView
+    MasterButton = Button1
+    Size.Width = 350.000000000000000000
+    Size.Height = 684.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object ListBox1: TListBox
+      Align = Client
+      Size.Width = 349.000000000000000000
+      Size.Height = 636.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'transparentlistboxstyle'
+      TabOrder = 0
+      ShowScrollBars = False
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      GroupingKind = Grouped
+      Viewport.Width = 349.000000000000000000
+      Viewport.Height = 636.000000000000000000
+      object ListBoxItem1: TListBoxItem
+        Margins.Top = 15.000000000000000000
+        Position.Y = 15.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemnodetail'
+        TabOrder = 0
+        Text = 'Enable Location Services'
+        object Switch1: TSwitch
+          Align = Right
+          IsChecked = False
+          Margins.Left = 9.000000000000000000
+          Margins.Top = 9.000000000000000000
+          Margins.Right = 9.000000000000000000
+          Margins.Bottom = 9.000000000000000000
+          Position.X = 296.000000000000000000
+          Position.Y = 9.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          TouchTargetExpansion.Left = 6.000000000000000000
+          TouchTargetExpansion.Top = 6.000000000000000000
+          TouchTargetExpansion.Right = 6.000000000000000000
+          TouchTargetExpansion.Bottom = 6.000000000000000000
+          OnSwitch = Switch1Switch
+        end
+      end
+      object ListBoxGroupHeader1: TListBoxGroupHeader
+        Position.Y = 59.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxgroupheader'
+        TabOrder = 1
+        Text = 'Your location'
+      end
+      object ListBoxItemLatitude: TListBoxItem
+        Position.Y = 115.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 2
+        Text = 'Latitude'
+      end
+      object ListBoxItemLongitude: TListBoxItem
+        Position.Y = 159.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 3
+        Text = 'Longitude'
+      end
+      object ListBoxGroupHeader2: TListBoxGroupHeader
+        Position.Y = 203.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxgroupheader'
+        TabOrder = 4
+        Text = 'Current Address'
+      end
+      object ListBoxItemAdminArea: TListBoxItem
+        Position.Y = 259.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 5
+        Text = 'AdminArea'
+      end
+      object ListBoxItemCountryCode: TListBoxItem
+        Position.Y = 303.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 6
+        Text = 'CountryCode'
+      end
+      object ListBoxItemCountryName: TListBoxItem
+        Position.Y = 347.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 7
+        Text = 'CountryName'
+      end
+      object ListBoxItemFeatureName: TListBoxItem
+        Position.Y = 391.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 8
+        Text = 'FeatureName'
+      end
+      object ListBoxItemLocality: TListBoxItem
+        Position.Y = 435.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 9
+        Text = 'Locality'
+      end
+      object ListBoxItemPostalCode: TListBoxItem
+        Position.Y = 479.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 10
+        Text = 'PostalCode'
+      end
+      object ListBoxItemSubAdminArea: TListBoxItem
+        Position.Y = 523.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 11
+        Text = 'SubAdminArea'
+      end
+      object ListBoxItemSubLocality: TListBoxItem
+        Position.Y = 567.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 12
+        Text = 'SubLocality'
+      end
+      object ListBoxItemSubThoroughfare: TListBoxItem
+        Position.Y = 611.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 13
+        Text = 'SubThoroughfare'
+      end
+      object ListBoxItemThoroughfare: TListBoxItem
+        Position.Y = 655.000000000000000000
+        Size.Width = 349.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'listboxitemleftdetail'
+        TabOrder = 14
+        Text = 'Thoroughfare'
+      end
+    end
+    object ToolBar2: TToolBar
+      Size.Width = 349.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Button2: TButton
+        Align = Left
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'backtoolbutton'
+        TabOrder = 1
+        Text = 'Hide'
+        OnClick = Button2Click
+      end
+    end
+  end
+  object LocationSensor1: TLocationSensor
+    OnLocationChanged = LocationSensor1LocationChanged
+    Left = 488
+    Top = 128
+  end
+end

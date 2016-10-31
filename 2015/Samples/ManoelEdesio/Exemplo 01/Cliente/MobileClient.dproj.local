@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/17 22:11:56.000.233,=C:\Users\Manoel\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2015/10/17 22:12:15.000.552,C:\Users\Manoel\Documents\Embarcadero\Studio\Projects\Unit5.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\uFrmMobile.pas</Transaction>
+    <Transaction>2015/10/17 22:12:15.000.552,C:\Users\Manoel\Documents\Embarcadero\Studio\Projects\Unit5.fmx=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\uFrmMobile.fmx</Transaction>
+    <Transaction>2015/10/17 22:12:21.000.254,C:\Users\Manoel\Documents\Embarcadero\Studio\Projects\Project5.dproj=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\MobileClient.dproj</Transaction>
+    <Transaction>2015/10/17 22:13:28.000.114,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2015/10/17 22:13:28.000.203,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/17 22:14:54.000.109,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2015/10/17 22:14:54.000.186,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/17 22:19:56.000.343,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\ClientModuleUnit1.dfm=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\uCM.dfm</Transaction>
+    <Transaction>2015/10/17 22:19:56.000.343,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\ClientModuleUnit1.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\uCM.pas</Transaction>
+    <Transaction>2015/10/17 22:20:00.000.669,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\ClientClassesUnit1.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\uCC.pas</Transaction>
+    <Transaction>2015/10/18 14:28:11.000.868,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\Unit1.pas</Transaction>
+    <Transaction>2015/10/18 14:28:15.000.764,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\Unit1.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\uDML.pas</Transaction>
+    <Transaction>2015/10/18 14:28:15.000.764,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\Unit1.dfm=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Cliente\uDML.dfm</Transaction>
+    <Transaction>2015/10/18 21:45:51.000.029,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Bancos\DCExemplo.s3db</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="RAD_XE8"/>
+	</ActiveMobileDevice>
+</BorlandProject>

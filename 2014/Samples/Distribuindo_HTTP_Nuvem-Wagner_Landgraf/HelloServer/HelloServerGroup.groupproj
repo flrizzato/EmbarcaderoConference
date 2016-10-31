@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0F933095-BC9F-4BD5-90B5-137852400778}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="HelloServerStandAlone.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="HelloServerService.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="HelloServerStandAlone">
+        <MSBuild Projects="HelloServerStandAlone.dproj"/>
+    </Target>
+    <Target Name="HelloServerStandAlone:Clean">
+        <MSBuild Projects="HelloServerStandAlone.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HelloServerStandAlone:Make">
+        <MSBuild Projects="HelloServerStandAlone.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HelloServerService">
+        <MSBuild Projects="HelloServerService.dproj"/>
+    </Target>
+    <Target Name="HelloServerService:Clean">
+        <MSBuild Projects="HelloServerService.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HelloServerService:Make">
+        <MSBuild Projects="HelloServerService.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="HelloServerStandAlone;HelloServerService"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="HelloServerStandAlone:Clean;HelloServerService:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="HelloServerStandAlone:Make;HelloServerService:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

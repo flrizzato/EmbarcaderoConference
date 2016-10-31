@@ -1,0 +1,21 @@
+object TesteDialogo: TTesteDialogo
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop, dkiPhone, dkiPad]
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object BtnDialogo1: TBtnDialogo
+    BtnSim = 'Sim'
+    BtnNao = 'N'#227'o'
+    BtnCancel = 'Cancelar'
+  end
+end

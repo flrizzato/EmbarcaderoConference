@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/19 08:30:27.000.884,=C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/15 23:24:19.000.430,=C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/15 23:25:17.000.277,C:\PROJETOS\EC2015_JSON\EC2015_JSON.Principal.dfm=C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/10/15 23:25:17.000.277,C:\PROJETOS\EC2015_JSON\EC2015_JSON.Principal.pas=C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/15 23:25:29.000.195,C:\PROJETOS\EC2015_JSON\EC2015_JSON.dproj=C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/10/16 00:28:32.000.198,=C:\PROJETOS\EC2015_JSON\Unit1.pas</Transaction>
+    <Transaction>2015/10/16 00:29:45.000.518,C:\PROJETOS\EC2015_JSON\EC2015_JSON.TwitterApiREST.dfm=C:\PROJETOS\EC2015_JSON\Unit1.dfm</Transaction>
+    <Transaction>2015/10/16 00:29:45.000.518,C:\PROJETOS\EC2015_JSON\EC2015_JSON.TwitterApiREST.pas=C:\PROJETOS\EC2015_JSON\Unit1.pas</Transaction>
+    <Transaction>2015/10/19 20:24:43.000.216,C:\PROJETOS\EC2015_JSON\EC2015_JSON.TwitterApiREST.pas=C:\PROJETOS\EC2015_JSON\EC2015_JSON.InstagramApiREST.pas</Transaction>
+    <Transaction>2015/10/19 20:24:43.000.216,C:\PROJETOS\EC2015_JSON\EC2015_JSON.TwitterApiREST.dfm=C:\PROJETOS\EC2015_JSON\EC2015_JSON.InstagramApiREST.dfm</Transaction>
+    <Transaction>2015/10/19 21:51:53.000.164,=C:\PROJETOS\EC2015_JSON\res\imagem.txt</Transaction>
+    <Transaction>2015/10/19 21:52:32.000.287,C:\PROJETOS\EC2015_JSON\res\imagem.txt=</Transaction>
+  </Transactions>
+</BorlandProject>

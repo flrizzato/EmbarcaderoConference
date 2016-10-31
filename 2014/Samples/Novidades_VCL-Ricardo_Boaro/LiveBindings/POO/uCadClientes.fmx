@@ -1,0 +1,195 @@
+object FrmCadClientes: TFrmCadClientes
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 529
+  ClientWidth = 667
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object edtCod: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 16.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 46.000000000000000000
+    Text = 'C'#243'digo:'
+  end
+  object Label2: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 91.000000000000000000
+    Text = 'Nome:'
+  end
+  object edtNome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Text = '0'
+    Position.X = 16.000000000000000000
+    Position.Y = 109.000000000000000000
+    Size.Width = 425.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label3: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 139.000000000000000000
+    Text = 'Endere'#231'o:'
+  end
+  object edtEndereco: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 16.000000000000000000
+    Position.Y = 157.000000000000000000
+    Size.Width = 425.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label4: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 187.000000000000000000
+    Text = 'E-mail:'
+  end
+  object edtEmail: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 16.000000000000000000
+    Position.Y = 205.000000000000000000
+    Size.Width = 425.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button4: TButton
+    Position.X = 576.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 13
+    Text = 'Localizar '
+    OnClick = Button4Click
+  end
+  object StringGrid1: TStringGrid
+    Align = Bottom
+    Position.Y = 240.000000000000000000
+    Size.Width = 667.000000000000000000
+    Size.Height = 289.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 21
+    Options = [ColumnResize, ColumnMove, ColLines, RowLines, RowSelect, AlwaysShowSelection, Tabs, Header, HeaderClick]
+    RowCount = 200
+    RowHeight = 21.000000000000000000
+  end
+  object BindNavigator1: TBindNavigator
+    Align = Top
+    Size.Width = 667.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 31
+    DataSource = AdapterBindSource1
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 576.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 49
+    Text = 'Todos'
+    OnClick = Button1Click
+  end
+  object AdapterBindSource1: TAdapterBindSource
+    AutoActivate = True
+    Adapter = DataGeneratorAdapter1
+    ScopeMappings = <>
+    Left = 256
+    Top = 352
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 100
+    Top = 341
+    object LinkGridToDataSourceAdapterBindSource1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      GridControl = StringGrid1
+      Columns = <
+        item
+          MemberName = 'Codigo'
+        end
+        item
+          MemberName = 'Nome'
+          Width = 300
+        end
+        item
+          MemberName = 'Endereco'
+          Width = 300
+        end
+        item
+          MemberName = 'Email'
+          Width = 100
+        end>
+    end
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'Email'
+      Control = edtEmail
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'Codigo'
+      Control = edtCod
+      Track = False
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'Nome'
+      Control = edtNome
+      Track = False
+    end
+    object LinkControlToField4: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = AdapterBindSource1
+      FieldName = 'Endereco'
+      Control = edtEndereco
+      Track = False
+    end
+  end
+  object DataGeneratorAdapter1: TDataGeneratorAdapter
+    FieldDefs = <
+      item
+        Name = 'Codigo'
+        ReadOnly = False
+      end
+      item
+        Name = 'Nome'
+        FieldType = ftSingle
+        ReadOnly = False
+      end
+      item
+        Name = 'Endereco'
+        ReadOnly = False
+      end
+      item
+        Name = 'Email'
+        ReadOnly = False
+      end>
+    Active = True
+    AutoPost = False
+    Options = [loptAllowInsert, loptAllowDelete, loptAllowModify]
+    Left = 424
+    Top = 360
+  end
+  object ActionList1: TActionList
+    Left = 80
+    Top = 264
+  end
+end

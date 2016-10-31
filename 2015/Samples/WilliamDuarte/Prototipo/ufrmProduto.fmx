@@ -1,0 +1,405 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lblMenu: TLabel
+      Align = FitLeft
+      Size.Width = 73.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = '< Menu'
+      OnClick = lblMenuClick
+    end
+    object Button1: TButton
+      Position.X = 504.000000000000000000
+      TabOrder = 1
+      Text = 'Salvar'
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 79.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Label1
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Edit1
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Label2
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Edit2
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Label1: TLabel
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label1'
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label2: TLabel
+      Position.Y = 39.500000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label2'
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 3
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object GridPanelLayout2: TGridPanelLayout
+    Align = Top
+    Position.Y = 364.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 79.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Label3
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Edit3
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Label4
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Edit4
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Label3: TLabel
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label1'
+    end
+    object Edit3: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label4: TLabel
+      Position.Y = 39.500000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label2'
+    end
+    object Edit4: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 3
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object GridPanelLayout3: TGridPanelLayout
+    Align = Top
+    Position.Y = 285.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 79.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Label5
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Edit5
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Label6
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Edit6
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Label5: TLabel
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label1'
+    end
+    object Edit5: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label6: TLabel
+      Position.Y = 39.500000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label2'
+    end
+    object Edit6: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 3
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object GridPanelLayout4: TGridPanelLayout
+    Align = Top
+    Position.Y = 206.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 79.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Label7
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Edit7
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Label8
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Edit8
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Label7: TLabel
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label1'
+    end
+    object Edit7: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label8: TLabel
+      Position.Y = 39.500000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label2'
+    end
+    object Edit8: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 3
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object GridPanelLayout5: TGridPanelLayout
+    Align = Top
+    Position.Y = 127.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 79.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Label9
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Edit9
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Label10
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Edit10
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Label9: TLabel
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label1'
+    end
+    object Edit9: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label10: TLabel
+      Position.Y = 39.500000000000000000
+      Size.Width = 225.000000000000000000
+      Size.Height = 14.500000000000000000
+      Size.PlatformDefault = False
+      Text = 'Label2'
+    end
+    object Edit10: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 3
+      Size.Width = 320.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

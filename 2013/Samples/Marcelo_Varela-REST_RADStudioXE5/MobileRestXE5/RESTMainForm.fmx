@@ -1,0 +1,185 @@
+object TabbedForm: TTabbedForm
+  Left = 0
+  Top = 0
+  Caption = 'TabbedForm'
+  ClientHeight = 548
+  ClientWidth = 320
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object HeaderToolBar: TToolBar
+    Anchors = []
+    Height = 44.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    object ToolBarLabel: TLabel
+      Align = alContents
+      Height = 44.000000000000000000
+      StyleLookup = 'toollabel'
+      Text = 'Mobile REST Client '
+      TextAlign = taCenter
+      Width = 320.000000000000000000
+    end
+  end
+  object TabControl1: TTabControl
+    Align = alClient
+    FullSize = True
+    Height = 504.000000000000000000
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = tpBottom
+    Width = 320.000000000000000000
+    object TabItem1: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = True
+      StyleLookup = 'tabitemdownloads'
+      TabOrder = 0
+      Text = 'Request'
+      Width = 80.000000000000000000
+      object Button1: TButton
+        Anchors = [akTop]
+        Height = 44.000000000000000000
+        Position.X = 85.000000000000000000
+        Position.Y = 192.000000000000000000
+        TabOrder = 0
+        Text = 'Get Employees'
+        Trimming = ttCharacter
+        Width = 156.000000000000000000
+        OnClick = Button1Click
+      end
+    end
+    object TabItem2: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      Position.X = 80.000000000000000000
+      StyleLookup = 'tabitemcontacts'
+      TabOrder = 1
+      Text = 'Json'
+      Width = 80.000000000000000000
+      object Memo1: TMemo
+        Touch.InteractiveGestures = [igPan, igLongTap, igDoubleTap]
+        Align = alClient
+        Height = 455.000000000000000000
+        TabOrder = 0
+        Width = 320.000000000000000000
+      end
+    end
+    object TabItem3: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      Position.X = 160.000000000000000000
+      StyleLookup = 'tabitembookmarks'
+      TabOrder = 2
+      Text = 'ListView'
+      Width = 80.000000000000000000
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = alClient
+        Height = 455.000000000000000000
+        TabOrder = 0
+        Width = 320.000000000000000000
+        CanSwipeDelete = False
+        OnItemClick = ListView1ItemClick
+      end
+    end
+    object TabItem4: TTabItem
+      WordWrap = False
+      Enabled = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      Position.X = 240.000000000000000000
+      StyleLookup = 'tabitemsearch'
+      TabOrder = 3
+      Text = 'Details'
+      Width = 80.000000000000000000
+      object DetailsListView: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = alClient
+        Height = 455.000000000000000000
+        TabOrder = 0
+        Width = 320.000000000000000000
+        ItemAppearanceObjects.ItemObjects.Accessory.Visible = False
+        ItemAppearanceObjects.ItemEditObjects.Accessory.Visible = False
+        ItemAppearanceObjects.ItemEditObjects.GlyphButton.Visible = False
+        CanSwipeDelete = False
+      end
+    end
+  end
+  object RESTResponse: TRESTResponse
+    RootElement = 'value'
+    Left = 168
+    Top = 280
+  end
+  object RESTRequest: TRESTRequest
+    Client = RESTClient
+    Params = <>
+    Response = RESTResponse
+    OnAfterExecute = RESTRequestAfterExecute
+    Left = 248
+    Top = 280
+  end
+  object RESTClient: TRESTClient
+    Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    BaseURL = 'http://services.odata.org/V3/Northwind/Northwind.svc/Employees'
+    Params = <>
+    HandleRedirects = True
+    Left = 96
+    Top = 280
+  end
+  object RESTResponseDataSetAdapter: TRESTResponseDataSetAdapter
+    Dataset = ClientDataSet
+    FieldDefs = <>
+    Response = RESTResponse
+    OnBeforeOpenDataSet = RESTResponseDataSetAdapterBeforeOpenDataSet
+    Left = 96
+    Top = 344
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 168
+    Top = 392
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'LastName'
+      Control = ListView1
+      FillExpressions = <>
+      AutoBufferCount = False
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object ClientDataSet: TClientDataSet
+    Aggregates = <>
+    FieldDefs = <>
+    IndexDefs = <>
+    Params = <>
+    StoreDefs = True
+    Left = 248
+    Top = 344
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = ClientDataSet
+    ScopeMappings = <>
+    Left = 248
+    Top = 392
+  end
+end

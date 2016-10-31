@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/17 21:50:28.000.795,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\ServerFunctionExecutor.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.584,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.915,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\ServerFunctionExecutor-min.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.806,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\json2.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.457,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\FormUnit1.pas</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.949,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\connection.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.850,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\ServerFunctions.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.969,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\ServerFunctionInvoker.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.775,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\base64.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.863,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\base64-min.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.689,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\WebModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.819,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\CallbackFramework.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.991,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\css\main.css</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.932,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\CallbackFramework-min.js</Transaction>
+    <Transaction>2015/10/17 21:50:28.000.880,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\js\json2-min.js</Transaction>
+    <Transaction>2015/10/17 21:50:29.000.036,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\templates\ReverseString.html</Transaction>
+    <Transaction>2015/10/17 21:50:29.000.012,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\css\ServerFunctionInvoker.css</Transaction>
+    <Transaction>2015/10/17 21:50:29.000.061,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\templates\ServerFunctionInvoker.html</Transaction>
+    <Transaction>2015/10/17 21:50:29.000.113,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\images\expand.png</Transaction>
+    <Transaction>2015/10/17 21:50:29.000.087,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\images\collapse.png</Transaction>
+    <Transaction>2015/10/17 21:50:40.000.195,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\Servidor.dproj=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\ServerMobile.dproj</Transaction>
+    <Transaction>2015/10/17 21:50:53.000.161,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\FormUnit1.dfm=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\uFrmServidor.dfm</Transaction>
+    <Transaction>2015/10/17 21:50:53.000.161,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\FormUnit1.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\uFrmServidor.pas</Transaction>
+    <Transaction>2015/10/17 21:50:59.000.317,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\WebModuleUnit1.dfm=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\WebDM.dfm</Transaction>
+    <Transaction>2015/10/17 21:50:59.000.317,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\WebModuleUnit1.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\WebDM.pas</Transaction>
+    <Transaction>2015/10/17 21:51:04.000.700,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\ServerMethodsUnit1.dfm=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\uSM.dfm</Transaction>
+    <Transaction>2015/10/17 21:51:04.000.700,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\ServerMethodsUnit1.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\uSM.pas</Transaction>
+    <Transaction>2015/10/17 21:52:27.000.997,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 21:52:57.000.717,=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\Unit1.pas</Transaction>
+    <Transaction>2015/10/17 21:53:04.000.568,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\Unit1.dfm=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\uSC.dfm</Transaction>
+    <Transaction>2015/10/17 21:53:04.000.568,C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\Unit1.pas=C:\Users\Manoel\Desktop\Delphi Conference 2015\Exemplos\Exemplo 01\Servidor\uSC.pas</Transaction>
+  </Transactions>
+</BorlandProject>

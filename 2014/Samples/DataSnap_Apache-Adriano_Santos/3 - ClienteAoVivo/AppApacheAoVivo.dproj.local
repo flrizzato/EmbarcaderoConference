@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/15 00:29:26.000.358,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/15 00:30:53.000.059,\\psf\Home\Downloads\Delphi Conference 2014\3 - ClienteAoVivo\Unit2.fmx=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2014/10/15 00:30:53.000.059,\\psf\Home\Downloads\Delphi Conference 2014\3 - ClienteAoVivo\Unit2.pas=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/10/15 00:31:21.000.659,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\ClientClassesUnit3.pas</Transaction>
+    <Transaction>2014/10/15 00:31:22.000.689,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\ClientModuleUnit3.pas</Transaction>
+    <Transaction>2014/10/15 00:31:44.000.217,\\psf\Home\Downloads\Delphi Conference 2014\3 - ClienteAoVivo\ClientClassesUnit3.pas=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\ClientClassesUnit3.pas</Transaction>
+    <Transaction>2014/10/15 00:31:48.000.532,\\psf\Home\Downloads\Delphi Conference 2014\3 - ClienteAoVivo\ClientModuleUnit3.pas=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\ClientModuleUnit3.pas</Transaction>
+    <Transaction>2014/10/15 00:31:48.000.532,\\psf\Home\Downloads\Delphi Conference 2014\3 - ClienteAoVivo\ClientModuleUnit3.dfm=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\ClientModuleUnit3.dfm</Transaction>
+    <Transaction>2014/10/15 00:32:01.000.601,\\psf\Home\Downloads\Delphi Conference 2014\3 - ClienteAoVivo\AppApacheAoVivo.dproj=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

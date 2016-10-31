@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{05D878B9-8AB1-4ACB-9B0E-AC9A628ABD53}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Manager\TetheringManager.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Client\TetheringClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TetheringManager">
+        <MSBuild Projects="Manager\TetheringManager.dproj"/>
+    </Target>
+    <Target Name="TetheringManager:Clean">
+        <MSBuild Projects="Manager\TetheringManager.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TetheringManager:Make">
+        <MSBuild Projects="Manager\TetheringManager.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TetheringClient">
+        <MSBuild Projects="Client\TetheringClient.dproj"/>
+    </Target>
+    <Target Name="TetheringClient:Clean">
+        <MSBuild Projects="Client\TetheringClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TetheringClient:Make">
+        <MSBuild Projects="Client\TetheringClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TetheringManager;TetheringClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TetheringManager:Clean;TetheringClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TetheringManager:Make;TetheringClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

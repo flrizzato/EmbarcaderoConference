@@ -1,0 +1,133 @@
+unit uCQrCode;
+
+interface
+
+uses
+  System.Types,
+  System.SysUtils,
+  Vcl.ExtCtrls,
+  classes,
+  PngImage,
+  HTTPApp,
+  WinInet;
+
+type
+  TGraphic_ErrCorrLevel = (L, M, Q, H);
+
+  TQrCode = class
+  private
+    FCHL: string;
+    FQRCode: TImage;
+    FGraphic_ErrCorrLevel: TGraphic_ErrCorrLevel;
+
+    FWidth: integer;
+    FHeight: integer;
+    FMensagemErro: string;
+
+    procedure GetQrCode(Width, Height: Word; Correction_Level: TGraphic_ErrCorrLevel; const Data: string; StreamImage: TMemoryStream);
+    procedure WinInet_HttpGet(const Url: string; Stream: TStream);
+
+  public
+    property Value: string read FCHL write FCHL;
+    property QRCode: TImage read FQRCode write FQRCode;
+    property CorrLevel: TGraphic_ErrCorrLevel read FGraphic_ErrCorrLevel write FGraphic_ErrCorrLevel;
+
+    constructor Create;
+    function Generate: boolean;
+
+  end;
+
+const
+  UrlGoogleQrCode = 'http://chart.apis.google.com/chart?chs=%dx%d&cht=qr&chld=%s&chl=%s';
+  CHLD: array [TGraphic_ErrCorrLevel] of string = ('L', 'M', 'Q', 'H');
+
+implementation
+
+constructor TQrCode.Create;
+begin
+  FQRCode := TImage.Create(nil);
+  FWidth := 120;
+  FHeight := 120;
+  FCHL := '';
+  FMensagemErro := '';
+  FGraphic_ErrCorrLevel := TGraphic_ErrCorrLevel(0);
+end;
+
+function TQrCode.Generate: boolean;
+var
+  lsWWW: string;
+  loImageStream: TMemoryStream;
+  loPngImage: TPngImage;
+begin
+  if FCHL <> '' then
+  begin
+    loImageStream := TMemoryStream.Create;
+    loPngImage := TPngImage.Create;
+
+    try
+      try
+        GetQrCode(FWidth, FHeight, FGraphic_ErrCorrLevel, FCHL, loImageStream);
+        if loImageStream.Size > 0 then
+        begin
+          loImageStream.Position := 0;
+          loPngImage.LoadFromStream(loImageStream);
+          FQRCode.Picture.Assign(loPngImage);
+        end;
+
+        result := (loImageStream.Size > 0);
+      except
+        on E: exception do
+        begin
+          result := false;
+          FMensagemErro := E.Message;
+        end;
+      end;
+    finally
+      loImageStream.Free;
+      loPngImage.Free;
+    end;
+  end
+  else
+    result := false;
+end;
+
+procedure TQrCode.GetQrCode(Width, Height: Word; Correction_Level: TGraphic_ErrCorrLevel; const Data: string; StreamImage: TMemoryStream);
+Var
+  EncodedURL: string;
+begin
+  EncodedURL := Format(UrlGoogleQrCode, [Width, Height, CHLD[Correction_Level], HTTPEncode(Data)]);
+  WinInet_HttpGet(EncodedURL, StreamImage);
+end;
+
+procedure TQrCode.WinInet_HttpGet(const Url: string; Stream: TStream);
+const
+  BuffSize = 1024 * 1024;
+var
+  hInter: HINTERNET;
+  UrlHandle: HINTERNET;
+  BytesRead: DWORD;
+  Buffer: Pointer;
+begin
+  hInter := InternetOpen('', INTERNET_OPEN_TYPE_PRECONFIG, nil, nil, 0);
+  if Assigned(hInter) then
+  begin
+    Stream.Seek(0, 0);
+    GetMem(Buffer, BuffSize);
+    try
+      UrlHandle := InternetOpenUrl(hInter, PChar(Url), nil, 0, INTERNET_FLAG_RELOAD, 0);
+      if Assigned(UrlHandle) then
+      begin
+        repeat
+          InternetReadFile(UrlHandle, Buffer, BuffSize, BytesRead);
+          if BytesRead > 0 then
+            Stream.WriteBuffer(Buffer^, BytesRead);
+        until BytesRead = 0;
+        InternetCloseHandle(UrlHandle);
+      end;
+    finally
+      FreeMem(Buffer);
+    end;
+    InternetCloseHandle(hInter);
+  end
+end;
+end.

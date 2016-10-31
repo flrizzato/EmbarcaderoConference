@@ -1,0 +1,8 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited WebBrowser1: TWebBrowser
+    Position.X = 24.000000000000000000
+  end
+end
