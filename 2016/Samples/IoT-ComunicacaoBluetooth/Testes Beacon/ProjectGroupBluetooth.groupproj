@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9F03F14B-7FA2-44F2-B534-930889C3CABB}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Beacon.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\MiniCooper Delphi 10\Controle.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Classic Bluetooth Basic app\ClBluetooth.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Beacon">
+        <MSBuild Projects="Beacon.dproj"/>
+    </Target>
+    <Target Name="Beacon:Clean">
+        <MSBuild Projects="Beacon.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Beacon:Make">
+        <MSBuild Projects="Beacon.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Controle">
+        <MSBuild Projects="..\MiniCooper Delphi 10\Controle.dproj"/>
+    </Target>
+    <Target Name="Controle:Clean">
+        <MSBuild Projects="..\MiniCooper Delphi 10\Controle.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Controle:Make">
+        <MSBuild Projects="..\MiniCooper Delphi 10\Controle.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClBluetooth">
+        <MSBuild Projects="..\Classic Bluetooth Basic app\ClBluetooth.dproj"/>
+    </Target>
+    <Target Name="ClBluetooth:Clean">
+        <MSBuild Projects="..\Classic Bluetooth Basic app\ClBluetooth.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClBluetooth:Make">
+        <MSBuild Projects="..\Classic Bluetooth Basic app\ClBluetooth.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Beacon;Controle;ClBluetooth"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Beacon:Clean;Controle:Clean;ClBluetooth:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Beacon:Make;Controle:Make;ClBluetooth:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/18 22:19:39.000.082,=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/26 17:06:46.000.062,=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/26 17:08:30.000.140,C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Unit1.pas=Z:\iCloud Drive\EC 2016\Redis\Dojo\uDojo.pas</Transaction>
+    <Transaction>2016/10/26 17:08:30.000.140,C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Unit1.dfm=Z:\iCloud Drive\EC 2016\Redis\Dojo\uDojo.dfm</Transaction>
+    <Transaction>2016/10/26 17:08:30.000.473,C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Project1.dproj=Z:\iCloud Drive\EC 2016\Redis\Dojo\Project1.dproj</Transaction>
+    <Transaction>2016/10/26 17:08:42.000.827,Z:\iCloud Drive\EC 2016\Redis\Dojo\Project1.dproj=Z:\iCloud Drive\EC 2016\Redis\Dojo\Dojo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/02 07:51:35.000.343,C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Project78.dproj=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\Adapter.dproj</Transaction>
+    <Transaction>2016/08/02 07:51:41.000.111,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\Unit1.pas</Transaction>
+    <Transaction>2016/08/02 07:51:45.000.609,C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\Unit1.pas=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\uFramework.pas</Transaction>
+    <Transaction>2016/08/02 08:06:52.000.289,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\Unit1.pas</Transaction>
+    <Transaction>2016/08/02 08:06:59.000.909,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\default.txaPackage</Transaction>
+    <Transaction>2016/08/02 08:07:01.000.958,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\Adapter\default.txvpck</Transaction>
+    <Transaction>2016/08/02 08:07:01.000.934,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\uFramework\default.txvpck</Transaction>
+    <Transaction>2016/08/02 08:07:01.000.468,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\default.txvpck</Transaction>
+    <Transaction>2016/08/02 08:07:01.000.984,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\Unit1\default.txvpck</Transaction>
+    <Transaction>2016/08/02 08:07:02.000.998,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\Unit1\default.txaPackage</Transaction>
+    <Transaction>2016/08/02 08:19:50.000.484,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\uFramework\default.txaPackage</Transaction>
+    <Transaction>2016/08/02 08:19:56.000.370,C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\Unit1.pas=</Transaction>
+    <Transaction>2016/08/02 08:27:04.000.353,C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Adapter\ModelSupport_Adapter\Unit1\default.txaPackage=</Transaction>
+    <Transaction>2016/08/02 08:27:04.000.240,c:\users\user-pc\desktop\desktop\book\fontes\adapter\modelsupport_adapter\unit1\default.txvpck=</Transaction>
+  </Transactions>
+</BorlandProject>

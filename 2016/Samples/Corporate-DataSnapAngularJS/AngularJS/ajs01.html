@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Angular JS - Aula 1</title>
+        <script src="angular.min.js" type="text/javascript"></script>
+    </head>
+<body>
+
+<div ng-app="" ng-init="firstName='Marcelo';lastName='Varela'">
+ 	<p>Name : <input type="text" ng-model="edtNome"></p>
+ 	<h1>Hello {{edtNome}}</h1>
+        <p ng-bind="edtNome"></p>
+        The name is <span ng-bind="edtNome"></span><br />
+        The name is {{edtNome}} <br />
+        Valor inicial {{firstName}} <br />
+        2 + 1 = {{2 + 1}} <br/>
+        Nome completo: <span ng-bind="firstName +  ' ' + lastName"></span><br />
+        Nome completo: {{firstName}} {{lastName}}
+</div>
+
+</body>
+</html>

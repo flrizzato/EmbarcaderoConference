@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/24 22:56:59.000.939,C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Project16.dproj=C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Observer.dproj</Transaction>
+    <Transaction>2016/10/24 22:57:25.000.800,=C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Unit23.pas</Transaction>
+    <Transaction>2016/10/24 22:57:46.000.933,C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Unit23.pas=C:\Users\user-pc\Desktop\Fontes\Observer\uFramework.pas</Transaction>
+    <Transaction>2016/10/24 22:57:50.000.578,C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Observer.dproj=C:\Users\user-pc\Desktop\Fontes\Observer\Observer.dproj</Transaction>
+    <Transaction>2016/10/25 14:11:35.000.547,=C:\Users\user-pc\Desktop\Fontes\Observer\ModelSupport_Observer\default.txvpck</Transaction>
+    <Transaction>2016/10/26 11:45:07.944,=C:\Users\user-pc\Desktop\Fontes\Observer\ModelSupport_Observer\Observer\default.txvpck</Transaction>
+    <Transaction>2016/10/26 11:45:07.956,=C:\Users\user-pc\Desktop\Fontes\Observer\ModelSupport_Observer\uFramework\default.txvpck</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,151 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Position.X = 48.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 201.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object EditMongo1: TEditMongo
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Position.X = 56.000000000000000000
+      Position.Y = 32.000000000000000000
+      MongoTipoCampo = Numerico
+      MongoCampo = 'CODIGO'
+      AutoInc = False
+      CampoChave = True
+    end
+    object EditMongo2: TEditMongo
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Position.X = 56.000000000000000000
+      Position.Y = 60.000000000000000000
+      MongoCampo = 'Nome'
+      AutoInc = False
+      CampoChave = False
+    end
+    object EditMongo3: TEditMongo
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Position.X = 56.000000000000000000
+      Position.Y = 88.000000000000000000
+      MongoCampo = 'Telefone'
+      AutoInc = False
+      CampoChave = False
+    end
+    object EditMongo4: TEditMongo
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 56.000000000000000000
+      Position.Y = 120.000000000000000000
+      MongoCampo = 'Email'
+      AutoInc = False
+      CampoChave = False
+    end
+  end
+  object Button1: TButton
+    Action = MongoInsert1
+    Enabled = True
+    ImageIndex = -1
+    Position.X = 40.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Visible = True
+  end
+  object Button2: TButton
+    Action = MongoUpdate1
+    Enabled = True
+    ImageIndex = -1
+    Position.X = 192.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Visible = True
+  end
+  object Button3: TButton
+    Action = MongoDelete1
+    Enabled = True
+    ImageIndex = -1
+    Position.X = 352.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Visible = True
+  end
+  object Button4: TButton
+    Action = MongoSelectEdit1
+    Enabled = True
+    ImageIndex = -1
+    Position.X = 488.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Visible = True
+  end
+  object MongoConexao1: TMongoConexao
+    Database = 'LIVE'
+    Host = 'localhost'
+    Porta = 27017
+    Ativar = True
+    Left = 520
+    Top = 160
+  end
+  object MongoQuery1: TMongoQuery
+    MongoConexao = MongoConexao1
+    Ativar = False
+    Collection = 'ULTRAMEGACRUD'
+    Left = 520
+    Top = 208
+  end
+  object ActionList1: TActionList
+    Left = 520
+    Top = 112
+    object MongoInsert1: TMongoInsert
+      Category = 'Mongo Components'
+      Text = 'MongoInsert1'
+      MongoQuery = MongoQuery1
+      Layout = Layout1
+    end
+    object MongoUpdate1: TMongoUpdate
+      Category = 'Mongo Components'
+      Text = 'MongoUpdate1'
+      MongoQuery = MongoQuery1
+      Layout = Layout1
+    end
+    object MongoDelete1: TMongoDelete
+      Category = 'Mongo Components'
+      Text = 'MongoDelete1'
+      MongoQuery = MongoQuery1
+      Layout = Layout1
+    end
+    object MongoSelectEdit1: TMongoSelectEdit
+      Category = 'Mongo Components'
+      Text = 'MongoSelectEdit1'
+      MongoQuery = MongoQuery1
+      Layout = Layout1
+    end
+    object MongoSelect1: TMongoSelect
+      Category = 'Mongo Components'
+      Text = 'MongoSelect1'
+    end
+  end
+end

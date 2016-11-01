@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0i48hrg0jlq_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Observer:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Observer:uFramework.TSubject">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="440,80,183,146" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Observer:uFramework.TSubject.FObservers" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TSubject.Create()" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TSubject.Attach(uFramework.IObserver)" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TSubject.Detach(uFramework.IObserver)" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TSubject.Notificar()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Observer:uFramework.TVenda">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="120,240,201,175" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Observer:uFramework.TVenda.FBalanco" />
+      <reference referencedUin="delphi:e_field:src:Observer:uFramework.TVenda.FBalancoEmAndamento" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TVenda.Iniciar()" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TVenda.Finalizar()" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TVenda.Atualizar()" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TVenda.SetBalanco(uFramework.TBalanco)" />
+      <reference referencedUin="delphi:l_impl:src:Observer:uFramework.TVenda:uFramework.IObserver">
+        <property name="sourceAnchor" value="263,240" />
+        <property name="targetAnchor" value="263,141" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Observer:uFramework.TVenda.FBalanco">
+        <property name="sourceAnchor" value="321,345" />
+        <property name="targetAnchor" value="440,345" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Observer:uFramework.IObserver">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="220,60,86,81" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.IObserver.Atualizar()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Observer:uFramework.TBalanco">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="440,280,217,131" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Observer:uFramework.TBalanco.FBalancoEmAndamento" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TBalanco.getBalancoEmAndamento()" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TBalanco.Iniciar()" />
+      <reference referencedUin="delphi:e_method:src:Observer:uFramework.TBalanco.Finalizar()" />
+      <reference referencedUin="delphi:l_gnt:src:Observer:uFramework.TBalanco:uFramework.TSubject">
+        <property name="sourceAnchor" value="531,280" />
+        <property name="targetAnchor" value="531,226" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

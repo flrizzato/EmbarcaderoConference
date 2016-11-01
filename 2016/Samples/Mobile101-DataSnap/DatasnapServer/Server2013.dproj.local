@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/09/25 14:25:42.000.842,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\FormUnit1.pas</Transaction>
+    <Transaction>2013/09/25 14:25:54.000.636,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2013/09/25 14:25:56.000.061,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2013/09/25 14:25:57.000.878,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\WebModuleUnit1.pas</Transaction>
+    <Transaction>2013/09/25 14:26:09.000.083,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\base64.js</Transaction>
+    <Transaction>2013/09/25 14:26:09.000.857,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\ServerFunctionExecutor.js</Transaction>
+    <Transaction>2013/09/25 14:26:10.000.763,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\json2.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.413,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\css\main.css</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.435,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\css\ServerFunctionInvoker.css</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.387,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\ServerFunctionInvoker.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.291,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\ServerFunctionExecutor-min.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.230,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\json2-min.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.504,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\templates\ServerFunctionInvoker.html</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.083,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\CallbackFramework.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.566,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\images\expand.png</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.179,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\base64-min.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.351,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\connection.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.143,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\ServerFunctions.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.333,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\js\CallbackFramework-min.js</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.479,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\templates\ReverseString.html</Transaction>
+    <Transaction>2013/09/25 14:26:11.000.551,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\images\collapse.png</Transaction>
+    <Transaction>2013/09/25 14:27:42.000.148,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ServerMethodsUnit1.dfm=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\svrMetodosUnt.dfm</Transaction>
+    <Transaction>2013/09/25 14:27:42.000.148,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ServerMethodsUnit1.pas=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\svrMetodosUnt.pas</Transaction>
+    <Transaction>2013/09/25 14:28:00.000.602,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\FormUnit1.pas=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\frmServerUnt.pas</Transaction>
+    <Transaction>2013/09/25 14:28:00.000.602,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\FormUnit1.dfm=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\frmServerUnt.dfm</Transaction>
+    <Transaction>2013/09/25 14:28:27.000.023,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ServerContainerUnit1.pas=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\svrContainerUnt.pas</Transaction>
+    <Transaction>2013/09/25 14:28:27.000.023,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ServerContainerUnit1.dfm=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\svrContainerUnt.dfm</Transaction>
+    <Transaction>2013/09/25 14:28:53.000.450,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\WebModuleUnit1.dfm=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\webModuloUnt.dfm</Transaction>
+    <Transaction>2013/09/25 14:28:53.000.450,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\WebModuleUnit1.pas=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\webModuloUnt.pas</Transaction>
+    <Transaction>2013/09/25 14:29:12.000.849,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Project1.dproj=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Server2013.dproj</Transaction>
+    <Transaction>2013/10/23 15:30:35.000.946,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Unit1.pas</Transaction>
+    <Transaction>2013/10/23 15:33:27.000.759,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Unit1.pas=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\svrSMEstoqueUnt.pas</Transaction>
+    <Transaction>2013/10/23 15:33:27.000.759,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Unit1.dfm=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\svrSMEstoqueUnt.dfm</Transaction>
+    <Transaction>2013/11/08 15:17:13.000.616,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2013/11/08 15:17:13.000.537,=C:\Users\Landerson\Documents\RAD Studio\Projects\2013\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2013/11/11 20:36:36.000.081,=C:\Users\Landerson\Documents\BIBLIOTECA\FuncoesSO.pas</Transaction>
+    <Transaction>2013/11/11 20:36:36.000.113,=C:\Users\Landerson\Documents\BIBLIOTECA\URotinasGenericas.pas</Transaction>
+    <Transaction>2014/02/20 11:31:36.000.361,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\2013\FuncoesSO.pas</Transaction>
+    <Transaction>2014/02/20 11:31:36.000.374,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\2013\URotinasGenericas.pas</Transaction>
+    <Transaction>2014/02/20 11:31:44.000.856,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\2013\FuncoesSO.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\2013\uFuncoesSO.pas</Transaction>
+    <Transaction>2014/04/24 15:46:00.000.838,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\2013\svrMetodosUnt.pas=</Transaction>
+    <Transaction>2014/10/28 18:26:28.000.858,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\2013\Unit1.pas</Transaction>
+    <Transaction>2016/09/26 16:30:46.000.343,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Distrimed\2013\Unit1.pas</Transaction>
+    <Transaction>2016/09/26 16:32:08.000.511,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Distrimed\2013\Unit1.dfm=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Distrimed\2013\DSServerModuleClientesUnt.dfm</Transaction>
+    <Transaction>2016/09/26 16:32:08.000.511,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Distrimed\2013\Unit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Distrimed\2013\DSServerModuleClientesUnt.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="frmServerUnt.pas"/>
+    <File Path="frmServerUnt.dfm"/>
+    <File Path="svrContainerUnt.pas"/>
+    <File Path="svrContainerUnt.dfm"/>
+    <File Path="webModuloUnt.pas"/>
+    <File Path="webModuloUnt.dfm"/>
+    <File Path="svrSMEstoqueUnt.pas"/>
+    <File Path="svrSMEstoqueUnt.dfm"/>
+    <File Path="uFuncoesSO.pas"/>
+    <File Path="URotinasGenericas.pas"/>
+    <File Path="DSServerModuleClientesUnt.pas"/>
+    <File Path="DSServerModuleClientesUnt.dfm"/>
+    <File Path="js"/>
+    <File Path="js\base64-min.js"/>
+    <File Path="js\base64.js"/>
+    <File Path="js\CallbackFramework-min.js"/>
+    <File Path="js\CallbackFramework.js"/>
+    <File Path="js\connection.js"/>
+    <File Path="js\json2-min.js"/>
+    <File Path="js\json2.js"/>
+    <File Path="js\ServerFunctionExecutor-min.js"/>
+    <File Path="js\ServerFunctionExecutor.js"/>
+    <File Path="js\ServerFunctionInvoker.js"/>
+    <File Path="js\ServerFunctions.js"/>
+    <File Path="css"/>
+    <File Path="css\main.css"/>
+    <File Path="css\ServerFunctionInvoker.css"/>
+    <File Path="templates"/>
+    <File Path="templates\ReverseString.html"/>
+    <File Path="templates\ServerFunctionInvoker.html"/>
+    <File Path="images"/>
+    <File Path="images\collapse.png"/>
+    <File Path="images\expand.png"/>
+  </ProjectSortOrder>
+</BorlandProject>

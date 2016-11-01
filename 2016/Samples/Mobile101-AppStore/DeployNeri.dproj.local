@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<PiOSIPhone iOSSimulator="iPhone" iOSDevice64="_iosdevice_ff0f037b758c93f56601eacd75bd1a6461e44fec" iOSDevice32="_iosdevice_ff0f037b758c93f56601eacd75bd1a6461e44fec"/>
+		<NoProfile Android="AAAA"/>
+		<PMacbookNeri iOSDevice32="_iosdevice_ff0f037b758c93f56601eacd75bd1a6461e44fec" iOSSimulator="iPhone"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2016/10/24 10:37:29.000.911,C:\Users\neri\Documents\Embarcadero\Studio\Projects\Deploy Devices Android Iphone Ipad Google Play e App Store\HeaderFooterApplication.dproj=C:\Users\neri\Documents\Embarcadero\Studio\Projects\Deploy Devices Android Iphone Ipad Google Play e App Store\Deploy.dproj</Transaction>
+    <Transaction>2016/10/24 14:35:58.000.648,C:\Users\neri\Documents\Embarcadero\Studio\Projects\Deploy Devices Android Iphone Ipad Google Play e App Store\Deploy.dproj=C:\Users\neri\Documents\Embarcadero\Studio\Projects\Deploy Devices Android Iphone Ipad Google Play e App Store\DeployNeri.dproj</Transaction>
+  </Transactions>
+	<BT_BuildType>AppStore</BT_BuildType>
+</BorlandProject>

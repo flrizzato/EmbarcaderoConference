@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="vgati11erhku3j3an_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::l3j66nmraikpcss9t_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,100,134" />
+      <reference referencedUin="delphi:e_class:src:Proxy:Proxy.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::k7kow63rbikkq3big_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="129,1,153,211" />
+      <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TSOAPConnection" />
+      <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TCustomRemoteServer" />
+      <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TSocketConnection" />
+      <reference referencedUin="delphi:e_class:src:Proxy:uFramework.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TConnectionBroker" />
+      <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TClientDataSet" />
+    </reference>
+  </view>
+</nodeSet>

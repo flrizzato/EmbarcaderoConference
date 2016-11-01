@@ -1,0 +1,23 @@
+Eu como um operador de cadastro
+quero salvar os dados do ValueListEditor em um arquivo json
+para que o sistema de controle o importe
+
+Eu como um operador de cadastro
+quero salvar os dados do ValueListEditor em um arquivo xml
+para que o sistema do RH o importe
+
+Eu como um operador de cadastro
+quero salvar os dados do ValueListEditor em um arquivo txt
+para que o sistema do Banco o importe
+
+Eu como um operador de cadastro
+quero salvar os dados do registro selecionado no grid em um arquivo json
+para que o sistema de controle o importe
+
+Eu como um operador de cadastro
+quero salvar os dados do registro selecionado no grid em um arquivo xml
+para que o sistema do RH o importe
+
+Eu como um operador de cadastro
+quero salvar os dados do registro selecionado no grid em um arquivo txt
+para que o sistema do Banco o importe

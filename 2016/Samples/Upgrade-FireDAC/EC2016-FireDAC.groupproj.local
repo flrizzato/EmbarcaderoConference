@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/25 16:46:18.000.378,\\Mac\Home\Desktop\EC 2016\FireDAC\FireDAC.groupproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+    <Transaction>2016/10/25 19:41:03.329,\\Mac\Home\Desktop\EC 2016\FireDAC\EC2016-FireDAC.groupproj=\\Mac\Home\Desktop\EC 2016\FireDAC\FireDAC.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="\\Mac\Home\Desktop\EC 2016\FireDAC\01 - Componentes\Componentes.dproj"/>
+	</Default.Personality>
+</BorlandProject>

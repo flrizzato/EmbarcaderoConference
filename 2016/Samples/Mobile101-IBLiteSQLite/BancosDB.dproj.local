@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/10 14:18:24.000.977,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/13 16:44:48.000.349,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/13 16:46:17.000.400,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/14 10:29:01.000.164,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 09:51:10.000.242,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 09:52:54.000.800,C:\Users\adrianosantos\OneDrive\00-projetos\11-palestras\embarcadero-conference-2016\database-mobile-demo\UntMain.fmx=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2016/10/25 09:52:54.000.800,C:\Users\adrianosantos\OneDrive\00-projetos\11-palestras\embarcadero-conference-2016\database-mobile-demo\UntMain.pas=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 09:53:04.000.319,C:\Users\adrianosantos\OneDrive\00-projetos\11-palestras\embarcadero-conference-2016\database-mobile-demo\BancosDB.dproj=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0023109677"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

@@ -1,0 +1,54 @@
+object QueueMobileClientForm: TQueueMobileClientForm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 516
+  ClientWidth = 348
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ListBox2: TListBox
+    Align = Client
+    Size.Width = 348.000000000000000000
+    Size.Height = 468.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 348.000000000000000000
+    Viewport.Height = 468.000000000000000000
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 348.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    object Label1: TLabel
+      Align = Contents
+      Size.Width = 348.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Queue Mobile Client'
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 232
+    Top = 144
+  end
+  object AmazonConnectionInfo1: TAmazonConnectionInfo
+    AccountName = 'XXX'
+    AccountKey = 'XXX'
+    Protocol = 'https'
+    TableEndpoint = 'sdb.amazonaws.com'
+    QueueEndpoint = 'sqs.us-west-2.amazonaws.com'
+    StorageEndpoint = 's3.amazonaws.com'
+    UseDefaultEndpoints = False
+    Left = 231
+    Top = 197
+  end
+end

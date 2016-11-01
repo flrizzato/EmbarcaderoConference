@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/01 12:00:15.000.632,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/10/04 16:47:10.000.729,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/10/25 16:48:01.000.072,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2016/10/25 17:02:21.000.848,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\UnifyParams.dproj</Transaction>
+    <Transaction>2016/10/25 17:05:34.000.625,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.pas=\\Mac\Home\Desktop\EC 2016\FireDAC\03 - UnifyParams\Unit4.pas</Transaction>
+    <Transaction>2016/10/25 17:05:34.000.626,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.dfm=\\Mac\Home\Desktop\EC 2016\FireDAC\03 - UnifyParams\Unit4.dfm</Transaction>
+    <Transaction>2016/10/25 17:05:36.000.789,\\Mac\Home\Documents\Embarcadero\Studio\Projects\UnifyParams.dproj=\\Mac\Home\Desktop\EC 2016\FireDAC\03 - UnifyParams\UnifyParams.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

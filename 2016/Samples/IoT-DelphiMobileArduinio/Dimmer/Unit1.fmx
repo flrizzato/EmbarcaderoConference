@@ -1,0 +1,167 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'UDP_Client'
+  ClientHeight = 409
+  ClientWidth = 343
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  DesignerMasterStyle = 0
+  object GroupBox2: TGroupBox
+    Align = Client
+    Size.Width = 343.000000000000000000
+    Size.Height = 409.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object GroupBox1: TGroupBox
+      Align = Top
+      HitTest = False
+      Size.Width = 343.000000000000000000
+      Size.Height = 113.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Configura'#231#245'es'
+      TabOrder = 1
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        Text = '192.168.2.177'
+        Position.X = 11.000000000000000000
+        Position.Y = 67.000000000000000000
+        Size.Width = 133.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Text = '8888'
+        Position.X = 170.000000000000000000
+        Position.Y = 67.000000000000000000
+        Size.Width = 75.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label2: TLabel
+        Position.X = 11.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 60.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Host:'
+      end
+      object Label3: TLabel
+        Position.X = 170.000000000000000000
+        Position.Y = 49.000000000000000000
+        Size.Width = 76.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Port:'
+      end
+      object Button3: TButton
+        StyledSettings = [Style, FontColor]
+        Position.X = 259.000000000000000000
+        Position.Y = 65.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'Conectar'
+        TextSettings.Font.Family = 'Verdana'
+        OnClick = Button3Click
+      end
+    end
+    object Label1: TLabel
+      Position.Y = 158.000000000000000000
+      Size.Width = 353.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Portas I/O'
+    end
+    object ComboBox1: TComboBox
+      Items.Strings = (
+        '03 - LED AZUL'
+        '04 - LED VERDE'
+        '05 - REL'#201
+        '08 - BUZZER'
+        '09 - LED VERMELHO')
+      Position.Y = 190.000000000000000000
+      Size.Width = 343.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      OnChange = ComboBox1Change
+    end
+    object Button1: TButton
+      StyledSettings = [Style, FontColor]
+      Position.X = 30.000000000000000000
+      Position.Y = 241.000000000000000000
+      Size.Width = 104.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'HIGH'
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 28.000000000000000000
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      StyledSettings = [Style, FontColor]
+      Position.X = 202.000000000000000000
+      Position.Y = 241.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'LOW'
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 28.000000000000000000
+      OnClick = Button2Click
+    end
+    object Button4: TButton
+      StyledSettings = [Style, FontColor]
+      Position.X = 144.000000000000000000
+      Position.Y = 241.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 56.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = '+'
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 28.000000000000000000
+      OnClick = Button4Click
+    end
+    object Button5: TButton
+      StyledSettings = [Style, FontColor]
+      Position.X = 144.000000000000000000
+      Position.Y = 304.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = '-'
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 28.000000000000000000
+      OnClick = Button5Click
+    end
+    object Label4: TLabel
+      Align = Bottom
+      StyledSettings = [Style, FontColor]
+      Position.Y = 384.000000000000000000
+      Size.Width = 343.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Desconectado'
+    end
+  end
+  object IdUDPClient1: TIdUDPClient
+    Host = '192.168.1.177'
+    Port = 8888
+    Left = 280
+    Top = 113
+  end
+end

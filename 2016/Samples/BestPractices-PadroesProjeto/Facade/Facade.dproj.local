@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/08 10:06:17.000.540,C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\Facade.dproj=C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Project81.dproj</Transaction>
+    <Transaction>2016/08/08 10:06:23.000.687,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\Unit1.pas</Transaction>
+    <Transaction>2016/08/08 10:06:27.000.990,C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\uFramework.pas=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\Unit1.pas</Transaction>
+    <Transaction>2016/08/08 10:14:18.000.044,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\ModelSupport_Facade\default.txaPackage</Transaction>
+    <Transaction>2016/08/08 10:15:48.000.117,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\ModelSupport_Facade\default.txvpck</Transaction>
+    <Transaction>2016/08/08 10:15:48.000.995,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\ModelSupport_Facade\uFramework\default.txvpck</Transaction>
+    <Transaction>2016/08/08 10:15:49.000.022,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\ModelSupport_Facade\Facade\default.txvpck</Transaction>
+    <Transaction>2016/08/08 10:15:51.000.130,=C:\Users\user-pc\Desktop\Desktop\Book\Fontes\Facade\ModelSupport_Facade\uFramework\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>

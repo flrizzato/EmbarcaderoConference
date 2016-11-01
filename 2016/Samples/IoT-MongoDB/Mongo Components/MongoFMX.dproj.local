@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/24 12:18:58.000.936,C:\Projetos\Componentes\Mongo Components\uMongoCursor.pas=</Transaction>
+    <Transaction>2016/09/24 12:19:03.000.685,C:\Projetos\Componentes\Mongo Components\uMongoDataSetPersonal.pas=</Transaction>
+    <Transaction>2016/09/24 12:24:56.000.773,=C:\Projetos\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/24 12:25:11.000.492,C:\Projetos\Componentes\Mongo Components\Unit1.pas=C:\Projetos\Componentes\Mongo Components\uConexaoMongo.pas</Transaction>
+    <Transaction>2016/09/24 13:12:09.000.898,=C:\Projetos\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/24 13:12:17.000.504,C:\Projetos\Componentes\Mongo Components\uMongoQuery.pas=C:\Projetos\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/28 10:47:29.000.858,=C:\Projetos\Conference\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/28 10:47:41.000.201,C:\Projetos\Conference\Componentes\Mongo Components\Unit1.pas=C:\Projetos\Conference\Componentes\Mongo Components\uMongoDocument.pas</Transaction>
+    <Transaction>2016/09/28 21:01:25.000.624,=C:\Projetos\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/28 21:01:38.000.497,C:\Projetos\Componentes\Mongo Components\uAction_MongoQuery.pas=C:\Projetos\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/29 12:03:56.000.641,=C:\Projetos\Conference\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/29 12:04:10.000.493,C:\Projetos\Conference\Componentes\Mongo Components\uMongo_Tipificacoes.pas=C:\Projetos\Conference\Componentes\Mongo Components\Unit1.pas</Transaction>
+    <Transaction>2016/09/29 20:37:55.000.579,=dsnap.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/01/16 15:58:12.000.774,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/01/16 15:58:45.000.276,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Temp\MiniCooper Delphi 10\FPrincipal.pas</Transaction>
+    <Transaction>2016/01/16 15:58:45.000.277,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.fmx=C:\Temp\MiniCooper Delphi 10\FPrincipal.fmx</Transaction>
+    <Transaction>2016/01/16 15:59:07.000.804,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Temp\MiniCooper Delphi 10\Controle.dproj</Transaction>
+    <Transaction>2016/01/16 16:35:39.000.347,=C:\Temp\MiniCooper Delphi 10\Unit3.pas</Transaction>
+    <Transaction>2016/01/16 16:36:26.000.261,=C:\Temp\MiniCooper Delphi 10\Unit3.pas</Transaction>
+    <Transaction>2016/01/16 16:36:37.000.163,C:\Temp\MiniCooper Delphi 10\Unit3.pas=C:\Temp\MiniCooper Delphi 10\uComum.pas</Transaction>
+    <Transaction>2016/01/16 16:39:09.000.717,=C:\Temp\MiniCooper Delphi 10\Unit3.pas</Transaction>
+    <Transaction>2016/01/16 16:42:31.000.293,C:\Temp\MiniCooper Delphi 10\Unit3.pas=C:\Temp\MiniCooper Delphi 10\uThreadControle.pas</Transaction>
+    <Transaction>2016/07/07 11:34:06.000.455,C:\Temp\Delphi Extreme\Bluetooth\MiniCooper Delphi 10\Controle1.dproj=C:\Temp\Delphi Extreme\Bluetooth\MiniCooper Delphi 10\Controle.dproj</Transaction>
+    <Transaction>2016/07/07 11:45:01.000.913,C:\Temp\Delphi Extreme\Bluetooth\MiniCooper Delphi 10\Controle.dproj=C:\Temp\Delphi Extreme\Bluetooth\MiniCooper Delphi 10\Controle1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMacBookAlanGlei iOSSimulator="iPhone5"/>
+		<NoProfile Android="0424974003" iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

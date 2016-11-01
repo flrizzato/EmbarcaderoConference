@@ -1,0 +1,16 @@
+inherited Form3_iPhone55in: TForm3_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 2
+  inherited Button1: TButton
+    Position.X = 8.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Pesquisar Becon'
+  end
+  inherited Memo1: TMemo
+    Size.Height = 465.000000000000000000
+    Viewport.Width = 609.000000000000000000
+    Viewport.Height = 457.000000000000000000
+  end
+end

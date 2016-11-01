@@ -1,0 +1,120 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4B3EF7C9-45A2-4361-A5F0-AA4C398DBE65}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Adapter\Adapter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Proxy\Proxy.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Facade\Facade.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Strategy\Strategy.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="State\State.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Chain\Chain.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TemplateMethod\TemplateMethod.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Observer\Observer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Adapter">
+        <MSBuild Projects="Adapter\Adapter.dproj"/>
+    </Target>
+    <Target Name="Adapter:Clean">
+        <MSBuild Projects="Adapter\Adapter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Adapter:Make">
+        <MSBuild Projects="Adapter\Adapter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Proxy">
+        <MSBuild Projects="Proxy\Proxy.dproj"/>
+    </Target>
+    <Target Name="Proxy:Clean">
+        <MSBuild Projects="Proxy\Proxy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Proxy:Make">
+        <MSBuild Projects="Proxy\Proxy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Facade">
+        <MSBuild Projects="Facade\Facade.dproj"/>
+    </Target>
+    <Target Name="Facade:Clean">
+        <MSBuild Projects="Facade\Facade.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Facade:Make">
+        <MSBuild Projects="Facade\Facade.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Strategy">
+        <MSBuild Projects="Strategy\Strategy.dproj"/>
+    </Target>
+    <Target Name="Strategy:Clean">
+        <MSBuild Projects="Strategy\Strategy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Strategy:Make">
+        <MSBuild Projects="Strategy\Strategy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="State">
+        <MSBuild Projects="State\State.dproj"/>
+    </Target>
+    <Target Name="State:Clean">
+        <MSBuild Projects="State\State.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="State:Make">
+        <MSBuild Projects="State\State.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Chain">
+        <MSBuild Projects="Chain\Chain.dproj"/>
+    </Target>
+    <Target Name="Chain:Clean">
+        <MSBuild Projects="Chain\Chain.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Chain:Make">
+        <MSBuild Projects="Chain\Chain.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TemplateMethod">
+        <MSBuild Projects="TemplateMethod\TemplateMethod.dproj"/>
+    </Target>
+    <Target Name="TemplateMethod:Clean">
+        <MSBuild Projects="TemplateMethod\TemplateMethod.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TemplateMethod:Make">
+        <MSBuild Projects="TemplateMethod\TemplateMethod.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Observer">
+        <MSBuild Projects="Observer\Observer.dproj"/>
+    </Target>
+    <Target Name="Observer:Clean">
+        <MSBuild Projects="Observer\Observer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Observer:Make">
+        <MSBuild Projects="Observer\Observer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Adapter;Proxy;Facade;Strategy;State;Chain;TemplateMethod;Observer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Adapter:Clean;Proxy:Clean;Facade:Clean;Strategy:Clean;State:Clean;Chain:Clean;TemplateMethod:Clean;Observer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Adapter:Make;Proxy:Make;Facade:Make;Strategy:Make;State:Make;Chain:Make;TemplateMethod:Make;Observer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

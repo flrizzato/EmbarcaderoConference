@@ -1,0 +1,41 @@
+Embarcadero Conference 2016 - Criando sua própria solução de Push Notifications - Rafael Ribas Aguiló
+
+Passo a passo para o setup de todos os projetos, server (vcl), componente (Android/iOS) e client (app android):
+
+1- Crie um projeto com Cloud Messaging habilitado no Firebase (https://console.firebase.google.com/)
+
+2- Crie a tabela no banco MySQL:
+CREATE TABLE `registry` (
+  `DeviceId` varchar(32) NOT NULL,
+  `DeviceToken` varchar(200) DEFAULT NULL,
+  `DeviceType` varchar(40) DEFAULT NULL,
+  `OSName` varchar(10) DEFAULT NULL,
+  `OSVersion` varchar(20) DEFAULT NULL,
+  `PushEnabled` varchar(1) DEFAULT NULL,
+  `UserName` varchar(60) DEFAULT NULL,
+  `UserEmail` varchar(60) DEFAULT NULL,
+  `DTInsert` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `DTUpdate` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`DeviceId`),
+  KEY `idxDeviceToken` (`DeviceToken`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+3- Configurar a aplicação servidora (abra o projeto PushServerAdmin.dproj)
+ 3.1- No Data Module TdmPushDB, configure a conexão do banco de dados MySQL para o seu servidor
+ 3.2- No form mSender.dfm, coloque a "Chave de API da Web" do seu projeto no Firebase (Configurações do Projeto) como 
+      texto no TEdit edtAuthKey (ver slide 20 do Powerpoint);
+
+4- Instale o componente TPushManager (Abra o projeto libPush.dproj)
+ 4.1- Dê um Build e depois Install
+
+5- Configure a app Android (abra o projeto AgilePushDemo.dproj)
+ 5.1- No form fAppPushDemo.dfm, no componente PushManager1, colocar a propriedade AppID com o "ID do Remetente" do seu 
+      projeto Firebird (Configurações | Cloud Messaging) (ver slide 21 do Powerpoint)
+ 5.2- 1- Na unit aIni.pas colocar no lugar de '<ENDEREÇO DO SEU SERVIDOR>' o endereço de onde irá rodar a aplicação 
+         servidora (PushServerAdmin)
+
+É isso!
+
+Obrigado a todos!
+Rafael Ribas Aguiló
+rribas@agileconsultoria.com.br

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0bzsvsv7jwc5knt1f_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::v6h3kqmzwcoaepdt_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,124,241" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.TTXTFormat" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.TMailFormat" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.TSmtpSettings" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.THTMLFormat" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.TMailMessage" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.TMail" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.TEmailHelper" />
+      <reference referencedUin="delphi:e_class:src:Facade:uFramework.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::wvuqr2ze0xcr1t1ct_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="153,1,100,134" />
+      <reference referencedUin="delphi:e_class:src:Facade:Facade.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

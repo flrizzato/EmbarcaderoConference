@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="angular.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="namesCtrl">
+            <ul>
+                <li ng-repeat="x in meuArray">
+                    O valor é {{ x | uppercase }}
+                </li>
+            </ul>
+            <ul>
+                <li ng-repeat="x in names | orderBy:'name'">
+                    {{ x.name + ', ' + x.country }}
+                </li>
+            </ul>
+        </div>
+        <script>
+            angular.module('myApp', []).controller('namesCtrl', function($scope) {
+                $scope.meuObjeto = [
+                    {"firstName":"John", "lastName":"Doe"},
+                    {"firstName":"Anna", "lastName":"Smith"},
+                    {"firstName":"Peter","lastName":"Jones"}
+                ];
+                $scope.names = [
+                    {name:'Jani',country:'Norway'},
+                    {name:'Hege',country:'Sweden'},
+                    {name:'Kai',country:'Denmark'}
+                ];
+                $scope.meuArray = ["segunda", "terça", "quarta", "quinta", "sexta"];
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Exemplo Angular JS - 05</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="angular.min.js" type="text/javascript"></script>
+        <style>
+            body {
+                font-family: Arial, Verdana; 
+                font-size: medium;
+                font-weight: bold;
+            }
+
+            input, button {
+                font-family: Arial, Verdana; 
+                font-size: medium;
+            }
+
+            table, td, th {
+                border-width: 1px;
+                border-color: black;
+                border-style: solid;
+                border-collapse: collapse;
+                padding: 4px;
+            }
+
+            th {
+                background-color: blue;
+                color: white;
+            }
+
+            table {
+                width: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <div ng-app="minhaApp" ng-controller="arrayObjetos">
+            <p>
+                Filtrar por nome: <input type="text" ng-model="test.firstName">
+            </p>
+            <p>
+                Nome: <input type="text" ng-model="firstName">
+                Sobrenome: <input type="text" ng-model="lastName">
+                <button ng-click="addObjeto()">Adicionar</button>
+                <button ng-click="salvarAlteracao()" ng-disabled="!emEdicao">Editar</button>
+                <button ng-click="cancelar()" ng-disabled="!emEdicao">Cancelar</button>
+            </p>
+            <div>
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Ediar</th>
+                        <th>Excluir</th>
+                    </tr>
+                    <tr ng-repeat="linha in minhaTabela | filter:test | orderBy:'firstName'">
+                        <td ng-if="$odd"  style="background-color:#CCCCCC">{{ $index + 1}}</td>
+                        <td ng-if="$even" style="background-color:#FFFFFF">{{ $index + 1}}</td>
+                        <td ng-if="$odd"  style="background-color:#CCCCCC">{{ linha.firstName}}</td>
+                        <td ng-if="$even" style="background-color:#FFFFFF" >{{ linha.firstName}}</td>
+                        <td ng-if="$odd"  style="background-color:#CCCCCC">{{ linha.lastName}}</td>
+                        <td ng-if="$even" style="background-color:#FFFFFF" >{{ linha.lastName}}</td>
+                        <td ng-if="$odd"  style="background-color:#CCCCCC" ><button ng-click="editUser(linha)">Editar</button></td>
+                        <td ng-if="$even" style="background-color:#FFFFFF" ><button ng-click="editUser(linha)">Editar</button></td>
+                        <td ng-if="$odd"  style="background-color:#CCCCCC"><button ng-click="deleteUser(linha)">Excluir</button></td>
+                        <td ng-if="$even" style="background-color:#FFFFFF" ><button ng-click="deleteUser(linha)">Excluir</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script>
+            var app = angular.module("minhaApp", []);
+            app.controller("arrayObjetos", function ($scope) {
+                $scope.linhaEditavel;
+                $scope.emEdicao = false;
+                
+                $scope.minhaTabela = [
+                    {firstName: "John", lastName: "Doe"},
+                    {firstName: "Anna", lastName: "Smith"},
+                    {firstName: "Peter", lastName: "Jones"}
+                ];
+
+                $scope.addObjeto = function () {
+                    var obj = {firstName: "", lastName: ""};
+                    obj.firstName = $scope.firstName;
+                    obj.lastName = $scope.lastName;
+                    $scope.minhaTabela.push(obj);
+                };
+
+                $scope.editUser = function (linha) {
+                    $scope.emEdicao = true;
+                    $scope.linhaEditavel = linha;
+                    $scope.firstName = linha.firstName;
+                    $scope.lastName = linha.lastName;
+                };
+
+                $scope.deleteUser = function (linha) {
+                    angular.forEach($scope.minhaTabela, function (obj, index) {
+                        if (obj === linha) {
+                            $scope.minhaTabela.splice(index, 1);
+                        }
+                    });
+                };
+
+                $scope.cancelar = function () {
+                    $scope.emEdicao = false;
+                    $scope.linhaEditavel = null;
+                    $scope.firstName = "";
+                    $scope.lastName = "";
+                };
+
+                $scope.salvarAlteracao = function () {
+                    $scope.linhaEditavel.firstName = $scope.firstName;
+                    $scope.linhaEditavel.lastName = $scope.lastName;
+                };
+            });
+        </script>
+    </body>
+</html>

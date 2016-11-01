@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/02/16 17:23:47.000.654,=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/18 18:19:40.000.667,=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/03 17:48:54.000.060,=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/08/25 18:43:56.000.397,=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/08/26 21:08:27.000.754,=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/08/27 02:05:42.000.894,=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/23 12:38:05.000.398,=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/23 17:39:03.000.285,C:\Users\Sileide\Desktop\EnergyMeter\Unit1.fmx=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2016/10/23 17:39:03.000.285,C:\Users\Sileide\Desktop\EnergyMeter\Unit1.pas=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/23 17:39:39.000.522,C:\Users\Sileide\Desktop\EnergyMeter\EnergyMeter.dproj=C:\Users\Sileide\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0434049902"/>
+	</ActiveMobileDevice>
+</BorlandProject>

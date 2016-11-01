@@ -1,0 +1,132 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 385
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ListBox1: TListBox
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 135.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 385.000000000000000000
+    Viewport.Height = 135.000000000000000000
+    object ListBoxItem2: TListBoxItem
+      TabOrder = 0
+      object cbxDevices: TComboBox
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 200.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+      object Label3: TLabel
+        Align = Left
+        Margins.Left = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Size.Width = 105.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Dispositivos'
+      end
+      object Button2: TButton
+        Align = Right
+        Margins.Right = 8.000000000000000000
+        Position.X = 329.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'donetoolbutton'
+        TabOrder = 3
+        Text = 'Conectar'
+        OnClick = Button2Click
+      end
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 44.000000000000000000
+      TabOrder = 1
+      object lblConectado: TLabel
+        Align = Contents
+        Size.Width = 385.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        Text = '  Status Impressora'
+      end
+      object crlConectado: TCircle
+        Align = Right
+        Fill.Color = claRed
+        Margins.Right = 8.000000000000000000
+        Position.X = 360.000000000000000000
+        Size.Width = 17.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.Y = 88.000000000000000000
+      TabOrder = 2
+      object Button3: TButton
+        Align = Center
+        Margins.Top = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 181.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Imprimir'
+        OnClick = Button3Click
+      end
+    end
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 385.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Label2: TLabel
+      Align = Contents
+      Size.Width = 385.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = 'Mini-Impressora'
+    end
+    object Button1: TButton
+      Align = Right
+      Margins.Right = 8.000000000000000000
+      Position.X = 329.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbutton'
+      TabOrder = 1
+      Text = 'Listar'
+      OnClick = Button1Click
+    end
+  end
+  object bthDispositivos: TBluetooth
+    Enabled = True
+    Left = 48
+    Top = 496
+  end
+  object fgActivityDialog1: TfgActivityDialog
+    Left = 48
+    Top = 440
+  end
+end

@@ -1,0 +1,91 @@
+object frmMoldeTelas: TfrmMoldeTelas
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 402
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    FullSize = True
+    Size.Width = 320.000000000000000000
+    Size.Height = 402.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = Bottom
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 318.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Buscar'
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ToolBar1: TToolBar
+        Size.Width = 320.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object ComboBox1: TComboBox
+          DisableFocusEffect = False
+          Position.X = 8.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 90.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object edtBuscar: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          ReturnKeyType = Search
+          Position.X = 104.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 169.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object btnBuscar: TButton
+          Position.X = 272.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'searchtoolbutton'
+          TabOrder = 2
+          Text = 'btnBuscar'
+        end
+      end
+      object Image1: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Align = Client
+        Size.Width = 320.000000000000000000
+        Size.Height = 305.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object ClientDataSet1: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 24
+    Top = 41
+  end
+  object gmGestos: TGestureManager
+    Sensitivity = 80.000000000000000000
+    Left = 96
+    Top = 49
+  end
+end

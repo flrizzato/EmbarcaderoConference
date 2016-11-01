@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/23 20:46:04.000.235,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/23 20:47:14.000.684,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\ClientMobile101.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/10/23 20:49:55.000.791,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\frmPrincipalUnt.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/23 20:49:55.000.791,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\frmPrincipalUnt.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2016/10/23 20:49:59.000.549,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ClientMobile101.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\ClientMobile101.dproj</Transaction>
+    <Transaction>2016/10/23 20:53:29.000.575,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\fraTopoUnt.pas</Transaction>
+    <Transaction>2016/10/23 20:53:29.000.800,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\frmModeloUnt.pas</Transaction>
+    <Transaction>2016/10/23 20:55:45.000.338,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\Unit2.pas</Transaction>
+    <Transaction>2016/10/23 20:57:40.000.195,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2016/10/23 20:57:40.000.086,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2016/10/23 20:58:11.000.669,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ClientModuleUnit1.dfm=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ModuloClientRestUnt.dfm</Transaction>
+    <Transaction>2016/10/23 20:58:11.000.669,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ClientModuleUnit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ModuloClientRestUnt.pas</Transaction>
+    <Transaction>2016/10/23 20:58:22.000.321,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ClientClassesUnit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\ClassesClientUnt.pas</Transaction>
+    <Transaction>2016/10/23 23:46:16.000.437,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\Unit2.pas</Transaction>
+    <Transaction>2016/10/23 23:46:43.000.957,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\Unit2.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\fraMenuTopUnt.fmx</Transaction>
+    <Transaction>2016/10/23 23:46:43.000.957,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\Unit2.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101Mobile - Conference2016\ClienteMobile101\fraMenuTopUnt.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone" Android="LPreview"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

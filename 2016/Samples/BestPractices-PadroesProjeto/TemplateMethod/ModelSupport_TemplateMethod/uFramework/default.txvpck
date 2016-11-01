@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="rzyakxoctmk_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.TCorrecao">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="240,20,86,129" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecao.Iniciar()" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecao.Corrigir()" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecao.Finalizar()" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecao.Processar()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.TCorrecaoRedacao">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="80,200,126,114" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecaoRedacao.Iniciar()" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecaoRedacao.Corrigir()" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecaoRedacao.Finalizar()" />
+      <reference referencedUin="delphi:l_gnt:src:TemplateMethod:uFramework.TCorrecaoRedacao:uFramework.TCorrecao">
+        <property name="sourceAnchor" value="188,200" />
+        <property name="targetAnchor" value="240,136" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.TCorrecaoProva">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="360,200,109,114" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecaoProva.Iniciar()" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecaoProva.Corrigir()" />
+      <reference referencedUin="delphi:e_method:src:TemplateMethod:uFramework.TCorrecaoProva.Finalizar()" />
+      <reference referencedUin="delphi:l_gnt:src:TemplateMethod:uFramework.TCorrecaoProva:uFramework.TCorrecao">
+        <property name="sourceAnchor" value="370,200" />
+        <property name="targetAnchor" value="326,140" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

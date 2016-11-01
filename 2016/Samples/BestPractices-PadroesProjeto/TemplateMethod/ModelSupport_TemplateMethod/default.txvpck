@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="wfh0xxshiyh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::rzyakxoctmk_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,131,181" />
+      <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.TCorrecao" />
+      <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.TCorrecaoRedacao" />
+      <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.TCorrecaoProva" />
+      <reference referencedUin="delphi:e_class:src:TemplateMethod:uFramework.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::fljl4wi2tar_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="160,1,148,134" />
+      <reference referencedUin="delphi:e_class:src:TemplateMethod:TemplateMethod.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

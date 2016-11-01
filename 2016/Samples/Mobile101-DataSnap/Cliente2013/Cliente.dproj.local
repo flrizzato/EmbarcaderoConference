@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/09/25 15:18:22.000.188,=C:\Users\Landerson\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/09/25 15:18:46.000.038,C:\Users\Landerson\Documents\RAD Studio\Projects\Cliente.dproj=C:\Users\Landerson\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2013/09/25 15:18:59.000.411,C:\Users\Landerson\Documents\RAD Studio\Projects\frmClienteUnt.pas=C:\Users\Landerson\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/09/25 15:18:59.000.411,C:\Users\Landerson\Documents\RAD Studio\Projects\frmClienteUnt.fmx=C:\Users\Landerson\Documents\RAD Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2013/09/25 15:19:30.000.451,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Cliente2013\frmClienteUnt.pas=C:\Users\Landerson\Documents\RAD Studio\Projects\frmClienteUnt.pas</Transaction>
+    <Transaction>2013/09/25 15:19:30.000.451,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Cliente2013\frmClienteUnt.fmx=C:\Users\Landerson\Documents\RAD Studio\Projects\frmClienteUnt.fmx</Transaction>
+    <Transaction>2013/09/25 15:19:31.000.436,C:\Users\Landerson\Documents\RAD Studio\Projects\2013\Cliente2013\Cliente.dproj=C:\Users\Landerson\Documents\RAD Studio\Projects\Cliente.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>emulator-5554</MobileDevice>
+</BorlandProject>

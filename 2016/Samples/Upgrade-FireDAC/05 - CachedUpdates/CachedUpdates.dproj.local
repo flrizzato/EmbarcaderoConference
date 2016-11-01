@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/18 21:08:02.000.720,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/10 16:54:49.000.331,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/09/10 23:12:44.000.406,C:\Temp\Curso de FireDAC\Exemplo 02\Unit3.dfm=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2016/09/10 23:12:44.000.406,C:\Temp\Curso de FireDAC\Exemplo 02\Unit3.pas=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/09/10 23:12:45.000.946,C:\Temp\Curso de FireDAC\Exemplo 02\Project1.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/10/25 17:59:17.000.480,\\Mac\Home\Desktop\EC 2016\FireDAC\05 - CachedUpdates\CachedUpdates.dproj=\\Mac\Home\Desktop\EC 2016\FireDAC\05 - CachedUpdates\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

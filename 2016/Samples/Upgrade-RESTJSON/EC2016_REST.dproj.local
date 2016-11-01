@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/02/22 10:45:29.000.556,=C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/02/22 10:46:18.000.189,C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\PROJETOS\CodeRageIII\REST\Spotify\Unt_Principal.pas</Transaction>
+    <Transaction>2015/02/22 10:46:18.000.189,C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\PROJETOS\CodeRageIII\REST\Spotify\Unt_Principal.dfm</Transaction>
+    <Transaction>2015/02/22 10:46:28.000.148,C:\Users\Mario\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\PROJETOS\CodeRageIII\REST\Spotify\cr3Spotify.dproj</Transaction>
+    <Transaction>2016/10/21 16:51:04.000.145,C:\EC2016\REST\cr3Spotify.dproj=C:\EC2016\REST\EC2016_REST.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/05/13 21:17:06.000.892,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/24 20:11:00.000.027,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/24 20:13:47.000.512,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2014/07/24 20:14:57.000.536,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmPrincipalUnt.pas</Transaction>
+    <Transaction>2014/07/24 20:14:57.000.536,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Unit2.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmPrincipalUnt.fmx</Transaction>
+    <Transaction>2014/07/24 20:15:05.000.485,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Unit1.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmInicioUnt.fmx</Transaction>
+    <Transaction>2014/07/24 20:15:05.000.485,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmInicioUnt.pas</Transaction>
+    <Transaction>2014/07/24 20:15:21.000.174,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Controle.dproj</Transaction>
+    <Transaction>2014/07/24 21:23:57.000.113,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2014/07/24 21:23:58.000.208,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2014/07/24 21:24:55.000.413,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientClassesUnit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientClassesDistrimedUnt.pas</Transaction>
+    <Transaction>2014/07/24 21:25:02.000.545,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientModuleUnit1.dfm=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientModuleDistrimedUnt.dfm</Transaction>
+    <Transaction>2014/07/24 21:25:02.000.545,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientModuleUnit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\ClientModuleDistrimedUnt.pas</Transaction>
+    <Transaction>2014/07/24 21:46:09.000.034,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\URotinasGenericas.pas</Transaction>
+    <Transaction>2014/07/24 21:46:57.000.378,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\URotinasGenericas.pas=</Transaction>
+    <Transaction>2014/08/04 20:17:42.000.234,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/04 20:18:41.000.892,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmProdutosUnt.pas</Transaction>
+    <Transaction>2014/08/04 20:18:41.000.892,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmProdutosUnt.fmx</Transaction>
+    <Transaction>2014/08/07 16:00:41.000.674,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/07 16:01:43.000.872,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmMoldeTelasUnt.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/07 16:01:43.000.872,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmMoldeTelasUnt.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.fmx</Transaction>
+    <Transaction>2014/08/07 16:25:56.000.465,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/07 16:37:01.000.693,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/07 16:37:01.000.693,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.fmx</Transaction>
+    <Transaction>2014/08/07 17:54:32.000.685,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.pas=</Transaction>
+    <Transaction>2014/08/07 17:55:01.000.384,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/07 17:55:37.000.132,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.pas</Transaction>
+    <Transaction>2014/08/07 17:55:37.000.132,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.fmx</Transaction>
+    <Transaction>2014/08/07 19:20:28.000.097,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Controle.dproj=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Controle.dproj</Transaction>
+    <Transaction>2014/08/07 19:46:05.000.424,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/07 19:48:51.000.533,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmClientesUnt.fmx</Transaction>
+    <Transaction>2014/08/07 19:48:51.000.533,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmClientesUnt.pas</Transaction>
+    <Transaction>2014/08/08 07:38:35.000.387,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.pas=</Transaction>
+    <Transaction>2014/08/08 07:38:35.000.297,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmClientesUnt.pas=</Transaction>
+    <Transaction>2014/08/08 07:52:29.000.016,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/08 07:58:41.000.836,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.pas</Transaction>
+    <Transaction>2014/08/08 07:58:41.000.836,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmVendedoresUnt.fmx</Transaction>
+    <Transaction>2014/08/08 07:58:52.000.671,=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas</Transaction>
+    <Transaction>2014/08/08 07:59:07.000.362,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.fmx=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmClientesUnt.fmx</Transaction>
+    <Transaction>2014/08/08 07:59:07.000.362,C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\Unit1.pas=C:\Users\LandersonGomes\Documents\RAD Studio\Projects\NOVO_DISTRIMED_2014\frmClientesUnt.pas</Transaction>
+  </Transactions>
+	<MobileDevice>TS7PUOU4JVNFZPDQ</MobileDevice>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="TOOVKBGATOINGYIN"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

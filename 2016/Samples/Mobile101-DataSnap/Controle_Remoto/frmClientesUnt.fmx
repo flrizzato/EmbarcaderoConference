@@ -1,0 +1,19 @@
+inherited frmClientes: TfrmClientes
+  Caption = 'frmMoldeTelas1'
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    inherited TabItem1: TTabItem
+      Size.Width = 320.000000000000000000
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar1: TToolBar
+        inherited ComboBox1: TComboBox
+          Items.Strings = (
+            'C'#243'digo'
+            'Raz'#227'o Social')
+          ItemIndex = 0
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,28 @@
+inherited frmCalibrar_LgXhdpiPh: TfrmCalibrar_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited edtUUID: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited lytCalibrar: TLayout
+    Position.Y = 645.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited btnPesquisarBeacon: TButton
+      Position.X = 320.000000000000000000
+    end
+  end
+  inherited edtMinor: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited edtMajor: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited Memo1: TMemo
+    Viewport.Width = 361.000000000000000000
+    Viewport.Height = 161.000000000000000000
+  end
+  inherited edtMediaRSSI: TEdit
+    Size.Height = 32.000000000000000000
+  end
+end

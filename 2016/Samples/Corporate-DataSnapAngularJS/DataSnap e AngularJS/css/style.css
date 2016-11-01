@@ -1,0 +1,9 @@
+.deleted {
+	color: red;
+    background-color: yellow;
+}
+
+td, th {
+	border-style: solid;
+	border-width: 1px;
+}

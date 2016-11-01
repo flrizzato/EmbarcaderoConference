@@ -1,0 +1,69 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Enviar mensagem'
+  ClientHeight = 215
+  ClientWidth = 396
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Center
+    Size.Width = 352.000000000000000000
+    Size.Height = 51.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Button1: TButton
+      Align = Right
+      Default = True
+      StyledSettings = [Family, Style, FontColor]
+      Margins.Top = 6.000000000000000000
+      Margins.Right = 6.000000000000000000
+      Margins.Bottom = 6.000000000000000000
+      Position.X = 249.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 39.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Enviar'
+      TextSettings.Font.Size = 16.000000000000000000
+      OnClick = Button1Click
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      TextSettings.Font.Size = 16.000000000000000000
+      Margins.Left = 6.000000000000000000
+      Margins.Top = 6.000000000000000000
+      Margins.Right = 6.000000000000000000
+      Margins.Bottom = 6.000000000000000000
+      Size.Width = 237.000000000000000000
+      Size.Height = 39.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Digite sua mensagem'
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+  object KinveyProvider1: TKinveyProvider
+    ApiVersion = '3'
+    AppKey = 'XXXX'
+    AppSecret = 'XXXXX'
+    MasterSecret = 'XXXXXX'
+    UserName = 'myuser'
+    Password = 'mypwd'
+    PushEndpoint = 'myPushEndPoint'
+    Left = 64
+    Top = 32
+  end
+  object BackendPush1: TBackendPush
+    Provider = KinveyProvider1
+    Message = 'Teste'
+    Extras = <>
+    Left = 168
+    Top = 32
+  end
+end

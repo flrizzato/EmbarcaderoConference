@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CD3DCB89-78BE-4CBF-9EDE-E49431622999}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="authserver\AuthServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="apiserver\ApiServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="desktopclient\DesktopClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AuthServer">
+        <MSBuild Projects="authserver\AuthServer.dproj"/>
+    </Target>
+    <Target Name="AuthServer:Clean">
+        <MSBuild Projects="authserver\AuthServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AuthServer:Make">
+        <MSBuild Projects="authserver\AuthServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ApiServer">
+        <MSBuild Projects="apiserver\ApiServer.dproj"/>
+    </Target>
+    <Target Name="ApiServer:Clean">
+        <MSBuild Projects="apiserver\ApiServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ApiServer:Make">
+        <MSBuild Projects="apiserver\ApiServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DesktopClient">
+        <MSBuild Projects="desktopclient\DesktopClient.dproj"/>
+    </Target>
+    <Target Name="DesktopClient:Clean">
+        <MSBuild Projects="desktopclient\DesktopClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesktopClient:Make">
+        <MSBuild Projects="desktopclient\DesktopClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AuthServer;ApiServer;DesktopClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AuthServer:Clean;ApiServer:Clean;DesktopClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AuthServer:Make;ApiServer:Make;DesktopClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

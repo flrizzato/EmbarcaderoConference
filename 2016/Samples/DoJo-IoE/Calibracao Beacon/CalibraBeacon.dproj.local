@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/08 15:19:50.000.385,=C:\Users\Newton Oliveira\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/08/08 15:42:12.000.265,Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\uCalibraBeacon.pas=C:\Users\Newton Oliveira\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/08/08 15:42:12.000.265,Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\uCalibraBeacon.fmx=C:\Users\Newton Oliveira\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2016/08/08 15:42:19.000.129,Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\CalibraBeacon.dproj=C:\Users\Newton Oliveira\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2016/08/12 10:19:36.000.914,=Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\Unit1.pas</Transaction>
+    <Transaction>2016/08/12 10:19:52.000.252,Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\uCCalibraBeacon.pas=Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\Unit1.pas</Transaction>
+    <Transaction>2016/08/12 13:04:32.000.628,=Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\Unit1.pas</Transaction>
+    <Transaction>2016/08/12 13:20:41.000.401,=Z:\iCloud Drive\Documentos\Projetos\CalibraBeacon\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMAC iOSSimulator="iPhone5" iOSDevice64="_iosdevice_361031e7ecc4540d285151e14291d6535178104c"/>  <Pmac iOSSimulator="iPhone5" iOSDevice64="_iosdevice_361031e7ecc4540d285151e14291d6535178104c"/>
+  </ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

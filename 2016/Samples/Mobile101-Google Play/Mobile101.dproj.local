@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/23 15:07:19.000.641,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/23 15:18:06.000.745,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101_GooglePlay\Unit1.pas</Transaction>
+    <Transaction>2016/10/23 15:18:06.000.745,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101_GooglePlay\Unit1.fmx</Transaction>
+    <Transaction>2016/10/23 15:18:11.000.171,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101_GooglePlay\Project1.dproj</Transaction>
+    <Transaction>2016/10/23 15:19:03.000.063,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101_GooglePlay\Project1.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\101_GooglePlay\Mobile101.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone" Android="TOOVKBGATOINGYIN"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>AppStore</BT_BuildType>
+</BorlandProject>

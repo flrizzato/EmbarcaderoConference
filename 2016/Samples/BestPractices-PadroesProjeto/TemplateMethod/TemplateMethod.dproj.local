@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/24 22:35:22.000.924,C:\Users\user-pc\Desktop\Fontes\TemplateMethod\TemplateMethod.dproj=C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Project16.dproj</Transaction>
+    <Transaction>2016/10/24 22:35:27.000.524,=C:\Users\user-pc\Desktop\Fontes\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2016/10/24 22:35:31.000.130,C:\Users\user-pc\Desktop\Fontes\TemplateMethod\uFramework.pas=C:\Users\user-pc\Desktop\Fontes\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 14:09:18.000.687,=C:\Users\user-pc\Desktop\Fontes\TemplateMethod\ModelSupport_TemplateMethod\default.txaPackage</Transaction>
+    <Transaction>2016/10/25 14:10:12.000.156,=C:\Users\user-pc\Desktop\Fontes\TemplateMethod\ModelSupport_TemplateMethod\TemplateMethod\default.txvpck</Transaction>
+    <Transaction>2016/10/25 14:10:12.000.070,=C:\Users\user-pc\Desktop\Fontes\TemplateMethod\ModelSupport_TemplateMethod\default.txvpck</Transaction>
+    <Transaction>2016/10/25 14:10:12.000.141,=C:\Users\user-pc\Desktop\Fontes\TemplateMethod\ModelSupport_TemplateMethod\uFramework\default.txvpck</Transaction>
+    <Transaction>2016/10/25 14:10:14.000.860,=C:\Users\user-pc\Desktop\Fontes\TemplateMethod\ModelSupport_TemplateMethod\uFramework\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>

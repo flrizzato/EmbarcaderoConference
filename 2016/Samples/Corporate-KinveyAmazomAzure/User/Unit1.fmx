@@ -1,0 +1,131 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 499
+  ClientWidth = 267
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Criar conta'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = Button1Click
+  end
+  object edUser: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    TextSettings.Font.Size = 20.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Style, FontColor]
+  end
+  object edPassword: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Password = True
+    TextSettings.Font.Size = 20.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Style, FontColor]
+  end
+  object User: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    Text = 'User'
+  end
+  object Password: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    Text = 'Password'
+  end
+  object Button2: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'Login'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = 'Excluir conta'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 20
+    Text = 'Listar'
+    TextSettings.Font.Size = 20.000000000000000000
+    OnClick = Button4Click
+  end
+  object ListBox1: TListBox
+    Align = Bottom
+    Position.Y = 320.000000000000000000
+    Size.Width = 267.000000000000000000
+    Size.Height = 179.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 21
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 263.000000000000000000
+    Viewport.Height = 175.000000000000000000
+  end
+  object BackendUsers1: TBackendUsers
+    Provider = KinveyProvider1
+    Left = 192
+    Top = 216
+  end
+  object KinveyProvider1: TKinveyProvider
+    ApiVersion = '3'
+    AppKey = 'XXXX'
+    AppSecret = 'XXXX'
+    MasterSecret = 'XXXX'
+    UserName = 'myuser'
+    Password = 'mypwd'
+    Left = 48
+    Top = 216
+  end
+end

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="kc243oiuh9o_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Strategy:uFramework.TAutenticacao">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,120,97,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Strategy:uFramework.TAutenticacao.Autenticar(System.string,System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Strategy:uFramework.TAutenticacaoLocal">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="180,300,128,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Strategy:uFramework.TAutenticacaoLocal.Autenticar(System.string,System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Strategy:uFramework.TAutenticacaoLocal:uFramework.TAutenticacao">
+        <property name="sourceAnchor" value="290,300" />
+        <property name="targetAnchor" value="400,202" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Strategy:uFramework.TContext">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="80,100,181,116" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Strategy:uFramework.TContext.FAutenticacao" />
+      <reference referencedUin="delphi:e_method:src:Strategy:uFramework.TContext.Autenticar(System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:Strategy:uFramework.TContext.Create()" />
+      <reference referencedUin="delphi:l_ast:src:Strategy:uFramework.TContext.FAutenticacao">
+        <property name="sourceAnchor" value="261,162" />
+        <property name="targetAnchor" value="400,162" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Strategy:uFramework.TAutenticacaoWebService">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="380,300,166,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Strategy:uFramework.TAutenticacaoWebService.Autenticar(System.string,System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Strategy:uFramework.TAutenticacaoWebService:uFramework.TAutenticacao">
+        <property name="sourceAnchor" value="448,300" />
+        <property name="targetAnchor" value="448,204" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Strategy:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Strategy:uFramework.TAutenticacaoBD">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="600,300,114,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Strategy:uFramework.TAutenticacaoBD.Autenticar(System.string,System.string)" />
+      <reference referencedUin="delphi:l_gnt:src:Strategy:uFramework.TAutenticacaoBD:uFramework.TAutenticacao">
+        <property name="sourceAnchor" value="608,300" />
+        <property name="targetAnchor" value="495,203" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

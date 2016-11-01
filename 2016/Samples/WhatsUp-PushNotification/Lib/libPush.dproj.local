@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/11/07 03:29:54.000.118,=rtl.dcp</Transaction>
+    <Transaction>2015/11/07 03:31:30.000.405,C:\src\RB\DP\LibMob\libPush.dproj=C:\Users\rribas\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2015/11/07 03:41:18.000.325,=C:\src\RB\DP\LibMob\lPush.pas</Transaction>
+    <Transaction>2015/11/07 03:43:20.000.348,=fmx.dcp</Transaction>
+    <Transaction>2015/11/07 04:22:46.000.528,=C:\src\RB\DP\LibMob\cPushClient.pas</Transaction>
+    <Transaction>2015/11/07 17:14:35.000.232,C:\src\RB\DP\LibMob\cPushClient.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="Nexus5Android501"/>
+	</ActiveMobileDevice>
+</BorlandProject>

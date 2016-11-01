@@ -1,0 +1,144 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5CA3C35B-0F81-4E41-B8B4-5D0524FB9B00}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01 - Componentes\Componentes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02 - Mestre Detalhe\MestreDetalhe.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03 - Data Type Unification\DataTypeUnification.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="04 - UnifyParams\UnifyParams.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="05 - CachedUpdates\CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="06 - Centralizar o ChachedUpdates\CentralizandoCachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="07 - AutoIncremento\AutoIncremento.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="08 - Tracing\Tracing.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="09 - Monitoring\Monitoring.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="10 - LocalSQL Cache\LocalSQL.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Componentes">
+        <MSBuild Projects="01 - Componentes\Componentes.dproj"/>
+    </Target>
+    <Target Name="Componentes:Clean">
+        <MSBuild Projects="01 - Componentes\Componentes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Componentes:Make">
+        <MSBuild Projects="01 - Componentes\Componentes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MestreDetalhe">
+        <MSBuild Projects="02 - Mestre Detalhe\MestreDetalhe.dproj"/>
+    </Target>
+    <Target Name="MestreDetalhe:Clean">
+        <MSBuild Projects="02 - Mestre Detalhe\MestreDetalhe.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MestreDetalhe:Make">
+        <MSBuild Projects="02 - Mestre Detalhe\MestreDetalhe.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataTypeUnification">
+        <MSBuild Projects="03 - Data Type Unification\DataTypeUnification.dproj"/>
+    </Target>
+    <Target Name="DataTypeUnification:Clean">
+        <MSBuild Projects="03 - Data Type Unification\DataTypeUnification.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataTypeUnification:Make">
+        <MSBuild Projects="03 - Data Type Unification\DataTypeUnification.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UnifyParams">
+        <MSBuild Projects="04 - UnifyParams\UnifyParams.dproj"/>
+    </Target>
+    <Target Name="UnifyParams:Clean">
+        <MSBuild Projects="04 - UnifyParams\UnifyParams.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UnifyParams:Make">
+        <MSBuild Projects="04 - UnifyParams\UnifyParams.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CachedUpdates">
+        <MSBuild Projects="05 - CachedUpdates\CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="CachedUpdates:Clean">
+        <MSBuild Projects="05 - CachedUpdates\CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CachedUpdates:Make">
+        <MSBuild Projects="05 - CachedUpdates\CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CentralizandoCachedUpdates">
+        <MSBuild Projects="06 - Centralizar o ChachedUpdates\CentralizandoCachedUpdates.dproj"/>
+    </Target>
+    <Target Name="CentralizandoCachedUpdates:Clean">
+        <MSBuild Projects="06 - Centralizar o ChachedUpdates\CentralizandoCachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CentralizandoCachedUpdates:Make">
+        <MSBuild Projects="06 - Centralizar o ChachedUpdates\CentralizandoCachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AutoIncremento">
+        <MSBuild Projects="07 - AutoIncremento\AutoIncremento.dproj"/>
+    </Target>
+    <Target Name="AutoIncremento:Clean">
+        <MSBuild Projects="07 - AutoIncremento\AutoIncremento.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AutoIncremento:Make">
+        <MSBuild Projects="07 - AutoIncremento\AutoIncremento.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tracing">
+        <MSBuild Projects="08 - Tracing\Tracing.dproj"/>
+    </Target>
+    <Target Name="Tracing:Clean">
+        <MSBuild Projects="08 - Tracing\Tracing.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tracing:Make">
+        <MSBuild Projects="08 - Tracing\Tracing.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Monitoring">
+        <MSBuild Projects="09 - Monitoring\Monitoring.dproj"/>
+    </Target>
+    <Target Name="Monitoring:Clean">
+        <MSBuild Projects="09 - Monitoring\Monitoring.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Monitoring:Make">
+        <MSBuild Projects="09 - Monitoring\Monitoring.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LocalSQL">
+        <MSBuild Projects="10 - LocalSQL Cache\LocalSQL.dproj"/>
+    </Target>
+    <Target Name="LocalSQL:Clean">
+        <MSBuild Projects="10 - LocalSQL Cache\LocalSQL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LocalSQL:Make">
+        <MSBuild Projects="10 - LocalSQL Cache\LocalSQL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Componentes;MestreDetalhe;DataTypeUnification;UnifyParams;CachedUpdates;CentralizandoCachedUpdates;AutoIncremento;Tracing;Monitoring;LocalSQL"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Componentes:Clean;MestreDetalhe:Clean;DataTypeUnification:Clean;UnifyParams:Clean;CachedUpdates:Clean;CentralizandoCachedUpdates:Clean;AutoIncremento:Clean;Tracing:Clean;Monitoring:Clean;LocalSQL:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Componentes:Make;MestreDetalhe:Make;DataTypeUnification:Make;UnifyParams:Make;CachedUpdates:Make;CentralizandoCachedUpdates:Make;AutoIncremento:Make;Tracing:Make;Monitoring:Make;LocalSQL:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

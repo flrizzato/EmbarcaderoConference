@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-BR" ng-app="myApp" ng-controller="myCtrl">
+	<meta charset="UTF-8">
+	<title>Exemplo - Dados</title>
+	<!-- Arquivos CSS -->
+	<link href="jquery-ui-1.12.0/jquery-ui.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- AngularJS -->
+	<script src="angular-1.5.8/angular.min.js"></script>
+	<script src="angular-1.5.8/i18n/angular-locale_pt-br.js"></script>
+	<!-- jQuery -->
+	<script src="jquery-ui-1.12.0/external/jquery/jquery.js"></script>
+	<script src="jquery-ui-1.12.0/jquery-ui.min.js"></script>
+	<!-- DataSnap -->
+	<script type="text/javascript" src="js/base64.js"></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+	<script type="text/javascript" src="js/connection.js"></script>
+	<script type="text/javascript" src="<#serverfunctionsjs>"></script>
+	<!-- CSS Geral -->
+	<style>
+	body {
+		font-family: sans-serif;
+		margin: 50px;
+	}
+	</style>
+	<!-- Codigo geral -->
+	<script>
+	function addClassInButton() {
+		$(".botaoEditar").button({icons: {primary: "ui-icon-pencil"}});
+		$(".botaoExcluir").button({icons: {primary: "ui-icon-trash"}});
+	}
+	
+	function showMessage() {
+		$("#dialogConfirm").dialog({
+			resizable: false,
+			height: 200,
+			modal: true,
+			buttons: {
+				"Ok": function() {				
+					$(this).dialog("close");
+				}
+			}
+		});
+		$("#dialogConfirm").dialog("open");
+	}
+	
+	function serverMethods() {
+		setConnection('<#host>', '<#port>', '<#urlpath>');
+		return new <#classname>(connectionInfo);
+	}
+	
+	$(function() {
+		$("#btNovo").button();
+		$("#btSalvar").button();
+		$("#dialogForm").dialog({autoOpen: false});
+		$("#dialogConfirm").dialog({autoOpen: false});
+	});
+	</script>
+<body>
+<div>
+    <h1>Dados</h1>
+	<h3>Registros: {{ clientesFiltrados.length }}</h3>
+	<input type="checkbox" ng-model="filtrado" />Nao mostrar registros excluidos
+	<button id="btNovo" ng-click="novo()">Novo</button>
+	<button id="btSalvar" ng-click="salvar()">Salvar</button>
+	<br /><hr /> <br />
+	<table>
+		<tr>
+			<th>Nome</th>
+			<th>Situacao</th>
+			<th>Salario</th>
+			<th>Acao</th>
+		</tr>
+		<tr ng-if="clientesFiltrados.length == 0">
+			<td colspan="4">Nenhum registro encontrado.</td>
+		</tr>
+		<tr ng-if="clientesFiltrados.length >= 0" ng-repeat="cliente in clientes | orderBy:'Nome' | filter: (filtrado ? filtrarON : filtrarOFF) as clientesFiltrados" ng-class="getClass(cliente)">		
+		<td>{{ cliente.Nome }}</td>
+			<td>{{ cliente.Situacao }}</td>
+			<td>{{ cliente.Salario | currency }}</td>
+			<td ng-if="cliente.Situacao !== 'D'">
+				<button class="botaoEditar" ng-click="editar(cliente)">Editar</button>
+				<button class="botaoExcluir" ng-click="delete(cliente)">Excluir</button>
+			</td>
+			<td ng-if="cliente.Situacao == 'D'">
+				<button class="botaoEditar" ng-click="undo(cliente)">Desfazer</button>
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="dialogForm" title="Novo cliente">
+	<form>
+		<label for="txtNome">Nome:</label>
+		<input type="text" name="txtNome" id="txtNome" ng-model="Nome" class="text ui-widget-content ui-corner-all">
+		<br /><br />
+		<label for="txtSalario">Salario:</label>
+		<input type="text" name="txtSalario" id="txtSalario" ng-model="Salario" class="text ui-widget-content ui-corner-all">
+	</form>
+</div>
+<div id="dialogConfirm" title="Alerta">
+	<p>
+		<span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>
+		<span id="spMensagem">Processo concluido com sucesso.</span>
+	</p>
+</div>
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+	$scope.filtrado = true;
+	$scope.quantidade = 0;
+	//$scope.clienteEdicao = {"Codigo": 0, "Nome": "", "Salario": 0, "Situacao": "I"};
+	$scope.clienteEdicao;
+	$scope.clientes = serverMethods().LerClientesJSON().result;
+	
+	$scope.getClass = function(cliente) {
+		if (cliente.Situacao == "D") {
+			return "deleted";
+		}
+	}
+	
+	$scope.addNew = function () {
+		var clienteNovo = {"Codigo": 0, "Nome": "", "Salario": 0, "Situacao": "I"};
+		clienteNovo.Nome = $scope.Nome;
+		clienteNovo.Salario = $scope.Salario;
+		$scope.$apply(function () {
+			$scope.clientes.push(clienteNovo);
+		});
+	};
+	
+	$scope.delete = function (cliente) {
+		cliente.Situacao = "D";
+	};
+
+	$scope.undo = function (cliente) {
+		cliente.Situacao = "R";
+	};
+	
+	$scope.update = function () {
+		$scope.$apply(function () {
+			$scope.clienteEdicao.Nome = $scope.Nome;
+			$scope.clienteEdicao.Salario = $scope.Salario;
+			$scope.clienteEdicao.Situacao = "U";
+		});
+	};
+	
+	$scope.salvar = function () {
+		if (serverMethods().updateClientes($scope.clientes).result) {
+			$scope.clientes = serverMethods().LerClientesJSON().result;
+			showMessage();
+		}
+	};
+
+	$scope.filtrarOFF = function(element) {
+		addClassInButton();
+        return (element.Situacao == "R" || element.Situacao == "I" || element.Situacao == "U" || element.Situacao == "D");
+    }
+	
+    $scope.filtrarON = function(element) {
+		addClassInButton();
+        return (element.Situacao == "R" || element.Situacao == "I" || element.Situacao == "U");
+    }
+	
+	$scope.novo = function() {
+		$("#dialogForm").dialog({
+			autoOpen: false,
+			height: 240,
+			width: 360,
+			modal: true,
+			buttons: {
+				"Salvar": function() {
+					$scope.addNew();
+					$(this).dialog("close");
+				},
+				"Cancelar": function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+		$scope.Nome = "";
+		$scope.Salario = 0;
+		$("#dialogForm").dialog("open");
+	}
+	
+	$scope.editar = function(cliente) {
+		$("#dialogForm").dialog({
+			autoOpen: false,
+			height: 240,
+			width: 360,
+			modal: true,
+			buttons: {
+				"Salvar": function() {
+					$scope.update();
+					$(this).dialog("close");
+				},
+				"Cancelar": function() {
+					$(this).dialog("close");
+				}
+			}
+		});
+		$scope.clienteEdicao = cliente;
+		$scope.Nome = cliente.Nome;
+		$scope.Salario = cliente.Salario;
+		$("#dialogForm").dialog("open");
+	}
+});
+</script>
+</body>
+</html>

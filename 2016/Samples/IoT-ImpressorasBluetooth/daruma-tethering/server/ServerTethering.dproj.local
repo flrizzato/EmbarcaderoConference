@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/21 23:18:41.000.640,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/21 23:30:15.000.682,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/22 00:10:46.000.832,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/23 00:31:19.000.912,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/23 00:32:46.000.799,C:\Projetos\01-andamento\Impressoras - Palestra\Server Tethering\UntServerMain.pas=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/23 00:32:46.000.799,C:\Projetos\01-andamento\Impressoras - Palestra\Server Tethering\UntServerMain.dfm=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/09/23 00:32:53.000.213,C:\Projetos\01-andamento\Impressoras - Palestra\Server Tethering\ServerTethering.dproj=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+		<PMac-Home iOSSimulator="_iossimulator_D05B6851-1AFE-4D36-94D5-06CA72A6405B" iOSDevice64="_iosdevice_343145addc8e14e4b4cdd1b57e7ff0e94d9e708f" iOSDevice32="_iosdevice_343145addc8e14e4b4cdd1b57e7ff0e94d9e708f"/>
+	</ActiveMobileDevice>
+</BorlandProject>

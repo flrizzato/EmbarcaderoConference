@@ -1,0 +1,254 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 385
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 385.000000000000000000
+    Size.Height = 570.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 3
+    TabPosition = PlatformDefault
+    Sizes = (
+      385s
+      521s
+      385s
+      521s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 192.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'IBLITE'
+      ExplicitSize.cx = 192.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ToolBar1: TToolBar
+        Size.Width = 385.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label1: TLabel
+          Align = Contents
+          Size.Width = 385.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'toollabel'
+          TextSettings.HorzAlign = Center
+          Text = 'IBLite'
+        end
+        object Button1: TButton
+          Align = Right
+          Margins.Right = 8.000000000000000000
+          Position.X = 329.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbutton'
+          TabOrder = 1
+          Text = 'Button1'
+          OnClick = Button1Click
+        end
+      end
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TMultiDetailItemAppearance'
+        ItemEditAppearanceClassName = 'TMultiDetailDeleteAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 385.000000000000000000
+        Size.Height = 473.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 193.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'SQLite'
+      ExplicitSize.cx = 193.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ListView2: TListView
+        ItemAppearanceClassName = 'TMultiDetailItemAppearance'
+        ItemEditAppearanceClassName = 'TMultiDetailDeleteAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 385.000000000000000000
+        Size.Height = 473.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object ToolBar2: TToolBar
+        Size.Width = 385.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label2: TLabel
+          Align = Contents
+          Size.Width = 385.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'SQLite'
+        end
+        object Button2: TButton
+          Align = Right
+          Margins.Right = 8.000000000000000000
+          Position.X = 329.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbutton'
+          TabOrder = 0
+          Text = 'Button2'
+          OnClick = Button2Click
+        end
+      end
+    end
+  end
+  object fdcIBLite: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\adrianosantos\OneDrive\00-projetos\11-palestra' +
+        's\embarcadero-conference-2016\database-mobile-demo\database\DEMO' +
+        '.IB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'Server=localhost'
+      'Port=3050'
+      'Protocol=TCPIP'
+      'DriverID=IB')
+    LoginPrompt = False
+    BeforeConnect = fdcIBLiteBeforeConnect
+    Left = 63
+    Top = 232
+  end
+  object FDPhysIBDriverLink1: TFDPhysIBDriverLink
+    Left = 63
+    Top = 296
+  end
+  object qryUsuarios: TFDQuery
+    Connection = fdcIBLite
+    SQL.Strings = (
+      'SELECT * FROM USUARIO')
+    Left = 63
+    Top = 360
+    object qryUsuariosNOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Size = 30
+    end
+    object qryUsuariosSENHA: TStringField
+      FieldName = 'SENHA'
+      Origin = 'SENHA'
+      Size = 10
+    end
+    object qryUsuariosNOMECOMPLETO: TStringField
+      FieldName = 'NOMECOMPLETO'
+      Origin = 'NOMECOMPLETO'
+      Size = 100
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = qryUsuarios
+    ScopeMappings = <>
+    Left = 63
+    Top = 501
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 175
+    Top = 453
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'NOME'
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'NOMECOMPLETO'
+          ControlMemberName = 'Detail1'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+    object LinkListControlToField2: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'NOME'
+      Control = ListView2
+      FillExpressions = <
+        item
+          SourceMemberName = 'NOMECOMPLETO'
+          ControlMemberName = 'Detail1'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object fdcSQLite: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Projetos\embarcadero-conference-2016\database-mobile' +
+        '-demo\database\DEMO.s3db'
+      'OpenMode=ReadWrite'
+      'DriverID=SQLite')
+    LoginPrompt = False
+    BeforeConnect = fdcSQLiteBeforeConnect
+    Left = 287
+    Top = 232
+  end
+  object FDPhysSQLiteDriverLink1: TFDPhysSQLiteDriverLink
+    Left = 287
+    Top = 296
+  end
+  object qryUsuarioSQLite: TFDQuery
+    Connection = fdcIBLite
+    SQL.Strings = (
+      'select * from usuario')
+    Left = 287
+    Top = 360
+    object qryUsuarioSQLiteNOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Size = 30
+    end
+    object qryUsuarioSQLiteSENHA: TStringField
+      FieldName = 'SENHA'
+      Origin = 'SENHA'
+      Size = 10
+    end
+    object qryUsuarioSQLiteNOMECOMPLETO: TStringField
+      FieldName = 'NOMECOMPLETO'
+      Origin = 'NOMECOMPLETO'
+      Size = 100
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = qryUsuarioSQLite
+    ScopeMappings = <>
+    Left = 287
+    Top = 501
+  end
+end

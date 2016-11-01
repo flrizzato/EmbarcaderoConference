@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="v6h3kqmzwcoaepdt_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.TTXTFormat">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,40,87,67" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Facade:uFramework.TTXTFormat:uFramework.TMailFormat">
+        <property name="sourceAnchor" value="107,93" />
+        <property name="targetAnchor" value="240,93" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.TMailFormat">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="240,80,87,67" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.TSmtpSettings">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="640,240,126,161" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TSmtpSettings.FServerName" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TSmtpSettings.FUserName" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TSmtpSettings.FPassword" />
+      <reference referencedUin="delphi:e_property:src:Facade:uFramework.TSmtpSettings.ServerName" />
+      <reference referencedUin="delphi:e_property:src:Facade:uFramework.TSmtpSettings.UserName" />
+      <reference referencedUin="delphi:e_property:src:Facade:uFramework.TSmtpSettings.Password" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.THTMLFormat">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="60,220,98,67" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Facade:uFramework.THTMLFormat:uFramework.TMailFormat">
+        <property name="sourceAnchor" value="149,220" />
+        <property name="targetAnchor" value="241,146" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.TMailMessage">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="220,260,132,133" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TMailMessage.FMensagem" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TMailMessage.FFormat" />
+      <reference referencedUin="delphi:e_property:src:Facade:uFramework.TMailMessage.Mensagem" />
+      <reference referencedUin="delphi:e_method:src:Facade:uFramework.TMailMessage.Create(System.string,uFramework.TMailFormat)" />
+      <reference referencedUin="delphi:l_ast:src:Facade:uFramework.TMailMessage.FFormat">
+        <property name="sourceAnchor" value="283,260" />
+        <property name="targetAnchor" value="283,147" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.TMail">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="440,300,131,116" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TMail.FConf" />
+      <reference referencedUin="delphi:e_method:src:Facade:uFramework.TMail.Create(uFramework.TSmtpSettings)" />
+      <reference referencedUin="delphi:e_method:src:Facade:uFramework.TMail.Send(uFramework.TMailMessage)" />
+      <reference referencedUin="delphi:l_ast:src:Facade:uFramework.TMail.FConf">
+        <property name="sourceAnchor" value="571,350" />
+        <property name="targetAnchor" value="640,350" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.TEmailHelper">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="420,40,132,161" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TEmailHelper.FMail" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TEmailHelper.FFormat" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TEmailHelper.FConf" />
+      <reference referencedUin="delphi:e_field:src:Facade:uFramework.TEmailHelper.FMsg" />
+      <reference referencedUin="delphi:e_method:src:Facade:uFramework.TEmailHelper.Create()" />
+      <reference referencedUin="delphi:e_method:src:Facade:uFramework.TEmailHelper.Enviar(System.string)" />
+      <reference referencedUin="delphi:l_ast:src:Facade:uFramework.TEmailHelper.FMail">
+        <property name="sourceAnchor" value="496,201" />
+        <property name="targetAnchor" value="496,300" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Facade:uFramework.TEmailHelper.FFormat">
+        <property name="sourceAnchor" value="420,113" />
+        <property name="targetAnchor" value="327,113" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Facade:uFramework.TEmailHelper.FConf">
+        <property name="sourceAnchor" value="552,180" />
+        <property name="targetAnchor" value="640,261" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Facade:uFramework.TEmailHelper.FMsg">
+        <property name="sourceAnchor" value="420,187" />
+        <property name="targetAnchor" value="349,260" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Facade:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

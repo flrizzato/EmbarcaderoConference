@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/24 22:02:50.000.178,C:\Users\user-pc\Documents\Embarcadero\Studio\Projects\Project16.dproj=C:\Users\user-pc\Desktop\Fontes\Strategy\Strategy.dproj</Transaction>
+    <Transaction>2016/10/24 22:02:54.000.402,=C:\Users\user-pc\Desktop\Fontes\Strategy\Unit1.pas</Transaction>
+    <Transaction>2016/10/24 22:02:58.000.689,C:\Users\user-pc\Desktop\Fontes\Strategy\Unit1.pas=C:\Users\user-pc\Desktop\Fontes\Strategy\uFramework.pas</Transaction>
+    <Transaction>2016/10/24 22:09:31.000.601,C:\Users\user-pc\Desktop\Fontes\Strategy\Stae.dproj=C:\Users\user-pc\Desktop\Fontes\Strategy\Strategy.dproj</Transaction>
+    <Transaction>2016/10/24 22:09:33.000.706,C:\Users\user-pc\Desktop\Fontes\Strategy\State.dproj=C:\Users\user-pc\Desktop\Fontes\Strategy\Stae.dproj</Transaction>
+    <Transaction>2016/10/24 22:09:49.000.260,C:\Users\user-pc\Desktop\Fontes\Strategy\Strategy.dproj=C:\Users\user-pc\Desktop\Fontes\Strategy\State.dproj</Transaction>
+    <Transaction>2016/10/25 14:09:18.000.729,=C:\Users\user-pc\Desktop\Fontes\Strategy\ModelSupport_Strategy\default.txaPackage</Transaction>
+    <Transaction>2016/10/25 14:09:24.000.760,=C:\Users\user-pc\Desktop\Fontes\Strategy\ModelSupport_Strategy\uFramework\default.txvpck</Transaction>
+    <Transaction>2016/10/25 14:09:24.000.673,=C:\Users\user-pc\Desktop\Fontes\Strategy\ModelSupport_Strategy\default.txvpck</Transaction>
+    <Transaction>2016/10/25 14:09:24.000.740,=C:\Users\user-pc\Desktop\Fontes\Strategy\ModelSupport_Strategy\Strategy\default.txvpck</Transaction>
+    <Transaction>2016/10/25 14:09:27.000.268,=C:\Users\user-pc\Desktop\Fontes\Strategy\ModelSupport_Strategy\uFramework\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>

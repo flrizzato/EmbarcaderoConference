@@ -1,0 +1,175 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 385
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object ImCaptured: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 8.000000000000000000
+    Position.Y = 448.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 113.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+  end
+  object ToolBar2: TToolBar
+    Size.Width = 385.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    object Label1: TLabel
+      Align = Contents
+      Size.Width = 385.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = 'Comanda'
+    end
+    object Button1: TButton
+      Align = Right
+      Margins.Right = 8.000000000000000000
+      Position.X = 329.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbutton'
+      TabOrder = 0
+      Text = 'Button1'
+      OnClick = Button1Click
+    end
+    object btnEnviar: TButton
+      Align = Left
+      Margins.Left = 4.000000000000000000
+      Margins.Top = 4.000000000000000000
+      Margins.Right = 4.000000000000000000
+      Margins.Bottom = 4.000000000000000000
+      Position.X = 4.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 93.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Enviar'
+      OnClick = btnEnviarClick
+    end
+  end
+  object lsboxServidores: TListBox
+    Align = Top
+    Position.Y = 81.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    ShowCheckboxes = True
+    Viewport.Width = 385.000000000000000000
+    Viewport.Height = 72.000000000000000000
+  end
+  object ListBox1: TListBox
+    Align = Top
+    Position.Y = 153.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 385.000000000000000000
+    Viewport.Height = 32.000000000000000000
+    object ListBoxGroupHeader2: TListBoxGroupHeader
+      Size.Width = 385.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Texto a imprimir'
+    end
+  end
+  object memTexto: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      '               RESTAURANTE TDEVROCKS - EC2016'
+      'CNPJ: 13.958.002/0001-31              IE: 145.898.555.110'
+      '---------------------------------------------------------'
+      '26/10/2016       15:50:40       CCF:039993     COD:719209'
+      ''
+      'PEDIDO NO.123556'
+      ''
+      '1. PIZZA QUATRO QUEIJOS'
+      '2. GUARAN'#193' ANTAR. COM LARANJA'
+      '3. CHOPP BRAHMA CLARO'
+      '4. PIZZA MARGUERITA'
+      '5. COUVER'
+      '---------------------------------------------------------'
+      'TOTAL ITENS                                            05'
+      ''
+      '')
+    StyledSettings = [Style, FontColor]
+    TextSettings.Font.Family = 'Courier New'
+    Align = Client
+    Size.Width = 385.000000000000000000
+    Size.Height = 385.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    Viewport.Width = 377.000000000000000000
+    Viewport.Height = 372.000000000000000000
+  end
+  object ListBox2: TListBox
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 385.000000000000000000
+    Viewport.Height = 33.000000000000000000
+    object ListBoxGroupHeader3: TListBoxGroupHeader
+      Size.Width = 385.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Servidor(es) de Impress'#227'o'
+    end
+  end
+  object TetheringManager1: TTetheringManager
+    OnEndManagersDiscovery = TetheringManager1EndManagersDiscovery
+    OnEndProfilesDiscovery = TetheringManager1EndProfilesDiscovery
+    OnRequestManagerPassword = TetheringManager1RequestManagerPassword
+    OnRemoteManagerShutdown = TetheringManager1RemoteManagerShutdown
+    Password = '1234'
+    Text = 'ComandaManager'
+    AllowedAdapters = 'Network'
+    Left = 64
+    Top = 336
+  end
+  object TetheringAppProfile1: TTetheringAppProfile
+    Manager = TetheringManager1
+    Text = 'ComandaAppPerfil'
+    Actions = <>
+    Resources = <>
+    Left = 64
+    Top = 392
+  end
+  object fgActivityDialog1: TfgActivityDialog
+    Left = 64
+    Top = 448
+  end
+end

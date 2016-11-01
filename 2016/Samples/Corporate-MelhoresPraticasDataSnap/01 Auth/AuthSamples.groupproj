@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9695D8BA-63B5-4735-A07F-9F3A8855B5F0}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Server\AuthServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Client\AuthClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AuthServer">
+        <MSBuild Projects="Server\AuthServer.dproj"/>
+    </Target>
+    <Target Name="AuthServer:Clean">
+        <MSBuild Projects="Server\AuthServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AuthServer:Make">
+        <MSBuild Projects="Server\AuthServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AuthClient">
+        <MSBuild Projects="Client\AuthClient.dproj"/>
+    </Target>
+    <Target Name="AuthClient:Clean">
+        <MSBuild Projects="Client\AuthClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AuthClient:Make">
+        <MSBuild Projects="Client\AuthClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AuthServer;AuthClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AuthServer:Clean;AuthClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AuthServer:Make;AuthClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

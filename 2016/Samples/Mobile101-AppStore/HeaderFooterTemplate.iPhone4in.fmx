@@ -1,0 +1,29 @@
+inherited HeaderFooterForm_iPhone4in: THeaderFooterForm_iPhone4in
+  ClientHeight = 548
+  ClientWidth = 320
+  DesignerMasterStyle = 0
+  inherited Header: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 44.000000000000000000
+    inherited HeaderLabel: TLabel
+      Size.Width = 320.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited Footer: TToolBar
+    Position.Y = 504.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 44.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 320.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited Image1: TImage
+    MultiResBitmap.Height = 429
+    MultiResBitmap.Width = 429
+  end
+  inherited Label2: TLabel
+    Position.X = 32.000000000000000000
+  end
+end

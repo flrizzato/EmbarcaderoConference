@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile Android="Nexus5Android501"/>
+		<PMacMini.Local iOSSimulator="iPhone"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2016/10/24 15:19:18.000.583,C:\src\RB\RRA\Push\EmbarcaderoConference\Client\TabbedwithNavigation.dproj=C:\src\RB\RRA\Push\EmbarcaderoConference\Client\AgilePushDemo.dproj</Transaction>
+    <Transaction>2016/10/24 15:19:33.000.811,C:\src\RB\RRA\Push\EmbarcaderoConference\Client\TabbedFormwithNavigation.fmx=C:\src\RB\RRA\Push\EmbarcaderoConference\Client\fAppPushDemo.fmx</Transaction>
+    <Transaction>2016/10/24 15:19:33.000.811,C:\src\RB\RRA\Push\EmbarcaderoConference\Client\TabbedFormwithNavigation.pas=C:\src\RB\RRA\Push\EmbarcaderoConference\Client\fAppPushDemo.pas</Transaction>
+    <Transaction>2016/10/24 17:48:45.000.704,=C:\src\RB\RRA\Push\EmbarcaderoConference\Common\aClasses.pas</Transaction>
+    <Transaction>2016/10/24 17:59:42.000.635,=C:\src\RB\RRA\Push\EmbarcaderoConference\Client\Unit1.pas</Transaction>
+    <Transaction>2016/10/24 17:59:46.000.856,C:\src\RB\RRA\Push\EmbarcaderoConference\Client\Unit1.pas=C:\src\RB\RRA\Push\EmbarcaderoConference\Client\aIni.pas</Transaction>
+  </Transactions>
+</BorlandProject>

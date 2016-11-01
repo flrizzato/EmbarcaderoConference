@@ -1,0 +1,42 @@
+inherited Form3_LgXhdpiPh: TForm3_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Switch1: TSwitch
+      Position.X = 401.000000000000000000
+    end
+  end
+  inherited TabControl1: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 647.000000000000000000
+    Sizes = (
+      450s
+      598s
+      450s
+      598s)
+    inherited TabItem1: TTabItem
+      Size.Width = 225.000000000000000000
+      ExplicitSize.cx = 320.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ListView1: TListView
+        Size.Width = 450.000000000000000000
+        Size.Height = 598.000000000000000000
+      end
+    end
+    inherited TabItem2: TTabItem
+      Size.Width = 225.000000000000000000
+      ExplicitSize.cx = 320.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Glyph1: TGlyph
+        Size.Width = 450.000000000000000000
+        Size.Height = 598.000000000000000000
+      end
+    end
+  end
+  inherited Beacon1: TBeacon
+    Left = 352
+    Top = 128
+  end
+end

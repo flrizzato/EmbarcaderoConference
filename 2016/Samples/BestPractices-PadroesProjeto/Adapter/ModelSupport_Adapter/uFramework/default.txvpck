@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="wansdwbpch69ooe4f_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TDSProviderConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="340,200,188,116" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Adapter:uFramework.TDSProviderConnection.FConnection" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TDSProviderConnection.Create(uFramework.TSQLConnection)" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TDSProviderConnection.Connect()" />
+      <reference referencedUin="delphi:l_gnt:src:Adapter:uFramework.TDSProviderConnection:uFramework.TCustomRemoteServer">
+        <property name="sourceAnchor" value="357,200" />
+        <property name="targetAnchor" value="309,164" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Adapter:uFramework.TDSProviderConnection.FConnection">
+        <property name="sourceAnchor" value="528,262" />
+        <property name="targetAnchor" value="620,262" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TCustomRemoteServer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="180,80,149,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TCustomRemoteServer.Connect()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TCustomConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="620,40,131,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TCustomConnection.Open()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TSOAPConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="20,220,123,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TSOAPConnection.Connect()" />
+      <reference referencedUin="delphi:l_gnt:src:Adapter:uFramework.TSOAPConnection:uFramework.TCustomRemoteServer">
+        <property name="sourceAnchor" value="132,220" />
+        <property name="targetAnchor" value="202,164" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Adapter:uFramework.TSQLConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="620,220,113,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Adapter:uFramework.TSQLConnection.Open()" />
+      <reference referencedUin="delphi:l_gnt:src:Adapter:uFramework.TSQLConnection:uFramework.TCustomConnection">
+        <property name="sourceAnchor" value="676,220" />
+        <property name="targetAnchor" value="676,124" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

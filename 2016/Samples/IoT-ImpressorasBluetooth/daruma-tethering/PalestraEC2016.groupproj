@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{045E5693-3E3D-4D64-AAAD-0208A765F2E8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="server\ServerTethering.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mobile\Comanda.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ServerTethering">
+        <MSBuild Projects="server\ServerTethering.dproj"/>
+    </Target>
+    <Target Name="ServerTethering:Clean">
+        <MSBuild Projects="server\ServerTethering.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServerTethering:Make">
+        <MSBuild Projects="server\ServerTethering.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Comanda">
+        <MSBuild Projects="mobile\Comanda.dproj"/>
+    </Target>
+    <Target Name="Comanda:Clean">
+        <MSBuild Projects="mobile\Comanda.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Comanda:Make">
+        <MSBuild Projects="mobile\Comanda.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ServerTethering;Comanda"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ServerTethering:Clean;Comanda:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ServerTethering:Make;Comanda:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

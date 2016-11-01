@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/26 10:53:58.000.739,=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/10/26 16:48:00.000.941,C:\Users\Newton\Documents\Embarcadero\Studio\Projects\ExBeacon.fmx=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>2016/10/26 16:48:00.000.941,C:\Users\Newton\Documents\Embarcadero\Studio\Projects\ExBeacon.pas=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/10/26 16:48:16.000.374,C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Beacon.dproj=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2016/10/30 23:57:26.353,C:\exemplo\ExBeacon.fmx=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\ExBeacon.fmx</Transaction>
+    <Transaction>2016/10/30 23:57:26.353,C:\exemplo\ExBeacon.pas=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\ExBeacon.pas</Transaction>
+    <Transaction>2016/10/30 23:57:39.690,C:\exemplo\Beacon.dproj=C:\Users\Newton\Documents\Embarcadero\Studio\Projects\Beacon.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMAC iOSSimulator="iPhone5" iOSDevice64="_iosdevice_361031e7ecc4540d285151e14291d6535178104c"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3A10F2C1-5EA1-44EF-97C2-FAF2AED65790}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ExportadorUsuarioResposta.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ExportadorUsuario.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ExportadorUsuarioResposta">
+        <MSBuild Projects="ExportadorUsuarioResposta.dproj"/>
+    </Target>
+    <Target Name="ExportadorUsuarioResposta:Clean">
+        <MSBuild Projects="ExportadorUsuarioResposta.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExportadorUsuarioResposta:Make">
+        <MSBuild Projects="ExportadorUsuarioResposta.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExportadorUsuario">
+        <MSBuild Projects="ExportadorUsuario.dproj"/>
+    </Target>
+    <Target Name="ExportadorUsuario:Clean">
+        <MSBuild Projects="ExportadorUsuario.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExportadorUsuario:Make">
+        <MSBuild Projects="ExportadorUsuario.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ExportadorUsuarioResposta;ExportadorUsuario"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ExportadorUsuarioResposta:Clean;ExportadorUsuario:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ExportadorUsuarioResposta:Make;ExportadorUsuario:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

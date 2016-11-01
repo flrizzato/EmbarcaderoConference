@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/25 17:05:48.000.408,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2016/10/25 17:10:45.000.279,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2016/10/25 17:22:55.000.362,\\Mac\Home\Documents\Embarcadero\Studio\Projects\MestreDetalhe.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/10/25 17:23:55.000.508,\\Mac\Home\Desktop\EC 2016\FireDAC\02 - Mestre Detalhe\Unit6.pas=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2016/10/25 17:23:55.000.508,\\Mac\Home\Desktop\EC 2016\FireDAC\02 - Mestre Detalhe\Unit6.dfm=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2016/10/25 17:23:57.000.021,\\Mac\Home\Desktop\EC 2016\FireDAC\02 - Mestre Detalhe\Unit7.dfm=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit7.dfm</Transaction>
+    <Transaction>2016/10/25 17:23:57.000.021,\\Mac\Home\Desktop\EC 2016\FireDAC\02 - Mestre Detalhe\Unit7.pas=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2016/10/25 17:23:59.000.996,\\Mac\Home\Desktop\EC 2016\FireDAC\02 - Mestre Detalhe\MestreDetalhe.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\MestreDetalhe.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

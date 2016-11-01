@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/06/17 16:12:53.000.847,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/16 20:25:54.000.465,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/16 20:26:26.000.202,=C:\Temp\Delphi Extreme\Bluetooth\Testes Beacon\Unit3.pas</Transaction>
+    <Transaction>2016/07/16 20:26:41.000.492,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Beacon.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/07/16 20:26:56.000.163,C:\Temp\Delphi Extreme\Bluetooth\Testes Beacon\Beacon.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Beacon.dproj</Transaction>
+    <Transaction>2016/07/16 20:40:42.000.122,C:\Temp\Delphi Extreme\Bluetooth\Testes Beacon\Beacon.dproj=C:\Temp\Delphi Extreme\Bluetooth\Testes Beacon\BeaconTeste.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0424974003"/>
+	</ActiveMobileDevice>
+</BorlandProject>

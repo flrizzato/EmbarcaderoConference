@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{68909BF7-0F49-4631-8729-E66AD08A2129}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="LoadWords.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Autocomplete.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="LoadWords">
+        <MSBuild Projects="LoadWords.dproj"/>
+    </Target>
+    <Target Name="LoadWords:Clean">
+        <MSBuild Projects="LoadWords.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadWords:Make">
+        <MSBuild Projects="LoadWords.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Autocomplete">
+        <MSBuild Projects="Autocomplete.dproj"/>
+    </Target>
+    <Target Name="Autocomplete:Clean">
+        <MSBuild Projects="Autocomplete.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Autocomplete:Make">
+        <MSBuild Projects="Autocomplete.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="LoadWords;Autocomplete"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="LoadWords:Clean;Autocomplete:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="LoadWords:Make;Autocomplete:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

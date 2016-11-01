@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="x62rpc7axqr_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::z0414cejtj_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,106,134" />
+      <reference referencedUin="delphi:e_class:src:Observer:Observer.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::0i48hrg0jlq_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="135,1,124,198" />
+      <reference referencedUin="delphi:e_class:src:Observer:uFramework.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Observer:uFramework.TSubject" />
+      <reference referencedUin="delphi:e_class:src:Observer:uFramework.TVenda" />
+      <reference referencedUin="delphi:e_class:src:Observer:uFramework.IObserver" />
+      <reference referencedUin="delphi:e_class:src:Observer:uFramework.TBalanco" />
+    </reference>
+  </view>
+</nodeSet>

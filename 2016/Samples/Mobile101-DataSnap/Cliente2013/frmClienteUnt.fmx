@@ -1,0 +1,122 @@
+object frmCliente: TfrmCliente
+  Left = 0
+  Top = 0
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object ToolBar1: TToolBar
+    Height = 48.000000000000000000
+    TabOrder = 0
+    Width = 384.000000000000000000
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+      TabOrder = 0
+      Position.X = 112.000000000000000000
+      Position.Y = 8.000000000000000000
+      Width = 137.000000000000000000
+      Height = 32.000000000000000000
+      KillFocusByReturn = False
+    end
+    object Label1: TLabel
+      Height = 23.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Cliente'
+      Width = 82.000000000000000000
+      Trimming = ttCharacter
+    end
+    object Button1: TButton
+      Height = 48.000000000000000000
+      Position.X = 288.000000000000000000
+      StyleLookup = 'searchtoolbutton'
+      TabOrder = 2
+      Text = 'btnBuscar'
+      Trimming = ttCharacter
+      Width = 48.000000000000000000
+      OnClick = Button1Click
+    end
+  end
+  object ListBox1: TListBox
+    Height = 345.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 1
+    Width = 353.000000000000000000
+    DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+  end
+  object DSPConn: TDSProviderConnection
+    ServerClassName = 'TsvrMetodos'
+    SQLConnection = dsConDistrimed
+    Left = 160
+    Top = 72
+  end
+  object cdsIDCliente: TClientDataSet
+    Aggregates = <>
+    Params = <
+      item
+        DataType = ftString
+        Name = 'pID_Cliente'
+        ParamType = ptInput
+        Value = '001668'
+      end>
+    ProviderName = 'dspIDCliente'
+    RemoteServer = DSPConn
+    Left = 280
+    Top = 72
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = cdsIDCliente
+    ScopeMappings = <>
+    Left = 176
+    Top = 272
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkFillControlToField1: TLinkFillControlToField
+      Category = 'Quick Bindings'
+      Control = ListBox1
+      Track = True
+      FillDataSource = BindSourceDB1
+      FillDisplayFieldName = 'A1_NOME'
+      AutoFill = True
+      BufferCount = -1
+      AutoBufferCount = False
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillHeaderFieldName = 'A1_COD'
+      FillBreakGroups = <>
+    end
+  end
+  object dsConDistrimed: TSQLConnection
+    ConnectionName = 'Distrimed2013'
+    DriverName = 'DataSnap'
+    KeepConnection = False
+    LoginPrompt = False
+    Params.Strings = (
+      'DriverName=DataSnap'
+      'DriverUnit=Data.DBXDataSnap'
+      'Port=3064'
+      'CommunicationProtocol=http'
+      'DatasnapContext=datasnap/'
+      
+        'DriverAssemblyLoader=Borland.Data.TDBXClientDriverLoader,Borland' +
+        '.Data.DbxClientDriver,Version=19.0.0.0,Culture=neutral,PublicKey' +
+        'Token=91d62ebb5b0d1b1b'
+      'HostName=177.39.141.50')
+    Left = 40
+    Top = 72
+  end
+end

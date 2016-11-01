@@ -1,0 +1,89 @@
+inherited frmPrincipal_iPhone: TfrmPrincipal_iPhone
+  ClientHeight = 460
+  ClientWidth = 320
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    Size.Height = 44.000000000000000000
+    inherited Image1: TImage
+      MultiResBitmap.Height = 429
+      MultiResBitmap.Width = 429
+      Position.X = 256.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+    inherited Label2: TLabel
+      Size.Width = 256.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited ToolBar2: TToolBar
+    Position.Y = 416.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 44.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 224.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+    inherited Button1: TButton
+      Position.X = 224.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited ListBox1: TListBox
+    Size.Width = 320.000000000000000000
+    Size.Height = 372.000000000000000000
+    Viewport.Width = 315.000000000000000000
+    Viewport.Height = 372.000000000000000000
+    inherited ListBoxItem1: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem2: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem3: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem4: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem5: TListBoxItem
+      Size.Width = 315.000000000000000000
+      inherited LabelEstaServidor: TLabel
+        Position.X = 255.000000000000000000
+      end
+    end
+    inherited ListBoxItem6: TListBoxItem
+      Size.Width = 315.000000000000000000
+      inherited LabelFoiEvento: TLabel
+        Position.X = 215.000000000000000000
+      end
+    end
+    inherited ListBoxItem7: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem8: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem9: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem10: TListBoxItem
+      Size.Width = 315.000000000000000000
+      inherited LabelEstaNaPalestra: TLabel
+        Position.X = 195.000000000000000000
+      end
+    end
+    inherited ListBoxItem11: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem12: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem13: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+    inherited ListBoxItem14: TListBoxItem
+      Size.Width = 315.000000000000000000
+    end
+  end
+end

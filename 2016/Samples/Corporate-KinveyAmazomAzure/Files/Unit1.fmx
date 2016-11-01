@@ -1,0 +1,172 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 516
+  ClientWidth = 343
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 343.000000000000000000
+    Size.Height = 516.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 9
+    TabPosition = PlatformDefault
+    Sizes = (
+      343s
+      467s
+      343s
+      467s)
+    object tbStorage: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 61.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Storage'
+      ExplicitSize.cx = 184.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ToolBar1: TToolBar
+        Size.Width = 343.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label1: TLabel
+          Align = Contents
+          Size.Width = 343.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'Storage'
+        end
+        object SpeedButton1: TSpeedButton
+          Align = Left
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'cameratoolbutton'
+          Text = 'Take Photo'
+          OnClick = SpeedButton1Click
+        end
+        object SpeedButton4: TSpeedButton
+          Align = Right
+          Position.X = 299.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'actiontoolbutton'
+          Text = 'SpeedButton4'
+          OnClick = SpeedButton4Click
+        end
+      end
+      object Image1: TImage
+        MultiResBitmap.Height = 256
+        MultiResBitmap.Width = 256
+        MultiResBitmap = <
+          item
+          end>
+        Align = Client
+        Size.Width = 343.000000000000000000
+        Size.Height = 423.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object tbTables: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 53.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Tables'
+      ExplicitSize.cx = 185.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ToolBar2: TToolBar
+        Size.Width = 343.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label2: TLabel
+          Align = Contents
+          Size.Width = 343.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'Tables'
+        end
+        object SpeedButton2: TSpeedButton
+          Align = Right
+          Position.X = 299.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'trashtoolbutton'
+          Text = 'SpeedButton2'
+          OnClick = SpeedButton2Click
+        end
+        object SpeedButton3: TSpeedButton
+          Align = Left
+          Size.Width = 44.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbutton'
+          Text = 'SpeedButton3'
+          OnClick = SpeedButton3Click
+        end
+      end
+      object ListBox2: TListBox
+        Align = Client
+        Size.Width = 343.000000000000000000
+        Size.Height = 423.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 339.000000000000000000
+        Viewport.Height = 419.000000000000000000
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '*.jpg'
+    Filter = 'Arquivo JPG|*.jpg'
+    Left = 73
+    Top = 184
+  end
+  object AmazonConnectionInfo1: TAmazonConnectionInfo
+    AccountName = 'XXX'
+    AccountKey = 'XXX'
+    TableEndpoint = 'sdb.amazonaws.com'
+    QueueEndpoint = 'queue.amazonaws.com'
+    StorageEndpoint = 's3.amazonaws.com'
+    Left = 127
+    Top = 77
+  end
+  object ActionList1: TActionList
+    Left = 256
+    Top = 192
+    object TakePhotoFromCameraAction1: TTakePhotoFromCameraAction
+      Category = 'Media Library'
+      OnDidFinishTaking = TakePhotoFromLibraryAction1DidFinishTaking
+    end
+    object TakePhotoFromLibraryAction1: TTakePhotoFromLibraryAction
+      Category = 'Media Library'
+      OnDidFinishTaking = TakePhotoFromLibraryAction1DidFinishTaking
+    end
+  end
+end

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/09 14:24:30.000.734,=C:\Users\neri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/09 14:28:23.000.838,=C:\Users\neri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/09 14:28:47.000.548,C:\Users\neri\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\neri\Documents\Embarcadero\Studio\Projects\IoT iBeacon Eventos\Projeto_1\UMenuPrincipal.pas</Transaction>
+    <Transaction>2016/09/09 14:28:47.000.548,C:\Users\neri\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\neri\Documents\Embarcadero\Studio\Projects\IoT iBeacon Eventos\Projeto_1\UMenuPrincipal.fmx</Transaction>
+    <Transaction>2016/09/09 14:28:58.000.491,C:\Users\neri\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\neri\Documents\Embarcadero\Studio\Projects\IoT iBeacon Eventos\Projeto_1\Project1iBeaconEventos.dproj</Transaction>
+    <Transaction>2016/09/09 16:07:30.000.245,=C:\Users\neri\Documents\Embarcadero\Studio\Projects\IoT iBeacon Eventos\Projeto_1\eventos.s3db</Transaction>
+    <Transaction>2016/10/06 16:45:16.000.371,=C:\Users\neri\Documents\Embarcadero\Studio\Projects\IoT iBeacon Eventos\Projeto_1\Unit2.pas</Transaction>
+    <Transaction>2016/10/10 10:30:58.000.569,=C:\Users\neri\Documents\Embarcadero\Studio\Projects\IoT iBeacon Eventos\Projeto_1\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="AAAA" iOSSimulator="iPhone5"/>
+		<PiOS32Bits iOSSimulator="_iossimulator_2CF052C8-DF03-4D60-8D74-72C79F3C0297" iOSDevice32="_iosdevice_ff0f037b758c93f56601eacd75bd1a6461e44fec" iOSDevice64="_iosdevice_ff0f037b758c93f56601eacd75bd1a6461e44fec"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	<meta charset="UTF-8">
+	<title>Exemplo - Cache</title>
+	<!-- AngularJS -->
+	<script src="angular-1.5.8/angular.min.js"></script>
+	<script src="angular-1.5.8/i18n/angular-locale_pt-br.js"></script>
+	<!-- DataSnap -->
+	<script type="text/javascript" src="js/base64.js"></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+	<script type="text/javascript" src="js/connection.js"></script>
+	<script type="text/javascript" src="<#serverfunctionsjs>"></script>
+	<!-- CSS Geral -->
+	<style>
+	body {
+		font-family: sans-serif;
+		margin: 50px;
+	}
+	
+	</style>
+	<!-- Codigo geral -->
+	<script>
+	
+	function serverMethods() {
+		setConnection('<#host>', '<#port>', '<#urlpath>');
+		return new <#classname>(connectionInfo);
+	}
+	</script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>Cache</h1>
+	<button ng-click="getImage(0)">Imagem 0</button>
+	<button ng-click="getImage(1)">Imagem 1</button>
+	<br /><hr /><br />
+	<h3>Cache 0: {{ cache0 }}</h3>
+	<h3>Cache 1: {{ cache1 }}</h3>
+	<h3>Imagem URL: {{ imageURL }}</h3>
+	<br /><hr /><br />
+	<img id="imagem" src="{{ imageURL }}" />
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+	$scope.imageURL = "";
+	$scope.cache0 = "";
+	$scope.cache1 = "";
+	
+	$scope.getImage = function(index) {
+		var serverM = serverMethods();
+		if (index == 0) {
+			if ($scope.cache0 == "") {
+				var s = serverM.GetImage(index, null, null, "application/rest");
+				$scope.cache0 = s.result;
+			}
+			$scope.imageURL = serverM.executor.getCacheURL($scope.cache0, true);
+		}
+		else {
+			if ($scope.cache1 == "") {
+				var s = serverM.GetImage(index, null, null, "application/rest");
+				$scope.cache1 = s.result;
+			}
+			$scope.imageURL = serverM.executor.getCacheURL($scope.cache1, true);
+		}
+        return true;
+    }
+});
+</script>
+</body>
+</html>

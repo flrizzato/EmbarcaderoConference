@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="k7kow63rbikkq3big_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TSOAPConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="60,260,123,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TSOAPConnection.Connect()" />
+      <reference referencedUin="delphi:l_gnt:src:Proxy:uFramework.TSOAPConnection:uFramework.TCustomRemoteServer">
+        <property name="sourceAnchor" value="166,260" />
+        <property name="targetAnchor" value="248,184" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TCustomRemoteServer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="220,100,149,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TCustomRemoteServer.Connect()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TSocketConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="240,260,127,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TSocketConnection.Connect()" />
+      <reference referencedUin="delphi:l_gnt:src:Proxy:uFramework.TSocketConnection:uFramework.TCustomRemoteServer">
+        <property name="sourceAnchor" value="303,260" />
+        <property name="targetAnchor" value="303,184" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TConnectionBroker">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="480,220,240,116" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Proxy:uFramework.TConnectionBroker.FRemoteServer" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TConnectionBroker.Connect()" />
+      <reference referencedUin="delphi:e_method:src:Proxy:uFramework.TConnectionBroker.Create(uFramework.TCustomRemoteServer)" />
+      <reference referencedUin="delphi:l_gnt:src:Proxy:uFramework.TConnectionBroker:uFramework.TCustomRemoteServer">
+        <property name="sourceAnchor" value="480,224" />
+        <property name="targetAnchor" value="369,174" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Proxy:uFramework.TConnectionBroker.FRemoteServer">
+        <property name="sourceAnchor" value="480,221" />
+        <property name="targetAnchor" value="369,171" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Proxy:uFramework.TClientDataSet">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,80,236,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Proxy:uFramework.TClientDataSet.RemoteServer" />
+      <reference referencedUin="delphi:l_ast:src:Proxy:uFramework.TClientDataSet.RemoteServer">
+        <property name="sourceAnchor" value="500,132" />
+        <property name="targetAnchor" value="369,132" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/17 18:30:25.000.406,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/10/17 18:30:25.000.487,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/10/17 18:30:25.000.315,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/17 18:31:54.000.752,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/17 18:31:54.000.958,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/10/17 18:31:54.000.863,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/10/24 18:18:37.000.776,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/25 15:24:43.215,=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/25 15:25:54.340,D:\Projetos\EC2016\Exemplos\Exemplo05\U_CadastroBase.pas=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/25 15:25:54.340,D:\Projetos\EC2016\Exemplos\Exemplo05\U_CadastroBase.dfm=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2016/10/25 15:26:00.138,D:\Projetos\EC2016\Exemplos\Exemplo05\Exemplo05.dproj=C:\Users\Rodrigo Guerato\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2016/10/25 15:30:25.903,=D:\Projetos\EC2016\Exemplos\Exemplo05\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 15:30:56.856,D:\Projetos\EC2016\Exemplos\Exemplo05\U_Principal.pas=D:\Projetos\EC2016\Exemplos\Exemplo05\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 15:30:56.856,D:\Projetos\EC2016\Exemplos\Exemplo05\U_Principal.dfm=D:\Projetos\EC2016\Exemplos\Exemplo05\Unit1.dfm</Transaction>
+    <Transaction>2016/10/25 15:31:28.545,=D:\Projetos\EC2016\Exemplos\Exemplo05\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 15:31:50.112,D:\Projetos\EC2016\Exemplos\Exemplo05\U_CadastroCliente.pas=D:\Projetos\EC2016\Exemplos\Exemplo05\Unit1.pas</Transaction>
+    <Transaction>2016/10/25 15:31:50.112,D:\Projetos\EC2016\Exemplos\Exemplo05\U_CadastroCliente.dfm=D:\Projetos\EC2016\Exemplos\Exemplo05\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
