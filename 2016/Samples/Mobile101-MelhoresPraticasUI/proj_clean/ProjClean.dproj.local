@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/21 11:58:29.000.059,=C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/21 12:01:00.000.506,C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\uMain.pas</Transaction>
+    <Transaction>2016/10/21 12:01:00.000.506,C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\uMain.fmx</Transaction>
+    <Transaction>2016/10/21 12:01:14.000.648,C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\ProjClean.dproj</Transaction>
+    <Transaction>2016/10/21 13:01:24.000.473,=C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\Unit1.pas</Transaction>
+    <Transaction>2016/10/21 13:14:08.000.706,C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\Unit1.fmx=C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\uFrmLogin.fmx</Transaction>
+    <Transaction>2016/10/21 13:14:08.000.706,C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\Unit1.pas=C:\Users\vmwin\Documents\Embarcadero\Studio\Projects\prototipo_embarcadero\proj_clean\uFrmLogin.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="AndroidDelphiBerlin"/>
+	</ActiveMobileDevice>
+</BorlandProject>

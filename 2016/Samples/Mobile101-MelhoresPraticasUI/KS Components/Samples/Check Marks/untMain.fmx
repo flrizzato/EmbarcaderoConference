@@ -1,0 +1,97 @@
+object Form24: TForm24
+  Left = 0
+  Top = 0
+  Caption = 'Form24'
+  ClientHeight = 406
+  ClientWidth = 307
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 362.000000000000000000
+    Size.Width = 307.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    object ComboBox1: TComboBox
+      Items.Strings = (
+        'Left Aligned'
+        'Right Aligned')
+      ItemIndex = 1
+      Position.X = 8.000000000000000000
+      Position.Y = 11.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = ComboBox1Change
+    end
+    object CheckBox1: TCheckBox
+      Position.X = 144.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 153.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Multi Select'
+      OnChange = CheckBox1Change
+    end
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 307.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family, Style, FontColor]
+      HitTest = True
+      Size.Width = 307.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'CheckMarks Demo'
+    end
+  end
+  object ksVirtualListView1: TksVirtualListView
+    Align = Client
+    CheckBoxes.Visible = True
+    DeleteButton.Text = 'Delete'
+    PullToRefresh.PullText = 'Pull to refresh...'
+    PullToRefresh.ReleaseText = 'Release to refresh'
+    Size.Width = 307.000000000000000000
+    Size.Height = 318.000000000000000000
+    Size.PlatformDefault = False
+    object TScrollBar
+      Max = 161.000000000000000000
+      ViewportSize = 161.000000000000000000
+      SmallChange = 0.000000000000000000
+      Orientation = Vertical
+      Opacity = 0.000000000000000000
+      Position.X = 127.000000000000000000
+      Size.Width = 18.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Visible = False
+    end
+    object TScrollBar
+      Max = 161.000000000000000000
+      ViewportSize = 161.000000000000000000
+      SmallChange = 0.000000000000000000
+      Orientation = Vertical
+      Opacity = 0.000000000000000000
+      Position.X = 127.000000000000000000
+      Size.Width = 18.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Visible = False
+    end
+  end
+end

@@ -1,0 +1,58 @@
+object Form80: TForm80
+  Left = 0
+  Top = 0
+  Caption = 'Form80'
+  ClientHeight = 471
+  ClientWidth = 258
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Center
+    Size.Width = 113.000000000000000000
+    Size.Height = 161.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object ksCircleProgress1: TksCircleProgress
+      Size.Width = 142.000000000000000000
+      Size.Height = 142.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = -13.000000000000000000
+      Position.Y = -149.000000000000000000
+      Color = claSkyblue
+    end
+    object ksCircleProgress2: TksCircleProgress
+      Size.Width = 142.000000000000000000
+      Size.Height = 142.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = -13.000000000000000000
+      Position.Y = 11.000000000000000000
+      Color = claMediumaquamarine
+    end
+    object ksCircleProgress3: TksCircleProgress
+      Size.Width = 142.000000000000000000
+      Size.Height = 142.000000000000000000
+      Size.PlatformDefault = False
+      Position.X = -13.000000000000000000
+      Position.Y = 171.000000000000000000
+      Color = claTomato
+    end
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 258.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Button1: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'TEST'
+      OnClick = Button1Click
+    end
+  end
+end

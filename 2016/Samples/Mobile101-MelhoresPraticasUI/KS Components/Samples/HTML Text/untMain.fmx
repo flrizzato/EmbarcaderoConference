@@ -1,0 +1,65 @@
+object Form24: TForm24
+  Left = 0
+  Top = 0
+  Caption = 'Form24'
+  ClientHeight = 480
+  ClientWidth = 356
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ksTableView1: TksTableView
+    Align = Client
+    BackgroundText.Font.Size = 18.000000000000000000
+    DeleteButton.Enabled = True
+    DeleteButton.Text = 'Delete'
+    DeleteButton.ShowText = False
+    DragDropOptions.Opacity = 1.000000000000000000
+    HeaderOptions.Color = claNull
+    HeaderOptions.StickyHeaders.Button.JumpToHeaderOptions.HeaderHeight = 32.000000000000000000
+    HeaderOptions.StickyHeaders.Button.JumpToHeaderOptions.ItemHeight = 32.000000000000000000
+    ItemHeight = 80
+    PullToRefresh.Font.Size = 16.000000000000000000
+    PullToRefresh.PullText = 'pull to refresh'
+    PullToRefresh.ReleaseText = 'release to refresh'
+    SelectionOptions.SelectionOverlay.Size = 0
+    Size.Width = 356.000000000000000000
+    Size.Height = 392.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TextDefaults.Title.Font.Size = 13.000000000000000000
+    TextDefaults.Title.TextColor = claBlack
+    TextDefaults.SubTitle.Font.Size = 13.000000000000000000
+    TextDefaults.SubTitle.TextColor = claDimgray
+    TextDefaults.Detail.Font.Size = 13.000000000000000000
+    TextDefaults.Detail.TextColor = claDodgerblue
+    TextDefaults.Header.Font.Size = 13.000000000000000000
+    TextDefaults.Header.TextColor = claBlack
+  end
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 436.000000000000000000
+    Size.Width = 356.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 2
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 356.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 356.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'TksTableView HTML Support'
+    end
+  end
+end

@@ -1,0 +1,204 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C31519E1-A8F1-4A79-B2C6-C69926A4F7DE}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="KernowSoftwareFMX\Samples\Accessories\AccessoriesDemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Action Buttons\ActionButtons.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Chat Bubbles\ChatBubbles.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Check Marks\CheckMarks.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Circle Progress\CircleProgress.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Drag &amp; Drop\DragAndDrop.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Embedded Edit Boxes\EmbeddedEdits.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\HTML Text\HtmlText.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Image Updating\ImageUpdating.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Item Selector\ItemSelector.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Loading Indicator\LoadingIndicator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Row Indicators\RowIndicators.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Slide Menu\SlideMenu.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Switches\Switches.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="KernowSoftwareFMX\Samples\Tab Control\TabControl.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AccessoriesDemo">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Accessories\AccessoriesDemo.dproj"/>
+    </Target>
+    <Target Name="AccessoriesDemo:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Accessories\AccessoriesDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AccessoriesDemo:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Accessories\AccessoriesDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ActionButtons">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Action Buttons\ActionButtons.dproj"/>
+    </Target>
+    <Target Name="ActionButtons:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Action Buttons\ActionButtons.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ActionButtons:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Action Buttons\ActionButtons.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChatBubbles">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Chat Bubbles\ChatBubbles.dproj"/>
+    </Target>
+    <Target Name="ChatBubbles:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Chat Bubbles\ChatBubbles.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChatBubbles:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Chat Bubbles\ChatBubbles.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CheckMarks">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Check Marks\CheckMarks.dproj"/>
+    </Target>
+    <Target Name="CheckMarks:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Check Marks\CheckMarks.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CheckMarks:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Check Marks\CheckMarks.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CircleProgress">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Circle Progress\CircleProgress.dproj"/>
+    </Target>
+    <Target Name="CircleProgress:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Circle Progress\CircleProgress.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CircleProgress:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Circle Progress\CircleProgress.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DragAndDrop">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Drag &amp; Drop\DragAndDrop.dproj"/>
+    </Target>
+    <Target Name="DragAndDrop:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Drag &amp; Drop\DragAndDrop.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DragAndDrop:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Drag &amp; Drop\DragAndDrop.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EmbeddedEdits">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Embedded Edit Boxes\EmbeddedEdits.dproj"/>
+    </Target>
+    <Target Name="EmbeddedEdits:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Embedded Edit Boxes\EmbeddedEdits.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmbeddedEdits:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Embedded Edit Boxes\EmbeddedEdits.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HtmlText">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\HTML Text\HtmlText.dproj"/>
+    </Target>
+    <Target Name="HtmlText:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\HTML Text\HtmlText.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HtmlText:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\HTML Text\HtmlText.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ImageUpdating">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Image Updating\ImageUpdating.dproj"/>
+    </Target>
+    <Target Name="ImageUpdating:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Image Updating\ImageUpdating.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImageUpdating:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Image Updating\ImageUpdating.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ItemSelector">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Item Selector\ItemSelector.dproj"/>
+    </Target>
+    <Target Name="ItemSelector:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Item Selector\ItemSelector.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ItemSelector:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Item Selector\ItemSelector.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoadingIndicator">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Loading Indicator\LoadingIndicator.dproj"/>
+    </Target>
+    <Target Name="LoadingIndicator:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Loading Indicator\LoadingIndicator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoadingIndicator:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Loading Indicator\LoadingIndicator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RowIndicators">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Row Indicators\RowIndicators.dproj"/>
+    </Target>
+    <Target Name="RowIndicators:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Row Indicators\RowIndicators.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RowIndicators:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Row Indicators\RowIndicators.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SlideMenu">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Slide Menu\SlideMenu.dproj"/>
+    </Target>
+    <Target Name="SlideMenu:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Slide Menu\SlideMenu.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SlideMenu:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Slide Menu\SlideMenu.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Switches">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Switches\Switches.dproj"/>
+    </Target>
+    <Target Name="Switches:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Switches\Switches.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Switches:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Switches\Switches.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TabControl">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Tab Control\TabControl.dproj"/>
+    </Target>
+    <Target Name="TabControl:Clean">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Tab Control\TabControl.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TabControl:Make">
+        <MSBuild Projects="KernowSoftwareFMX\Samples\Tab Control\TabControl.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AccessoriesDemo;ActionButtons;ChatBubbles;CheckMarks;CircleProgress;DragAndDrop;EmbeddedEdits;HtmlText;ImageUpdating;ItemSelector;LoadingIndicator;RowIndicators;SlideMenu;Switches;TabControl"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AccessoriesDemo:Clean;ActionButtons:Clean;ChatBubbles:Clean;CheckMarks:Clean;CircleProgress:Clean;DragAndDrop:Clean;EmbeddedEdits:Clean;HtmlText:Clean;ImageUpdating:Clean;ItemSelector:Clean;LoadingIndicator:Clean;RowIndicators:Clean;SlideMenu:Clean;Switches:Clean;TabControl:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AccessoriesDemo:Make;ActionButtons:Make;ChatBubbles:Make;CheckMarks:Make;CircleProgress:Make;DragAndDrop:Make;EmbeddedEdits:Make;HtmlText:Make;ImageUpdating:Make;ItemSelector:Make;LoadingIndicator:Make;RowIndicators:Make;SlideMenu:Make;Switches:Make;TabControl:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

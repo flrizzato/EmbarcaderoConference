@@ -1,0 +1,63 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 388
+  ClientWidth = 306
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 2
+  object ToolBar1: TToolBar
+    Size.Width = 306.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = [Family, FontColor]
+      Size.Width = 306.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'SECOND FORM'
+    end
+    object Button1: TButton
+      Align = Left
+      Size.Width = 57.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'BACK'
+      OnClick = Button1Click
+    end
+  end
+  object ksTableView1: TksTableView
+    Align = Client
+    BackgroundText.Font.Size = 18.000000000000000000
+    CanFocus = False
+    DeleteButton.Text = 'Delete'
+    DragDropOptions.Opacity = 1.000000000000000000
+    HeaderOptions.Color = claNull
+    HeaderOptions.StickyHeaders.Button.JumpToHeaderOptions.HeaderHeight = 32.000000000000000000
+    HeaderOptions.StickyHeaders.Button.JumpToHeaderOptions.ItemHeight = 32.000000000000000000
+    PullToRefresh.Font.Size = 16.000000000000000000
+    PullToRefresh.PullText = 'pull to refresh'
+    PullToRefresh.ReleaseText = 'release to refresh'
+    SelectionOptions.SelectionOverlay.Size = 0
+    Size.Width = 306.000000000000000000
+    Size.Height = 344.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TextDefaults.Title.Font.Size = 13.000000000000000000
+    TextDefaults.Title.TextColor = claBlack
+    TextDefaults.SubTitle.Font.Size = 13.000000000000000000
+    TextDefaults.SubTitle.TextColor = claDimgray
+    TextDefaults.Detail.Font.Size = 13.000000000000000000
+    TextDefaults.Detail.TextColor = claDodgerblue
+    TextDefaults.Header.Font.Size = 13.000000000000000000
+    TextDefaults.Header.TextColor = claBlack
+  end
+end

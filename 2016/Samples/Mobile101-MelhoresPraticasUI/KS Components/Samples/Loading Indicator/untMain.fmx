@@ -1,0 +1,151 @@
+object Form64: TForm64
+  Left = 0
+  Top = 0
+  Caption = 'Form64'
+  ClientHeight = 480
+  ClientWidth = 309
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 2
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Padding.Left = 8.000000000000000000
+    Padding.Top = 8.000000000000000000
+    Padding.Right = 8.000000000000000000
+    Padding.Bottom = 8.000000000000000000
+    Position.Y = 436.000000000000000000
+    Size.Width = 309.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 0
+  end
+  object ToolBar1: TToolBar
+    Padding.Left = 8.000000000000000000
+    Padding.Top = 8.000000000000000000
+    Padding.Right = 8.000000000000000000
+    Padding.Bottom = 8.000000000000000000
+    Size.Width = 309.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family, Style, FontColor]
+      HitTest = True
+      Size.Width = 293.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Loading Indicator Demo'
+    end
+  end
+  object ksLoadingIndicator1: TksLoadingIndicator
+    Left = 208
+    Top = 96
+  end
+  object Button1: TButton
+    CanFocus = False
+    Position.X = 8.000000000000000000
+    Position.Y = 62.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'listitembutton'
+    TabOrder = 4
+    Text = 'Show'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    CanFocus = False
+    Position.X = 96.000000000000000000
+    Position.Y = 62.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'listitembutton'
+    TabOrder = 3
+    Text = 'Hide'
+    OnClick = Button2Click
+  end
+  object Switch1: TSwitch
+    IsChecked = False
+    Position.X = 64.000000000000000000
+    Position.Y = 104.000000000000000000
+    TabOrder = 7
+    OnSwitch = Switch1Switch
+  end
+  object Modal: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 14.000000000000000000
+    Position.Y = 110.000000000000000000
+    Size.Width = 59.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    Text = 'Modal'
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 14.000000000000000000
+    Position.Y = 158.000000000000000000
+    Size.Width = 131.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    Text = 'Fade'
+  end
+  object Switch2: TSwitch
+    IsChecked = False
+    Position.X = 64.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 6
+    OnSwitch = Switch2Switch
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 14.000000000000000000
+    Position.Y = 254.000000000000000000
+    Size.Width = 59.000000000000000000
+    Size.Height = 21.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    Text = 'Text'
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 12
+    Text = 'LOADING'
+    Position.X = 64.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 115.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 14.000000000000000000
+    Position.Y = 198.000000000000000000
+    Size.Width = 51.000000000000000000
+    Size.Height = 35.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 13.000000000000000000
+    Text = 'Show Label'
+  end
+  object Switch3: TSwitch
+    IsChecked = True
+    Position.X = 64.000000000000000000
+    Position.Y = 200.000000000000000000
+    TabOrder = 5
+    OnSwitch = Switch3Switch
+  end
+  object timer3secs: TTimer
+    Enabled = False
+    Interval = 3000
+    OnTimer = timer3secsTimer
+    Left = 240
+    Top = 200
+  end
+end
