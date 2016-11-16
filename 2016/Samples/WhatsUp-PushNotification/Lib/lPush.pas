@@ -5,7 +5,7 @@ uses
   FMX.Types, FMX.Forms,
   System.JSON, System.PushNotification, FMX.Layouts, FMX.Memo, FMX.StdCtrls
   {$IFDEF ANDROID}
-  ,FMX.PushNotification.Android
+  , FMX.PushNotification.Android, FMX.Platform.Android, Androidapi.JNI.Os, Androidapi.JNI.JavaTypes, Androidapi.Helpers
   {$ENDIF}
   {$IFDEF IOS}
   ,FMX.PushNotification.IOS
@@ -69,18 +69,43 @@ end;
 {$ENDIF}
 { TPushManager }
 constructor TPushManager.Create(AOwner: TComponent);
+{$IFDEF ANDROID}
+var
+  bundle: JBundle;
+  iter: JIterator;
+  key, value: string;
+{$ENDIF}
 begin
   inherited Create(AOwner);
   FAppId:= AppID;
-  {$IFDEF ANDROID}
-  FPushService:= TPushServiceManager.Instance.GetServiceByName(TPushService.TServiceNames.GCM);
-  {$ENDIF}
-  {$IFDEF IOS}
-  FPushService:= TPushServiceManager.Instance.GetServiceByName(TPushService.TServiceNames.APS);
-  {$ENDIF}
-  FServiceConnection:= TPushServiceConnection.Create(FPushService);
-  FServiceConnection.OnChange:= OnPushServiceChange;
-  FServiceConnection.OnReceiveNotification:= OnReceiveNotification;
+  if (not (csDesigning in ComponentState)) then
+  begin
+    {$IFDEF ANDROID}
+    FPushService:= TPushServiceManager.Instance.GetServiceByName(TPushService.TServiceNames.GCM);
+    {$ENDIF}
+    {$IFDEF IOS}
+    FPushService:= TPushServiceManager.Instance.GetServiceByName(TPushService.TServiceNames.APS);
+    {$ENDIF}
+    FServiceConnection:= TPushServiceConnection.Create(FPushService);
+    FServiceConnection.OnChange:= OnPushServiceChange;
+    FServiceConnection.OnReceiveNotification:= OnReceiveNotification;
+    {$IFDEF ANDROID}
+    if assigned(MainActivity.getStartupGCM) then
+    begin
+      bundle:= MainActivity.getStartupGCM;
+      if assigned(bundle) then
+      begin
+        iter:= bundle.keySet.iterator;
+        while (iter.hasNext) do
+        begin
+          key:= JStringToString(iter.next.toString);
+          value:= JStringToString(bundle.get(StringToJString(key)).toString);
+        end;
+        MainActivity.receiveGCM(bundle);
+      end;
+    end;
+    {$ENDIF}
+  end;
 end;
 
 destructor TPushManager.Destroy;
@@ -107,7 +132,10 @@ end;
 
 function TPushManager.GetStartupError: string;
 begin
-  result:= FPushService.StartupError;
+  if assigned(FPushService) then
+    result:= FPushService.StartupError
+  else
+    result:= EmptyStr;
 end;
 
 function TPushManager.GetDeviceID: string;
@@ -145,7 +173,7 @@ begin
     except
       //If a connection is not available, start timer to check it later
     end;
-    if Value and (not CheckPushReady) then
+    if assigned(FPushService) and Value and (not CheckPushReady) then
     begin
       FTimer:= TTimer.Create(nil);
       FTimer.Interval:= 2000;

@@ -9,9 +9,6 @@ const
   STR_NAMES      : array[1..4] of string =   ('UserName', 'UserEmail', 'DeviceToken', 'RegUrl');
   STR_DEFAULTS   : array[1..4] of string =   ('', '', '', 'http://<>:8088/reg');
 
-  INT_NAMES      : array[1..1] of string =  ('');
-  INT_DEFAULTS   : array[1..1] of integer = (0);
-
   BOOL_NAMES     : array[1..1] of string =  ('Registered');
   BOOL_DEFAULTS  : array[1..1] of boolean = (false);
 
@@ -24,12 +21,9 @@ type
     procedure SetBoolean(const Index: Integer; const Value: boolean);
     procedure SetString(const index: integer; value: string);
     function GetString(const index: integer): string;
-    procedure SetInteger(const index: integer; value: integer);
-    function GetInteger(const index: integer): integer;
   public
     constructor Create(const FileName: String); reintroduce;
     destructor Destroy; override;
-  published
     //boolean properties
     property Registered: boolean index 1 read GetBoolean write SetBoolean;
     //string properties
@@ -75,16 +69,6 @@ end;
 function TIni.GetString(const index: integer): string;
 begin
   result:= FIni.ReadString(FSection, STR_NAMES[index], STR_DEFAULTS[index]);
-end;
-
-procedure TIni.SetInteger(const index: integer; value: integer);
-begin
-  FIni.WriteInteger(FSection, INT_NAMES[index], value);
-end;
-
-function TIni.GetInteger(const index: integer): integer;
-begin
-  Result:= FIni.ReadInteger(FSection, INT_NAMES[index], INT_DEFAULTS[index]);
 end;
 
 initialization

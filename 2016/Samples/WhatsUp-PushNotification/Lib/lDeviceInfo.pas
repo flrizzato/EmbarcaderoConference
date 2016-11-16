@@ -7,9 +7,9 @@ uses
 {$IFDEF ANDROID}
 uses
   FMX.Platform.Android,
-  androidapi.JNI.JavaTypes,
+  Androidapi.JNI.JavaTypes,
   Androidapi.Helpers,
-  androidapi.JNI.Os;
+  Androidapi.JNI.Os;
 {$ENDIF}
 
 type
