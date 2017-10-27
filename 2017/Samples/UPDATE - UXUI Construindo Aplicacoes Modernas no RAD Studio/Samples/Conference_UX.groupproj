@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CDF20065-DB72-48A9-B74A-EFCF07D5E44B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="VCL_and_FMX\VCL_FMX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="VCL_and_FMX\FMXForms.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Menu_Style_Windows10_HTML\HTML_W10.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="VCL_FMX">
+        <MSBuild Projects="VCL_and_FMX\VCL_FMX.dproj"/>
+    </Target>
+    <Target Name="VCL_FMX:Clean">
+        <MSBuild Projects="VCL_and_FMX\VCL_FMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VCL_FMX:Make">
+        <MSBuild Projects="VCL_and_FMX\VCL_FMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXForms">
+        <MSBuild Projects="VCL_and_FMX\FMXForms.dproj"/>
+    </Target>
+    <Target Name="FMXForms:Clean">
+        <MSBuild Projects="VCL_and_FMX\FMXForms.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXForms:Make">
+        <MSBuild Projects="VCL_and_FMX\FMXForms.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HTML_W10">
+        <MSBuild Projects="Menu_Style_Windows10_HTML\HTML_W10.dproj"/>
+    </Target>
+    <Target Name="HTML_W10:Clean">
+        <MSBuild Projects="Menu_Style_Windows10_HTML\HTML_W10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HTML_W10:Make">
+        <MSBuild Projects="Menu_Style_Windows10_HTML\HTML_W10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="VCL_FMX;FMXForms;HTML_W10"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="VCL_FMX:Clean;FMXForms:Clean;HTML_W10:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="VCL_FMX:Make;FMXForms:Make;HTML_W10:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/24 07:11:14.862,=rtl.dcp</Transaction>
+    <Transaction>2017/10/24 07:11:21.775,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\FMXForms.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2017/10/24 07:11:34.531,C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\FMXForms.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\FMXForms.dproj</Transaction>
+    <Transaction>2017/10/24 07:11:52.887,=C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\Unit1.pas</Transaction>
+    <Transaction>2017/10/24 07:12:37.317,C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\FMXForm_Cadastro.fmx=C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\Unit1.fmx</Transaction>
+    <Transaction>2017/10/24 07:12:37.317,C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\FMXForm_Cadastro.pas=C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\Unit1.pas</Transaction>
+    <Transaction>2017/10/24 07:12:53.254,C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\FMXFormCadastro.fmx=C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\FMXForm_Cadastro.fmx</Transaction>
+    <Transaction>2017/10/24 07:12:53.254,C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\FMXFormCadastro.pas=C:\Users\thuli\Desktop\Conference\UX_UI\Samples\VCL_and_FMX\FMXForm_Cadastro.pas</Transaction>
+    <Transaction>2017/10/24 07:13:31.034,=fmx.dcp</Transaction>
+  </Transactions>
+</BorlandProject>
