@@ -1,0 +1,2090 @@
+object fmFMMain: TfmFMMain
+  Left = 0
+  Top = 0
+  Caption = 'CData Connectors Googe Drive Demo'
+  ClientHeight = 699
+  ClientWidth = 473
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 473.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      Text = 'SpeedButton1'
+    end
+    object lbPath: TLabel
+      Align = Client
+      Size.Width = 425.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxheaderlabel'
+      Text = 'My Drive'
+      TabOrder = 1
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 473.000000000000000000
+    Size.Height = 651.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = None
+    Sizes = (
+      473s
+      651s
+      473s
+      651s
+      473s
+      651s)
+    object tbiView: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TImageListItemBottomDetailAppearance'
+        ItemEditAppearanceClassName = 'TImageListItemBottomDetailShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Images = ImageList1
+        Align = Client
+        Margins.Top = 5.000000000000000000
+        Size.Width = 473.000000000000000000
+        Size.Height = 598.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ItemAppearanceObjects.ItemObjects.Accessory.AccessoryType = Detail
+        ItemAppearanceObjects.FooterObjects.Text.Width = 638.000000000000000000
+        ItemAppearanceObjects.FooterObjects.Text.Height = 24.000000000000000000
+        ItemAppearanceObjects.FooterObjects.Text.PlaceOffset.X = 2.000000000000000000
+        StyleLookup = 'listviewstyle'
+        OnItemClick = ListView1ItemClick
+        ShowSelection = False
+      end
+      object ToolBar4: TToolBar
+        Size.Width = 473.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object SpeedButton20: TSpeedButton
+          Action = ctaSearch
+          Align = Right
+          Enabled = True
+          ImageIndex = -1
+          Position.X = 425.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'searchtoolbutton'
+          Text = 'Search'
+        end
+        object SpeedButton21: TSpeedButton
+          Action = acRefreshFiles
+          Align = Right
+          Enabled = True
+          ImageIndex = -1
+          Position.X = 377.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbutton'
+        end
+        object SpeedButton22: TSpeedButton
+          Align = Left
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowuptoolbutton'
+          Text = 'SpeedButton22'
+          OnClick = SpeedButton22Click
+        end
+        object sbUpload: TSpeedButton
+          Anchors = [akTop, akRight]
+          Position.X = 284.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Upload'
+          OnClick = sbUploadClick
+        end
+      end
+    end
+    object tbiSearch: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbiSearch'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar2: TToolBar
+        Size.Width = 473.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object edSearchText: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          TabOrder = 0
+          Position.X = 12.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 397.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = ' Search text e.g. XYZ or XYZ%'
+        end
+        object SpeedButton2: TSpeedButton
+          Action = asSearchName
+          Align = Right
+          Enabled = True
+          ImageIndex = -1
+          Position.X = 425.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'searchtoolbutton'
+        end
+      end
+      object Panel1: TPanel
+        Align = Top
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 58.000000000000000000
+        Size.Width = 465.000000000000000000
+        Size.Height = 255.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object GridLayout1: TLayout
+          Align = Client
+          Anchors = []
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 30.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 445.000000000000000000
+          Size.Height = 215.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object SpeedButton3: TSpeedButton
+            Images = ImageList1
+            ImageIndex = 13
+            Position.X = 32.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'PDF'
+            OnClick = SpeedButton3Click
+          end
+          object SpeedButton4: TSpeedButton
+            Images = ImageList1
+            ImageIndex = 10
+            Position.X = 32.000000000000000000
+            Position.Y = 58.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Sheets'
+            OnClick = SpeedButton3Click
+          end
+          object SpeedButton5: TSpeedButton
+            Images = ImageList1
+            ImageIndex = 14
+            Position.X = 232.000000000000000000
+            Position.Y = 109.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Presentations'
+            OnClick = SpeedButton3Click
+          end
+          object SpeedButton6: TSpeedButton
+            Images = ImageList1
+            ImageIndex = 5
+            Position.X = 32.000000000000000000
+            Position.Y = 109.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Photos'
+            OnClick = SpeedButton3Click
+          end
+          object SpeedButton7: TSpeedButton
+            Anchors = [akTop, akRight]
+            Images = ImageList1
+            ImageIndex = 4
+            Position.X = 32.000000000000000000
+            Position.Y = 157.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Videos'
+            OnClick = SpeedButton3Click
+          end
+          object SpeedButton8: TSpeedButton
+            Anchors = [akTop, akRight]
+            Images = ImageList1
+            ImageIndex = 0
+            Position.X = 232.000000000000000000
+            Position.Y = 8.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Folders'
+            OnClick = SpeedButton3Click
+          end
+          object SpeedButton9: TSpeedButton
+            Anchors = [akTop, akRight]
+            Images = ImageList1
+            ImageIndex = 15
+            Position.X = 232.000000000000000000
+            Position.Y = 58.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Trashed'
+            OnClick = SpeedButton3Click
+          end
+        end
+        object Label1: TLabel
+          Position.X = 8.000000000000000000
+          Text = 'Type'
+          TabOrder = 1
+        end
+      end
+      object Panel2: TPanel
+        Align = Top
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 323.000000000000000000
+        Size.Width = 465.000000000000000000
+        Size.Height = 150.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object GridLayout2: TLayout
+          Align = Client
+          Anchors = []
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 30.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 445.000000000000000000
+          Size.Height = 110.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object SpeedButton10: TSpeedButton
+            Enabled = False
+            Images = ImageList1
+            Position.X = 152.000000000000000000
+            Position.Y = 12.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'today'
+          end
+          object SpeedButton11: TSpeedButton
+            Anchors = [akTop]
+            Enabled = False
+            Images = ImageList1
+            Position.X = 288.730682373046800000
+            Position.Y = 12.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'yesterday'
+          end
+          object SpeedButton12: TSpeedButton
+            Anchors = [akTop, akRight]
+            Enabled = False
+            Images = ImageList1
+            Position.X = 1.000000000000000000
+            Position.Y = 60.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'week'
+          end
+          object SpeedButton13: TSpeedButton
+            Enabled = False
+            Images = ImageList1
+            Position.X = 152.000000000000000000
+            Position.Y = 60.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'month'
+          end
+          object SpeedButton14: TSpeedButton
+            Anchors = [akTop, akRight]
+            Enabled = False
+            Images = ImageList1
+            Position.X = 285.000000000000000000
+            Position.Y = 60.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'elder'
+          end
+        end
+        object Label2: TLabel
+          Position.X = 8.000000000000000000
+          Size.Width = 149.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Modification Date'
+          TabOrder = 1
+        end
+        object Image2: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.LoadSize = 1
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0414494441545847C5975D6C145514C7FF77767776B72D8B34228AAD11154348
+                D02AD0406C8D522C0D690B566BD68F4830812889411B229A2024E5C98884188C
+                1F0F585FD44462FC201209F840159BA2822F440849F93008B52EEE747776E7EB
+                8E67662FDDCEEE76778AD6FEF661EF397377CEFFDE73EE995966DB36C3342289
+                EF6963DA054C9882E65EA5913316076377316ECBC23D296C8033899DE39C7D71
+                6C7BF521E1F6502460F96E3B22A9A9F718D8B3C2F59F60737ED808213EF85A2C
+                215C2E452908A8A3FBC607EF6808E2A9E52161F9634E8C6173AB8C3B66E76FCF
+                246965C0900E2CF90041E172F10868EE4DAD20575C9808D2D52DABC3D8D412C6
+                2D33FD1F968EFB42E86E94F1E432AFF080846591E1D44661BA780470C9F66CBB
+                C981B70E6A78F788863F9294519F7C7DC2C067833A3E193084278FC5F18C18BA
+                786AA0A9373540921A85395528DF6FABB9418CBD3B60331E11C3294385E93951
+                1E01E5583857423B15E4430B02A8090B6719DA160511F3B19C8A02C254B36FC6
+                23787F7D14EB9A64BCDA1EC1FE17ABD1747740CC28E6B125216C5B13C1EC58E5
+                F5559CF1DC833296CE0BA0E7E32CBAF7AAE8DC93C6C90B1676AC8D6066544C12
+                38C5F4341DD9CDABFCF7AD8A02EEBF3D80FE33168E0F59AEAD9BC0A7033AA232
+                C3BDB7E577A1AE96E19D75516C7C58C689F3B9B97EA82860C3BE0C767C9E1556
+                8E6B5B9BCCE48FE6A2BA9C9817FA32F8F26752E993CA4922B88873E74D121E5D
+                1CC44BABC2F8E18C895F2F50A3101C396562D347199CBA94F7F9C19700876AAA
+                FCBE0D51F4B48511A25F3901C7E3A4E67AF02D204B4DADE58D34DA76A5F11575
+                BAED54845D54EDFF16DF02A885BAAB4C6BC0DEC33ACE5EB1D0BD748A05C85457
+                2D0B83983FA778DAC5848D59D5FE1F5013515680534E5BDBC3584FBD603C2112
+                E674C6A13F275770A5282BC0A4E3BCFFB88166EA7ACE3B418C1A8F73DE7BBBA8
+                CBCD60F8B05F1733AF1FCFD3F0819DCA49C6A47B84E922D1D5E757C8789CF22D
+                07735387158E3DDF6A387ABA74C3593C7714CD0B245C356AC10B364935B5032F
+                3F52D329CC82C7F14EE5177A756910A6872ACA427DAD84AC69E3E25FF6586F28
+                C4CC26911CEA47BCA309F3EAEB84378766E8874687AFACED79A27EACB3795260
+                33E977312C42A5DD3E7D99E3FC48B9E08A1BDCB68A536370FDBBA49EE81A1FDC
+                A1A006EC6FC460D298DA2892E74A0737B979F46A26D1B9A5F56655B8C6F008E0
+                55357DF4753667F9C7D252509C959BD4240A30B8756C24F1777BA9E00E1E013F
+                F6304AB14D05C2274C4521969E7657CE4DEF03CBC1E2E6E088A6AC7E65CD8D29
+                E12AA2E8180EBC3EE3373D8006D8F66EBAC525E12E8965A86ECEB991119E3C6A
+                36F35396A5DBB6AE9CA508574926FC67748DD65D97AB3266B4F41B46922A9E3E
+                A5B8351D510FBE3DBF62A3A82860AA294AC1FF0BF00F45BA7B45AF07EB6E0000
+                000049454E44AE426082}
+              FileName = 'C:\Users\asovtsov\Downloads\google_calendar (1).png'
+            end>
+          Position.X = 24.000000000000000000
+          Position.Y = 42.000000000000000000
+          Size.Width = 32.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Panel3: TPanel
+        Align = Top
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 483.000000000000000000
+        Size.Width = 465.000000000000000000
+        Size.Height = 107.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object GridLayout3: TLayout
+          Align = Client
+          Anchors = []
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 30.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 445.000000000000000000
+          Size.Height = 67.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object SpeedButton17: TSpeedButton
+            Enabled = False
+            Images = ImageList1
+            ImageIndex = 12
+            Position.X = 32.000000000000000000
+            Position.Y = 16.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Me'
+          end
+          object SpeedButton18: TSpeedButton
+            Anchors = [akTop, akRight]
+            Enabled = False
+            Images = ImageList1
+            Position.X = 229.000000000000000000
+            Position.Y = 16.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Other'
+          end
+        end
+        object Label3: TLabel
+          Position.X = 8.000000000000000000
+          Position.Y = 4.000000000000000000
+          Text = 'Owner'
+          TabOrder = 1
+        end
+      end
+    end
+    object tbiDetails: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 20.000000000000000000
+      StyledSettings = [Family, Style, FontColor]
+      Locked = True
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tbiDetails'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar3: TToolBar
+        Size.Width = 473.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object sbBack: TSpeedButton
+          Action = ctaView
+          Align = Left
+          Enabled = True
+          ImageIndex = -1
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowlefttoolbutton'
+        end
+        object sbDeleteDetails: TSpeedButton
+          Align = Right
+          Position.X = 377.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'trashtoolbutton'
+          Text = 'acDelete'
+          OnClick = sbDeleteDetailsClick
+        end
+        object sbSave: TSpeedButton
+          Action = acSave
+          Align = Right
+          Enabled = False
+          ImageIndex = -1
+          Position.X = 425.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'donetoolbutton'
+        end
+        object lbDetailsTitle: TLabel
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 271.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'toollabel'
+          TextSettings.HorzAlign = Center
+          TextSettings.WordWrap = False
+          Text = 'Details'
+          TabOrder = 4
+        end
+        object spDownload: TSpeedButton
+          Align = Right
+          Hint = 'Download file'
+          Position.X = 329.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'organizetoolbutton'
+          Text = 'acDownload'
+          OnClick = spDownloadClick
+        end
+      end
+      object detType: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 1
+        ReadOnly = True
+        Position.X = 204.000000000000000000
+        Position.Y = 121.000000000000000000
+        Size.Width = 220.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object detSize: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 2
+        ReadOnly = True
+        Position.X = 204.000000000000000000
+        Position.Y = 176.000000000000000000
+        Size.Width = 220.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object detOwnerName: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 3
+        ReadOnly = True
+        Position.X = 204.000000000000000000
+        Position.Y = 231.000000000000000000
+        Size.Width = 220.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object detModified: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 4
+        ReadOnly = True
+        Position.X = 204.000000000000000000
+        Position.Y = 286.000000000000000000
+        Size.Width = 220.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object detCreated: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 5
+        ReadOnly = True
+        Position.X = 204.000000000000000000
+        Position.Y = 396.000000000000000000
+        Size.Width = 220.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object detDescription: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 6
+        ReadOnly = True
+        Position.X = 40.000000000000000000
+        Position.Y = 547.000000000000000000
+        Size.Width = 385.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label5: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 124.000000000000000000
+        Text = 'Type'
+        TabOrder = 7
+      end
+      object Label10: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 178.000000000000000000
+        Text = 'Size'
+        TabOrder = 8
+      end
+      object Label11: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 233.000000000000000000
+        Size.Width = 101.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Owner'
+        TabOrder = 9
+      end
+      object Label12: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 288.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Modified'
+        TabOrder = 10
+      end
+      object Label6: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 398.000000000000000000
+        Size.Width = 157.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Created'
+        TabOrder = 11
+      end
+      object Label7: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 343.000000000000000000
+        Size.Width = 121.000000000000000000
+        Size.Height = 21.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Starred'
+        TabOrder = 12
+      end
+      object Label8: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 508.000000000000000000
+        Size.Width = 101.000000000000000000
+        Size.Height = 21.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Description'
+        TabOrder = 13
+      end
+      object Label9: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 453.000000000000000000
+        Text = 'Location'
+        TabOrder = 15
+      end
+      object lbLocation: TLabel
+        Enabled = False
+        Position.X = 204.000000000000000000
+        Position.Y = 444.000000000000000000
+        Size.Width = 220.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Location'
+        TabOrder = 14
+      end
+      object desStarred: TSwitch
+        Action = acEdit
+        Enabled = True
+        Position.X = 204.000000000000000000
+        Position.Y = 344.000000000000000000
+        TabOrder = 16
+      end
+      object Name: TLabel
+        Position.X = 40.000000000000000000
+        Position.Y = 72.000000000000000000
+        Text = 'Name'
+        TabOrder = 17
+      end
+      object detName: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 18
+        ReadOnly = True
+        Position.X = 204.000000000000000000
+        Position.Y = 69.000000000000000000
+        Size.Width = 220.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = detNameChange
+      end
+      object sbLocationFolder: TSpeedButton
+        Position.X = 144.000000000000000000
+        Position.Y = 440.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'infotoolbutton'
+        Text = 'GetFileFolder'
+        OnClick = sbLocationFolderClick
+      end
+      object sbEnterEditMode: TSpeedButton
+        Position.X = 144.000000000000000000
+        Position.Y = 496.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'composetoolbutton'
+        Text = 'Edit'
+        OnClick = sbEnterEditModeClick
+      end
+      object lbHiddenID: TLabel
+        Position.X = 204.000000000000000000
+        Position.Y = 50.000000000000000000
+        Size.Width = 193.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'lbHiddenID'
+        Visible = False
+        TabOrder = 21
+      end
+    end
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 280
+    Top = 8
+  end
+  object ActionList1: TActionList
+    Left = 216
+    Top = 8
+    object ctaView: TChangeTabAction
+      Category = 'Tab'
+      Tab = tbiView
+    end
+    object ctaSearch: TChangeTabAction
+      Category = 'Tab'
+      Tab = tbiSearch
+    end
+    object ctaDetails: TChangeTabAction
+      Category = 'Tab'
+      Tab = tbiDetails
+    end
+    object asSearchName: TAction
+      OnExecute = asSearchNameExecute
+    end
+    object acSearchDate: TAction
+      Text = 'acSearchDate'
+      ImageIndex = 11
+      ImageIndex = 11
+    end
+    object acJumpTo: TAction
+      Text = 'acJumpTo'
+    end
+    object acDetails: TAction
+      Text = 'acDetails'
+      OnExecute = acDetailsExecute
+    end
+    object acRefreshFiles: TAction
+      Text = 'acRefreshFiles'
+      OnExecute = acRefreshFilesExecute
+    end
+    object acSave: TAction
+      Text = 'Save'
+      Enabled = False
+      OnExecute = acSaveExecute
+    end
+    object acEdit: TAction
+      Text = 'Edit'
+      OnExecute = acEditExecute
+    end
+  end
+  object ImageList1: TImageList
+    Source = <
+      item
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              022C494441545847ED564D8B1A41109DEE99F16B7430085110FC011EF49063EE
+              7ADA100FC1BD0B21FF6237BF40728F078F263705AF821FE02FC82DC75C029A1D
+              C7D171569CD41B7B4C0212C8E2F41E360F1E45B58DAFA7AABAAB94270F26ACD2
+              EFF75F93F994CBE5F4E3CA11D3E9D4AF56AB03CBB2AE9BCDE6562C5F0C5C5825
+              168B554BA5926E1886F23BEBF53A2B140AAFB2D96CBFD7EB25C5F68BE11481E1
+              707893CFE76F857B168EE32887C341780FC36C36F3CBE5F2DB46A3F111FE2902
+              9EE7057FFE372693C93FA2F310D66A35A6EB7A51C8FE8A40A7D3B94DA7D337C2
+              8D14EBF5FA7DABD50AA2CD46A3D1D7542AF57CB3D9C4A80063C18E88415A3BC6
+              D83DD9EFACDBED7E334D9351880D4DD34CB12752ECF7FB15E7DC59AD563EA77C
+              D858DCED76A774C802B4B9AAAAC10100DFF7A530FC5868E3165CFC71F9076C39
+              15C39D70A403DA540BDC15FED97045C110D0460AACA3FB28B090024738D2016D
+              A46003279148B073E18A8221A08D03482F427C2C2CB49182A008E964D2220002
+              D0C6011EA3088308401B07D81215D775A53DC5D08226B439E5C3A65C286848F4
+              36E37D8E9CD08226B4D9783C7E49C3C867DBB69F515B4E8843460A6AC36E2693
+              F94163E01B369FCF5F502B1E5083C8517148990728F45E3C1E5F5014AEF872B9
+              0CAE212DAAC1AF12106AD18C79A72E160BAD52A9BCA361D12C168B184CCECE83
+              97E4643261347DD9ED76FB032A1F79BF229689525240F0885F8883F0EA694443
+              5819D813D18360FFE34943517E028DEF4AB44FD763F60000000049454E44AE42
+              6082}
+            FileName = 'C:\Users\asovtsov\Downloads\Places-folder-grey-icon.png'
+          end>
+        Name = 'Item 0'
+      end
+      item
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              064E494441545847ED566B6C5445149EC7EEDD6DB72D6DA105A10D58A4F800A2
+              31288F28351A2B0644349548440DFF24063520428C3115490C21C452E203A346
+              4262C0F8E0978944A180D04601830A21A5B18D6D4C69690B65DBEEDE97DF3973
+              EFB64BA1F8D344CFDD73CFCCEC9DF37DE79BB9B32BFEF3268378435BBE67C9DA
+              DD655D0F045D635A0B4D31C81226F3946C482CF8F1DDA03BA6FD2302D65B8FCD
+              14C5B9A7F74F3BADEF2F18A7799654424A6E98C86D93F0D290482787EC39158B
+              8F9DE3C1314C05714CF36FCAAB53316DADFB4988A38DCA17121C42571144F2B0
+              AF4561AEB22617C6EA82E963DA0D09583B572C43FA6AAAB2B578963E56D1EB49
+              AA5E612AC04C24350CB82187195A57278F562D0BD25CD7C626F0DCA2B88E46B7
+              133820848C68F15147896C4A4B0F1B20ABEA918E1B8F4763D6F6839F2E8A07D9
+              AE696312C85D54BE5E4565854285E4DA8A887E6FA2DA77A8CB27150828046370
+              8E543D9C5551150B67C5D707E9AE69D72510DFBCAC5C0EA98D0CACA0003914D0
+              00DA2BE6A85F063A5C5E8A40850C118EF04089545A6E6CFEFABEF220ED28BB2E
+              81E894826D3A2113044CD530018D18C594F14AAE6E98258EF3862415E84D30A0
+              2121D357221E9789A965F16D41DA51764D0289F75754C93655230994D69F1508
+              4844231C2F4C88EA83D3FFC05E2002E4810A243D570FA79712634D4DBAA6F7C8
+              8355267BB68D265053A355AEB543CE400D21782692029AA306D037ED775D7684
+              7B8981422332DC1FF679F3844C586AC7BE7D35C42ACB46112858125F83576836
+              EF7C80920A664399362B40DFC1FB5CBD79C08ED50E83E1CCF07CE1FB3E1A7033
+              820B7729662F9DDAB3C68C0D5B1681BC4D8F94A41C558BDC0CC0E02C2BD2533F
+              1C8B40094F9C693BF5FBCEFA6FBBEB91FE0C8330AEC704F8E2414E6DA2EFD79E
+              DC7B678919309645C0BFAD748B1513458008C0298E0007318E1DDA57BEF7B2D8
+              75C2AEAD6D702EF6B92F351E072C01B3838487ED11920998607AD1ADE5F95B0C
+              9A31A31B2CB7AEE66ED993D3A46760AF039CD698978014C0F7121A4AE451146D
+              FFABF6551F3E69661ABBD2B8FCCB48D47F0253A852DC42026E2612A916BFD32D
+              EECFBF777275D3099A172A20FD7CAB5E4CA71F374CA6F96486F8B0C3FAFBED41
+              BB7B689DE90DDB91533DEBBABA06067BFA522239680BC7012080894C4605F42B
+              FC629D9F23EAD1E3E2994074D753AB50D87CF3308D8493687E76CCCF8B6CED7C
+              E5B3567A6AA42D7EA1A1D5F3E5D6B4ED88FE2B69D1D593125DBD2971F98A2DD2
+              6987AB0F8940D3F9C943F7ACA2795ABCBA205F9716ECC78B954FEB4B1266D69B
+              AE802A2F81E3B6EA9F7B575E6E3CE3D0E4ABADBCB4A4E9F60AEB19A01552119E
+              EB89B4ED8AC121470C0C3AC2862A0244B0BAB4BCF31E5D98B74B5ABB9E7E0DA8
+              EF30B82602C1D1CB24B00F28E222A90A3AE6EE4EB4551E10832E9EC5B10C8FE4
+              14FA788A09E4E408F1D0D493D5431D2D2B8900EF838C039C238D934B51394D6F
+              92B1371FBEC52B1BFF1B767D8CDF6FDA7C14036712783CDE5CEE96F694017721
+              0E3A908C448595538C18E16454002D91879B8BB3C045A5AE8BE8BAD80FD4C691
+              0545F0153F277A44CA916DB354AAF6BBF320B49D46798D8283849C92F1DA354B
+              7F5C924ED2F9580980A9282A2F860A5143303CA8020F55A30F06E8C391069092
+              CD2FF2B7B7EC59709EB5B30F776FF1D26E3B6D5A02F54062A4E78A322F32305E
+              D39B2C952534C0E94F4798D480D281954D842E060D9ECB982DDA2F9DFB81CF03
+              B3787B0E2401B421A3C00870916AF5F20E55D15EC4EF4B4CA878115AE64837C5
+              5062036E2A57180F014350D336E32852A537741E7836496D4300E6BDF8C5E748
+              7998A587ECE4247F415B952F661662D173848A15721250CCACA5214116820C8F
+              1B37B2539BCDF70F37BF7733B08C6508B05DEC5F8BBBC313312BF2E72437E7C2
+              4425220921AD7CB327E0BC4CE4814AB4E91C6C30079B8EFA239F6155399F1003
+              7D434E2A7981303296F5F3E87DDFDCA997DE310995CC151DC29FD0FBB86F89B9
+              4A5B090C8D5C5FB4F922C31DC959112204242204F182486E14D551F941CB8733
+              3FE16981652B00B3CFF6BE8185EF4E884A2F6E57E245CFE5E423AB0D5F3307D1
+              41B4A90D0538C2C3EF437056C1F6BB937FFD8ADCD9668AB8CA6275CFAF9EDCBC
+              F675E597640846E1DAC29DFEEDC02C0B4D893ED43016A622290CD9B46D9B1122
+              E13A6F9FDD31E5631EF8DFFE3D26C4DF11D8F0BA27D2AEA50000000049454E44
+              AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Google-Drive-icon.png'
+          end>
+        Name = 'Item 1'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Width = 36
+            Height = 36
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000024000000240806000000E10098
+              98000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0232494441545847ED95BF6B144114C76F0F2E9C9AA0420435164AEC040B0B41
+              4C992AB1D2D8051431FF808D6DC0C6CECAFF422BCF602782F98157A7BE93E816
+              16E6148EFBB177B7F9BCD9AF6B8EDB8B17374704F7038F37F3BE6F66DEEECECC
+              E6323232FE373CF95484617816BB43F322E67B9E57C2769D08BD5EEF02EE2E36
+              816DE6F3F92D8B8F050AB98FD5B0FDD42862492956D08976BBFD595AD8ED76DF
+              E24E4B3E3A58E876A55209A265FAB138FA2DA55AEE53490E8A2A493A1872E76C
+              B02698533811267DE7661F02FA9A52ADA0EB0AC710BB297938E4AD46E98E5585
+              13A9D7EB3F959708FA0FA55A41A7148E21F644724C5EFEB808E5635215542C16
+              D7D54C04FDA39AC655F9FD0C8C4F551047FB59B55AEDA8DB87EFFB81E9EA1A0B
+              F20E3E5789E3FF49DDDFE8738E8C86C530F152A3D1D895ECA0FF9DF83DA5D81A
+              2739F63B91EA36FB1B5CE2B1F72C41ED91E0A9072E53A638832DD2BC84ED90B2
+              86D59C0868E7B15F17E33A6FA6EC84048EA4A0B1427D231FFB7190FAD8B35766
+              B145EC316617AA79EBCF2A65001E741A2BAA7B30F656ECD588C437C46237D898
+              2F5BAD96AFBC44D8C85F2DCFF235D4417FAAD3E96C601F683F2275787188430B
+              62F03916782DED5030EE156E5A53D95CD7CAE572D7B466B3F98DFEB2A47ED0E7
+              B1E7B279852D3E1904C136FEAFD1F8494D69FFC2F7911241512B92FE0CF90FA3
+              61E960D1079AD20A7AA1B0834FFCE5309BFAB27C2AB835AEA899E33E8A7FBE46
+              A1509839EE9FEB00FF5C4119191919197DE4727B2EDA33613667D46300000000
+              49454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\account-multiple-plus.png'
+          end>
+        Name = 'account-multiple-plus'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              04CA494441545847C5976F4C1B6518C09FBB022DA574B4FC997391C1B2604848
+              1081A85966E48366EAE63FD4B9904C3F18DD37E3A643E3DC9C191F8C1A356E68
+              8C8989F383593233314E5C422BA809280CD87073508481D076E5DA83167AD7BB
+              DEF9BCEFBDC00E8A71A589BFE4A1F73CD7E3FDBDEFBDF7DE5BF8BFE1D8E71207
+              DEF31655D7D5EDD374D8AE289A2BC9EA16F6B988CEAFBE7609BCE8F4A913BF76
+              7CF5460B6671A3981AD33FF9AC5D6C8A48FCC9E16975C34C54035D6727D26053
+              FC8ADED373E6E440FB8787305D5362A96327CE859B86BB7B4FF58B25B698AC03
+              8E0090F6D30DE7AD655C797E617D2237CF15F0F578B1A462AC820ABC70B4AD48
+              B196FDF8C7FC461BE97526C2E9C881ACE2DBB852BBBB5EB23ADCC1D1D4125460
+              EFCBADFB7F1F4F3EA262B7F1DA8C44413E0A5870A2B837735BF25C756B495081
+              9A870FBD3221E895A97A926E14380D01C2A2846CCB2F0C8E761309859E40A840
+              D503CDFB8579BD1CAF4BD99B74C24D4620CB10201089523B4AE43A0A83C69CA0
+              12F41B38E740D3321B0BF2E203BC0CB7AD9EDB71D79E17AB77BEF43EA6765233
+              466067F3B36286472016C75BAD2E80A6CA20CBD25224F20AB95B5CF65A49C972
+              0993833FD175E0990F04CFA4A03590E345B6145BA0766B36CBD243D754084D5E
+              810B232204441C961BE0C50B7F0E7E7BE4712AF0E4BB82674A340B3C546385C3
+              8DF92C4B1F5555E1E0C7DDD03130CB2A06BA3070F5F2F7870D81C7DE11BC7E51
+              BB8F9E619417EB50BB49C0194D06747DFC72F13AF8A6622C6384A9C01354E0C1
+              96196F286A1620A8F13048820F8FD62FB11235DC3FEC3B77C410B8FF78D02BCC
+              71268122270F5B4B2C281101653EC8AAE9E19B8A422822B3CC409B4181F34CA0
+              E158D01B89990576D75AE1ED3D4E96AD8FE64F07E09BAEBF5966A00BBD23A3E7
+              8F19023BDE0C7AC505B3407529C0AEAA7F7D93FE67CE744E42DF70846506C950
+              9FEF5AC75B86C0DDAF07BD51D92C4050A2D3A0CC4DB22CB31081090F13A87F2D
+              E85D4898056CB8046CB0F3A0C6FCA0C402AC9A1EB33105E209F3CA284DF78EFA
+              7F66B7A0A639E04928BC691D78B4CE0A2D7B3333075EFD64006F83790E308146
+              43E0E09427A1679B04B657F0F0FCBDF4F4BA693D3B029D83219619C881EEBFA6
+              3B5BD808A410200B50421C83E482F9C24CC1041AE9DBD0D88698E1380E720ACA
+              C1622F66950C633489AD20771CB8E65120D73402BBEEB4C2D1A7C8BB00F5C8FB
+              750DAA9E6B67473787E4EF19F3771D374620995CBD5F54931ACCC713180A7DB7
+              AF1569A3D0FD88310295FB3C6D7C51D56E72BC88AE254116AE829688B24A6689
+              F97EB81CEA6B6DA223101E3E3B08BAB9371C6F016BE1EDC0E764E65134816DC9
+              C2D0181E450D814B5F9ED6A21312DD4DDE80215101BC358312D846529C8ACF4D
+              D0CDA940B7649A228512E1D182FC72C73D90B50D1F80E5E79FE378B0D8DCF89D
+              188A9BDF68370B79B4F560440B0E7DD4968CF9BFC6D2381520C8E2F86FF1EB11
+              97DDB6B98A77B8B280CFA68F22814AE4A244223D095DC79F79B83F8CCC5E8CCF
+              0E7EFE9D3C33F405967B31E4E5AE1A38F9ECBCDD8EB286A76D259515D8F35C5A
+              657746D7555D890639343172FA17D193AB17120A8F750534594A48E2D8B814E8
+              F7E2B55D78E21206DD22AD14209079E1C6D888918741BEB3460329EB2B6B2427
+              411A24CBEA1C069BF100FF000D8AF1F24027EABC0000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Apps-Google-Drive-Docs-icon.png'
+          end>
+        Name = 'Apps-Google-Drive-Docs-icon'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              06F8494441545847ED566B6C5CC5153E77EEDDF7AED7D8C68EDD343181440921
+              0A514948715D35A5A0884041118A940AA91241889028423C24E81FE40AF10709
+              4441E2072DA8A8B452A382284F0544945789933825254E0C28218EEDAC63EFFA
+              B57BF7BEEFF43BB377D771FFF50F7FC8B1BF7B1EF33867CE9C9959BA4A57E907
+              4F5AC4E9B9CDDBDF5A3A25B645EA02EA5844D494BB21D2FE4F6A05D84B1D2011
+              C467F7BCF35AF7D1D151AB11C093AD6B0FFD3CDEFE333608F4ACF1DA18D6DB9B
+              AFA1C55D9DD14468176865AE830B1859E726966157804DABCB8AE12325953C8B
+              6EFFE4958EF3A639511B058AC9800CE9D2B859B1FAAD4BFD4781CBFEEC8C213D
+              D2619F9E9EA0C2F845D20C495A4C6240081E12198008001F6D3559D39943D73C
+              3A1854E57BA3A78EBD3F76BAFFDFA5E131828D301F664034E8A6BC8374B21180
+              4D536272E4F733A73732BE09A7FA0D69C16E21882ACD14C7A830F22D4639180E
+              0857710D5C631DFD18127D150FAB34E594E8E5F35F6C7AE0D0DE8D1F4E7CFD17
+              1998240BA391D7280AA6675BBA0FF78A6CCFB0D0A73B1ED9F6663C95A2C29FF7
+              6EBDAE64767394DC913786E5E6F636EA58B68487450D8D69E6E5C8BECFB36573
+              CFDA571775757AE39F1EECDD70AEB87E66768EB67C77AAF34C7572BC31F2F9D6
+              EE23B74AE33636D46A40921E4DA6E66270DE20707BBEBD85DAAEEB822ED0130D
+              DCBEC039EB6893BC1D50B84B618EA4E950390C68EBE4D9AE93C562415703409B
+              33B987BA82E0C7E39A35F3795CFBD3A01E1EC7FE2F6A0BFCBC903E9C626F19A8
+              15D6DD4A8502A74AA9BC411472FA1D38C3DE320F6DE82E85A145074247EE2F4D
+              BEFE65B174B45A2E1B8B25753A8147FFD49C1747E6E6CA8D1A10862664E85299
+              F4A997C68777FF013093FAB76C0BD564989CE5D083EE910FDBCC649126CE0D53
+              185428F4B1B7CC154C0ABC1AB7C14F36353FF5C49703BB479BD2FB031FF58100
+              93C9A44A579433A2573A97F4AFAA543694456067EEDC7292B030A77FE0C67CB1
+              D85C3B949C52C514B18D55B6E55A32D4BAA4596D01675A75E3061CB9C313AE5C
+              71CBC663896422708606BBDB2E14BAF8F0EFCCC496EC1B1C1C517D995E5BBAEC
+              D8F5C5E27A1EC8C6FA24F50264AAEFF17C3BFFD76CB96B52D4B638AF64154888
+              CA98C4D65483F91AC11FCB0E6AE377ED2D4BF70E0C5C6C6C8116D37172254D24
+              73A57D6B6EDAF11170E1DAD6210F4584A42BF82C037E4397E446EDD3D3268D8F
+              4C91EFB9E4390E79850A7965D48090F2BD1B57ED797BF9B21D5F2DEEFCD4C7FE
+              87A8A17436AB7C3702D0E3710DA79ABC4CDA7AE18B236FBC08885CF304AE0D38
+              05C0F9FAF05907EA3C4002700D910F3E3D6BD3E54299BCCB36F926EA0459F039
+              6BCBAFFFEB33FBF7BFA177750CB10DE782724D4D2A75F3194824044F78C1AEFC
+              E8CD5FDEE1318667A77B71C5C0B10687020E19355D0153B870C0F090561FC72D
+              2855A9826CB8EC1C9E34C7A73B2E5C1C1FDA728F171F1EDBC5361F0B4AA6D30B
+              336024D27CA7D10AD3D412274E18891303C6CAD214DF6FCA010E96E24EE490F9
+              95E0605270C67B6F7B3E9936B6018E6EF603CD3E7ED260B45C1C132E6C0182CD
+              64630B33A027127026C85DB9B27879F7CE75E71F7E705D78DB4F4FB9E85C7762
+              4798778AFE8A6B94B4B1B701D7044E0FE6ABFA3E956D9BFE95CBCAB34F3CFAAB
+              0FB6DFBBAE72FFDD7FF79001CE6222995F98019188091BAA9E4A8AF53D3D46CF
+              A64D4622D3242C38B135BC140A7088174EC9422707325774D2F27007C0B14460
+              80CD41805783904CCFA3556B7F12DBB0E94E237FED229DED78DE28954EAB0CA8
+              0FD3DFEEBAEFF4A58347560BC3A05826AD6CA16393C404022BC47FED78C1CE3A
+              930ED664562901477CC422734D8E74BE8EE3F9268AC793980BE7C77248CFA6E8
+              3F3BB6AFDAD3D737D4C8804C243547336826939593F944C028E55BA42B625869
+              0CAB8E91857607DC668E551815543B2ACAE655C3A1A53280AC20930A908F6BBA
+              142DE980B278A75BDA4257EAC88041A9544A85DB08204400AE30A87BF59A52DF
+              993306634D6FEF71768807B9E6181C0F3359A120C3B4C8C79E5FE9CC8D649783
+              E06078FA4C96F4C71EEBFE05E66BFBF5E63F723F0F5B98D4397F57D680C11988
+              213A3B39F4D9815D43070EEDF23DD9AE9C0355446E4B83EC102B374DAC3CAC39
+              A903195041009C0D0EC6859D428D96E5DB7E7B6EEF3F76B9D3B3AB2B1E4E0716
+              A1A76A01A80FD35B0FEC3CFBD5879FAFE43DE6BD93B8E5FE9734D832D62CC503
+              BE157074017E4E75DE6F70552B91CCF5B240C6742CF3559C6EC695FDF42337FD
+              E6F1C7071B19D0F484CF117B80CF6902EA5CC95889519DA300CEF918E107D715
+              9C6FC69ADC809AA7660F5806E7FEFCA87BAE87D71215C97EF9C374F8DDF77BCD
+              89A935A4C1935A175FB04CD14F86393CA31610115BEBD1377E54D449F0653B4F
+              8D55AA4B58502C9F9BFB78F2D2DB7D7D7D0B3B5EA5EF9F88FE0BFCF592F55572
+              BB5F0000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Google-Play-Movies-icon.png'
+          end>
+        Name = 'Google-Play-Movies-icon'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              020E494441545847ED96BF4A1C511487278A2882C14289A51616290C2416428A
+              1421D869A9958A4F90566C24240F90474813DF403024909022EC038458085A84
+              88A8200A82827FF2FB867BE0CEEE99999D51DCC60F3ECEDE73CFB93BBB73E74F
+              F240A7791462115D725AF6A6A3F639975FE5753ABA05CBF2A6A64BB2107E5D19
+              8F43ACC36088B9B47300FD21D6A12FC45CD8032B722A1DB5C2FC6B39908EAA73
+              227F484E8747832FC89B2C625FFE92BBE92849C6E44B39928E2A126F9A321B92
+              2BC2BB7AC831478DD78B5B725D9E45B94C419E5C4AEFA5ED9961C9D5B116E433
+              39A0865A7AE2350EA59DCA0569F94C519EAB12D8541FE5856CAE21C79C6D3C7A
+              E2F97FB25BC2ACB47CA6C8734302475FF4F79AD4D82FA5379EDB94EFE45E94CB
+              14347B259F4AF82CBD1A4F6A815ED6F06A4C37697E97F0427AF345D203ACE1CD
+              A796DD88BE84381F6215ACC7D670293B80BF213E0FB10AD6636BB8941D004F34
+              A87327B41E5BC3A5EC008642DC09B10AD6636BB8941DC06488DF42AC82F5D81A
+              B9B8BB3378207B243717CEA557E3492D3DF4B2865763BAC9D8B712DEC84BE9D5
+              C452432DD0EBD5C4BAC9D853392E61461E4BAF0E99A306E8A1D7AB8B7593CD6E
+              CB51094FE407F947B2C391CFE498036AE9F1D66AD64D7A1EC939590635D47A6B
+              B458E785E4B7FC247FCAF885E4955C94CF48B44BDD37A23B83FB00CFF14E71C1
+              3FC0536B221DDE3F9CCE073A4992FC076B8F429F55F706520000000049454E44
+              AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Logos-Google-Images-icon.png'
+          end>
+        Name = 'Logos-Google-Images-icon'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              064F494441545847ED566B6C5445149EC7EEDDDD6E5BDA4211A1B558A5F82844
+              038840941A8D8801114D251251C33F89410D8810634C45124308B194A8D4A891
+              9018303EF865225129A8A18182418590D2D8461A032D2D50B6EDEE7DF99D33F7
+              6EBB148A3F4DF4DC3DF7CCCCDE39DF77BE993BBBE23F6F3288D7B5A5BB16ADDE
+              59D6F540D035A6B5D014832C61324FC9A6E4DC9FDE0DBAA3DA3F2260BDF5D854
+              5192777CEFE4E3FAFEC2319A674925A4E48689DC36092F0E8A4C6AD09E5EB9F0
+              E7533C388AA9208E6AFE8DF9F52AA6AD358785387444F9428243E82A82481EF6
+              B528CA53D6C4A2587D307D54BB2E016BFBB22548BF80AA6C2FA9D6076EEAF524
+              55AF30156026921A06DC90C30CAD17A47EAC5912A4B9A68D4EE0B9F9711D8D6E
+              2570400819D1E2C3CE52D99C911E36404ED5C31D371E8FC6ACAD3F7C323F1E64
+              BBAA8D4A206F7EF95A1595950A15926B2B22FABC1BD49EFD5D3EA94040211883
+              73A4EAE1AC8AAA9C571D5F1BA4BBAA5D93407CE3927239A8D633B08202E45040
+              0368B798AE7EE9EF7479290215B24438C20325D219B9BEF5ABFBCA83B423EC9A
+              04A2930AB7E8A44C123055C30434621453C62AB9B2A95A1CE60D492AD09B6040
+              4342A6AF443C2E931565F12D41DA11765502C9F797D5C80E552B0994D69F1508
+              4844231CCF8D8BEA7D157F602F1001F24005929EAB87D34B89B196165DDB7BF0
+              C11A933DD74612A8ADD52ACFDA26A7A086103C1B4901CD5103E8EB33775F7284
+              7B9181422332DC1FF29933854C5A6ADB9E3DB5C42AC74610285C145F8557681A
+              EF7C80920A664399362B40DFC12FB87A63BF1DAB1B02C399E1F9C2F77D34E066
+              0417EE524C5B5CD1B3CA8C0D590E81FC0D8F94A61D5587DC0CC0E02C2BD2533F
+              1C8B40094F9CE838F6FBF6866FBA1B90FE048330AEC704F8E2414E6DA2EFD71D
+              DD7D57A919309643C0BF7DFC262B268A011180531C060E621C3BB5AF7CEF65D1
+              D862D7D53539E72FB82F1D390C58026607090FDB23241330C1F4E2DBCA0B3619
+              34634637585E7DED0CD99368D653B0D7014E6BCC4B400AE07B090D25F2288AB6
+              FFE599153B9E34338D5D3EB4F48B48D47F0253A852DC42026E3612A936FFAC5B
+              D257307BE282E6169A172A20FD02AB41DC423F6E984CF3C90CF12187F5F5D903
+              76F7E01AD31BB283C77AD67475F50FF45C488BD4802D1C07800026325915D0AF
+              F44B74414234A0C7C5338168E3532B50D81CF3308D8493687E6E2CC88F6C3EFB
+              CAA7EDF4D4705BF84253BBE7CBCD19DB117D9733A2AB272DBA7AD3E2D2655B64
+              320E571F1281A67352FBEF5941F3B478756E811E5FB8172F5601AD2F49985D6F
+              BA02AABC048EDBAE8FF42EBF74E8844393AFB4F2F1A5CD77545ACF00AD888AF0
+              5C4F646C570C0C3AA27FC0113654112082D5A5E5BDF7D179F98DD26A7CFA35A0
+              BEC3E09A0804472F93C03EA0888BA42AEC9CB533D951B54F0CB87816C7323C92
+              28F2F1141348248478A8E2E882C1CEB6E54480F741D601CE91C6C9A5A89AAC37
+              C8D89B0FDFEA958DFD0DBB3EC6EF376D3E8A8133093C1E6F2D77C7F74C06EE6C
+              1C742019890A2B518218E16454002D91879B8BB3C045A5AE8BE8BAD80FD4C691
+              0545F0153F277A44DA911DD52A5DF7ED6910DA4AA3BC46C141424EC978ED5AA5
+              3F264527E92CAC04C0541495974085A821181E548187AAD10703F4E1480348C9
+              E617FB5BDB76CD3DCDDAD907BA377919F70C6D5A02F54062B8E789322FD23F56
+              D39B2C952534C0E94F4798D480D281954B842E060D9ECB9A2DCE5C3CF53D9F07
+              66F176ED4B01685D568161E022DDEEE5EFAFA1BD88DF979850F162B4CC916E8A
+              A1C406DC54AE301E0286A0A66DC651A4CAAC3BBBEFD914B50D0198F7E2E79F21
+              E501961EB29393FC851D35BE985A84454F08152BE224A0985D4B43822C04191A
+              376E64A7369BEF1F687DEF666019CB12603BDFB71A7787276256E4CF096EE2DC
+              2425224921AD02B327E0BC4CE4814AB4E91C6C30079B8EFAC39F6155399F10FD
+              17069D74EA1C61642DE7E7D1FBAEF5AC5E7CE70454324B740A7F5CEFE3BE2566
+              286D2531347C7DD1E68B0C772467458810908810C40B22B9515447E5076D3BA6
+              7ECCD302CB5500669FEC7D030BDF9D14555EDCAEC28B9EC7C987571BBE660EA2
+              8368531B0A708487DF87E0AC82ED77A7FEFA15B973CD147185C5EA9F5F39B175
+              F5EBCA2FCD128CC2B5853BFDDB8159169A127DA8612C4C455218B219DB362344
+              C275DE3EB96DD2473CF0BFFD7B4C88BF01569EF0C0ABC875FA0000000049454E
+              44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Google-Drive-icon.png'
+          end>
+        Name = 'Google-Drive-icon'
+      end
+      item
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              074A494441545847AD566D6C9455167E66E69D0FDA2E302D14698B95E2CA0FD4
+              1FE862D955C1EE160898A23FE42709C9C2FE299AF8A324A8D148228906F8A3D9
+              1810972C2184E852A860680C515306DB0209C812BE29958F523A9DB6D38F9979
+              67E6EE734EE71DA7CE54FCD827B973EEDCF7DE7BCE3DE739E75E17FE0FB02CCB
+              B8DD6EB85C2E1863904EA75566FA3FAB63D28F1E8FC7A4522997E5F51A3B91C0
+              AD5BB7D0D9D989D3A74FA3BDBD1DE7CE9D436F6FEFEF3E40C10D3868BC968544
+              32E97AB8AACADCFCE187CC97C2B877EF1ECE9F3FAFC69D3D7B56E5FDFBF7D1DF
+              DFFFEB0D7453B976020195F5EBD6D193C6F4B1C5D846D906322D964EF37772D8
+              B63DBE17C1F064FBB9A0BE89483B5E89C554FEA5B2121818005A5BE1696B437A
+              C70E143304D318129B310F8F8E22DCD7A75EE8EEEED676F3E64DDCB87143B881
+              CD9B37AB62DAF30BBCE1769BAF4828C3F89BE5CB4921AE93F6FCF3264919957E
+              6DADB15F7FDD44A64E35D15DBB8CCD9DEFDFB963A2D1A8894422A6AFAFCFF4F4
+              F498AEAE2E7A20A99E08064BD5081235CF0B6A95871BA7A4EFF31943C261D52A
+              E0934F9038760CD6134F20D6D303174F63CBA99E7D16434D4D881C3902FBF1C7
+              31FFFBEF11E3E93D252548C4E3CAFC6432A999E0F3F95156568AEBD7AF62DEBC
+              3FAA2E090591F58686806E1F472A855E8AAB7461FCCA150C927C83E130422B57
+              E2B365CB907EE619D82323187EF1458438EFBF249A9FD237658A2A66E6682A4A
+              937E20E0073D839A9A47B169D3A682A118B74AC645D0F5BB69C494C71EC34B97
+              2EE13D6EF4D7C64654BDF20A862E5C409ADE99F5E493F8F485177085EB1EE1F7
+              7779D22172C4EDF52269DB6A889C3E4E6F88722FC767CD9A85E2E2623CF4D06C
+              72A5C7E5A4B8E8560FA87201174628828383B8B061032EB37FECC30F71EDF061
+              7CBD752BDE7AED35ECA0F20E8E07D856B5B4F017EA7277E6E462804008284AA9
+              08977818C1A143CD2AC540075977385E28A3ACE5FFD36CEBE8727F5111868686
+              307DCE1C543EFD347C7E3FAA39FEE7E79E83878626A74D433216D34D45991823
+              46485FA418353C3C8CB973E7E2300FB27AF5EA091EC8474EBE72834991686D35
+              C3CDCD26158F6B3DA0926C26B000195649C3D434779821F480AE696A6AD2BDA5
+              74AB0222AF0E58ACE9826049894EBACBBCEEBB7B17FDBDBD889090D1FE7E8C71
+              7C24D287A2DA45303E1FC8EB2CF9721B754AEA69139C3A754A652EF20C7093BD
+              82A564BD20C98D2CB25C9A371050B209F33D6309440F1D9214868BEE76943A97
+              922325347E864D207789400C7390678043903A924D20FFA5998C945455048388
+              7564364CD9AA5036765AAE1142460143A471777408F20C208974D2E2C58BF5BF
+              6C90DD94FF592561534E696880A77CE6F81C0FC390A3D03146FA42CAD2D252B0
+              42EA5C01BF650938C1002EC8FA66FEFCF9E3E995E34A3584A71524781D8F7CFE
+              19D29CE3F55AEA2199E7142391B2D639ADDC90028EFDE87F22CF030E4A585A25
+              FD9C4D54B948B7A58B62543EFB4408031FBCAFF33DE407AD81A141AECC7C3144
+              A4E0C489132AA53EE4628201A22C1731E6B7B389B4342B9D67EA54C44327597F
+              7DF0CE284760593DA27BFE05D9D65D540217BF6B93F2CC31F184A0A343CA573E
+              7E1A02958C999A2DE554A0A711C9CD64BBD8FE7D287EE34D081D8B9EFA13D2D1
+              410CEEFD37DC24A897CD8A8DC2138BC39A3E1D9678863873E68CCA5C020A0A86
+              A052DE008470408C924552EDDC245382B174B1FAF993298CEEF95443904EF122
+              621B7CF30D84572E47E23FCD48EEDE0D73F40BFC61C60CDD8B2F243D9D139282
+              702A54434303E71973F1E24573FBF66D739BF77B6F22614638D6F37283B1777E
+              6C22DF7C6DECEBD7755E2EE41594E8EE32BDFF586FFA0FECCF8CFEA895079A60
+              41410ED4D4D4A89493934EF094CD44A0AB0BB1ADEFC13DBB02D6DF37E0D5A35F
+              A29BB540F0DDC99318E1BD201092C5E75423B8F92DD8948231DE05936182014E
+              7CAAABC7170AEBBD159508B493748C61A23D84991FFD133D7C86C9555CCA67CC
+              B7DF7C8B83CDCD70B142D25B88F3DB819D3B613D3C0765B572AD016179D26540
+              67646B806082018EA7A406083CE5E5F07FD50A77EB3124BBBBE0FF60878E7FBE
+              6B1752F45647E719545655A2BEBE1E6D7C2F1EE12BE902AFDECBD7AEE116EF90
+              CE5048DF046363727B6846E4116082350EC858535D55852E5E3CE57C84F89842
+              E66F75F056CF45FFE5CBB8CA703C3A6F1E5AF9645BB06001EEF2B2AAA8A86066
+              FAF87E1DC0C2850B35EFE5612A1555D2B9AEAE8EAF3A8B6562BCD23AC8FE1172
+              38EE918E0EE6408213672C13926AF2FA61868CF07976FCF8712C5AB40827C983
+              69CC0EE19194DDB2B2320DC9FAF5EB71F0E041AC59B3A6A00105B162C50AB376
+              ED5AF3CEDB6F9B7D7BF79AF6B636C33412BB1E08D60E231E946CD8B66D9B8E6D
+              DFBE5D0F440FE51DEC3721180C9A254B961879F3B7B4B4987038AC8A26C3C68D
+              1B7F9D017431DF193E6DE2B642E4290499B774E952B365CB16130A850CF9A006
+              3436364E6AC083E39103E189C4D829D9CE45F58BE23A097EF3C25C8861629473
+              054B5F1EA5E4C103F607FE074C3EB34F29FDB8EB0000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\filetype_pdf_32.png'
+          end>
+        Name = 'filetype_pdf_32'
+      end
+      item
+        MultiResBitmap.Height = 24
+        MultiResBitmap.Width = 24
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              041C49444154484BB555DB4F9B6518FF95763DC0D7ACE328388A960AE5189D73
+              5437020B6E810DE4C6184C8C891AA317BB701E12F5C20BE2AE3CDDEC6AC6F80F
+              981043025E2C214CA3647389AC4BA56CBAAE8C0ECADADA7E6DE9E13BF83C1F5F
+              0962DB79E32F79F3E4799FE7FDFDDEE3F3E2FF8641B765313A3A6AB1D96CFD46
+              A3D145AE9D9A28CBF29F333333D7B48487A0A2C0D0D090551084B1C9C9C937BC
+              5EEFB0D96CAE8946A3E9A5A5A5F90582A2280B737373BFEBE92561D46D49B8DD
+              EE67C6C7C7CF0F0E0E9EA1599BB3D92C545535D38A3C168BC51808047CC160F0
+              8E9E5E1255BA2D095114BB7B7A7A86229108D6D6D6B0BEBE8E502884362159D5
+              D6D636944EA71FD753CBA2A2402A956A482412D542F2069E6FB98FD3873731D1
+              FE17BA1A24E472B96A8EEBA9655156E0D244D54B87F0A076636303FD8FD9214B
+              D26E930A051600C7394F1F521265050AAA3AF5A4ABA93D1E8F43CAE735D2DD46
+              3E6D0F38CE79FA909228BF452AA2AF8D751D13541112CD56132936F2CDB92838
+              CE79FA8892287B8B4E7B7035B4E27719D67E0ACBD60177407218AE47AAB19531
+              22FE474CDD5ABC307F77D5EF538CEAC73FAC22AD0FFB17CAAEE09D596CC2A47E
+              282B8836DA3612C70E6D61EC9175B0659FFB39AEE55540C577C0333BE542EA5E
+              38F86CADBDDE22DFB11E4866D7C41F17BFBF57C8663E7B771E37F4D4B27868A9
+              604C9FC42DB7A7CF9D121310EC07717BC577FB93053CA1872BA2E23B007A2680
+              AE595946E2E4E414265E790B6CD9E7FE9D786594D9A2EE1780C62F6D36EB8B0E
+              87D2F5F2479FB71B367FC3A34E27022B2B80F77CCB952B3FD70356AF24D59E05
+              1A52C056401FFC0FEC13E83603755F13F1EBBDBD6ECF89135EA7A2146CD3D31F
+              6075E9267EF9E63B980E3F8591A957313BBB68A302D860341AEA9349F1394972
+              1CA149CD9390AC9369D873061D54574C1705C1DE3B3C3CE0ACA9A901956884C3
+              615CBE7C89DE8582BB5F9C43DB7B176954154646DE44737333A8A26A8F6E71F1
+              6A2895126F02D2396075B700EA67D0DF488BF9D6E9AC1D181C3CEA2CD06B8DC5
+              62604B55141295879C98449E1E195BF6B97F6FDEF1E3479CADADB503CCB3C3B7
+              035D20FFB6C3E1F0B8DD9EBA4C26A3D5992298888933B1085757CDB2CFFD4570
+              FEF6F636DADB3BEA9887F9F45051403DD5DADAE4E0249EDD5E3011138891FBA0
+              CAAA59F68B022E970B9D9D9DF0783CE0FF8279984F0B127401A5D5648A1FE0FD
+              DC8FE20A9291B026C076EF0AFC7E3F7C3E1F969797B5F3601EE6D38204162047
+              0E86C34185F7723F7810F78B0F36F97FD02CFBC5C958AD56D057AA5D08EE671E
+              E20B51487B887C8B48C0D201B47C4A37A08786A8D44D8760C8D252D9E6FBFACC
+              5F75A7224F77A4368FAE0A4DBFFA85C6EB3E9FF43EC5E95AE72D64A929D418AA
+              9FAEEA05609BFFEA5B2C70901A076DBAFD4FE5A30278693439640044FF0605DF
+              20B433380CA30000000049454E44AE426082}
+            FileName = 
+              'C:\Users\asovtsov\Pictures\Clips Store\fugue-icons-2.9.3a-src\bo' +
+              'nus\icons-24\user-business-boss.png'
+          end>
+        Name = 'user-business-boss'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 16.000000000000000000
+            Width = 256
+            Height = 256
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000001000000010008060000005C72A8
+              66000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              14B449444154785EEDDD099454D59907F0EFBBB57435D2340D3422B285C42541
+              33228CA2405777D31B4B8C18081A13D7E8A8D128C628269910A367068FE34226
+              714CE6C4994C2663E418BAC1A8718E0BDD0A26332E718E71E24C320125511659
+              44E8ADDEBB736FF767A246A0ABFBBD576FF9FF3C4DBDEF56296DD5ADFFBB6FBB
+              8F00000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000020582C8F21B0529D5AFF5475B6574FD3CA1D651AD825
+              1AAD0EF23B9AE7B47922CD9A476BF387340F8AF9D7B57948BBAC47B1CB217A4F
+              0ECFFCB6F697EF34BFF45E5B0FF5BDF0119B5FEE80F9FDF61EEC330D05DDF78E
+              766AADFADE4FA53EF8FDD4BAAFD3EC64C7F9D5D34F3FBD439A23A7E41FC429A7
+              B48CC896779E6F7E9573BA0FD08965C3E808D31CDE0E02F02E5D44BBB39ADA99
+              DCEF6DECE878449A23A3A45FB4B9B5B5CDBA40DFA6147D449A00224CAF49115D
+              DDDEDEFE8634845EC90260764DDD45CCFA1EB398E96F018801EDBEE2302F79A6
+              BDFD25690935B33916BC39F9FCA2AD5BF477CD22BEFC102FAC8E33A3808766D7
+              D54D9396500B7C0490CFE7C775136D4C134F952680D87148FF0F29D5F4CC934F
+              6E91A6500A7C04E068FE12BEFC107729E2635305FDAF7627B7348552A00170FA
+              E90DE37B98CE971220DE14CDC9E4BA564B154A8106804A17CECC12554B09107B
+              CC74C1EC9ADAABA50C9D603701985A6409203134EBF366CC9811CA1DDE810540
+              3E9F1F434EE17429011243695D565D5D1DF8FEB68108EC97EAD5FAA3944ADB53
+              7C01124533EFAFA8A82848192A811D069C5353772971DFB17F4F741FA0B733E5
+              EE738AF937A6DC29E799873265A344AE8B20F347A5E91CE55ADBC564D366156E
+              3A56CE2C8EECAB0DFB3810CC6CDE43EED8D8B1E156690A95C00260763E7F0B13
+              7F55CAC1D3EE2B2EF35DD49B59BF69D3637F9056001884E0D6982E8F95A54179
+              6D3315CCCAE8A614F3499BDADBEFC1971F60E8820B00A60A592A9AFDF24F98CC
+              E76F6C6FFF467B7B7B973403C01045629B79C2645AB1B1E3C97F9312003C1285
+              0068DDD8B1E1765906000F853C00748F4BFA6FA400008F857D04F0E34DEDEDCF
+              CA3200782CD401C0CCD8EE07F05190019096C701D105DAEAF4F46C9212007C10
+              DC9980F9DAB5E661717F75785AD3031B3B362C9572D05AAE5A5D46BBDE9E5375
+              E49453C74E3C361B8DFD9E90344A29DABFEF4DFD87FFFBAF6D29D77D68DD3F5F
+              B7D534FB7E1666780380F44DF6B8BF9445CB2F5D39BC6244E595D5E38EBBBC22
+              BD7922559EC2F64D06082B7B86B1D62E157ABBBBDEDCB6F9899DAFFEEA96C71F
+              58F58C3CED8B943CFA6ED29429CBCCC347FBAB01D0EA87AF6DD9FC825445A95F
+              76E3DCA9C7CF7A78FCD4BFF87479C5C84ACA1DCDCCF8F243B8994E4AAC52944E
+              97A52B478F3F66EBD8F117CE3CEEF4313CB9FCF11D2FBFECC8CB3C15DA6F8549
+              C3FDB25894FCE2EB5A8EF978E3CFAAC64E3E46BB2EB94EAFFD8F9967127F4D0B
+              44818C029C420F9D9CAB52938E3DF5AA8F8D6DB82F9F5F59D43EB4810A6D001C
+              EC8E2C8752F3C9E5274E99D1F0C3E195D5C3EC1B882F3D449976CD4ADF04C2A4
+              E3679D55F5D1EA3BA4D953A10D00331C32ABEEE28C9F7AD2ADD55513C6F47FF9
+              01A2CF8E06ECBE81891F997955FD92EB1BA5D933A10D00D790C501A95F7C7DE3
+              D809C7CF770A45E70640A8D9914036379CC64E3C61F95F2EB8629C347B22367B
+              C6461E35E5AC4CD9B0BEC404881BD72DD0A8711FAAAB1A39AE5E9A3C118B0058
+              B2E4F6F28AAA231B8A98A8052052EC8A2D9D29CB55551FFD0969F2442C0260D4
+              CC8F678F1831B6BA6FA709401C99959B3D943D62EC94686E029804F36D6C5E65
+              FE4967CB31FC8758B3E709E47295527923C01180F277EF9C797300E22E95F2B6
+              9FC766272000142FB40160863BD8A307E0B33007000EE803F82CB00DE7D935B5
+              F799CDF4B3A53C2C57F3C24D1D4F3E2CE521DDB0EAD9CACE1C6F3169E6CD1E92
+              DDD44B47D02ECAD2BD5AEB2EF3366153098AA45DB312CB510F5D44FB69145591
+              57F706DC70D73533EA6479C8421B00E6B58B9EDAB0E121290FC9DB00703B9853
+              5F1FB12BFBCC4D379D80738A614856AE7C29FBD6A89ED3B476BE6906DC35D23C
+              149E0600D66CEFE829BCAD35DDD4932E5F78E7D527B7E3CB0F5EB0FDC8F627DB
+              AF6CFFB2FD4C9E0A050480D099F4B9AB97CFF8C6DD579E10AA0F08E2C1F62BDB
+              BF6C3F93A6504000F4D1EBCD87B35E0A00DFF4F7331D9ABE96F8002810ED5405
+              BA584A00DFD9FE66FB9D942595F8004869FACE1DD7CD0CC58701C960FB9BED77
+              529654A203A097685FBA90BA5B4A80C0D87E67FB9F942593E8004811B969A7D0
+              2D2540606CBFB3FD4FCA92C14E4080044300002418020020C110000009860000
+              483004004082210000122CC80028C8230084446001C0AC31673740C8043902C0
+              B4BD0021837D000009860000483004004082210000120C010090600800800443
+              00002418020020C110000009860000483004004082210000120C010090600800
+              80044300002418020020C1100000091664006879048090082C00B4CB3DB20800
+              21814D008004430024C8CA952BF179C37BA043C4DCC207EB8F6E6AADBDA1B9B5
+              F6914DD3DB9F6E6EAB6D353F572F5A9F1F232F81044300C458535BFE924EC77D
+              81995611538BF9B04F33CD679A9FBB7A5D7EBEA5AD6671DF0B21B1100031947F
+              329F6E6ACD7F9B89BF9721AA96E6F79BA85F503F31AFBB4A6A482004400CE5F6
+              F0DDCCFC05290F6E3A9997F1B75AD6E63F2B2D9030088098696AABFDA619EE5F
+              22E58068C57FDFD89A3F494A481004408C98E1FC994CF4D7521663A4D27C872C
+              4382200062A2A975EE4487F94E298BA7A80E9B02C9830088092675739A688A94
+              835220BDA2F1D1C623A484044000C440736B6D33319F2FE5A0A5949AA60EF42C
+              9512120001100F5F92C7A173F5654BD72C4D490531870088B896D6BA0566FCDF
+              28E5D0A5D4A9FBB2DBCE900A620E0110718ED6CB65D1335AABCB6511620E0110
+              614DEBF22D4A518394DE31238AC67575F552418C2100A24C936FA7F12A476314
+              90000880886A6AABA963E205527A6F2F9DD9D0969F2915C4140220AA5CE5EF45
+              3C5594369DE332A920A6100011D4B22E3F6BABDAEEFB9E7AF7007F7AFEDA79C7
+              4A093184008820EDD0E51369ACEFC7EA53C3A8C2554E51171641B4200022A679
+              5DDDB4AE4E5A22A5EF5C4D9F5DF0D3FC38292166100011A35DF792DC113C4C4A
+              DF29A671BD053A474A8899C00280991C598441B257FC91C3E74A191826BEB0E5
+              E19632292146821C0114E411068B5317729A029FCC93894ED45DDD9F94D2774D
+              6BEB4F696AADBDD9FCDCD7DC96FF51735BED171B7FD238569E060F611320229A
+              EE6F1A658650174A193CD69F9725DF34AC69A86C6EADFD5EB7729E3123C6AF99
+              9FB3CD5FFC19F3D46A9DEA7DAEA5B5F60A3BDF61FFABC10B0880A8C8757F66A8
+              D7FB0F4517EB798DEB6A674BE9B9790FCC9B4A99DE27CC70E3921CF19FF5CB14
+              D104CDF49DB23DFCC3FC9AFC706986214200448059EBE548F3A5529684FD522A
+              57FB7248B0617DC32456BDEB53CC274BD341D951412E4D0FD5AFAB3F529A6008
+              10001150B6479D65B7C3A52C19A793CF6A78B0E618293DD1F270CB08E514EEB7
+              939148D3E129AEC938EE7D67B49D5E212D3048088090B3B7F36272AE90B2A4EC
+              8941AAA0CE93D213BAA7F336B3569F25E5C029AAEBA6F43F61F292A1410084DC
+              2F4EEA6831A36FDFB6BD8BA5D9F9DCC29FCEA99272489ADAEA2E3283FA216CDA
+              A84FEDCDECB8460A18040440C8B9DAFD2B590C0545A9C9BD3DA9B3A51C34BBD3
+              AF40FA1629078D0BFADABEF3236050100021668F876F553B164A191AACF4C543
+              3D1C974E176ECE101D25E5E06578BCE9C6DECD89983008803053CEA5415CF453
+              3C35A36C0F2D92A268CD6D7567C8F17D6F305FDAD256335D2A28020220A49AD6
+              E53FD2ED5078A7E82EF2F663EFE83BA449CED7A5F40413956BA2AF4A09454000
+              8414BB74412EC523A40C1D7E81E737B7D6CC9572C0727BF9623B8290D243EA53
+              7DF74780A220004268DEDA79A3CDB0D6D3C36D9E9B6E328AF94AA906C49EBC53
+              20BA4E4ACF394C5FB5874DA58401C09B154269E5D8BDECA1DFB3AD76F359C5CC
+              1B98719DCBFD3C9D394534F7E7276D087770860C02206496AE599A350FBE5F78
+              E3892A4A33F117A53AA4850FD61FDDCBFE9FCEECB87A45BE353F524A380C0440
+              C8EC2BDB6E2FBB8DCCBDFA7B482F1BC828A050702EF1E4B0DF61A452EAB81C53
+              519B264916DA00705CD6B298288E53DA8B7E8A9523CE2AE26BA5FC400D6D0DE3
+              A930B8A30683D16B46252D6BEB3E2C251C42680380C949DC39DE76AE7F5FEEF4
+              E3B36E330A38D4A5C2292A2CEF3F61271866A451AD957BBD94700861DE0448E0
+              C40F2A9233F0DA4B85CD786DD592FB67954BD31F35B7E6EDFE0CDFF6FC1F1C5F
+              68A74F97020E02FB0042A2A5ADFE63E6E1CCFE2A7A9868CEBE6CD93FBE3359C7
+              8CEFCEC834B5E557D01EFE87BE17042FE3B8FA6BB20C07810008094DCE45F68C
+              3629A389F9DC5C86FFD3CEE337E6C88AE799F86FED91027936708AD5C2FED38E
+              E16010002160E7DD7775F0B3FDFA82E978F3873DCFFF84FE8612739CAFD8D188
+              54F03EC105006BB382830F62E7DDB7F3EF4B095E4AA953471F39FC02A9E07D02
+              0B006DB25816E15DEC7CFB76DE7D29C10766DDF3653BABB294F02E416E02E0BE
+              001FC0CEB71F86F9FE628DE918CE767F412A7817EC03283197FC996917DEAB97
+              F9AAC675733F24250804400935B6D5D5A817699E94E0237B72106B5582F311C2
+              0D0150424ABB97DACB6AA5049FB1E68B9A5AEB7C988B20BA100025624FFCE93A
+              408BA5842030E5989D1BA502030150229ADC0B83BCCD37BC437DAAB92D1FB9EB
+              2DFC8200288196FBE75453AFF66E524C288E268C020402A014B2E9A5415E1D07
+              EFC35CDFD45ABB4CAA44430004CCCEA7AFD9BD484A2811665AB168FDA2C46F82
+              210002D63F9FBE1FB3E242914EEA75DF8EC6D46B3E4200048C99B1F60F09979C
+              6BED8558522612022040F6565FB49BE64B092566EF7358E81DD8A4A671850008
+              102BE7E2525E1F0F7F8E992E6F6EAB3B4ECAC4410004A4617DC324F3B0A4BF82
+              1019493AB9F307220002A2DCDECF98F50D2E490DA33D7C5EF3DA9AD3A44A1404
+              40001A1F6D3C82359F2F25848DDD2C53EA2B52250A022000A9FD3D8BFBA7CA82
+              105BD4D25AB7409613030110004D38F4170505D62BEC8725652220007C666FF6
+              61DEE53A2921C4ECCD459BD6D526EA1A0D0480EFA279B38F04BBE19D7B1B2401
+              02C0474DEBF3C777EFD7F6669F1011767EC6B24C44EECEEC0104808FD8E1F371
+              CD7FF4B0A6E54939451801E093796BE78D36AB9378DCEC2369144F4ACA29C281
+              0580195A25EA76DF6955586A1E26F6571035F614E1F96BE71D2B656C053702D0
+              DC234BB167AFF9370FB8D947B48D74D989FD2CC2D804F041768F9E6FD621A748
+              0951C57441635BEDA952C51202C0078A71E82F2632ECD20DB21C4B08008FF5CD
+              3B8F6BFE6383152D6E5C5BD72465EC041900C9B845B39DEF0FD7FCC78A22BD42
+              166327B000D0AC633FDA68686B185F20B67BFF214E14D5C57516616C027848E9
+              C239F61E7452429C68BA61C9FDB3CAA58A0D048047EC7DFE8909D7FCC7142B9A
+              FE56AEEC6229630301E011A7A7F313B8CF7FBCD95384FBEEEA142308008F285C
+              F39F003C556753574A110B08000FD8F9E45EA3EDB13D54047FA21DBEA2656DDD
+              87A58C3C048007B4E28B27D2D8949410639CA6315AC567166104C0102D78A06E
+              B2D9F6EFBBCF7F1769173FF1FEB19FB326FE5C4B5BCD74BB1C7581CD7F363B9F
+              BF9D89AF95F2B0B476CFDAD8D1D12AE521DDB0EAD9CACE1C6F316956294D0362
+              3ECDBDE55D7AF2AD2B66EE95A6A22D5A9F1F5328F0343B389426883927A5B29A
+              53BF79EC8CC75E95A6A20DB6CF1A1BEEBA66866753CC21008618000083119600
+              C026004082210000122CC401900A6CF30420A9421B00CC6E561601C027D80400
+              483004004082210000122CB800703974330299FFF9CAAE329A252540606CBFB3
+              FD4FCA92092C005885734620665E2E8B0081094BBF0BEE4BA939AC370669BEFA
+              CEE7CE906500DF497F6BEEAF4A2B946BE5A0394CDFBFF6EF9E1D2325806F6C3F
+              B3FD4DCA920B2C00B4B6B75F0FA734D198425ADFFBE55B9FAE902600CFD9FE65
+              FB99ED6FD25472C18D009842FDE552A43E71A0ACFCF7D7AC7E1EB7F306CFD97E
+              65FB97ED67D2140A819D6E3B279FFFB1F9EB8A985A599FF3747BBBF9770E6F08
+              57567D20335AF97766FA59AA37F523E5BEDDA9740E9B4A501497BB5C570D2F77
+              32CEB9A63FB598FEE4D58C51D1BC1C784E4DEDCDE66FFB9A940350BA00F8A32E
+              7ACBCD25EBAEC6E01DD5657A7C8E4648E9956806C0DCDADA6693843F93720042
+              100000E113CDF9009C9E9E4DE43A5BA4048010082C00366DDAB48F3835A0197E
+              00201881EEDC7259FFA0A7F340B7940050628106C0A6F6F65F66CA86FD8B9400
+              50628106401F377D0BF605008443E001B071E363AF6AE6AB5EDB4C0569028012
+              097E04606CECE87870C224BA0C2100505A2509006BE3531BBE3F61B27B862ED0
+              66697A0FD765DC6A0BC067250B00CB8C041E612E9CA2355D439AEE323FF710E9
+              1F69D24F28A5B7C9CB00C027B1987A1B67024282E0CE4000E00D040040822100
+              00120C01009060080080044300002418020020C1100000098600004830040040
+              82210000120C01009060080080044300002418020020C110000009168B00D86D
+              FF700E983F6231BF09C007B237A92C14BAFA0B8FC422000A6FFED2DDBB7F7F2F
+              2B0C6820AECCCACD75E9ED5D3B7AA4C113B1F8C6DC7BDBE7F7F5BCF5E68B4A61
+              1E518829F3FDD7DAA55D3B7EF7ACB4782236ABCCDDDBB6FC54BB8E59C26600C4
+              8F5269DAB76BE7ABBB77BCBA4E9A3C119B00E87C73EB8F77BDB9FD75954A4B0B
+              405CF4AFD476BCFEDFF73ED576E77FF4151E894D00B43F7CF71BAF6F7E76951D
+              2631635F00C4472A9DA13DDBB6FC7ACFB6DF7E4B9A3C13AB8DE6DFBEF8F82F8E
+              9A3AFDB8AAEA4927F6B7D8FDA600D1954A6769FF8E9DFB5F79F9B1B39F5AB7FA
+              1569F64CECF69A1D396CF44385141D5B397AC234BB39A0354200A2C78E62ED97
+              7FDF8E6D7BFFF7A547976DF8C96D8FCB539E8A5D006CD9F26261DAE4F2D6ED7B
+              7ADEE074EAE4B25C45453A93ED7F12610061C64CA954C63C30F5EE7A4ABFBE75
+              C7836FBCF6EBB31F5B73F3CFE5159E8BF52EF3394B6EAC1E376EEAB26CF9F085
+              998AAA9955D9EAAC9BC37601841193D3B39FDEDAF5FBEDAE438FECDCFEBBD647
+              7F70E30679120000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000228EE8FF0181D3E947640A97A50000
+              000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Google-Photos-256.png'
+          end>
+        Name = 'Google-Photos-'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 1.500000000000000000
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              017449444154484BED933B4EC35010456D87B411080968A14194EC2150F06958
+              0CB002A081960236408D040551F8494860815901AE52219AD8052676E08C3509
+              8E625BAF401490238D2677E6BE8FC7B135E29FD2ED76D7E2387E088220948C5E
+              D5561F134F2EB2F01358F49824C93EF949747603134F21985D59887F4C34B98A
+              F688FBD400269E1E8EE63E5114CDDBB67D49C4A2C91DA2497D21358089A710BD
+              9D3C7255B4DEEE397B3B134F2199F97ACCF740168AA6BEA216234F29F2B2E436
+              61180692F3169A787E055B730AB75824AD939788B976BB3D59ABD55E1DC7F12B
+              95CA1D5338A1FF4E6CD05F2666F14CE179C3F3425CD03B257BE46F5838C32CCF
+              658EBEEF7778E46BF411728F7C2C5AEAD2175AADD607B55B7A87C8210FFA8CC3
+              A775FBF4802B9925C54D7E8F6B7900EA13F4B7F4CBBDD1F200590F8734B56C59
+              AEEBA2931D95A5E0DB15BFCA5CB29EF41D70B2FCC51A7C2C0DD16560AD33E33A
+              795B4B43F43CEC67F70F483B3F4C6FFF117F1ACBFA02B02ADC96FA71153F0000
+              000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\account-multiple-outline.png'
+          end>
+        Name = 'account-multiple-outline'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 8.000000000000000000
+            Width = 128
+            Height = 128
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000080000000800806000000C33E61
+              CB000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0B7F49444154785EED9D7F8C545715C7CF9BDFB33BECEF0516B040DBA5151405
+              2958D0B6A4698D31108D2958D3D4586B22A935DD26EA1F2AC5184D9A1A8BD544
+              638CDA96A0614D8C4DFA070946A3B455168AA1604CD196425DE8C27660677667
+              6667DEBB9EEF7BF3608185EEBCF766EEDBB9F7134EDEF0DECECCBBF77CEFB9E7
+              FE9819D268340A63548F81208430B60C0E466870B07A4625EE631BA43D7BF658
+              866108E79C5AC4D80215D42C05F510619B157511C44DE235E26C93EDED8B3BBA
+              EF79646B66D147EE1696D94322E2BC7EA489856171E0332C2B968C467AB287FE
+              B2EF97DFF82E9F4DB195EDAB1C18D9428B5FC7B8CEAFB4F7AF5F79F3C3BFFF4D
+              6B6FDF8784695F538A3297F94B1F25DABFEBA73F78F6878F7E8B4FB5B095D842
+              2D023F02C073EDB09FEA58D2B7FCDB437F4E677A96BE717AB8DC49D9884A9D20
+              2A02CDFDA125ADE2C3772E893DFFCC8FBFBF7BE763DBF9142241A845E04700E8
+              E7D26C9337DEFF8B27FBEEFEF2C01BA786CBC9646F5C289602D90260173F4CFF
+              14746F8BB5BA734574F0673BBFB7EBE9811D7C29D42288568F5E40EB47F8EF5E
+              FCD9A79EC88DBDD92BE2A346C458C84930578A42864C079E5D73DB22431C3D69
+              9C6ECB5AF7DEB5F9AE68BCDD38F2CADE3FF125880002081D5E05C045B605908C
+              C7E3F3DB360C6C2BB5AE68354A6FF3D985B8A61428B0C50A58BD20424B6F5C68
+              640F9C34863BB3D63D776EDE187611208C7B05E24994856829552C3FAFD3742C
+              5CB3C6A0A142E4D0D963E6966D03DB1F78FC474FF0E9225B922D544344AF8E43
+              01F05C4481842930F781D31A9745578AE0B1708AC04FCB4501A224A27EF288A6
+              E632113C12CE48E04700C08E04C5A2A5DBFF35B82A12844C047E238066068459
+              04414400CD0C08AB08FC0A405303614C0CB5001A4CD812432D000984A93BD002
+              90445844A00520913088400B4032B213432D8010203331D4020809B2BA032D80
+              103155045B1B24022D8090E18AE060832281164008696477A0051052AE12419D
+              46075A0021E63211D46974A0051030D81C1AA4D9DBCB0E4CD42D1268010448C4
+              3028CA351AB4DDB0EE36830E7224183D667EEEAB03DB1F7C7CA72B02ECCAE6BF
+              F02E023FBB82136C698AC4BA5AD76DDB9298D39DA6F229A577052FEFB1A82526
+              A83829A86C5A54AE04672DF3E61B85BF9F3086E75CB03E7EC7A68D825AAC7F0D
+              EDDBCF6F0D1F7AFECC815767417519B62E8A266F9AFBE891C1CC82659D62FC65
+              414956AB7270DD1BEC87529626CEFEC7F6443D76C9DA1E7EAD6075DC7EDC6815
+              FDD9C34F7E72150782737C7692AD82CBB502476A7CC3CE162689641719ED4B68
+              BC54A67CB16C1FC7710CC82670BCF9B0319C5D699C18B950A1B8D9C66F8E488C
+              28E049715A00816190212AD4DA3E8F3AE6DF62F7DD764EC00FA211E406C1588C
+              2DC2363E21A224442BBF3192412D8070609065962999E9A54C6F3F4705812FCD
+              B0437790068C18BF59C576BE9B087A420B20700C1256995273E6D29CB9FDB600
+              2E7A2D68A21C051C1F7A4E38B400EA822382248BA06D1E8B000A08FC23D3269C
+              EE3A5F0B207C5445907144E0509750E0D9F940BA00902CC59AD63861A332B5B6
+              CDA58EBE7E8AB2ABDCE410A3C43A8C146BC6EB2D7031FCCF03202A8E95EA101D
+              4387202312A7627E8426468E533AE10800E58EA317AF05312428B6DE288D9DCA
+              967EB7F53E32CDFFF2D977D9F26C357FFC5C9A003073968A116D5A1EA9BD1266
+              2510418CF2174668DFC1D7A962717460159CCE61A450FD9399D00C0280FAF1A5
+              4ADD2D448707308A510578DAA07F1C1FA5A7FEF86F1601D14B27884A15A74E66
+              44C0028023A501E5BF5B20BB2220081C9BDB0C2EA7A075FDDD34B0E9562A5604
+              9FE3C8E0B5190680540180E993A7E6B5386782263B7DC32DDDF4CD4FBFDF6E04
+              30CE0AAA35D258F896E482A0A89A61A1C86211ACBFB59B16BC6F992D88EA15B6
+              C6225D00681528368F98ECA30A86B2623EBF5CE69429D36BCF185E924763912A
+              001477ACC8D90B0F0573D5A30AE6963537C9DD8159B9386DECF4074EDD340A08
+              D20B108EEF7900B484C51D58DDAA9E500C8B13C3B7CE0BBB0B8844E354CC8D50
+              7EE4B873F15A9961B3CC030094B12BE54C8AA8883D0A2ABAF300CE3C41297796
+              7210810A0200C8015406C3C34B383386258E04632C027B64600B614ABFD04CF3
+              0000DFB1ABB25DCEA555C4462586D205007DAB6C57D3C0FD048CE20138AC3462
+              3F818374014C9D2553D1AE4D63F6134C1F85DE1BDCBAEF2410A2BEC063E23A46
+              B850838A6A4FF1F1BA3576692939F70E124324811FE324F0E4EC1E0560F6331D
+              23FAFCEA082594580EBE9A499368F7AB16152A5CA13315C199DDC2886D304A39
+              BD1CDC14AC7ABA4CA313CEC690EB77F35511E45E14F9D15E16C0DBB37F188802
+              ABB51CEC985B56947DE6B95D757410738788C120550060BAC44825AB0D160161
+              88D845EDBD3754CFF9A3E65B081AB40095AD765804FCBC747A3E3FC6EF75F843
+              BA00125C06E4045810C2510573CB8AB27BA550E0FE2300F8363C01E1F84E023B
+              7908F4872FC6694ED2690D38AF026E597325A2CFFCBA4C591E0ABF771258A534
+              248CD6F5467EF8F5ECC84F567212589ABD8B41A884BE8CDACBC1A7F335EE0A0E
+              5800D2AB1E6361EC8A55D15076D9488D00009F96F17C17B31D6EF9662DAD1F34
+              5B04A870055C394E56C66A757E1D902E003700A86AB25134FDD2B84817C074B3
+              632A996CBC4621DCBAEF2410C31FBD1CCCC75ABCD00CF30028B0C9B79A8E137D
+              E5F6A8FD29611527828A3C14FCF92B2615CACEF70628331184C2EBE56087992F
+              075769A661200AAC9783AB952109A90200D325462A996CA4DF025A00B687A968
+              B25B3F902E8014A700D80FE77C79921AE6961565970DDF8627201C5F496085FB
+              410C817EFB408C3209A735A8360AC84F12DDBFAB620F8563AA2E07F7A4D5FE70
+              E8B982E2CBC11AB9488D00007DA1CA2019AC89668B005766C6AA996C7417A038
+              5A008A235D00D3CD8EC934D546245C647960F883859073E3E131CCD3AB240229
+              A300543096835BE2445FDF18B53F25EC4E8EC80209194624BF1AB2E8E81961DF
+              5B1892B4ABD0CBC1F5E5A13D157AE198A04EBE3788347434DB72703624CBC1A5
+              EAFBABD60548150008DB2F86A8E47CC04596CBD449913018FF530AA90240636B
+              4DF04DF003D9CBC1F1EAFBC7D854120117D713108EEFE5E0B61467DD5B62B608
+              C2320AF8CE5E935E7A535086EF0D1FDE0C1DCDB61CDC9E0CCF7230EE63AC885F
+              FE962BC6EBD26C8B41D80D8BF01B1643145009AFC5E5AA0A6639386CF51DFAFE
+              BFD922002A3C4CA61AD205A0918B1680E26801288E1680E26801288E1680E268
+              01288E1680E26801288E1680E26801288E1680E26801288E1680E26801288E16
+              80E2F815808A7B28C2862F1FF81140F58D2B22954A98CE63AD87FAE3D4B153E7
+              177F71C073C5FB8D000699E6442577E60C8D1F1094A8E9EB8E345E401D735DDB
+              75CE75CF677C6DABF423008B7508871772AF3EF7B748D75AC3B216F139AD81FA
+              2108758CBACE1D7AFEAF7CA250F541CD9B415DBCAA07CF4BB175B0F55134B178
+              FE832FECC8ACFAC44A73F46521E235FF128E660618E5A811ED5E6FE40FEF3D72
+              E6B9CD3BC89C7C8B4F9F663BCF5664ABB9DEFD0820C186ADE173D9164692999B
+              BA3EF5CC17E67C70EDDA48C78A68683F58314B41E76A9D3F66E65E3B70E0DC8B
+              5F7B964A796C07FF1FDB081BB6844FE2CFD86AC28F9BF0BB976936270A38D613
+              9FF78115E9A5772CA3443A4396D0C3CC208818164D16F28537F71F2FBF73E428
+              9F39C78696EFB67EFC8C6885AD66FC0800CEC5B73B200A74B2712488F612996D
+              FC18DD4392CDC78FA36AA600E796D838CC47C7B88ECFF263B4FC2C1B5A7F99CD
+              531EE04700786E940D5D410B1B1CCFD120DACE675BF9718AE316AEE3EFFCBC8F
+              CA20A40B320C0CB38B64D2383BFF023F46AB672110460108FDB8EE29EFF2EB98
+              A922408B8710D02DB8AD5F0BC01F8E001C07BB5100E11E8EC7635FCE07413806
+              AF81EE00CE469700BBD2F95A00DE700530550408F730FC1F61DFB3F341508E71
+              5F0742C063F7A81D1F0CAE085C87BBFDBD2FE7D71BEDFCE0D075A9D1680287E8
+              FF726E80CB087AD3FA0000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Google-Docs-colorfull-128.png'
+          end>
+        Name = 'Google-Docs-colorfull-'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              045E494441545847C5976D6C535518C79FDBDEAEB47BE9EB2C43707692996C06
+              7186B9F986CB12E3075114A221EA26186374E1839F4C34F183C6257E51840F7C
+              30123453E31B31C4F032A403353A309019C28643948E86D1EEA55DDBB5B7F7DE
+              DEEB73CF396D77DBDB29A364BFE669CFF927BDF77FCF79CE73CE85E58663BF79
+              BAF7F479EA5A6EEBC9AAEA03A222B9995C164E357160669D059C3BF8D3A9D0EE
+              A3EF60334515637406360DF66F9B15527B8399882326CE83CAF4A5E0996A50E3
+              23BF7C1CDB3FFC3A76CB9AC87BDF34F8EEB64BA963037F26159B909598BA74EC
+              2DB55C75D5DA36D52BDD228C848EA3647851626043FF0B9EB05B190C262D36A2
+              5600BBB316CC8D3C6733F9DB548FEC13FE0805502E3161D2BE9CEBEFE8B99A8C
+              39885261B80D1CE7EEEC7AC9D9DBB90BBBD5542D400CC4E4E483929A25C2CD20
+              6FE2C5CE8FB0AB33410C2465C9457A15A4388189898EAE1DCE9EFB7663376F82
+              1890F153696421C35A058889FBBBB72F344192D0F36C7B6F4216FC5ABB528829
+              013859C1B4CB425690F2A1B825CE2AAD59AFD6A47DE2857080D401FF777D8188
+              10EB22FFAC206A560125340720948EB02D14FF3BBA6F783335F0F56B818834A7
+              33F0B0AF055E6D7E94F56E0045855D835FC0AFA1512650564C24FE89EDFFED49
+              9A0326A5A424AFB17B60E3CA5698989FD6459BA7097C3667895E2E36AEBA0B9A
+              BCB7B2AB166005C1C4939FACF1128C6692F0C6D901D6A3AC7335C2CF9131E83F
+              7780298BF3F8EA7B59CB18B60A96018EEC431C1D8132DB8E9DAF2A79028FB506
+              9AEB1AFEF3C97268D758048ECC7DFD57DB8752B2F8089118CFF91F82BD1D2F43
+              5C4A338552C3AF0019ABE6FFDDB0EA707B79E5FB0F6060E4185328FCE56830F9
+              D9EF4FD31128B3EF5E999F81D683DA6E5AE070F75BD79503E79FF890B5F4E46E
+              4972605930E14106A780185015F546CE1E4B82DD91E680EBF3DE8008B2AE10DD
+              EC1C30056313A94F4F6F29D4018373DD4C26013B4FEF633DCADBEBB6C2E85C08
+              BE0D0E336571F6B4EF602D3DF80C0B97A131B832E087D019D6A3F4DDF9188CC7
+              274BF472BCDFF63C6B1543E680E6C07242474046370653E0C2A253FC044DB53E
+              B09A2DE0B0D899B238DA358CC0CD994C01B9ADB5C3BF5571589BB5760E176F07
+              6FD6060EB0EA62726E1A92A9F912BD5C5C9EBD06C72F9D81602CCCAE4C315F8D
+              85E5B1C801B20A6C9BEF7ECFB4A5F54D204B93A2E23A51A7F0DD20AA5F051501
+              B7E8ECA1B11FA5B3A19D2407D24317BF31FFA53F4371B842B9FA6AE05C153BA9
+              E731CF8AA2347AED2436A7E9CC67A4889248D6F3DE867670E330D0F2404C80DD
+              421C1B9D6AAE1B1C552E2DABE2E1F3479470F24B542EE6524F5526E3A794787C
+              25DFC8B74095DDAC9A351F2C34135AE94A2FD184F65F3C1BC26C5ACC1CB97054
+              199FFA0455AD90A40B934E71E1133FC5DFB3FA19F5F6BAB5F86EA51FFF19CC87
+              1459BF0016564C8BC1BACE5A7954113F93892BCA78640847F2044A23187858C4
+              51D6BE8AD046C58BB10AA3E44D0631BEB1B19ED3B4DF044604238AC18612E05F
+              9C2DD469F328760A0000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\Apps-Google-Drive-Sheets-icon.png'
+          end>
+        Name = 'Apps-Google-Drive-Sheets-icon'
+      end
+      item
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              055F494441545847C557DB4F9C5510FF7D0B8565A15DAE0B6CB9DF595628974A
+              E3535335B16AAD21C6A45E30C5C4BEF0601A4DFB07F4A18DC668820F3529262A
+              3556531F8CC4A4093E604CBCB415E47E6DA180BAB0605AD80BBBFB3933FB9D75
+              29B4A52DE82F993DBF9C336766CECC9CC3470CEE8C46922748E2489E243193CC
+              90DC0BF7B54F334641CCBB73EF85A0D530D72706AD03AD99F5AF7FE51E39F742
+              6A5955676A97286D02FD4FBB0FA87D8EB63F2F6B45957FF3BC097A4FF0ADECE3
+              A26420967FAA80433A903D180CD61E7F7EF7FED555A0FBFB058C8E8E223333BB
+              8CC79AF892030D7B4B100AE90892C81824A18D2C013A4B906C4DF54FD2BEB1C8
+              BEEACA927A4BB50D713B347477CF981CC01B74EAB97EE01BF66DE21FDA6FFFE0
+              C285B3FBED31E27C65454782C98BC3DFFE01976E963176F516DCF37E2CB87C98
+              FFCB07170B71D73CC9821F2E37C952002BDE9BA2DFE78D9771C9EF85DBABC313
+              00D83EFB617FEC97A102D0749D4E15202D0315757BF05A730B0A2BCA71E4C566
+              14399CC6CADD612D75A2F6995761292A47D5E1A3B038A4A202B6CF7ED89F3115
+              0E80100E808FBF8D60FBEC87B036008E28140A2118958173FB4C782E07F8E8D1
+              209EB507D156B78C83593EBC5FED3634EE1F6C9FFD6C9401132F4467E0F12F66
+              F169FF2D1CBCB880F3C35E34757AF0E578102F6DFA2EAC07DB673F04E5374CE8
+              675D0F14E467C16A4D426E8E0DBB7626C29E958EA4440B6CE9A986C6FD43F500
+              FB33A6C201D0F5911284827C91B60F6C5F4A1D1580A00278F3EBF676FDC353A7
+              28C0ED03DB673FECCF701DA945B8092942EE51D2DD7A21BB6CDFE8814806E425
+              A445694209C0D870B1AB4B465957461E40182D4D4DE25105C0FE6481A0482400
+              8E2F686C2C2E2E4651515184B328AEE67954BCB0B050447135CFF6C4EEBF1958
+              1B00B9D3785165C050DA32C8A9C96EC4475409D667801589A7A4A4C0ED766371
+              7131C2596E9FE751F1A5A52511C5D53CDB13BB6C3F7CB84806223DA0A2134512
+              DEE8CCCB13A5DE6BD7505D5020FCEAF8386A8D52FC3A328286B232E13F0D0EA2
+              B1B252F88F7D7D78CC19FEDBF1436FAFD8331901B06CD403915BC0CA1C3123BA
+              911E86B33DB1CB070CDB5E7F0B54749C810029A51C3B86297AB9FCF47CC6FAFD
+              E8EDE8108309F1F19205E616B359B2C03C91386741784282644105C0F662882B
+              1FEC4F160877EC0146D991A7E06C3E24BC8ACAE1CCCF87C7E7433575780D75F8
+              8AD78BDA9212D49596629978437939F6565460D9E341A3C3817D55F4A943B85B
+              0F08E188360A201A3CCFF220FCF6006876731918F9FC3BF47D225F4E189C9EC6
+              C0D414E2E3E2D0474DF9FBE424CCC47BA81CBF8D8DC14CA5B942E5B83C3C8C04
+              2AC72F548E9F070664EF3D33401D213DC08BBCCC0DB378F62C6C9D9DC8B97409
+              81F3E751969383F2DC5CF8A81F2AA9140EBA155EE24E2AC523742BBC549A1A2A
+              C51EBA151E2A471D95A2DEB8156C8FEDAA43B23F592008E1944467C088529A48
+              35D2C37039187175489A5D1B00344D0288281A018CCFCD89304667663072E386
+              F0212AC5E0F5EBC2FBA9147D1313C27BA9143DF425CCB84AA5B83234245C9540
+              F9607FB240104253711CAD0A8025D162A10F9044919D4949F451B213D65DBB90
+              6CB522253919A9F450A5A5A6223D2D0D19E9E9B0656420D36643566626B2B3B2
+              60CFCEC66EBB5D44D964FBE227FC4F8B4095C0ACA2DB418D95480EB75AD8AEF2
+              C1FEC43B415EA43C4D6B6F3D79F2E8ECEC2C3C7487B70B09F440D929236DA74F
+              7F3CA5EB2D3C2701E46ADA67AD274EBCAC691A4C261395283C46F3E891251AAA
+              E1541923E58CE2D13A6D67CE744CEBFA2BBC972D593334ED6D2A4A094FFC17F0
+              D313E3D2F57788DEE400B81EDC14F1243B48B6137C2F7D86F027388FFF27807F
+              0062BFB4C047FDA79C0000000049454E44AE426082}
+            FileName = 
+              'C:\Users\asovtsov\Pictures\Clips Store\fugue-icons-2.9.3a-src\bo' +
+              'nus\icons-32\calendar-blue.png'
+          end>
+        Name = 'calendar-blue'
+      end
+      item
+        MultiResBitmap.Height = 128
+        MultiResBitmap.Width = 128
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Width = 128
+            Height = 128
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000080000000800806000000C33E61
+              CB000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0FE749444154785EED9D799C14D5B5C77F55DDD3D3DD0C8B30CC00CAA2714730
+              2A1AC101098CC04344D48023EE0B84F0417D9998A74F59940C0A44218906891A
+              344AD0900726911883860FCB804040873513649B0D9885597A7AEFAEAA776FCF
+              250E43F7305D5D55DDD5555FFFE8BEA701ABFAFCEEBDE7DC3AF7362749120713
+              C3C2B3571383620AC0E098023038A6000C8E290083630AC0E098023038A6000C
+              8E290083630AC0E098023038A6000C4E521E060D2BF2F5E3218E84240E06872B
+              2509BD388EEB02084EF647D21C4E1425DE45EEDBC5F3D25148382449FCF62C67
+              73F1FA677A79D91FD204CD0430A2A8718020591EE2C01550A733B3C959788392
+              E8D8009E5B293A3BADFDB290F3B30F54437501E4FDCC7DB5C449CFD7E1F4949E
+              C8B632B3C97990103E05895FD2C9E15DA6E6A8A09A00862C6AE89219B4BE58C7
+              9D9E653A5E3E6148E5160E855B5FE8BC9699144515010C9BEF1D22F1E24716E0
+              126632491869A5640BCCDCFA3FD96E665004C5059057E47908F0BC05386DCC64
+              A210A28483E02CE3B7CD76943353C2289A0692F9BE10A859613A5F1D780E57F3
+              0815D3B88A991246B11120AFA8793AF9E796B3A689AA88952232F29418091411
+              40DE02CF384835EB809EB24794EE9D380CB9D812193B8ED48AD85721B24FF48D
+              5AF745A7032ED37F73A23141C20218BAC0DB8793C412E2F96C668A9B078665E0
+              B11136D8ACDF5ECA812A0173D7F851ED9298457FA87F5FD2CAE2D99D49CC259F
+              8463005E129727E2FC49D75B316354E6595F1265E085162C99EA808DA4127A44
+              9BFBE21EC85BD03C8935649190006E59D03C91DCDE04D68C1B12D4E0F15B3359
+              EB5CFA67F3183B587F4B089ADE97C42D19F3EA29D94BE8B20530E58FB4F3732F
+              B3A62CFAF7E071019923DB63705FFD0D011ADFD700AF2F6B067B1F37B2055075
+              A879124D4B58531EED7F47FA45EBFBE284C2A14B243B6BC585FC29409064ABEE
+              0CE5A745347ADB0F86F65508EC9D7ED0FEBE2C7D78AF67226BC4852C0144227F
+              FEF428D6948D4032A277370759EB5C2AC817F9D9BE306BE98724DDD703EC352E
+              6409C0220924F0939FF3B766CDAE10DED918404838BBC7FCFBA480C20F7D08EA
+              CFFF11B4BE2F0FC2F972A60159EB007945AE55443B05ACA908D9591C6EBC842E
+              9870385A2BA0A44C84129972B2D1F2BE3811F95BE6666D60CD0E214B00438BDC
+              87CD277D2988243D5F3CA7F342D6EA10710FE37498B1A076006B9AA410A42BC7
+              5D6915B700784F733FA5E67F1365E1442EEE8E19B72325C9DA85BD3549353831
+              6EDFC42D000E62167B6B9262081CAF850060D6F7A52824308F7F4A67AF2606C5
+              1480C1310560704C01181C53000627EEA5E0BCF9EE7C229BF5ACA9199DED2DE5
+              5417F7E491DD998BACAD53DC0109D54D128ED4883858252090620F8F065EC8E3
+              CEEB33580B91EBFCC38E106B29CEF1E2D959712DD1A7B4002C647C1A3DD08A3B
+              BE9B81C17D79D26EFF528361093B8E08F8A424846DDF24BF8E805EEE3B8F3B70
+              79AF6FAB7FB61F0EE3998F54DBF319B70052760AB8E9120B56CE7062EE9D765C
+              D7DF725EE7536801E6F02BAC587CAF032B9E70E0BBFD925B4E76FFB08CB39C9F
+              8AA49C00A89F67E5DBF0DA7D0EF4ED2EFFF2E817FFFA83763C799B2D3292680D
+              15EDE3B7A6FE06A994120075FE4B77DB5170B30DDCF93BFC79E1C83F72EFF76C
+              7879B21D191A76C4FE3D3814FDC00E6B0746AD64935202F8F1581BBE7F55EC95
+              E61099E3E91CFADB4D412C5CE7C72B9FF8F1E68600361C0CC34382C158DC7299
+              15CF4E885DA6AD24175EC061E9FD0E7475A4BEF32929238091575A306948F421
+              9304AAF8787708F7BCEE8D0450EF6E09625D49187FDD13C6EFB7853077AD1F77
+              FDD283159B83E794609D61DCA00C8C1DA4EE638C8BB379BCF1A003395D52AA5F
+              B54B4A5CA99D64494F8FCD8C5A4D4D1D3A7B8D1FAFFD2D807A4FEC5EEE0D2222
+              80A757FA628E063347DB22FF2F35B89ECCF9CB1E76A0A78E9C4F4989AB9D7443
+              067A768E7E298BD605B0A9B4E329DDDE0A11F33EF647468DB6F4C8E23181A494
+              4A33E5A60C2C996A47679D0CFBAD49BA00E85776CF90E84E293E1496553EBDFD
+              B0800DFF8AFEF7FE4BC1AD66173839BC32C58EA7C664C26AD19FF3294917C0B5
+              FD78F4EE76EE65D0FE4B8774B9ACDD157DB5EDF25E3CBA11C7250A15D207339C
+              187EB9BECB23922E806124428FC6A193020E9D92BF977E7FA51859196C0B4D0D
+              2FCD957FDB7469F7CD471C7861A23DA690E8F4F375993E7634255D00B136496E
+              4D702997EECEA96D8E1E0CD25AFD781990CD611119EE973FE2C4A08B622F2AF8
+              8212E6AD0DE0CF5FA9B6DEAF284917C07292C7FF6A7D007F2D09A1F484007FA8
+              C569FB2B13EF416274FF93F99ABD898391575A710B19EEDB5BA03A5C2D60DA0A
+              5FCCF8231549BA004ACA45ACDE19C22B24DA7F827C7963167B70DF320F89E613
+              17003D9E251A2E5F0C65C884A6AAEF170723CE3F5EA7CC11305A917401B485F6
+              DA8A7A898C04CC2093BEDD3974CA8C2E8032059DB4FB58188FBEEDC55B1BE922
+              1433EA88941380528C1D143DB5AC7189283B9DF80870B446C0B37FF0E1E9DFFB
+              49AF577644D192B41440AFAE5C6471261A9FEE496C7EFE86CCF32F7EECC7C36F
+              FB120E545381B413400F12E1FFBCC0016794E19FCEFDAB77CA5B5BD85F25E2C9
+              0F7C64B8F7E18B036192EAB10F744E5A0960F4D556BCFB84235236D616EAB0A5
+              7F0F101130439CEC3A26E826B78F07DD0B8046FA775E4F1C3FCD11A925E89E15
+              FD967E47A2F4CFF7EB273DD30ADD0960DEA44CFCEC1E3B96DE6FC7EA594EFCF9
+              BF3BE1A7E3EDB82C377A721F26291A5D67786793FC65E57446570270D880FC81
+              1991A2911B2FB6A24F37BEDD8519BA96407373BACE60121D5D09A077D7F61DDE
+              9A66BF84AF8F0B91256193D8E84B00DD3AE87D42673B878787DBF0BBE94EFC92
+              4C1757F4D6DD6CA7093A13C0B7972B8812DCA49707A23CF16B0D1D316E20D3C5
+              5B8F3AF0709E4AE5403A465702A00730BEF4B11F53DFF460D4420FC6BDEAC168
+              F23AFE35377EB2CA87BF7C15FACFC3A4B6D07D05D34666E2C763B5290ED50BBA
+              12C0CEA3023E3F10264290CE9ADB696EBF837CB6F8D300EEFDB5171B4B63A77B
+              F7DC9881C93156098D48DA4D8CA7DD1266FF9F1FEF6D899DF6FD68940D7D2EE8
+              783C91CEA49D00CE40F3FE3FED8E9EFED12D648F9200D1248D0540F9D5E7019C
+              688C9E07D265E32C59E76BA717692D007A1EEFCAADD1A7023A0ADCFC1D7D1774
+              2A415A0B80F28F83E1C87270346881A7D149FB6FC013683994211A89EC3E4E17
+              0CF10D5435441F0194D81FA0770C2180D88B43EC8D8149EA5740376A5E9AC363
+              C41516147C2F0385E332F16A811DD3462A9BA2C5DA10EA37CB03922B80BB8764
+              E0BDE94EBC3CD98159B76546DA375F6A6DF78C0039E4768D7E9BF5EEF69F2318
+              81A40A80AEED47A36F0F3E72D0821264122D5D16632B9892E5E17A25A9023858
+              25462DAEA4AEBFED1A654601BAF7B0EDAF779E4189CD277A27A902A0073ED032
+              EB684CBC2E43D616AED650B74F1D1A3D00A08F92BF4AC322CF7849AA0028EB63
+              146AD26356684C9008F4E089ABFA4457D1DFF78574FB8B644A927401D04DA1B1
+              8E749976AB0D03B2E55DE2B5FD2C9123E2A241B78DAFFAD2AC13A4245D00CD7E
+              60E5B6E8EBF50E1B87D7EEB347F6F9C5C3D04B2DF839492763CDFDEF6F0DE9FA
+              67E99524E902A07C487A63AC5880A6706F3FE6C41DD75923E708B6075DD9A36B
+              098BEEB5FFE72CE1B6EC2917F0418C0744462425041026D9182DE288F57BBB59
+              760ECFDE6EC747339DF8E1F76D18467AF87772F8C8A10D832EA2073F59F1D25D
+              9958F3A4331237F0314A8769DA494F1C332B85BF25A50E8BA695BB4BA73AD045
+              85D3B6A8F3E91172B14E0D519AFC8156BC78971D2E970B5BCBFDE0F996E28306
+              92F9D0F4570D827E7FE3C282DEDD59B343A4DC69E1FD49AF5E3825B17382DBF2
+              E5E130E6FFC91F8937B4820AE027F9216CDCB81135DD462083EFCA3E5107410C
+              A3DC75F2A979B7F77D83993A444A4C01AD29AB93F0D83B5EACD9158C947E2702
+              ED6D8BD6F9F1D38FB4753EC5EBF560D3A64DF0F964EE468D034122CE6F3C5518
+              AFF3292927008A8FC4684B3F0BE2A1DF78F1C9D7A1C8C14BF1408F6979FDF300
+              A6FCDA834F4AB44FF685A01765073613117899453D4449406563DD73F3EEB8E8
+              17CC1417BAF8C5109BB5E528D6417D5B7E312487FE624826072B912FFD8510DA
+              D3AB1AC4C8B172740B7732CFE911423E341DDB0C31E86116A0F04777C26E557E
+              0AA0CEAF68AC9B3B67426E1133C54DDC02183EDF3D4AE2F1056B9AB4420CF923
+              CE17826E6669410D0148924886FDBAA2391372E632932CE29E024488EA8F6B3A
+              440C07D0747CCB39CE5703EAFCCAA6DAC5893A9F12BF00385EFD3BD419623848
+              9C5F0C21D0CC2CEA414F212D77D5FDE285DB739F63A684885B0082553CC1DE9A
+              104421081775BEBF8959D4833ABFCA55B36CCEF89C42664A98B805B0F37FBBD4
+              9310AB8E350D8D288488F3B722EC6F6416F590C87F55AEDAB79E1F9F3B8B9914
+              216E01507851DCCBDE1A164908C355469CEF6B6016F5A0CE3FD55CB3E2F9F139
+              339849316409001CB791BD332492489DBF0D616F3DB3A8CB294FF5FBBB9B73A7
+              B3A6A2C81200C91D35FFE5D054411205E2FC2F11F26A330BD67A4EAEDADDD4EB
+              B1D5934902A602B204B0656E979DA28443AC691822CE2FDF8E90A79659D4A5D6
+              57BD7A4753EF87D4723E45DE1440E021BDC7DE1A029A7BBB2A7620E4AE661675
+              A9F3D7AEFDF068EE036A3A9F225B005C86B89CBCB85A5AE90D757E73C54E849A
+              4F318BBA34F8EAFFB2EA4879C1AEE950FD41866C016C79AE6B23094E653D80D0
+              132DCEFF27822E6D963F1A7D0D9F7E76F0F4945DD36FD0E429966C01509C0EF7
+              62F272BCA5957ED0851777E56EE2FC2A665197067FC3175BF696FEE06F4F5DA6
+              59CD5A420258FF4C2F2F490967927025798FDF5422E2FCAAAF1068AA60167569
+              0C346DDC75A27CD21F0B876A5AB990900028C52F74FA0C52CF5759332DA0CEF7
+              9CF81A81C632665197A64053F19E63FB277EF0E0B59A3F684B5800147F6ED66C
+              0958C79ABA26E2FC937BE06FD0666673F91BB7971CDB3FFEB78FDF9294876C8A
+              088046AB9DECEE0292B06C66267D429D7F6A1FFCF54799415DDC7ED7AE7DF547
+              C625CBF914450440A1F180D3E91EAFE791C0537D00FED387594B5D3C7E57C9FE
+              EABD637E33F986A4A6D28A0980424510C8C9BA9BA487243BD05760E8A93E085F
+              9D368B9BDE906BEF015769FEB2A979EA3F463C0F8A0A8042A783E23959CF81CB
+              99409ABA4811BD35A5F0D596B296BAF8C24DFBCB6B8EE4BF71D74DDA3C493A0F
+              8A0BE00C343B70DADDD790A0EAC530C9729839E5F0D6FE9B08E0206BA98B3BEC
+              292D6B2ACF7F79CA7529534F117751A81C862F6CEA2685F81922B847780E9733
+              73D2F1D57D1309FAD48616850A92F550657DF9C805775FA5CD7A7207D14400AD
+              1936DF3B84E3843124E21EC9F1E1C1802D877DA42981C60A3457FE93B5D465E6
+              B4D1476B9A1B46164DBAA692995206CD05D0163A3A84427CAF0C49EA422EC74E
+              4609D5A6A5D6D0322E2D4AB928FDAFA82F5DFBC31129D5F3CF9074019824174D
+              7A9B49EA620AC0E098023038A6000C8E290083630AC0E098023038A6000C8E29
+              0083630AC0D000FF0FA986397EE18856A60000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\google_calendar.png'
+          end>
+        Name = 'google_calendar'
+      end
+      item
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0414494441545847C5975D6C145514C7FF77767776B72D8B34228AAD11154348
+              D02AD0406C8D522C0D690B566BD68F4830812889411B229A2024E5C98884188C
+              1F0F585FD44462FC201209F840159BA2822F440849F93008B52EEE747776E7EB
+              8E67662FDDCEEE76778AD6FEF661EF397377CEFFDE73EE995966DB36C3342289
+              EF6963DA054C9882E65EA5913316076377316ECBC23D296C8033899DE39C7D71
+              6C7BF521E1F6502460F96E3B22A9A9F718D8B3C2F59F60737ED808213EF85A2C
+              215C2E452908A8A3FBC607EF6808E2A9E52161F9634E8C6173AB8C3B66E76FCF
+              246965C0900E2CF90041E172F10868EE4DAD20575C9808D2D52DABC3D8D412C6
+              2D33FD1F968EFB42E86E94F1E432AFF080846591E1D44661BA780470C9F66CBB
+              C981B70E6A78F788863F9294519F7C7DC2C067833A3E193084278FC5F18C18BA
+              786AA0A9373540921A85395528DF6FABB9418CBD3B60331E11C3292305D373A2
+              3C02CAB170AE84762AC8871604501316CE32B42D0A22E66339150584A966DF8C
+              47F0FEFA28D635C978B53D82FD2F56A3E9EE809851CC634B42D8B62682D9B1CA
+              EBAB38E3B907652C9D1740CFC75974EF55D1B9278D93172CEC581BC1CCA89824
+              708AE9693AB29B57F9EF5B1505DC7F7B00FD672C1C1FB25C5B37814F07744465
+              867B6FCBEF425D2DC33BEBA2D8F8B08C13E77373FD5051C0867D19ECF83C2BAC
+              1CD7B63699C91FCD457539312FF465F0E5CFA4D2279593447011E7CE9B243CBA
+              3888975685F1C31913BF5EA046213872CAC4A68F32387529EFF3832F010ED554
+              F97D1BA2E8690B2344BF72028EC749CDF5E05B40969A5ACB1B69B4ED4AE32BEA
+              74DBA908BBA8DAFF2DBE05500B755799D680BD87759CBD62A17BE9140B90A9AE
+              5A1606317F4EF1B48B091BB3AAFD3FA026A2AC00A79CB6B687B19E7AC1784224
+              CCE98C437F4EAEE04A51568049C779FF7103CDD4F59C778218351EE7BCF77651
+              979BC1F061BF2E665E3F9EA7E1033B95938C49F708D345A2ABCFAF90F138E55B
+              0EE6A60E2B1C7BBED570F474E986B378EE289A1748B86AD482176C926A6A075E
+              7EA4A65398058FE39DCA2FF4EAD2204C0F559485FA5A0959D3C6C5BFECB1DE50
+              88994D2239D48F784713E6D5D7096F0ECDD00F8D0E5F59DBF344FD5867F3A4C0
+              66D2EF6258844ABB7DFA32C7F99172C11537B86D15A7C6E0FA77493DD1353EB8
+              43410DD8DF88C1A431B55124CF950E6E72F3E8D54CA2734BEBCDAA708DE111C0
+              AB6AFAE8EB6CCEF28FA5A5A0382B37A949146070EBD848E2EFF652C11D3C027E
+              EC6194629B0A844F988A422C3DEDAE9C9BDE079683C5CDC1114D59FDCA9A1B53
+              C25544D1311C787DC66F7A000DB0EDDD748B4BC25D12CB50DD9C7323233C79D4
+              6CE6A72C4BB76D5D394B11AE924CF8CFE81AADBB2E5765CC68E9378C24553C7D
+              4A716B3AA21E7C7B7EC5465151C054539482FF17E01F2F6E7B43D7EE159D0000
+              000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\google_calendar (1).png'
+          end>
+        Name = 'google_calendar (1)'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00B8494441545847ED94010E40300C45C7C91CCDD1DC8C952DA1BAE9DA8A35F1
+              9285917D6FA502C1AA1C731C2AA8D0D6A192C821AD9C1FAE92D00A002A090B01
+              402C61250088242C058066096B01A02831A4E3991C42DDABC195BEE48EE9D815
+              B5526A20733FAF804620EF88DC1997CF2BC0E902F1EE1238C75F17E03917568E
+              EB2E58E2988E535B58A58BE4EB2511BC0ECF775C7F844FAF809B7343BC10C1CA
+              F9FF842E3E424CE9BE689DCB0A48E9B302B52E788B9EBA20840D3B9187AA4000
+              ABB60000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\presentation-file.png'
+          end>
+        Name = 'presentation-file'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0189494441545847ED97414EC240148667A6B552087BB98106D26222BAD4852E
+              E016DCC01B8837205E805B88892C74E14259684988AEF102180CD5883376C657
+              6A6C0B53A891C57CC94BDF7B7D33FD336FA6C9602401630C771F7A4D422775A4
+              ADE5211DCDE7C78812BD55295BC7186306D958A404DC394E95307C0EA11414B3
+              DAAE6DB7218C85C0732698A2BD6F8F76323AC9EF942D1C65FC1DAFE195C198D9
+              4809F0F13A71532A955E210CC1DFF11A08A598B680F7B9D77F6C4EDEDDBA9EC9
+              CEEEF3824CDEC6237DDD6C59C5ADE9FE980A70FA4F554F46A23E2F0EAED9C54D
+              B13F7EB48049F52C1D826F25DA037FC1BF0B08FD07DA979D2B77ECEE43982A66
+              D6BCAE1E1D1E402858BD15E8DE3B0DEF889C40982ADE513FAD6CDB0D0805522B
+              E00D14F69BA4F928E60A78190ED1F360208CFB3E49F371A863A80428014A8012
+              A004ACBE0042829265FC38E65664733964188630EEFB24CDC7315780A66968A3
+              5010C67D9FA4F93842021841B7E0A64ED4DC210115CBBAA08C9DF16B36A49687
+              5FD9BD39F9DC900110FA02417C9ABFDA68F62F0000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\trash.png'
+          end>
+        Name = 'trash'
+      end
+      item
+        MultiResBitmap = <
+          item
+            Scale = 2.000000000000000000
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              027D494441545847CD964F68134114877F49369B4D530A222821FE851E72A88A
+              820521D21085A00515D4E2C943417B11110A7AF126DE140F7AF1AE7852F4521A
+              046DAD549A12A2AD624051AB09D52AA589466D76B3EBCCEEA4A9D94ED290DDD5
+              0F86BCF718663EF266867581C34C2E17D180AB6EB8BB59A929DEBDCF8E4623BB
+              A32CE5E266BF265AD99CB2F0BDD033F2747284A55CB802AD6C5E6135125C01AB
+              682461BB00A59E842302149E846D0281363F8BAAAC24619B4028B87E5512DC77
+              E0636E96DCC4D6F9F1F337198B2CABD2BD23ACEF6DFB19686F93C8F0B1CC8C23
+              87B09E8463B78027E19800652509470528B5128E0B50A84485A56B983F161B26
+              3A71965A8A12DE8EE2C00596196C0A056BAEA14D9B5384CC148BCCFC93162CA7
+              DA82BED85F2F9F27BC0DDEBDFB01B58CF2741A726A9C1405F80EF501A204ADB0
+              0025F50CEA6C569F2FC60FC3B5769D1EAB6F339093637A5C217FED368B0CCC2D
+              A8418C1F814BF243CDCE403C7E12DE3D51089D6178A307A02DCCC313DA8CC0E5
+              1BF06CE9842BD00EA9FF2C2097F4A195CC4F2F8FBA2D2867A6514A3C4069E81E
+              84AE9D7A4DCBCF93FC2E7EDDBC82C5FB77E08D1DD4EB14E5F9A4315EA559A531
+              7505BC917DF00F0C423AD10F79FC31AB56D1E63EC31DDCC032403A754E1F42D7
+              2E56694C5D01F5DB1C9437AF51BC7806CA548A550DE8C662EF5128134F580528
+              9E3FAD0F253DC12A8DE10AA8B90F904713901F0D41FDFAC5A891DEBB376E45C7
+              AD61042E5D47F9139933F690F4BC44DAF5529FD32CDC5B60354DDF02A7A80AA8
+              48B0C8720A3DBD2C32B3D4825A922F3296B5C4270A58D311609941A5055C01AB
+              BE0979FC8767A006156A928596B37C6DAE00F97F06ED90A06BD2B58D0CF8032D
+              06E622B3266B7A0000000049454E44AE426082}
+            FileName = 'C:\Users\asovtsov\Downloads\pdf.png'
+          end>
+        Name = 'pdf'
+      end>
+    Destination = <
+      item
+        Layers = <
+          item
+            Name = 'Item 0'
+            SourceRect.Right = 32.000000000000000000
+            SourceRect.Bottom = 32.000000000000000000
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Item 1'
+            SourceRect.Right = 32.000000000000000000
+            SourceRect.Bottom = 32.000000000000000000
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'account-multiple-plus'
+            SourceRect.Right = 36.000000000000000000
+            SourceRect.Bottom = 36.000000000000000000
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Apps-Google-Drive-Docs-icon'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Google-Play-Movies-icon'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Logos-Google-Images-icon'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Google-Drive-icon'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Google-Photos-'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Item 0'
+            SourceRect.Right = 32.000000000000000000
+            SourceRect.Bottom = 32.000000000000000000
+          end
+          item
+            Name = 'account-multiple-outline'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Google-Docs-colorfull-'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'Apps-Google-Drive-Sheets-icon'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'google_calendar (1)'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'user-business-boss'
+            SourceRect.Right = 24.000000000000000000
+            SourceRect.Bottom = 24.000000000000000000
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'pdf'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'presentation-file'
+          end>
+      end
+      item
+        Layers = <
+          item
+            Name = 'trash'
+          end>
+      end>
+    Left = 152
+    Top = 8
+  end
+end

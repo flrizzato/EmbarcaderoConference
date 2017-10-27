@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/23 21:28:43.000.885,=C:\EC2017\SERVER_DATASNAP\WebModuleUnit1.pas</Transaction>
+    <Transaction>2017/10/23 21:28:43.000.581,=C:\EC2017\SERVER_DATASNAP\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2017/10/23 21:28:43.000.415,=C:\EC2017\SERVER_DATASNAP\FormUnit1.pas</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.176,=C:\EC2017\SERVER_DATASNAP\js\json2.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.251,=C:\EC2017\SERVER_DATASNAP\js\base64-min.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.294,=C:\EC2017\SERVER_DATASNAP\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.065,=C:\EC2017\SERVER_DATASNAP\js\base64.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.147,=C:\EC2017\SERVER_DATASNAP\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.232,=C:\EC2017\SERVER_DATASNAP\js\serverfunctions.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.271,=C:\EC2017\SERVER_DATASNAP\js\json2-min.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.209,=C:\EC2017\SERVER_DATASNAP\js\callbackframework.js</Transaction>
+    <Transaction>2017/10/23 21:28:45.000.316,=C:\EC2017\SERVER_DATASNAP\js\callbackframework-min.js</Transaction>
+  </Transactions>
+</BorlandProject>

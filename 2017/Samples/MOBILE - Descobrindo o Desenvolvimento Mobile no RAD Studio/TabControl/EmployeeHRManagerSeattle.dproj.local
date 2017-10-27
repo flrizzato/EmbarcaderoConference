@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/11/24 11:13:34.000.239,=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/11/24 11:14:15.000.038,C:\DTOUR-Seatle\02-EmployeeHRManager\EmployeeHRManagerSeattle.dproj=C:\Users\ferna\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/11/24 11:14:30.000.989,=C:\DTOUR-Seatle\02-EmployeeHRManager\HRManager.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PRIZZATO iOSSimulator="_iossimulator_9D60155C-6750-4DB2-90CF-ED09800638CA" iOSDevice32="_iosdevice_7112cfd6ce9983e12d46ee84fbffa466ff670ccf" iOSDevice64="_iosdevice_7112cfd6ce9983e12d46ee84fbffa466ff670ccf"/>
+		<NoProfile Android="04db9f214811d5d3"/>
+		<PMAC iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

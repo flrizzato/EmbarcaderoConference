@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/05 10:23:24.000.391,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/11 18:07:42.000.409,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/11 18:24:04.000.339,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Artigo.dproj</Transaction>
+    <Transaction>2016/09/11 18:28:25.000.454,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Delphi_Berlin\ArtigoBannerAd\Unit1.pas</Transaction>
+    <Transaction>2016/09/11 18:28:25.000.454,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Delphi_Berlin\ArtigoBannerAd\Unit1.fmx</Transaction>
+    <Transaction>2016/09/11 18:28:28.000.955,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Artigo.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Delphi_Berlin\ArtigoBannerAd\Artigo.dproj</Transaction>
+    <Transaction>2017/09/30 13:59:30.000.111,C:\Users\lande\Documents\Embarcadero\Studio\Projects\DelphiBuild_RIO\04_ArtigoBannerAd\Artigo.dproj=C:\Users\lande\Documents\Embarcadero\Studio\Projects\DelphiBuild_RIO\04_ArtigoBannerAd\BannerAd.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="5200eba549c5c000"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

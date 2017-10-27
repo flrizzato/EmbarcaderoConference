@@ -1,0 +1,159 @@
+object TStyleContainer
+  object TLayout
+    StyleName = 'ComboBox1Style1'
+    Position.X = 307.000000000000000000
+    Position.Y = 362.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    FixedHeight = 30
+    object TButtonStyleObject
+      StyleName = 'background'
+      Align = Contents
+      Padding.Left = 2.000000000000000000
+      Padding.Top = 2.000000000000000000
+      Padding.Right = 2.000000000000000000
+      Padding.Bottom = 2.000000000000000000
+      SourceLookup = 'iOSstyle.png'
+      Size.Width = 97.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      HotLink = <
+        item
+          CapInsets.Left = 6.000000000000000000
+          CapInsets.Right = 6.000000000000000000
+          SourceRect.Left = 237.000000000000000000
+          SourceRect.Top = 46.000000000000000000
+          SourceRect.Right = 263.000000000000000000
+          SourceRect.Bottom = 76.000000000000000000
+        end
+        item
+          CapInsets.Left = 12.000000000000000000
+          CapInsets.Right = 12.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 455.000000000000000000
+          SourceRect.Top = 90.000000000000000000
+          SourceRect.Right = 507.000000000000000000
+          SourceRect.Bottom = 150.000000000000000000
+        end
+        item
+          CapInsets.Left = 14.000000000000000000
+          CapInsets.Right = 14.000000000000000000
+          Scale = 3.000000000000000000
+          SourceRect.Left = 675.000000000000000000
+          SourceRect.Top = 138.000000000000000000
+          SourceRect.Right = 753.000000000000000000
+          SourceRect.Bottom = 228.000000000000000000
+        end>
+      FocusedLink = <
+        item
+          CapInsets.Left = 6.000000000000000000
+          CapInsets.Right = 6.000000000000000000
+          SourceRect.Left = 234.000000000000000000
+          SourceRect.Top = 47.000000000000000000
+          SourceRect.Right = 260.000000000000000000
+          SourceRect.Bottom = 77.000000000000000000
+        end
+        item
+          CapInsets.Left = 12.000000000000000000
+          CapInsets.Right = 12.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 460.000000000000000000
+          SourceRect.Top = 89.000000000000000000
+          SourceRect.Right = 512.000000000000000000
+          SourceRect.Bottom = 149.000000000000000000
+        end
+        item
+          CapInsets.Left = 14.000000000000000000
+          CapInsets.Right = 14.000000000000000000
+          Scale = 3.000000000000000000
+          SourceRect.Left = 681.000000000000000000
+          SourceRect.Top = 130.000000000000000000
+          SourceRect.Right = 759.000000000000000000
+          SourceRect.Bottom = 220.000000000000000000
+        end>
+      NormalLink = <
+        item
+          CapInsets.Left = 6.000000000000000000
+          CapInsets.Right = 6.000000000000000000
+          SourceRect.Left = 234.000000000000000000
+          SourceRect.Top = 46.000000000000000000
+          SourceRect.Right = 260.000000000000000000
+          SourceRect.Bottom = 76.000000000000000000
+        end
+        item
+          CapInsets.Left = 12.000000000000000000
+          CapInsets.Right = 12.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 461.000000000000000000
+          SourceRect.Top = 92.000000000000000000
+          SourceRect.Right = 513.000000000000000000
+          SourceRect.Bottom = 152.000000000000000000
+        end
+        item
+          CapInsets.Left = 14.000000000000000000
+          CapInsets.Right = 14.000000000000000000
+          Scale = 3.000000000000000000
+          SourceRect.Left = 687.000000000000000000
+          SourceRect.Top = 132.000000000000000000
+          SourceRect.Right = 765.000000000000000000
+          SourceRect.Bottom = 222.000000000000000000
+        end>
+      PressedLink = <
+        item
+          CapInsets.Left = 6.000000000000000000
+          CapInsets.Right = 6.000000000000000000
+          SourceRect.Left = 233.000000000000000000
+          SourceRect.Top = 48.000000000000000000
+          SourceRect.Right = 259.000000000000000000
+          SourceRect.Bottom = 78.000000000000000000
+        end
+        item
+          CapInsets.Left = 12.000000000000000000
+          CapInsets.Right = 12.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 459.000000000000000000
+          SourceRect.Top = 90.000000000000000000
+          SourceRect.Right = 511.000000000000000000
+          SourceRect.Bottom = 150.000000000000000000
+        end
+        item
+          CapInsets.Left = 14.000000000000000000
+          CapInsets.Right = 14.000000000000000000
+          Scale = 3.000000000000000000
+          SourceRect.Left = 687.000000000000000000
+          SourceRect.Top = 142.000000000000000000
+          SourceRect.Right = 765.000000000000000000
+          SourceRect.Bottom = 232.000000000000000000
+        end>
+      TouchAnimation.Link = <>
+      object TLayout
+        Align = Right
+        Position.X = 77.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 18.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TLayout
+      StyleName = 'content'
+      Align = Client
+      Locked = True
+      Margins.Left = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Size.Width = 93.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object TFontObject
+      StyleName = 'font'
+      Font.Size = 14.000000000000000000
+    end
+    object TBrushObject
+      StyleName = 'foreground'
+      Brush.Color = claBlack
+    end
+  end
+end

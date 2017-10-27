@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/15 15:25:05.000.829,=C:\Users\lande\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/15 15:51:27.000.917,=C:\Users\lande\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/18 20:08:34.000.752,=C:\Users\lande\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/18 20:10:22.000.374,C:\Users\lande\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\Unit1.fmx</Transaction>
+    <Transaction>2017/06/18 20:10:22.000.374,C:\Users\lande\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\Unit1.pas</Transaction>
+    <Transaction>2017/06/18 20:10:23.000.889,C:\Users\lande\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\Project1.dproj</Transaction>
+    <Transaction>2017/06/18 20:26:55.000.207,C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\Project1.dproj=C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\agora.dproj</Transaction>
+    <Transaction>2017/06/18 21:24:16.000.379,=C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\exemplo.db3</Transaction>
+    <Transaction>2017/06/18 21:39:46.000.937,C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\exemplo.db3=</Transaction>
+    <Transaction>2017/06/18 21:40:08.000.045,=C:\Users\lande\Documents\Embarcadero\Studio\Projects\ExemploBD\exemplo.db3</Transaction>
+    <Transaction>2017/09/23 19:01:42.000.046,C:\Users\lande\Documents\Embarcadero\Studio\Projects\DelphiBuild_RIO\03_ExemploBD\agora.dproj=C:\Users\lande\Documents\Embarcadero\Studio\Projects\DelphiBuild_RIO\03_ExemploBD\BDLocal.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="TOOVKBGATOINGYIN"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.fmx"/>
+    <File Path="exemplo.db3"/>
+  </ProjectSortOrder>
+</BorlandProject>

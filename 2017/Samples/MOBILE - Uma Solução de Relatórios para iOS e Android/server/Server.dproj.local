@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.769,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.357,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.643,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.616,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.678,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.391,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.480,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.821,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.393,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/06 22:41:07.000.498,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/18 21:48:31.000.188,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2016/04/18 21:48:32.000.615,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/04/18 21:48:33.000.313,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2016/04/18 22:49:39.000.155,C:\Projetos\DownUp_Image\server\ServerMethodsUnit1.dfm=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2016/04/18 22:49:39.000.155,C:\Projetos\DownUp_Image\server\ServerMethodsUnit1.pas=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/04/18 22:49:44.000.944,C:\Projetos\DownUp_Image\server\FormUnit1.pas=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2016/04/18 22:49:44.000.944,C:\Projetos\DownUp_Image\server\FormUnit1.dfm=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm</Transaction>
+    <Transaction>2016/04/18 22:49:46.000.427,C:\Projetos\DownUp_Image\server\WebModuleUnit1.dfm=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2016/04/18 22:49:46.000.427,C:\Projetos\DownUp_Image\server\WebModuleUnit1.pas=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2016/04/18 22:49:51.000.750,C:\Projetos\DownUp_Image\server\Server.dproj=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="0434191710"/>
+		<PMac-Home iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

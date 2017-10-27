@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/01/23 21:48:45.000.351,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/01/23 21:49:22.000.720,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\MultiIdiomas.dproj</Transaction>
+    <Transaction>2016/01/23 21:49:43.000.506,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\frmPrincipalUnt.pas</Transaction>
+    <Transaction>2016/01/23 21:49:43.000.506,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\frmPrincipalUnt.fmx</Transaction>
+    <Transaction>2016/01/23 21:58:51.000.881,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\frmPrincipalUnt.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\DelphiX\Artigo_MultiIdiomas\frmPrincipalUnt.pas</Transaction>
+    <Transaction>2016/01/23 21:58:51.000.881,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\frmPrincipalUnt.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\DelphiX\Artigo_MultiIdiomas\frmPrincipalUnt.fmx</Transaction>
+    <Transaction>2016/01/23 21:58:53.000.840,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\MultiIdiomas.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\DelphiX\Artigo_MultiIdiomas\MultiIdiomas.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="5200eba549c5c000"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/23 21:33:01.000.410,C:\EC2017\EC2017.groupproj=C:\Users\jmari\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\EC2017\SERVER_DATASNAP\SERVER_DATASNAP.dproj"/>
+	</Default.Personality>
+</BorlandProject>

@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9A83E5C9-FEC9-440A-A210-7DBD796012AD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01_Localizacao_XE7\Localizacao.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02_ArtigoSaveState\ArtigoSaveState.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03_ExemploBD\BDLocal.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="04_ArtigoBannerAd\BannerAd.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="05_Artigo_MultiIdiomas\MultiIdiomas.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Localizacao">
+        <MSBuild Projects="01_Localizacao_XE7\Localizacao.dproj"/>
+    </Target>
+    <Target Name="Localizacao:Clean">
+        <MSBuild Projects="01_Localizacao_XE7\Localizacao.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Localizacao:Make">
+        <MSBuild Projects="01_Localizacao_XE7\Localizacao.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArtigoSaveState">
+        <MSBuild Projects="02_ArtigoSaveState\ArtigoSaveState.dproj"/>
+    </Target>
+    <Target Name="ArtigoSaveState:Clean">
+        <MSBuild Projects="02_ArtigoSaveState\ArtigoSaveState.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArtigoSaveState:Make">
+        <MSBuild Projects="02_ArtigoSaveState\ArtigoSaveState.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BDLocal">
+        <MSBuild Projects="03_ExemploBD\BDLocal.dproj"/>
+    </Target>
+    <Target Name="BDLocal:Clean">
+        <MSBuild Projects="03_ExemploBD\BDLocal.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BDLocal:Make">
+        <MSBuild Projects="03_ExemploBD\BDLocal.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BannerAd">
+        <MSBuild Projects="04_ArtigoBannerAd\BannerAd.dproj"/>
+    </Target>
+    <Target Name="BannerAd:Clean">
+        <MSBuild Projects="04_ArtigoBannerAd\BannerAd.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BannerAd:Make">
+        <MSBuild Projects="04_ArtigoBannerAd\BannerAd.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultiIdiomas">
+        <MSBuild Projects="05_Artigo_MultiIdiomas\MultiIdiomas.dproj"/>
+    </Target>
+    <Target Name="MultiIdiomas:Clean">
+        <MSBuild Projects="05_Artigo_MultiIdiomas\MultiIdiomas.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultiIdiomas:Make">
+        <MSBuild Projects="05_Artigo_MultiIdiomas\MultiIdiomas.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Localizacao;ArtigoSaveState;BDLocal;BannerAd;MultiIdiomas"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Localizacao:Clean;ArtigoSaveState:Clean;BDLocal:Clean;BannerAd:Clean;MultiIdiomas:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Localizacao:Make;ArtigoSaveState:Make;BDLocal:Make;BannerAd:Make;MultiIdiomas:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

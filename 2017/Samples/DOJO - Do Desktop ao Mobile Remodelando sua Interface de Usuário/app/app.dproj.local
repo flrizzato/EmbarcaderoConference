@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/09/16 15:38:15.000.290,=C:\Users\Windowns10\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/09/30 14:05:35.000.313,=C:\Users\Windowns10\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/21 22:27:48.000.172,=C:\Users\Windowns10\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/10/21 22:28:16.000.669,C:\EMBC2017\uApp.pas=C:\Users\Windowns10\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/10/21 22:28:16.000.669,C:\EMBC2017\uApp.fmx=C:\Users\Windowns10\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2017/10/21 22:28:42.000.961,C:\EMBC2017\embc2017.dproj=C:\Users\Windowns10\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/10/21 22:29:08.000.977,C:\EMBC2017\app.dproj=C:\EMBC2017\embc2017.dproj</Transaction>
+    <Transaction>2017/10/21 22:39:20.000.773,=C:\EMBC2017\app\Unit1.pas</Transaction>
+    <Transaction>2017/10/21 22:39:29.000.795,C:\EMBC2017\app\Unit1.pas=C:\EMBC2017\app\udmAPP.pas</Transaction>
+    <Transaction>2017/10/21 22:39:29.000.795,C:\EMBC2017\app\Unit1.dfm=C:\EMBC2017\app\udmAPP.dfm</Transaction>
+    <Transaction>2017/10/23 10:13:22.000.926,=C:\EMBC2017\app\RestRequest.pas</Transaction>
+    <Transaction>2017/10/23 12:07:33.000.885,C:\EMBC2017\app\udmAPP.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pnewtonmac iOSSimulator="iPhone5" iOSDevice64="_iosdevice_361031e7ecc4540d285151e14291d6535178104c"/>
+	</ActiveMobileDevice>
+</BorlandProject>

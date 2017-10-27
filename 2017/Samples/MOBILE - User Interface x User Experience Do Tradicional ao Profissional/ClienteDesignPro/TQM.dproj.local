@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="03157df37845050d"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2017/10/21 00:42:46.000.885,C:\ARANDEE\Cliente\uFrmMapView.pas=</Transaction>
+    <Transaction>2017/10/21 00:42:51.000.406,C:\ARANDEE\Cliente\uFrmMobile.pas=</Transaction>
+    <Transaction>2017/10/21 00:42:54.000.113,C:\ARANDEE\Cliente\uFrmRelatParam.pas=</Transaction>
+    <Transaction>2017/10/21 00:42:56.000.634,C:\ARANDEE\Cliente\uFrmSelectCliente.pas=</Transaction>
+    <Transaction>2017/10/21 00:42:59.000.864,C:\ARANDEE\Cliente\uFrmSelectIdioma.pas=</Transaction>
+    <Transaction>2017/10/21 00:43:02.000.244,C:\ARANDEE\Cliente\uFrmSelectLocalidade.pas=</Transaction>
+    <Transaction>2017/10/21 00:43:05.000.265,C:\ARANDEE\Cliente\uFrmSelectRelat.pas=</Transaction>
+    <Transaction>2017/10/21 00:43:08.000.000,C:\ARANDEE\Cliente\uFrmSelectUniarc.pas=</Transaction>
+    <Transaction>2017/10/21 00:44:06.000.709,C:\ARANDEE\Cliente\uUsuario.pas=</Transaction>
+    <Transaction>2017/10/21 00:44:30.000.661,C:\ARANDEE\Cliente\uFuncoes.pas=</Transaction>
+    <Transaction>2017/10/21 00:45:28.000.180,C:\ARANDEE\Cliente\uCliente.pas=</Transaction>
+    <Transaction>2017/10/21 00:45:36.000.028,C:\ARANDEE\Cliente\uLocalidade.pas=</Transaction>
+    <Transaction>2017/10/21 00:45:38.000.577,C:\ARANDEE\Cliente\uRelat.pas=</Transaction>
+    <Transaction>2017/10/21 00:45:41.000.790,C:\ARANDEE\Cliente\uSensores.pas=</Transaction>
+    <Transaction>2017/10/21 00:45:44.000.311,C:\ARANDEE\Cliente\uSilos.pas=</Transaction>
+    <Transaction>2017/10/21 00:45:47.000.033,C:\ARANDEE\Cliente\uUniarc.pas=</Transaction>
+    <Transaction>2017/10/21 00:45:56.000.124,C:\ARANDEE\Cliente\uIdioma.pas=</Transaction>
+    <Transaction>2017/10/21 11:44:54.000.095,C:\ARANDEE\Cliente\uCM.pas=</Transaction>
+    <Transaction>2017/10/21 11:59:56.000.024,=C:\ARANDEE\Cliente\uFrmMobile.pas</Transaction>
+    <Transaction>2017/10/23 18:35:09.000.065,=C:\ARANDEE\ClienteDesignPro\Unit1.pas</Transaction>
+    <Transaction>2017/10/23 18:36:04.000.667,C:\ARANDEE\ClienteDesignPro\uFrmModelo.pas=C:\ARANDEE\ClienteDesignPro\Unit1.pas</Transaction>
+    <Transaction>2017/10/23 18:36:04.000.667,C:\ARANDEE\ClienteDesignPro\uFrmModelo.fmx=C:\ARANDEE\ClienteDesignPro\Unit1.fmx</Transaction>
+    <Transaction>2017/10/24 00:12:52.000.075,C:\ARANDEE\ClienteDesignPro\uFrmModelo.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CC2B92B5-0B4E-4602-975D-5AC2FDE60BCA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Absolute\DemoAbsolute.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Weak\DemoWeak.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Records\DemoRecords.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DelegacaoInterfaces\DelegacaoInterfaces.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Interface Record\InterfaceRecord.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Virtual Interface\VirtualInterface.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DemoAbsolute">
+        <MSBuild Projects="Absolute\DemoAbsolute.dproj"/>
+    </Target>
+    <Target Name="DemoAbsolute:Clean">
+        <MSBuild Projects="Absolute\DemoAbsolute.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DemoAbsolute:Make">
+        <MSBuild Projects="Absolute\DemoAbsolute.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DemoWeak">
+        <MSBuild Projects="Weak\DemoWeak.dproj"/>
+    </Target>
+    <Target Name="DemoWeak:Clean">
+        <MSBuild Projects="Weak\DemoWeak.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DemoWeak:Make">
+        <MSBuild Projects="Weak\DemoWeak.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DemoRecords">
+        <MSBuild Projects="Records\DemoRecords.dproj"/>
+    </Target>
+    <Target Name="DemoRecords:Clean">
+        <MSBuild Projects="Records\DemoRecords.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DemoRecords:Make">
+        <MSBuild Projects="Records\DemoRecords.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelegacaoInterfaces">
+        <MSBuild Projects="DelegacaoInterfaces\DelegacaoInterfaces.dproj"/>
+    </Target>
+    <Target Name="DelegacaoInterfaces:Clean">
+        <MSBuild Projects="DelegacaoInterfaces\DelegacaoInterfaces.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelegacaoInterfaces:Make">
+        <MSBuild Projects="DelegacaoInterfaces\DelegacaoInterfaces.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="InterfaceRecord">
+        <MSBuild Projects="Interface Record\InterfaceRecord.dproj"/>
+    </Target>
+    <Target Name="InterfaceRecord:Clean">
+        <MSBuild Projects="Interface Record\InterfaceRecord.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="InterfaceRecord:Make">
+        <MSBuild Projects="Interface Record\InterfaceRecord.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VirtualInterface">
+        <MSBuild Projects="Virtual Interface\VirtualInterface.dproj"/>
+    </Target>
+    <Target Name="VirtualInterface:Clean">
+        <MSBuild Projects="Virtual Interface\VirtualInterface.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VirtualInterface:Make">
+        <MSBuild Projects="Virtual Interface\VirtualInterface.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DemoAbsolute;DemoWeak;DemoRecords;DelegacaoInterfaces;InterfaceRecord;VirtualInterface"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DemoAbsolute:Clean;DemoWeak:Clean;DemoRecords:Clean;DelegacaoInterfaces:Clean;InterfaceRecord:Clean;VirtualInterface:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DemoAbsolute:Make;DemoWeak:Make;DemoRecords:Make;DelegacaoInterfaces:Make;InterfaceRecord:Make;VirtualInterface:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

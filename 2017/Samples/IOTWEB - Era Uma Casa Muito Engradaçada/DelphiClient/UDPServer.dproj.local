@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/13 02:04:34.000.159,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/01 10:36:00.000.844,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/21 10:53:50.000.462,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/12/07 17:49:29.000.603,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/01/26 15:45:43.000.932,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/09 16:58:41.000.856,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2016/03/09 16:58:43.000.425,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2016/03/16 12:19:33.000.845,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2016/03/16 12:19:34.000.370,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2016/03/16 12:19:34.000.212,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/03/16 12:19:34.000.049,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/03/16 12:34:22.000.750,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/29 14:48:05.000.622,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/06 10:17:54.000.281,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/04/11 14:54:58.000.596,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/05/04 17:42:15.000.635,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/05/19 09:27:16.000.664,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/06/13 18:50:29.000.492,=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/06/13 18:50:37.000.433,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\UDPClient\Unit3.pas</Transaction>
+    <Transaction>2016/06/13 18:50:37.000.433,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\UDPClient\Unit3.dfm</Transaction>
+    <Transaction>2016/06/13 18:50:42.000.996,C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\marcelo\Documents\Embarcadero\Studio\Projects\UDPClient\UDPServer.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PPAServer17-Bridge iOSSimulator="iPhone5"/>
+		<NoProfile Android="09c95f84"/>
+	</ActiveMobileDevice>
+</BorlandProject>

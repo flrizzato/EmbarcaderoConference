@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/03/06 10:55:59.000.006,=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/06 10:56:43.000.639,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\SaveState.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/03/06 10:58:21.000.622,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\ArtigoSaveState\Unit1.fmx=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2016/03/06 10:58:21.000.622,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\ArtigoSaveState\Unit1.pas=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/06 10:58:23.000.163,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\ArtigoSaveState\SaveState.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\SaveState.dproj</Transaction>
+    <Transaction>2016/03/06 10:58:34.000.175,C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\ArtigoSaveState\ArtigoSaveState.dproj=C:\Users\LandersonGomes\Documents\Embarcadero\Studio\Projects\ArtigoSaveState\SaveState.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="TOOVKBGATOINGYIN"/>
+	</ActiveMobileDevice>
+</BorlandProject>

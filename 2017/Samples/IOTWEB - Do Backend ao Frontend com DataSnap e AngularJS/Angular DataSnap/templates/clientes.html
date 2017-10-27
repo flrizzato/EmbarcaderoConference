@@ -1,0 +1,58 @@
+<html ng-app="crud">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Lista Telefônica</title>             
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script src="js/angular.js"></script>
+		<style type="text/css">
+			.jumbotron {
+				width: 480px;
+				margin-top: 20px;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.form-control {
+				margin-bottom: 5px;
+			}
+		</style>
+		<script>
+			angular.module("crud", []);
+			angular.module("crud").controller("crudCtrl", function ($scope) {
+				$scope.app = "CRUD";
+
+				$scope.contatos = [
+					{nome: "Rodrigo Mourão", email: "rodrigomourao@rodrigomourao.com.br"},
+					{nome: "Kleberson Toro", email: "kleberson@Kleberson.com.br"},
+					{nome: "Amarildo Lacerda", email: "Amarildo@Amarildo.com.br"},
+					{nome: "Guinter Pauli", email: "Guinter@Guinter.com.br"}
+				];
+
+				$scope.adicionarContato = function (contato) {
+					$scope.contatos.push(angular.copy(contato));
+					delete $scope.contato;
+				}
+			}); 
+		</script>
+	</head>
+<body ng-controller="crudCtrl">
+	<div class="jumbotron">
+		<h4>{{app}}</h4>
+		<table class="table table-striped"> 	
+			<tr>
+				<th>Nome</th>
+				<th>Email</th>
+			</tr>
+			<tr ng-repeat="contato in contatos">
+				<td>{{contato.nome}}</td>
+				<td>{{contato.email}}</td>
+			</tr>
+		</table>
+		<hr/>
+		<input class="form-control" type="text" ng-model="contato.nome" placeholder="Nome" />
+		<input class="form-control" type="text" ng-model="contato.email" placeholder="Email" />
+		<button class="btn btn-primary btn-block" ng-click="adicionarContato(contato)" ng-disabled="!contato.nome || !contato.email">Adicionar Contato</button>
+	</div>
+</body>
+</html>

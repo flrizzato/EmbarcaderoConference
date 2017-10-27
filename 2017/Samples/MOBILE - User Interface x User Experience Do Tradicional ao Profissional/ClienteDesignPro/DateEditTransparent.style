@@ -1,0 +1,380 @@
+object TStyleContainer
+  object TLayout
+    StyleName = 'DateEdit1Style1'
+    Position.X = 308.000000000000000000
+    Position.Y = 294.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    FixedHeight = 30
+    object TStyleObject
+      StyleName = 'background'
+      Align = Contents
+      SourceLookup = 'iOSstyle.png'
+      Size.Width = 100.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      SourceLink = <
+        item
+          CapInsets.Left = 6.000000000000000000
+          CapInsets.Right = 6.000000000000000000
+          SourceRect.Left = 234.000000000000000000
+          SourceRect.Top = 44.000000000000000000
+          SourceRect.Right = 260.000000000000000000
+          SourceRect.Bottom = 74.000000000000000000
+        end
+        item
+          CapInsets.Left = 12.000000000000000000
+          CapInsets.Right = 12.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 466.000000000000000000
+          SourceRect.Top = 87.000000000000000000
+          SourceRect.Right = 518.000000000000000000
+          SourceRect.Bottom = 147.000000000000000000
+        end
+        item
+          CapInsets.Left = 14.000000000000000000
+          CapInsets.Right = 14.000000000000000000
+          Scale = 3.000000000000000000
+          SourceRect.Left = 695.000000000000000000
+          SourceRect.Top = 135.000000000000000000
+          SourceRect.Right = 773.000000000000000000
+          SourceRect.Bottom = 225.000000000000000000
+        end>
+    end
+    object TButton
+      StyleName = 'clearbutton'
+      Align = Right
+      CanFocus = False
+      Margins.Left = 2.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Position.X = 76.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 22.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'dateedit1style1cleareditbutton1'
+    end
+    object TActiveStyleTextObject
+      StyleName = 'Text'
+      Align = Client
+      Locked = True
+      Margins.Left = 6.000000000000000000
+      Margins.Top = 6.000000000000000000
+      Margins.Right = 6.000000000000000000
+      Margins.Bottom = 6.000000000000000000
+      Size.Width = 62.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claWhite
+      ShadowVisible = False
+      ActiveTrigger = Focused
+      ActiveColor = claBlack
+    end
+    object TBrushObject
+      StyleName = 'selection'
+      Brush.Color = x7F9CBEDC
+    end
+    object TCheckBox
+      StyleName = 'check'
+      Align = MostLeft
+      CanFocus = False
+      DisableFocusEffect = True
+      Margins.Left = 2.000000000000000000
+      Size.Width = 30.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'dateedit1style1CheckBoxStyle1'
+      Visible = False
+    end
+  end
+  object TLayout
+    StyleName = 'dateedit1style1cleareditbutton1'
+    Position.X = 308.000000000000000000
+    Position.Y = 294.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+    FixedWidth = 22
+    FixedHeight = 27
+    object TButtonStyleObject
+      StyleName = 'background'
+      Align = Contents
+      SourceLookup = 'iOSstyle.png'
+      Size.Width = 100.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      HotLink = <
+        item
+          SourceRect.Left = 338.000000000000000000
+          SourceRect.Top = 75.000000000000000000
+          SourceRect.Right = 360.000000000000000000
+          SourceRect.Bottom = 102.000000000000000000
+        end
+        item
+          Scale = 2.000000000000000000
+          SourceRect.Left = 676.000000000000000000
+          SourceRect.Top = 150.000000000000000000
+          SourceRect.Right = 720.000000000000000000
+          SourceRect.Bottom = 204.000000000000000000
+        end
+        item
+          Scale = 3.000000000000000000
+          SourceRect.Left = 1014.000000000000000000
+          SourceRect.Top = 224.000000000000000000
+          SourceRect.Right = 1080.000000000000000000
+          SourceRect.Bottom = 305.000000000000000000
+        end>
+      FocusedLink = <
+        item
+          SourceRect.Left = 338.000000000000000000
+          SourceRect.Top = 75.000000000000000000
+          SourceRect.Right = 360.000000000000000000
+          SourceRect.Bottom = 102.000000000000000000
+        end
+        item
+          Scale = 2.000000000000000000
+          SourceRect.Left = 676.000000000000000000
+          SourceRect.Top = 150.000000000000000000
+          SourceRect.Right = 720.000000000000000000
+          SourceRect.Bottom = 204.000000000000000000
+        end
+        item
+          Scale = 3.000000000000000000
+          SourceRect.Left = 1014.000000000000000000
+          SourceRect.Top = 224.000000000000000000
+          SourceRect.Right = 1080.000000000000000000
+          SourceRect.Bottom = 305.000000000000000000
+        end>
+      NormalLink = <
+        item
+          SourceRect.Left = 338.000000000000000000
+          SourceRect.Top = 75.000000000000000000
+          SourceRect.Right = 360.000000000000000000
+          SourceRect.Bottom = 102.000000000000000000
+        end
+        item
+          Scale = 2.000000000000000000
+          SourceRect.Left = 676.000000000000000000
+          SourceRect.Top = 150.000000000000000000
+          SourceRect.Right = 720.000000000000000000
+          SourceRect.Bottom = 204.000000000000000000
+        end
+        item
+          Scale = 3.000000000000000000
+          SourceRect.Left = 1014.000000000000000000
+          SourceRect.Top = 224.000000000000000000
+          SourceRect.Right = 1080.000000000000000000
+          SourceRect.Bottom = 305.000000000000000000
+        end>
+      PressedLink = <
+        item
+          SourceRect.Left = 362.000000000000000000
+          SourceRect.Top = 75.000000000000000000
+          SourceRect.Right = 384.000000000000000000
+          SourceRect.Bottom = 102.000000000000000000
+        end
+        item
+          Scale = 2.000000000000000000
+          SourceRect.Left = 725.000000000000000000
+          SourceRect.Top = 150.000000000000000000
+          SourceRect.Right = 769.000000000000000000
+          SourceRect.Bottom = 204.000000000000000000
+        end
+        item
+          Scale = 3.000000000000000000
+          SourceRect.Left = 1087.000000000000000000
+          SourceRect.Top = 224.000000000000000000
+          SourceRect.Right = 1153.000000000000000000
+          SourceRect.Bottom = 305.000000000000000000
+        end>
+      TouchAnimation.Link = <>
+    end
+    object TGlyph
+      StyleName = 'glyphstyle'
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 1.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Align = Left
+      Size.Width = 32.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object TLayout
+    StyleName = 'dateedit1style1CheckBoxStyle1'
+    Position.X = 308.000000000000000000
+    Position.Y = 294.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 2
+    object TLayout
+      Align = Left
+      Size.Width = 25.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      object TCheckStyleObject
+        StyleName = 'background'
+        Align = Center
+        Locked = True
+        SourceLookup = 'iOSstyle.png'
+        Size.Width = 25.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Center
+        ActiveTrigger = Checked
+        ActiveLink = <
+          item
+            SourceRect.Left = 335.000000000000000000
+            SourceRect.Top = 44.000000000000000000
+            SourceRect.Right = 360.000000000000000000
+            SourceRect.Bottom = 69.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 670.000000000000000000
+            SourceRect.Top = 87.000000000000000000
+            SourceRect.Right = 720.000000000000000000
+            SourceRect.Bottom = 137.000000000000000000
+          end
+          item
+            Scale = 3.000000000000000000
+            SourceRect.Left = 1006.000000000000000000
+            SourceRect.Top = 131.000000000000000000
+            SourceRect.Right = 1081.000000000000000000
+            SourceRect.Bottom = 206.000000000000000000
+          end>
+        SourceLink = <
+          item
+            SourceRect.Left = 307.000000000000000000
+            SourceRect.Top = 44.000000000000000000
+            SourceRect.Right = 332.000000000000000000
+            SourceRect.Bottom = 69.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 614.000000000000000000
+            SourceRect.Top = 88.000000000000000000
+            SourceRect.Right = 664.000000000000000000
+            SourceRect.Bottom = 138.000000000000000000
+          end
+          item
+            Scale = 3.000000000000000000
+            SourceRect.Left = 921.000000000000000000
+            SourceRect.Top = 132.000000000000000000
+            SourceRect.Right = 996.000000000000000000
+            SourceRect.Bottom = 207.000000000000000000
+          end>
+        HotLink = <
+          item
+            SourceRect.Left = 307.000000000000000000
+            SourceRect.Top = 44.000000000000000000
+            SourceRect.Right = 332.000000000000000000
+            SourceRect.Bottom = 69.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 614.000000000000000000
+            SourceRect.Top = 88.000000000000000000
+            SourceRect.Right = 664.000000000000000000
+            SourceRect.Bottom = 138.000000000000000000
+          end
+          item
+            Scale = 3.000000000000000000
+            SourceRect.Left = 921.000000000000000000
+            SourceRect.Top = 132.000000000000000000
+            SourceRect.Right = 996.000000000000000000
+            SourceRect.Bottom = 207.000000000000000000
+          end>
+        ActiveHotLink = <
+          item
+            SourceRect.Left = 335.000000000000000000
+            SourceRect.Top = 44.000000000000000000
+            SourceRect.Right = 360.000000000000000000
+            SourceRect.Bottom = 69.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 670.000000000000000000
+            SourceRect.Top = 87.000000000000000000
+            SourceRect.Right = 720.000000000000000000
+            SourceRect.Bottom = 137.000000000000000000
+          end
+          item
+            Scale = 3.000000000000000000
+            SourceRect.Left = 1006.000000000000000000
+            SourceRect.Top = 131.000000000000000000
+            SourceRect.Right = 1081.000000000000000000
+            SourceRect.Bottom = 206.000000000000000000
+          end>
+        FocusedLink = <
+          item
+            SourceRect.Left = 307.000000000000000000
+            SourceRect.Top = 44.000000000000000000
+            SourceRect.Right = 332.000000000000000000
+            SourceRect.Bottom = 69.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 614.000000000000000000
+            SourceRect.Top = 88.000000000000000000
+            SourceRect.Right = 664.000000000000000000
+            SourceRect.Bottom = 138.000000000000000000
+          end
+          item
+            Scale = 3.000000000000000000
+            SourceRect.Left = 921.000000000000000000
+            SourceRect.Top = 132.000000000000000000
+            SourceRect.Right = 996.000000000000000000
+            SourceRect.Bottom = 207.000000000000000000
+          end>
+        ActiveFocusedLink = <
+          item
+            SourceRect.Left = 335.000000000000000000
+            SourceRect.Top = 44.000000000000000000
+            SourceRect.Right = 360.000000000000000000
+            SourceRect.Bottom = 69.000000000000000000
+          end
+          item
+            Scale = 2.000000000000000000
+            SourceRect.Left = 670.000000000000000000
+            SourceRect.Top = 87.000000000000000000
+            SourceRect.Right = 720.000000000000000000
+            SourceRect.Bottom = 137.000000000000000000
+          end
+          item
+            Scale = 3.000000000000000000
+            SourceRect.Left = 1006.000000000000000000
+            SourceRect.Top = 131.000000000000000000
+            SourceRect.Right = 1081.000000000000000000
+            SourceRect.Bottom = 206.000000000000000000
+          end>
+      end
+    end
+    object TButtonStyleTextObject
+      StyleName = 'text'
+      Align = Client
+      Locked = True
+      Margins.Left = 3.000000000000000000
+      Size.Width = 72.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      ShadowVisible = False
+      HotColor = claBlack
+      FocusedColor = claBlack
+      NormalColor = claBlack
+      PressedColor = claBlack
+    end
+  end
+end

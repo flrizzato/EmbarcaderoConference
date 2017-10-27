@@ -1,0 +1,130 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 333
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TImageListItemBottomDetailAppearance'
+    ItemEditAppearanceClassName = 'TImageListItemBottomDetailShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Size.Width = 333.000000000000000000
+    Size.Height = 372.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object NavigatorBindSourceDB1: TBindNavigator
+    Align = Bottom
+    Position.Y = 455.000000000000000000
+    Size.Width = 333.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    DataSource = BindSourceDB1
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object Button1: TButton
+    Align = Top
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 2.000000000000000000
+    Position.X = 3.000000000000000000
+    Position.Y = 5.000000000000000000
+    Size.Width = 327.000000000000000000
+    Size.Height = 76.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\lande\Documents\Embarcadero\Studio\Projects\Ex' +
+        'emploBD\exemplo.db3'
+      'OpenMode=ReadWrite'
+      'DriverID=SQLite')
+    ResourceOptions.AssignedValues = [rvAutoConnect, rvAutoReconnect, rvKeepConnection]
+    ResourceOptions.AutoReconnect = True
+    ResourceOptions.KeepConnection = False
+    LoginPrompt = False
+    AfterConnect = FDConnection1AfterConnect
+    BeforeConnect = FDConnection1BeforeConnect
+    Left = 104
+    Top = 64
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from personagens')
+    Left = 192
+    Top = 72
+    object FDQuery1ID: TFDAutoIncField
+      FieldName = 'ID'
+      Origin = 'ID'
+      ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
+    end
+    object FDQuery1NOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Required = True
+      Size = 30
+    end
+    object FDQuery1DATA_NASC: TDateField
+      FieldName = 'DATA_NASC'
+      Origin = 'DATA_NASC'
+      Required = True
+    end
+    object FDQuery1FOTO: TBlobField
+      FieldName = 'FOTO'
+      Origin = 'FOTO'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDQuery1
+    ScopeMappings = <>
+    Left = 120
+    Top = 8
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'NOME'
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'FOTO'
+          ControlMemberName = 'Bitmap'
+        end
+        item
+          SourceMemberName = 'DATA_NASC'
+          ControlMemberName = 'Detail'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 72
+    Top = 136
+  end
+  object FDPhysSQLiteDriverLink1: TFDPhysSQLiteDriverLink
+    Left = 72
+    Top = 208
+  end
+end

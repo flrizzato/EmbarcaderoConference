@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/15 17:07:00.000.800,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/06/26 11:29:31.000.542,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/06/26 13:30:28.000.313,C:\Temp\Curso FireDAC Módulo 2\Aula 16\Unit4.dfm=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2017/06/26 13:30:28.000.313,C:\Temp\Curso FireDAC Módulo 2\Aula 16\Unit4.pas=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/06/26 13:30:29.000.815,C:\Temp\Curso FireDAC Módulo 2\Aula 16\Project1.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/10/22 15:51:39.000.280,C:\EC 2017\06-Datasets Aggregates\Project1.dproj=C:\EC 2017\06-Datasets Aggregates\DataSetAggregates.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

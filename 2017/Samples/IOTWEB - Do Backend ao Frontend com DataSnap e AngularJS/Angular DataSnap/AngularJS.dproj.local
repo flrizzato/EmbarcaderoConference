@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/08/12 11:43:25.000.179,=C:\Users\carre\Desktop\AngularJS\FormUnit1.pas</Transaction>
+    <Transaction>2017/08/12 11:43:25.000.820,=C:\Users\carre\Desktop\AngularJS\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2017/08/12 11:43:26.000.323,=C:\Users\carre\Desktop\AngularJS\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2017/08/12 11:43:26.000.882,=C:\Users\carre\Desktop\AngularJS\WebModuleUnit1.pas</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.329,=C:\Users\carre\Desktop\AngularJS\js\connection.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.176,=C:\Users\carre\Desktop\AngularJS\js\json2.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.467,=C:\Users\carre\Desktop\AngularJS\templates\serverfunctioninvoker.html</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.356,=C:\Users\carre\Desktop\AngularJS\js\serverfunctioninvoker.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.197,=C:\Users\carre\Desktop\AngularJS\js\callbackframework.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.261,=C:\Users\carre\Desktop\AngularJS\js\json2-min.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.551,=C:\Users\carre\Desktop\AngularJS\images\expand.png</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.307,=C:\Users\carre\Desktop\AngularJS\js\callbackframework-min.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.521,=C:\Users\carre\Desktop\AngularJS\images\collapse.png</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.383,=C:\Users\carre\Desktop\AngularJS\css\main.css</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.407,=C:\Users\carre\Desktop\AngularJS\css\serverfunctioninvoker.css</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.157,=C:\Users\carre\Desktop\AngularJS\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.241,=C:\Users\carre\Desktop\AngularJS\js\base64-min.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.137,=C:\Users\carre\Desktop\AngularJS\js\base64.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.221,=C:\Users\carre\Desktop\AngularJS\js\serverfunctions.js</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.437,=C:\Users\carre\Desktop\AngularJS\templates\reversestring.html</Transaction>
+    <Transaction>2017/08/12 11:43:28.000.284,=C:\Users\carre\Desktop\AngularJS\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2017/08/12 14:52:59.000.824,=C:\Users\carre\Desktop\AngularJS\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 14:53:03.000.469,C:\Users\carre\Desktop\AngularJS\Unit1.pas=C:\Users\carre\Desktop\AngularJS\cliente.pas</Transaction>
+  </Transactions>
+</BorlandProject>

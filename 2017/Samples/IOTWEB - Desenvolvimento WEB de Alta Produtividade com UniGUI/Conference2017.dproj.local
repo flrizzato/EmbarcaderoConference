@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/24 17:52:52.155,=D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\ServerModule.pas</Transaction>
+    <Transaction>2017/10/24 17:52:52.186,=D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\MainModule.pas</Transaction>
+    <Transaction>2017/10/24 17:52:52.320,=D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\Main.pas</Transaction>
+    <Transaction>2017/10/24 18:04:10.132,=D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\Unit1.pas</Transaction>
+    <Transaction>2017/10/24 18:04:20.106,D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\UntDM.pas=D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\Unit1.pas</Transaction>
+    <Transaction>2017/10/24 18:04:20.106,D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\UntDM.dfm=D:\OneDrive\99-Temp\1 - EC2017\UniGUI\Exemplo\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

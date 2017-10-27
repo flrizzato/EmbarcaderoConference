@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="AppCuiaba">
+<head >
+	<title>Teste Angular Cuiabá</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="angular.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript">
+		angular.module("AppCuiaba",[]);
+		angular.module("AppCuiaba",[]).controller("AppCuiabaCrtl", function ($scope) {
+
+			$scope.palestrantes =  [{nome: "Rodrigo Mourao", email: "rodrigomourao@rodrigomourao.com.br"},
+					{nome: "Alan Glei", email: "alan@glei.com.br"},
+					{nome: "Marcelo Varela", email: "marcelo@varela.com.br"},
+					{nome: "Jose Araujo", email: "jose@araujo.com.br"}];
+
+
+
+			$scope.AdicionarPalestrante = function (palestrante) {
+				$scope.palestrantes.push(angular.copy(palestrante));
+				delete $scope.palestrante;	
+			}
+
+			
+		});		
+
+
+
+	</script>
+
+	<style type="text/css">
+		.Teste{
+			width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.form-control{ margin-bottom: 5px; }
+	</style>
+</head>
+<body>
+	<h3 class="jumbotron">Cadastro de Palestrantes</h3>	
+	<div class="Teste" ng-controller="AppCuiabaCrtl">
+	
+	<table class="table table-striped">
+		<tr>
+			<th>Nome</th>
+			<th>Email</th>
+		</tr>
+		<tr ng-repeat="palestrante in palestrantes">
+			<td>{{palestrante.nome}}</td>
+			<td>{{palestrante.email}}</td>
+		</tr>	
+	</table>
+	<hr/>
+	<input class="form-control" type="text" name="" placeholder="Nome" ng-model="palestrante.nome">
+	<input class="form-control" type="text" name="" placeholder="Email" ng-model="palestrante.email">
+	<button class="btn btn-primary btn-block" ng-click="AdicionarPalestrante(palestrante)" ng-disabled=" !palestrante.nome || !palestrante.email">Adicionar Palestrante</button>
+	{{palestrante}}
+	</div>
+
+</body>
+</html>

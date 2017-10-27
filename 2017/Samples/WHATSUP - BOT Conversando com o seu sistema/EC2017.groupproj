@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2D17DD76-6811-469B-8357-37C01346A03F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SERVER_DATASNAP\SERVER_DATASNAP.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CLIENT_WIN32\EC2017_BOT.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SERVER_DATASNAP">
+        <MSBuild Projects="SERVER_DATASNAP\SERVER_DATASNAP.dproj"/>
+    </Target>
+    <Target Name="SERVER_DATASNAP:Clean">
+        <MSBuild Projects="SERVER_DATASNAP\SERVER_DATASNAP.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SERVER_DATASNAP:Make">
+        <MSBuild Projects="SERVER_DATASNAP\SERVER_DATASNAP.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EC2017_BOT">
+        <MSBuild Projects="CLIENT_WIN32\EC2017_BOT.dproj"/>
+    </Target>
+    <Target Name="EC2017_BOT:Clean">
+        <MSBuild Projects="CLIENT_WIN32\EC2017_BOT.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EC2017_BOT:Make">
+        <MSBuild Projects="CLIENT_WIN32\EC2017_BOT.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SERVER_DATASNAP;EC2017_BOT"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SERVER_DATASNAP:Clean;EC2017_BOT:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SERVER_DATASNAP:Make;EC2017_BOT:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
