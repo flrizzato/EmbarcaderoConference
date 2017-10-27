@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9F608B24-8F6F-47D6-B0C5-CE91338100BF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="exemploDelphi.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ExemploCpp.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="exemploDelphi">
+        <MSBuild Projects="exemploDelphi.dproj"/>
+    </Target>
+    <Target Name="exemploDelphi:Clean">
+        <MSBuild Projects="exemploDelphi.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="exemploDelphi:Make">
+        <MSBuild Projects="exemploDelphi.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExemploCpp">
+        <MSBuild Projects="ExemploCpp.cbproj"/>
+    </Target>
+    <Target Name="ExemploCpp:Clean">
+        <MSBuild Projects="ExemploCpp.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExemploCpp:Make">
+        <MSBuild Projects="ExemploCpp.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="exemploDelphi;ExemploCpp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="exemploDelphi:Clean;ExemploCpp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="exemploDelphi:Make;ExemploCpp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

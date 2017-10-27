@@ -1,0 +1,33 @@
+object frmBlueTooth: TfrmBlueTooth
+  Left = 0
+  Top = 0
+  Caption = 'BlueTooth'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 184.000000000000000000
+    Position.Y = 216.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 177.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'C:\Users\Public\Documents\Embarcadero\Studio\19.0\Samples\Object' +
+      ' Pascal\Multi-Device Samples\Device Sensors and Services\Bluetoo' +
+      'th'
+    TabOrder = 3
+  end
+  object BluetoothLE1: TBluetoothLE
+    Enabled = False
+    Left = 112
+    Top = 88
+  end
+  object Bluetooth1: TBluetooth
+    Enabled = False
+    Left = 456
+    Top = 80
+  end
+end

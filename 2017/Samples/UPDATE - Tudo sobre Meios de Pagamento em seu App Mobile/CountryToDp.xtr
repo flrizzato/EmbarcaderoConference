@@ -1,0 +1,24 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\NewDataSet\Table"><Select dest="@Country" from="\Country"/><Select dest="@City" from="\City"/></SelectEach></Transform><XmlSchema RootName="NewDataSet"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NewDataSet" type="NewDataSetType"/>
+  <xs:complexType name="NewDataSetType">
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Table" type="TableType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </xs:complexType>
+  <xs:element name="Table" type="TableType"/>
+  <xs:complexType name="TableType">
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Country" type="CountryType"/>
+      <xs:element name="City" type="CityType"/>
+    </sequence>
+  </xs:complexType>
+  <xs:element name="Country" type="CountryType"/>
+  <xs:simpleType name="CountryType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="City" type="CityType"/>
+  <xs:simpleType name="CityType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="Country" fieldtype="string" WIDTH="200"/><FIELD attrname="City" fieldtype="string" WIDTH="200"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="Country" fieldtype="string" WIDTH="200"/><FIELD attrname="City" fieldtype="string" WIDTH="200"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

@@ -1,0 +1,134 @@
+object frmSOAP: TfrmSOAP
+  Left = 0
+  Top = 0
+  Caption = 'SOAP'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object editCountry: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 1
+    Text = 'Brazil'
+    Position.Y = 50.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Country Name'
+  end
+  object editCity: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 2
+    Text = 'Conceicao Do Araguaia'
+    Position.Y = 72.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'City'
+  end
+  object buttonConsulta: TButton
+    Position.X = 496.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Consultar Tempo'
+    OnClick = buttonConsultaClick
+  end
+  object memoResult: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Bottom
+    Position.Y = 408.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 636.000000000000000000
+    Viewport.Height = 68.000000000000000000
+  end
+  object Grid1: TGrid
+    Align = Bottom
+    CanFocus = True
+    ClipChildren = True
+    Position.Y = 256.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 152.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 620.000000000000000000
+    Viewport.Height = 127.000000000000000000
+  end
+  object buttonConsultaCidades: TButton
+    Position.X = 496.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = 'Consultar Cidades'
+    OnClick = buttonConsultaCidadesClick
+  end
+  object cdsCountry: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'XMLTransformProvider1'
+    Left = 560
+    Top = 200
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = cdsCountry
+    ScopeMappings = <>
+    Left = 472
+    Top = 304
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = 'Country'
+          Width = 200
+        end
+        item
+          MemberName = 'City'
+          Width = 200
+        end>
+    end
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'City'
+      Control = editCity
+      Track = False
+    end
+  end
+  object XMLTransformProvider1: TXMLTransformProvider
+    TransformRead.TransformationFile = 
+      'C:\Users\Aluno\Desktop\exemplos-delphi\Capitulo4\Essentials.7\Co' +
+      'untryToDp.xtr'
+    XMLDataFile = 
+      'C:\Users\Aluno\Desktop\exemplos-delphi\Capitulo4\Essentials.7\Wi' +
+      'n32\Debug\Table.xml'
+    Left = 480
+    Top = 192
+  end
+end
