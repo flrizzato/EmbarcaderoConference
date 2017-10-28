@@ -1,6 +1,6 @@
-Para baixar o framework DROP - Nova versão exclusiva para participantes do Conference!
+Para baixar o framework DROP - Nova versão especial Embarcadero Conference 2017!
 
-http://www.aquasoft.com.br/site/drop/AqDropEC2017.zip
-* senha para descompactar: econ2017breufui
+github.com/AquasoftTI/AqDrop
+http://www.aquasoft.com.br/site/drop/AqDrop.zip
 
 ---
