@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/16 17:30:01.000.958,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2017/10/16 17:30:01.000.772,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\FormUnit1.pas</Transaction>
+    <Transaction>2017/10/16 17:30:03.000.137,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2017/10/16 17:30:04.000.514,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\WebModuleUnit1.pas</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.934,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.834,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\callbackframework.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.878,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\base64-min.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.952,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\callbackframework-min.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.796,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.892,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\json2-min.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.851,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\serverfunctions.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.816,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\json2.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.970,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\connection.js</Transaction>
+    <Transaction>2017/10/16 17:30:05.000.776,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\base64.js</Transaction>
+    <Transaction>2017/10/16 17:30:06.000.033,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\js\serverfunctioninvoker.js</Transaction>
+    <Transaction>2017/10/16 17:30:06.000.133,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\templates\serverfunctioninvoker.html</Transaction>
+    <Transaction>2017/10/16 17:30:06.000.165,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\images\collapse.png</Transaction>
+    <Transaction>2017/10/16 17:30:06.000.078,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\css\serverfunctioninvoker.css</Transaction>
+    <Transaction>2017/10/16 17:30:06.000.053,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\css\main.css</Transaction>
+    <Transaction>2017/10/16 17:30:06.000.102,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\templates\reversestring.html</Transaction>
+    <Transaction>2017/10/16 17:30:06.000.193,=C:\Users\crist\OneDrive\Conference2017\ProjetoDataSnap\images\expand.png</Transaction>
+  </Transactions>
+</BorlandProject>
