@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DD75BE55-AC4D-4AE2-91F8-8EE07B99A73C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FD_DBX\FD_DBX_Server.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FD_DBC_Client\FD_BDX_Client.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FD_Server\FD_Server.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FD_Client\FD_Client.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FD_Server_Modificado\FD_Server_Modificado.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FD_Server_Modificado_AutoInc\FD_Server_Modificado_AutoInc.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FD_DBX_Server">
+        <MSBuild Projects="FD_DBX\FD_DBX_Server.dproj"/>
+    </Target>
+    <Target Name="FD_DBX_Server:Clean">
+        <MSBuild Projects="FD_DBX\FD_DBX_Server.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FD_DBX_Server:Make">
+        <MSBuild Projects="FD_DBX\FD_DBX_Server.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FD_BDX_Client">
+        <MSBuild Projects="FD_DBC_Client\FD_BDX_Client.dproj"/>
+    </Target>
+    <Target Name="FD_BDX_Client:Clean">
+        <MSBuild Projects="FD_DBC_Client\FD_BDX_Client.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FD_BDX_Client:Make">
+        <MSBuild Projects="FD_DBC_Client\FD_BDX_Client.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FD_Server">
+        <MSBuild Projects="FD_Server\FD_Server.dproj"/>
+    </Target>
+    <Target Name="FD_Server:Clean">
+        <MSBuild Projects="FD_Server\FD_Server.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FD_Server:Make">
+        <MSBuild Projects="FD_Server\FD_Server.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FD_Client">
+        <MSBuild Projects="FD_Client\FD_Client.dproj"/>
+    </Target>
+    <Target Name="FD_Client:Clean">
+        <MSBuild Projects="FD_Client\FD_Client.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FD_Client:Make">
+        <MSBuild Projects="FD_Client\FD_Client.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FD_Server_Modificado">
+        <MSBuild Projects="FD_Server_Modificado\FD_Server_Modificado.dproj"/>
+    </Target>
+    <Target Name="FD_Server_Modificado:Clean">
+        <MSBuild Projects="FD_Server_Modificado\FD_Server_Modificado.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FD_Server_Modificado:Make">
+        <MSBuild Projects="FD_Server_Modificado\FD_Server_Modificado.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FD_Server_Modificado_AutoInc">
+        <MSBuild Projects="FD_Server_Modificado_AutoInc\FD_Server_Modificado_AutoInc.dproj"/>
+    </Target>
+    <Target Name="FD_Server_Modificado_AutoInc:Clean">
+        <MSBuild Projects="FD_Server_Modificado_AutoInc\FD_Server_Modificado_AutoInc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FD_Server_Modificado_AutoInc:Make">
+        <MSBuild Projects="FD_Server_Modificado_AutoInc\FD_Server_Modificado_AutoInc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FD_DBX_Server;FD_BDX_Client;FD_Server;FD_Client;FD_Server_Modificado;FD_Server_Modificado_AutoInc"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FD_DBX_Server:Clean;FD_BDX_Client:Clean;FD_Server:Clean;FD_Client:Clean;FD_Server_Modificado:Clean;FD_Server_Modificado_AutoInc:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FD_DBX_Server:Make;FD_BDX_Client:Make;FD_Server:Make;FD_Client:Make;FD_Server_Modificado:Make;FD_Server_Modificado_AutoInc:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

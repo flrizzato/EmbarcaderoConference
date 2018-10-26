@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/09/18 19:33:42.000.128,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/09/18 21:37:06.000.506,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/10/19 17:19:40.000.831,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2018/10/19 17:19:41.000.768,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2018/10/19 17:19:41.000.315,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit2.pas</Transaction>
+    <Transaction>2018/10/19 17:20:04.000.502,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit7.pas=C:\EC 2018\FD_DBX\Unit7.pas</Transaction>
+    <Transaction>2018/10/19 17:20:04.000.502,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit7.dfm=C:\EC 2018\FD_DBX\Unit7.dfm</Transaction>
+    <Transaction>2018/10/19 17:20:08.000.534,\\Mac\Home\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas=C:\EC 2018\FD_DBX\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2018/10/19 17:20:08.000.534,\\Mac\Home\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm=C:\EC 2018\FD_DBX\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2018/10/19 17:20:21.000.002,\\Mac\Home\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit2.dfm=C:\EC 2018\FD_DBX\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2018/10/19 17:20:21.000.002,\\Mac\Home\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit2.pas=C:\EC 2018\FD_DBX\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/10/19 17:20:44.000.330,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\EC 2018\FD_DBX\FD_DBX_Server.dproj</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ServerContainerUnit1.pas"/>
+    <File Path="ServerContainerUnit1.dfm"/>
+    <File Path="ServerMethodsUnit1.pas"/>
+    <File Path="ServerMethodsUnit1.dfm"/>
+    <File Path="Unit7.pas"/>
+    <File Path="Unit7.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

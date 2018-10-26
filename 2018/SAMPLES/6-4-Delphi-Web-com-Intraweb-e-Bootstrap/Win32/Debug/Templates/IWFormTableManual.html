@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+</head>
+<body>
+    <div class="clearfix" style="display:none">{%IWBTNALTERAR%}{%IWBTNEXCLUIR%}</div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h4><b>Tabela Manual com Bootstrap</b></h4>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+            <small><b>Mostrar&nbsp;&nbsp;{%ItensPagina%}&nbsp;&nbsp;Registros por Página</b></small> 
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+            <button type="button" id="IWBTNINCLUIR" class="btn btn-primary btn-sm">Incluir Novo Produto</button> 
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-right">
+            <button type="button" id="IWBTNFILTRO" class="btn btn-primary btn-sm">Filtro/Ordenação</button> 
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="table-responsive">
+                {%GridManual%}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        {%Paginacao%}
+    </div>
+
+    <!-- Modal Filtro -->
+    <div class="modal fade" id="ModalFiltro" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title text-danger">Filtro/Ordenação Avançado</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form role="form">
+                            <div class="row col-md-offset-1">
+                                <div class="col-md-5">
+                                    <div class="form-group-sm">
+                                        <label>Código Produto:</label>
+                                        {%Codigo%}
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group-sm">
+                                        <label>Parte da Descrição:</label>
+                                        {%Descricao%}
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row col-md-offset-1">
+                                <div class="col-md-10">
+                                    <div class="form-group-sm">
+                                        <label>Informações Adicionais:</label>
+                                        {%Adicionais%}
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="well well-sm"><b>Escolha a Ordenação</b></div>
+                            <div class="row">
+                                <div class="col-md-4 col-md-offset-4" align="center">
+                                    <div class="form-group-sm">
+                                        <label for="Ordenacao">Ordenação:</label>
+                                        {%Ordenacao%}
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $('#ModalFiltro').on('shown.bs.modal', function () {
+                        $('#CODIGO').focus();
+                });
+            </script>
+            <div class="modal-footer">
+              <span class="form-control-static btn btn-danger" data-dismiss="modal" id="IWBTNLIMPAFILTRO">
+                  Limpar Filtros
+              </span>
+              <span class="form-control-static btn btn-primary" data-dismiss="modal" id="IWBTNCONFIRMAFILTRO">
+                  Aplicar os Filtros
+              </span>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="Cadastro" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><i class="fa fa-fw fa-barcode"></i> {%TituloModal%} do Produto da Empresa</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="form-group">
+                                <label for="usr">Código</label>
+                                {%COD_PRODUTO%}
+                            </div>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="form-group">
+                                <label>Descrição do Produto</label>
+                                {%PROD_DESCRICAO%}
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <label>Dados Adicionais do Produto</label>
+                                {%PROD_INFO_ADICIONAIS%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    $('#Cadastro').on('shown.bs.modal', function () {
+                        debbuger;
+                        $('#PROD_DESCRICAO').focus();
+                    });
+                </script>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="BTNGRAVAR">Gravar Dados</button>
+                    <button type="button" class="btn btn-default"  data-dismiss="modal" id="BTNCANCELAR">Cancelar</button>	
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8"> 
+        function SetaAcao(Acao, id) {
+            debugger;
+            document.getElementById('IWACAO').value = id;
+            AddChangedControl('IWACAO');   // colocar essa linha sempre que usar o onAsyncClick pois colocar o campo como alterado
+            if (Acao == 'A') {
+                IWBTNALTERAR.click();
+            }
+            if (Acao == 'E') {
+                IWBTNEXCLUIR.click();
+            }
+        };
+    </script> 
+</body>
+</html>

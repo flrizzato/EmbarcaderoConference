@@ -1,0 +1,174 @@
+<html>
+<head>
+</head>
+<body>
+    <div class="clearfix" style="display:none">{%BTNEXCLUIR%}{%BTNSENHA%}{%BTNGRAVAR%}</div>
+
+    <div class="content container-fluid">
+        <h3>
+            Listagem de Produtos da Empresa
+        </h3>
+
+        <div class="col-md-12">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <i class="fa fa-fw fa-barcode"></i>
+                    <h3 class="box-title">Produtos da Empresa</h3>
+                    <div class="box-tools pull-right">
+                        <div class="btn-group">
+                            <button type="buttom" class="btn btn-primary" onclick="SetaAcao('Impr');">
+                                <i class="fa fa-print" aria-hidden="true"></i><span class="hidden-xs hidden-sm"> Imprimir</span>
+                            </button>
+                            <button type="buttom" class="btn btn-primary" onclick="SetaAcao('Inc');">
+                                <i class="fa fa-plus" aria-hidden="true"></i><span class="hidden-xs hidden-sm"> Cadastrar</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="box box-default">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <br />
+                                <div class="table-responsive">
+                                    {%Grid%}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="Cadastro" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><i class="fa fa-fw fa-barcode"></i> {%TituloModal%} de Produto da Empresa</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="form-group">
+                                <label for="usr">Código</label>
+                                {%IDPRODUTO%}
+                            </div>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="form-group">
+                                <label>Descrição do Produto</label>
+                                {%DESCRICAO%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    $('#Cadastro').on('shown.bs.modal', function () {
+                        debbuger;
+                        $('#RAZAOSOCIAL').focus();
+                    });
+                </script>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" onclick="Gravar();">Gravar Dados</button>
+                    <button type="button" class="btn btn-default"  data-dismiss="modal" id="BTNCANCELAR">Cancelar</button>	
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Relatorios -->
+    <div class="modal fade" id="Relatorios" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><i class="fa fa-fw fa-print"></i> Filtro para Relatórios</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <br />
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label for="usr">Filtrar por parte da Descrição do Produto</label>
+                                {%Filtro%}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br />
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label for="usr">Escolha a Ordenação do Relatório</label>
+                                {%Ordenacao%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    $('#Relatorios').on('shown.bs.modal', function () {
+                        debbuger;
+                        $('#FILTRO').focus();
+                    });
+                </script>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" id="BTNIMPRIMIR">Imprimir Relatório</button>
+                    <button type="button" class="btn btn-default"  data-dismiss="modal">Cancelar</button>	
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    $(function () {
+        $('#GRID').DataTable({
+            language: {
+                "sEmptyTable": "Nenhum registro encontrado",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
+                "sInfoFiltered": "(Filtrados de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sInfoThousands": ".",
+                "sLengthMenu": "_MENU_ registros por página",
+                "sLoadingRecords": "Carregando...",
+                "sProcessing": "Processando...",
+                "sZeroRecords": "Nenhum registro encontrado",
+                "sSearch": "Pesquisar",
+                "oPaginate": {
+                    "sNext": "Próximo",
+                    "sPrevious": "Anterior",
+                    "sFirst": "Primeiro",
+                    "sLast": "Último"
+                },
+                "oAria": {
+                    "sSortAscending": ": Ordenar colunas de forma ascendente",
+                    "sSortDescending": ": Ordenar colunas de forma descendente"
+                },
+                dom: 'Bfrtip',
+                buttons: [
+                    'print'
+                ]
+            }        
+        })
+    })
+    
+
+    //
+    //  FUNCAO DE VALIDACAO DE CAMPOS ANTES DE GRAVAR
+    //
+    function Gravar(){
+        debugger;
+        var str = document.getElementById('DESCRICAO').value;
+        var n = str.length;
+        if (n < 5){
+            swal('Atenção!!!', 'Descrição do Produto não possui tamanho mínimo de 5 caracteres !', 'warning');
+            document.getElementById('DESCRICAO').focus();
+        }
+        else BTNGRAVAR.click();
+    }
+</script>
+
+</body>
+</html>

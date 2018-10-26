@@ -1,0 +1,443 @@
+﻿project
+begin
+  projectid = {46E7E505-8046-43CA-A7E6-ECCAB9066DE1}
+  target
+  begin
+    name = Default
+    targetid = {A26130BA-7673-491B-9EC8-71FBF9EFEFFD}
+    rootaction
+    begin
+      action.directory.create
+      begin
+        fileordirectory = %FBPROJECTDIR%\\Artifacts
+        force = true
+        id = {1F7DA84C-5674-4A11-A9A4-F02BCB06358D}
+      end
+      action.comment
+      begin
+        actiontextcolor = 8421376
+        description = "********** Compilar Projeto **********"
+        enabled = false
+        id = {FF16ED1A-84C2-4575-905C-B719DBDC3A4C}
+      end
+      action.delphi.build
+      begin
+        allowimplicitimport = true
+        alwaysuseconditionalsfromdof = true
+        autoincbuild = false
+        autoupdatefileversion = true
+        autoupdateproductversion = false
+        buildall = true
+        buildversion = 0
+        codepage = 1252
+        compileprojectresources = false
+        compileridl = true
+        configname = Debug
+        debugversionnumbers = false
+        delphiversion = Delphi10Tokyo
+        eurekalogverboselogging = false
+        frameworktype = VCL
+        hintsaserror = false
+        id = {D63D43BF-87D5-4010-A17A-29C0753C7D73}
+        includecompiledate = false
+        includemanifest = false
+        includeverinfo = true
+        isdebug = false
+        isdll = false
+        isprerelease = false
+        isprivate = false
+        isspecial = false
+        keepcfg = false
+        linkproductversiontofileversion = true
+        locale = 1033
+        majorversion = 1
+        minorversion = 0
+        platform = Win32
+        platformsdktype = ProjectSDK
+        projectfile = %FBPROJECTDIR%\\src\\Project1.dpr
+        regenerateresource = true
+        releaseversion = 0
+        resourcecompilertype = rcBorland
+        startingdir = %FBPROJECTDIR%\\src\\
+        updatedoffile = false
+        updatepackagesource = false
+        updateversioninfokeys = false
+        useeurekalogcompiler = false
+        usefastdcccompiler = false
+        useprojectsettings = [usPackages,usCompiler,usLinker,usDirectories,usVersionInfo]
+        usepropertyset = false
+        useversionfromdof = false
+        verboseoutput = false
+        versioninfokeys = "CompanyName\=" +
+                          "FileDescription\=" +
+                          "FileVersion\=1.0.0.0" +
+                          "InternalName\=" +
+                          "LegalCopyright\=" +
+                          "LegalTrademarks\=" +
+                          "OriginalFilename\=" +
+                          "ProductName\=" +
+                          "ProductVersion\=1.0.0.0" +
+                          "Comments\=" +
+                          ""
+        warningsaserror = false
+        workaroundd5bug = false
+        delphi.compileroptions
+        begin
+          alwaysuseconditionalsfromdof = true
+          alwaysusedelphilibrarypath = true
+          alwaysusedofsearchpath = true
+          assertions = true
+          assignableconst = true
+          booleval = false
+          conditionals = DEBUG
+          consoleapp = false
+          debuginfo = true
+          definitionsonly = true
+          emitruntimetypeinformation = false
+          exportallsymbols = false
+          extendedsyntax = true
+          externaltd32 = false
+          frameworktype = VCL
+          generatedocumentation = false
+          generatehpp = false
+          hugestrings = true
+          imagebase = 4194304
+          includenamespaces = false
+          includeremotesymbols = false
+          includetd32 = true
+          inlining = inOn
+          iochecking = true
+          librarypath = $(BDSLIB)\\$(Platform)\\release;$(BDSUSERDIR)\\Imports;$(BDS)\\Imports;$(BDSCOMMONDIR)\\Dcp;$(BDS)\\include;C:\\Users\\alefr\\Documents\\GitHub\\_forks\\DUnitX\\Tests\\Win32\\Debug
+          linkeroutput = 0
+          localsymbols = true
+          mapfile = 3
+          maxstacksize = 1048576
+          minstacksize = 16384
+          namespaceprefixes = Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;
+          openstrings = true
+          optimisation = false
+          outputdir = ..\\Bin
+          overflowchecking = false
+          packages = vcl50;vclmid50;inet50;inetdb50;vclx50;vcldb50;vclbde50;vcldbx50;vclado50;dclaxserver50;dss50;teeui50;teedb50;tee50;vclib50;vclie50;nmfast50;dclocx50;qrpt50;vclsmp50;teeqr50;webmid50;addict3_d5;addict3db_d5;pbfolderdialogd5;dbpland5;pland5;dcctd5;box50;dxbard5;dxcomnd5;dxbardbnavd5;dxbarextdbitemsd5;dxbarextitemsd5;dxdbtrd5;dxedtrd5;dxelibd5;dxexeld5;eqgridd5;dxexrwd5;dxdbedd5;dxinsd5;dxforumlibd5;dxgredd5;ecqdbcd5;eqtld5;eqdbtld5;dxmdsd5;dxobjinsd5;dxpagecontrold5;dxsbd5;dxtrmdd5;rbrcl55;rbbde55;eurekalogcore;embeddedwebbrowser;spembeddedwb;sppng;rave50vcld5;jcld50;spaddict3d5;sputils;wptaddict_d5;wptools_d5;spdxbard5;spgifimage;tb2k_d5;tbx_d5;cooltrayicon_d5;virtualtreesd5;advtrackbarpkgd5;spviewpdf;vclzipd5;spsecureblackbox;spquickpdf;pdfbboxd5;pkibboxd5;basebboxd5;spimageen;pkiectrl5;sqldir50;indy50;xlssuit5;sp4d5completo;spdelphitools;sajd5completo;sp4impl;sp4api;sppd5completo;scmd5completo;wfld5completo;cgod5completodt;cgod5completo;edtd5completo;sggd5completo;digd5completo;intd5completo;pg5cprettylistview;pg5ccompleto;pg5cprettylabel;prod5completo;prod5registroboletofebraban;sgccompleto;sard5completo;smdcompletodt;smdprettylistview;smdcompleto;aipd5completo;aclcompleto;ccpd5completo;ggpd5completo;prcimpl;prcapi;pg5d5completo;contatempo
+          rangechecking = false
+          recordfieldalign = fa1
+          referenceinfo = true
+          safedivide = false
+          showhints = true
+          showwarnings = true
+          stackframes = true
+          stringchecks = true
+          typedpointers = false
+          unitaliases = WinTypes\=Windows;WinProcs\=Windows;DbiTypes\=BDE;DbiProcs\=BDE;DbiErrs\=BDE
+          unitoutputdir = ..\\Lib
+          usedebugdcu = false
+          usepackages = false
+          varstringchecks = true
+        end
+      end
+      action.comment
+      begin
+        actiontextcolor = 8421376
+        description = "********** Compilar Testes Unitários **********"
+        enabled = false
+        id = {437ED66E-DCEA-4D23-9CD4-8C05F227E04E}
+      end
+      action.delphi.build
+      begin
+        allowimplicitimport = true
+        alwaysuseconditionalsfromdof = true
+        autoincbuild = false
+        autoupdatefileversion = true
+        autoupdateproductversion = false
+        buildall = true
+        buildversion = 0
+        codepage = 1252
+        compileprojectresources = false
+        compileridl = true
+        configname = Debug
+        debugversionnumbers = false
+        delphiversion = Delphi10Tokyo
+        eurekalogverboselogging = false
+        frameworktype = VCL
+        hintsaserror = false
+        id = {FA8EAFC8-11B4-4481-A70C-4971FC7C908F}
+        includecompiledate = false
+        includemanifest = false
+        includeverinfo = false
+        isdebug = false
+        isdll = false
+        isprerelease = false
+        isprivate = false
+        isspecial = false
+        keepcfg = false
+        linkproductversiontofileversion = true
+        locale = 1033
+        majorversion = 1
+        minorversion = 0
+        platform = Win32
+        platformsdktype = ProjectSDK
+        projectfile = %FBPROJECTDIR%\\tests\\Project1Tests.dpr
+        regenerateresource = true
+        releaseversion = 0
+        resourcecompilertype = rcBorland
+        startingdir = %FBPROJECTDIR%\\tests\\
+        updatedoffile = false
+        updatepackagesource = false
+        updateversioninfokeys = false
+        useeurekalogcompiler = false
+        usefastdcccompiler = false
+        useprojectsettings = [usPackages,usCompiler,usLinker,usDirectories,usVersionInfo]
+        usepropertyset = false
+        useversionfromdof = false
+        verboseoutput = false
+        versioninfokeys = "CompanyName\=" +
+                          "FileDescription\=$(MSBuildProjectName)" +
+                          "FileVersion\=1.0.0.0" +
+                          "InternalName\=" +
+                          "LegalCopyright\=" +
+                          "LegalTrademarks\=" +
+                          "OriginalFilename\=" +
+                          "ProgramID\=com.embarcadero.$(MSBuildProjectName)" +
+                          "ProductName\=$(MSBuildProjectName)" +
+                          "ProductVersion\=1.0.0.0" +
+                          "Comments\=" +
+                          ""
+        warningsaserror = false
+        workaroundd5bug = false
+        delphi.compileroptions
+        begin
+          alwaysuseconditionalsfromdof = true
+          alwaysusedelphilibrarypath = true
+          alwaysusedofsearchpath = true
+          assertions = true
+          assignableconst = false
+          booleval = false
+          conditionals = CI;DEBUG
+          consoleapp = false
+          dcpoutputdir = ..\\Lib
+          debuginfo = true
+          definitionsonly = true
+          emitruntimetypeinformation = false
+          exportallsymbols = false
+          extendedsyntax = true
+          externaltd32 = false
+          frameworktype = None
+          generatedocumentation = false
+          generatehpp = false
+          hugestrings = true
+          imagebase = 4194304
+          includenamespaces = false
+          includeremotesymbols = false
+          includetd32 = true
+          inlining = inOn
+          iochecking = true
+          librarypath = $(BDSLIB)\\$(Platform)\\release;$(BDSUSERDIR)\\Imports;$(BDS)\\Imports;$(BDSCOMMONDIR)\\Dcp;$(BDS)\\include;C:\\Users\\alefr\\Documents\\GitHub\\_forks\\DUnitX\\Tests\\Win32\\Debug
+          linkeroutput = 0
+          localsymbols = true
+          mapfile = 3
+          maxstacksize = 1048576
+          minstacksize = 16384
+          namespaceprefixes = System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;
+          openstrings = true
+          optimisation = false
+          outputdir = ..\\Bin
+          overflowchecking = false
+          packages = inet;rtl;fmxase;objectdebugger;vcl;customiptransport;vclactnband;vcldsnap;indycore;indysystem;vclx;bindcomp;tethering;svnui;appanalytics;dsnap;bindcompvcl;vclimg;vcltouch;vclsmp;vcldb;bindcompfmx;svn;vclie;bindengine;dbrtl;indyprotocols;jamesexperttokyo;fmx;fmxdae;xmlrtl;fmxobj;vclwinx
+          rangechecking = false
+          recordfieldalign = fa8
+          referenceinfo = true
+          safedivide = false
+          searchpath = ..\\Lib
+          showhints = true
+          showwarnings = true
+          stackframes = true
+          stringchecks = true
+          typedpointers = false
+          unitaliases = WinTypes\=Windows;WinProcs\=Windows;DbiTypes\=BDE;DbiProcs\=BDE;DbiErrs\=BDE
+          unitoutputdir = ..\\Lib
+          usedebugdcu = true
+          usepackages = false
+          varstringchecks = true
+        end
+      end
+      action.doscmd.execute
+      begin
+        captureoutput = true
+        command = \"%FBPROJECTDIR%\\Bin\\Project1Tests.exe\"
+        enablelivecapture = true
+        enablereturncodecheck = true
+        enabletimeout = false
+        expandimpersonationtoken = false
+        hidewindow = true
+        id = {D5541E5C-5C92-4692-BC60-7051FA698B4B}
+        impersonateusenetcredonly = false
+        impersonateuser = false
+        logoutput = true
+        logprocessparameters = true
+        params = \"%FBPROJECTDIR%\\Bin\\Project1Tests.exe\"
+        processoraffinity = 0
+        processpriority = tpNormal
+        redirectstderr = true
+        returncodecomparator = rcEqualTo
+        returncodetocheck = 0
+        startindir = %FBPROJECTDIR%\\Bin\\
+        terminateontimeout = false
+        timeoutlength = 0
+        useerrordialogmonitor = false
+        waitforcompletion = true
+      end
+      action.files.copy
+      begin
+        clearattributes = false
+        failifexists = false
+        failifzerofiles = true
+        filespec = %FBPROJECTDIR%\\Bin\\dunitx-results.xml
+        force = false
+        id = {0BFF2803-78CE-4EA0-8D8A-3611DFF529CB}
+        logfilesaffected = true
+        overwrite = true
+        overwritereadonly = false
+        recurse = false
+        target = %FBPROJECTDIR%\\Artifacts
+        targetisdir = true
+      end
+      action.comment
+      begin
+        actiontextcolor = 8421376
+        description = "********** Cobertura de Código **********"
+        enabled = false
+        id = {502A02FA-6A63-4986-B9F2-F65C1458B3EB}
+      end
+      action.directory.create
+      begin
+        fileordirectory = %FBPROJECTDIR%\\Bin\\Coverage
+        force = true
+        id = {85A1A1F2-F193-4E1B-A522-B49A9191E334}
+      end
+      action.textfile.create
+      begin
+        createdirectory = true
+        encoding = ANSI
+        filecontents = "\"%FBPROJECTDIR%\\Coverage\\CodeCoverage.exe\" -e \"%FBPROJECTDIR%\\Bin\\Project1Tests.exe\" -m \"%FBPROJECTDIR%\\Bin\\Project1Tests.map\" -sd \"%FBPROJECTDIR%\\src\" -u uCalculadora.pas -html -emma -xml -od \"%FBPROJECTDIR%\\Bin\\Coverage\""
+        id = {2323BF0F-B1CE-45D2-91AB-6466CB16DD55}
+        newfilename = %FBPROJECTDIR%\\Bin\\cc.bat
+        overwriteexisting = true
+        writebom = true
+      end
+      action.doscmd.execute
+      begin
+        captureoutput = true
+        command = \"%FBPROJECTDIR%\\Bin\\cc.bat\"
+        enablelivecapture = true
+        enablereturncodecheck = true
+        enabletimeout = false
+        expandimpersonationtoken = false
+        hidewindow = true
+        id = {5CD1FE98-A583-4B13-AA98-1FABED653360}
+        impersonateusenetcredonly = false
+        impersonateuser = false
+        logoutput = true
+        logprocessparameters = true
+        params = \"%FBPROJECTDIR%\\Bin\\cc.bat\"
+        processoraffinity = 0
+        processpriority = tpNormal
+        redirectstderr = true
+        returncodecomparator = rcEqualTo
+        returncodetocheck = 0
+        startindir = %FBPROJECTDIR%\\Bin
+        terminateontimeout = false
+        timeoutlength = 0
+        useerrordialogmonitor = false
+        waitforcompletion = true
+      end
+      action.files.copy
+      begin
+        clearattributes = false
+        failifexists = false
+        failifzerofiles = true
+        filespec = %FBPROJECTDIR%\\Bin\\Coverage\\*.*
+        force = true
+        id = {086C842A-B0A0-4C0D-80E2-E5919195C07A}
+        logfilesaffected = true
+        overwrite = true
+        overwritereadonly = false
+        recurse = false
+        target = %FBPROJECTDIR%\\Artifacts\\Coverage
+        targetisdir = true
+      end
+      action.comment
+      begin
+        actiontextcolor = 8421376
+        description = "********** Armazenar Artefatos **********"
+        enabled = false
+        id = {9E2DC4BD-BCAD-4177-B243-4A1BDF7C0A47}
+      end
+      action.files.copy
+      begin
+        clearattributes = false
+        failifexists = false
+        failifzerofiles = true
+        filespec = %FBPROJECTDIR%\\Bin\\*.exe
+        force = false
+        id = {F761DCFC-8ACD-47E8-90E6-B24B6962FD6F}
+        logfilesaffected = true
+        overwrite = true
+        overwritereadonly = false
+        recurse = false
+        target = %FBPROJECTDIR%\\Artifacts
+        targetisdir = true
+      end
+      action.files.copy
+      begin
+        clearattributes = false
+        failifexists = false
+        failifzerofiles = true
+        filespec = %FBPROJECTDIR%\\Bin\\dunitx-results.xml
+        force = false
+        id = {B6A64510-634C-4E6A-9801-A5BDAC0A3B2C}
+        logfilesaffected = true
+        overwrite = true
+        overwritereadonly = false
+        recurse = false
+        target = %FBPROJECTDIR%\\Artifacts
+        targetisdir = true
+      end
+      action.files.copy
+      begin
+        clearattributes = false
+        failifexists = false
+        failifzerofiles = true
+        filespec = %FBPROJECTDIR%\\Bin\\Coverage\\*.*
+        force = false
+        id = {40C0F0A6-3109-4CFB-B5C4-671312F6AD66}
+        logfilesaffected = true
+        overwrite = true
+        overwritereadonly = false
+        recurse = false
+        target = %FBPROJECTDIR%\\Artifacts\\Coverage
+        targetisdir = true
+      end
+      action.zip.create
+      begin
+        adddirentriesonrecurse = true
+        dispose = false
+        failiffilemissing = true
+        failifzerofiles = false
+        fileslist = "*.*" +
+                    ""
+        id = {2C8BB67C-236F-4319-B0D9-8F6F5F5A89F5}
+        includehiddenfiles = false
+        logfiles = true
+        outputfilename = "%FBPROJECTDIR%\\Artifacts\\Build.zip "
+        packlevel = 6
+        recurse = true
+        relativepaths = true
+        resetarchivebitonzip = false
+        rootdir = %FBPROJECTDIR%\\Artifacts
+        skipifarchivebitnotset = false
+        store83names = false
+        storepaths = true
+      end
+    end
+  end
+end

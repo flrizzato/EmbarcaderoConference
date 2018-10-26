@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8B6A54EF-0B20-4F31-AF7C-F39F9C139537}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RegistradorNota.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="NotaServer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RegistradorNota">
+        <MSBuild Projects="RegistradorNota.dproj"/>
+    </Target>
+    <Target Name="RegistradorNota:Clean">
+        <MSBuild Projects="RegistradorNota.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RegistradorNota:Make">
+        <MSBuild Projects="RegistradorNota.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NotaServer">
+        <MSBuild Projects="NotaServer.dproj"/>
+    </Target>
+    <Target Name="NotaServer:Clean">
+        <MSBuild Projects="NotaServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NotaServer:Make">
+        <MSBuild Projects="NotaServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RegistradorNota;NotaServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RegistradorNota:Clean;NotaServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RegistradorNota:Make;NotaServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

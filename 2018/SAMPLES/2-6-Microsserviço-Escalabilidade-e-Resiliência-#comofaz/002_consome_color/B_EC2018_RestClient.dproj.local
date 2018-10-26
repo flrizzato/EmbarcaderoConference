@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/14 17:16:12.000.094,=C:\Users\jmari\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/21 23:23:16.000.743,C:\Users\jmari\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\fontes_EC2018\002_consome_color\Main.dproj</Transaction>
+    <Transaction>2018/10/21 23:23:49.000.423,=C:\fontes_EC2018\002_consome_color\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 23:26:51.000.040,C:\fontes_EC2018\002_consome_color\Unit1.dfm=C:\fontes_EC2018\002_consome_color\DataModule.dfm</Transaction>
+    <Transaction>2018/10/21 23:26:51.000.040,C:\fontes_EC2018\002_consome_color\Unit1.pas=C:\fontes_EC2018\002_consome_color\DataModule.pas</Transaction>
+    <Transaction>2018/10/22 16:08:01.411,C:\fontes_EC2018\002_consome_color\B_EC2018_RestClient.dproj=C:\fontes_EC2018\002_consome_color\Main.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/04 10:14:20.000.365,D:\ORMBr Diversos\Live-08062017\Project Demo\Models\ormbr.model.client.pas=D:\ORMBr Diversos\Live-08062017\Project Demo\Models\ormbr.model.cliente.pas</Transaction>
+    <Transaction>2017/06/04 10:19:03.000.906,D:\ORMBr Diversos\Live-08062017\Project Demo\Models\ormbr.model.detail.pas=D:\ORMBr Diversos\Live-08062017\Project Demo\Models\ormbr.model.detalhe.pas</Transaction>
+    <Transaction>2017/06/04 10:53:13.000.190,D:\ORMBr Diversos\Live-08062017\Project Demo\Models\ormbr.model.master.pas=D:\ORMBr Diversos\Live-08062017\Project Demo\Models\ormbr.model.mestre.pas</Transaction>
+    <Transaction>2017/06/04 10:57:17.000.196,=D:\ORMBr\Demo\SQLMonitor.pas</Transaction>
+    <Transaction>2017/06/05 18:31:28.000.126,D:\ORMBr Diversos\Live-08062017\UsoDataSet\ORMBrFireDAC.dproj=D:\ORMBr Diversos\Live-08062017\UsoDataSet\ORMBrLive.dproj</Transaction>
+    <Transaction>2017/06/06 06:46:51.000.632,D:\ORMBr Diversos\Live-08062017\Models\ormbr.model.status.pas=D:\ORMBr Diversos\Live-08062017\Models\ormbr.model.lookup.pas</Transaction>
+    <Transaction>2017/06/06 07:23:39.000.418,D:\ORMBr\Demo\SQLMonitor.pas=</Transaction>
+    <Transaction>2017/06/06 07:23:47.000.642,D:\ORMBr Diversos\Live-08062017\Models\ormbr.model.status.pas=</Transaction>
+    <Transaction>2017/06/06 07:23:47.000.640,D:\ORMBr Diversos\Live-08062017\Models\ormbr.model.cliente.pas=</Transaction>
+    <Transaction>2017/06/06 07:23:47.000.641,D:\ORMBr Diversos\Live-08062017\Models\ormbr.model.detalhe.pas=</Transaction>
+    <Transaction>2017/06/06 07:23:47.000.642,D:\ORMBr Diversos\Live-08062017\Models\ormbr.model.mestre.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

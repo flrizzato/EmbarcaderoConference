@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/09/18 19:33:42.000.128,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/09/18 21:37:06.000.506,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/10/19 17:01:36.000.721,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/10/19 17:04:57.000.377,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.dfm=C:\EC 2018\FD_DBC_Client\Unit1.dfm</Transaction>
+    <Transaction>2018/10/19 17:04:57.000.377,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas=C:\EC 2018\FD_DBC_Client\Unit1.pas</Transaction>
+    <Transaction>2018/10/19 17:05:10.000.080,\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\EC 2018\FD_DBC_Client\Project2.dproj</Transaction>
+    <Transaction>2018/10/19 17:07:35.000.330,=C:\EC 2018\FD_DBC_Client\Unit2.pas</Transaction>
+    <Transaction>2018/10/19 17:18:49.000.484,C:\EC 2018\FD_DBC_Client\Project2.dproj=C:\EC 2018\FD_DBC_Client\FD_BDX_Client.dproj</Transaction>
+    <Transaction>2018/10/19 17:18:58.000.374,C:\EC 2018\FD_DBC_Client\Unit2.pas=C:\EC 2018\FD_DBC_Client\Dm.pas</Transaction>
+    <Transaction>2018/10/19 17:18:58.000.374,C:\EC 2018\FD_DBC_Client\Unit2.dfm=C:\EC 2018\FD_DBC_Client\Dm.dfm</Transaction>
+    <Transaction>2018/10/20 16:45:41.000.471,=C:\EC 2018\FD_DBC_Client\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

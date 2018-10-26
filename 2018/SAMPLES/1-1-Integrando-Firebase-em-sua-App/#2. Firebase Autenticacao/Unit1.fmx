@@ -1,0 +1,467 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 380
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object TabControl: TTabControl
+    Align = Client
+    Size.Width = 380.000000000000000000
+    Size.Height = 570.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      380s
+      521s
+      380s
+      521s
+      380s
+      521s
+      380s
+      521s
+      380s
+      521s)
+    object TabLogin: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 76.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'LOGIN'
+      ExplicitSize.cx = 106.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = xFF3BE753
+        Size.Width = 380.000000000000000000
+        Size.Height = 521.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Layout1: TLayout
+          Align = Center
+          Size.Width = 273.000000000000000000
+          Size.Height = 343.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Label1: TLabel
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Position.Y = 111.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            Text = 'E-mail'
+          end
+          object edt_email: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Position.Y = 134.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Label2: TLabel
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Margins.Top = 15.000000000000000000
+            Position.Y = 181.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            Text = 'Senha'
+          end
+          object edt_senha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 3
+            Password = True
+            Position.Y = 204.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object btn_acessar: TButton
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Margins.Top = 30.000000000000000000
+            Position.Y = 266.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'btn_acessarStyle1'
+            TabOrder = 4
+            Text = 'ACESSAR'
+            TextSettings.FontColor = claWhite
+            OnClick = btn_acessarClick
+          end
+          object Image1: TImage
+            MultiResBitmap.Height = 64
+            MultiResBitmap.Width = 64
+            MultiResBitmap = <
+              item
+              end>
+            Align = Top
+            Margins.Bottom = 30.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 81.000000000000000000
+            Size.PlatformDefault = False
+            WrapMode = Center
+          end
+        end
+        object lblNovo: TLabel
+          Align = Bottom
+          StyledSettings = [Family, Style]
+          HitTest = True
+          Position.Y = 421.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 37.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'N'#227'o possui uma conta? Crie Agora!'
+          OnClick = lblNovoClick
+        end
+        object lblRecuperar: TLabel
+          Align = Bottom
+          StyledSettings = [Family, Size, Style]
+          HitTest = True
+          Margins.Top = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.Y = 478.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Recuperar Senha'
+          OnClick = lblRecuperarClick
+        end
+      end
+    end
+    object TabMain: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 76.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Main'
+      ExplicitSize.cx = 106.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Text1: TText
+        Align = Center
+        Size.Width = 166.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Bem vindo'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    object TabRecuperarSenha: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 76.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Recupera'
+      ExplicitSize.cx = 108.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout25: TLayout
+        Align = Client
+        Size.Width = 380.000000000000000000
+        Size.Height = 451.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object VertScrollBox7: TVertScrollBox
+          Align = Client
+          Size.Width = 380.000000000000000000
+          Size.Height = 451.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Viewport.Width = 380.000000000000000000
+          Viewport.Height = 451.000000000000000000
+          object Memo4: TMemo
+            Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+            DataDetectorTypes = []
+            Lines.Strings = (
+              'Esqueci minha senha'#11
+              'Se voc'#234' n'#227'o lembra sua senha, '#11
+              'escreva seu e-mail.'
+              'Voc'#234' receber'#225' por e-mail um link para a redefini'#231#227'o da senha.'
+              'Acesse-o, insira a nova senha.'
+              '')
+            ReadOnly = True
+            StyledSettings = [Family, Style, FontColor]
+            TextSettings.Font.Size = 13.000000000000000000
+            TextSettings.HorzAlign = Center
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 15.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 15.000000000000000000
+            Size.Width = 360.000000000000000000
+            Size.Height = 161.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Viewport.Width = 347.000000000000000000
+            Viewport.Height = 153.000000000000000000
+          end
+          object RecuperarSenha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            KeyboardType = EmailAddress
+            Position.X = 15.000000000000000000
+            Position.Y = 206.000000000000000000
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 15.000000000000000000
+            Size.Width = 350.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Digite seu e-mail '
+          end
+          object Button14: TButton
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 15.000000000000000000
+            Position.X = 15.000000000000000000
+            Position.Y = 273.000000000000000000
+            Size.Width = 350.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'Button14Style1'
+            TabOrder = 2
+            Text = 'Enviar'
+            TextSettings.FontColor = claWhite
+            OnClick = Button14Click
+            object GlowEffect7: TGlowEffect
+              Softness = 1.000000000000000000
+              GlowColor = claKhaki
+              Opacity = 1.000000000000000000
+              Trigger = 'IsMouseOver=true'
+              Enabled = False
+            end
+          end
+        end
+      end
+      object Layout18: TLayout
+        Align = Top
+        Margins.Bottom = 20.000000000000000000
+        Size.Width = 380.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object SpeedButton1: TSpeedButton
+          Action = MudarTab4
+          Align = Client
+          Enabled = True
+          IconTintColor = claBlack
+          ImageIndex = -1
+          Margins.Left = 10.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+        end
+      end
+    end
+    object TabCriaConta: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 76.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Cria'
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Rectangle2: TRectangle
+        Align = Client
+        Fill.Color = xFF1963BD
+        Size.Width = 380.000000000000000000
+        Size.Height = 521.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Layout2: TLayout
+          Align = Center
+          Size.Width = 273.000000000000000000
+          Size.Height = 343.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Label4: TLabel
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Position.Y = 50.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            Text = 'E-mail'
+          end
+          object Edit1Conta: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 1
+            Position.Y = 73.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Label5: TLabel
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Margins.Top = 15.000000000000000000
+            Position.Y = 120.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            Text = 'Senha'
+          end
+          object Edit2ContaSenha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Top
+            TabOrder = 3
+            Password = True
+            Position.Y = 143.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Button1: TButton
+            Align = Top
+            StyledSettings = [Family, Size, Style]
+            Margins.Top = 30.000000000000000000
+            Position.Y = 205.000000000000000000
+            Size.Width = 273.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'btn_acessarStyle1'
+            TabOrder = 4
+            Text = 'Criar Conta'
+            TextSettings.FontColor = claWhite
+            OnClick = Button1Click
+          end
+          object Text2: TText
+            Align = Top
+            Size.Width = 273.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Criar conta'
+            TextSettings.Font.Size = 16.000000000000000000
+          end
+        end
+        object Layout3: TLayout
+          Align = Top
+          Margins.Bottom = 20.000000000000000000
+          Size.Width = 380.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object SpeedButton2: TSpeedButton
+            Action = MudarTab4
+            Align = Client
+            Enabled = True
+            IconTintColor = claBlack
+            ImageIndex = -1
+            Margins.Left = 10.000000000000000000
+            Size.Width = 48.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'backtoolbutton'
+          end
+        end
+      end
+    end
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 76.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Mensagem'
+      ExplicitSize.cx = 76.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object MemToken: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Top
+        Size.Width = 380.000000000000000000
+        Size.Height = 210.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 372.000000000000000000
+        Viewport.Height = 202.000000000000000000
+      end
+      object MemResp: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Client
+        Size.Width = 380.000000000000000000
+        Size.Height = 311.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 372.000000000000000000
+        Viewport.Height = 303.000000000000000000
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 319
+    Top = 82
+    object MudarTab1: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabMain
+    end
+    object MudarTab2: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabRecuperarSenha
+    end
+    object MudarTab3: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabCriaConta
+    end
+    object MudarTab4: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabLogin
+    end
+  end
+end

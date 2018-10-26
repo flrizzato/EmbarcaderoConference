@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/22 22:16:23.000.364,=D:\Users\carre\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/10/22 22:16:39.000.421,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Encapsulamento.pas=D:\Users\carre\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/10/22 22:16:39.000.421,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Encapsulamento.dfm=D:\Users\carre\Documents\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2018/10/22 22:17:01.000.782,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmPrincipal.dfm=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Encapsulamento.dfm</Transaction>
+    <Transaction>2018/10/22 22:17:01.000.782,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmPrincipal.pas=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Encapsulamento.pas</Transaction>
+    <Transaction>2018/10/22 22:18:07.000.224,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Encapsulamento.dproj=D:\Users\carre\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2018/10/22 22:18:54.000.061,=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 22:19:00.000.155,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit1.pas=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmEstatico.pas</Transaction>
+    <Transaction>2018/10/22 22:19:00.000.155,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit1.dfm=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmEstatico.dfm</Transaction>
+    <Transaction>2018/10/22 22:20:48.000.280,=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit2.pas</Transaction>
+    <Transaction>2018/10/22 22:20:52.000.664,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit2.pas=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmDinâmico.pas</Transaction>
+    <Transaction>2018/10/22 22:20:52.000.664,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit2.dfm=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmDinâmico.dfm</Transaction>
+    <Transaction>2018/10/22 22:24:25.000.537,=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 22:24:31.000.040,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit1.pas=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uConnection.pas</Transaction>
+    <Transaction>2018/10/22 22:32:07.000.538,=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit3.pas</Transaction>
+    <Transaction>2018/10/22 22:32:25.000.458,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit3.pas=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmEncapsulado.pas</Transaction>
+    <Transaction>2018/10/22 22:32:25.000.458,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit3.dfm=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uFrmEncapsulado.dfm</Transaction>
+    <Transaction>2018/10/22 22:35:03.000.994,=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 22:35:11.000.788,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\Unit1.pas=D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uConnectionDBX.pas</Transaction>
+    <Transaction>2018/10/22 22:50:33.984,D:\Users\carre\Desktop\!Conference 2018\3-4-Encapsulamento-de-rotinas-altamente-reaproveitaveis\uConnectionDBX.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

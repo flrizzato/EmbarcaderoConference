@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/14 17:59:52.000.323,=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/14 18:04:11.000.453,C:\Users\ftath\Documents\EmbarcaderoConference2018\ControleTransacao\ufrmCRUD.pas=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/14 18:04:11.000.453,C:\Users\ftath\Documents\EmbarcaderoConference2018\ControleTransacao\ufrmCRUD.dfm=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2018/10/14 18:04:25.000.203,C:\Users\ftath\Documents\EmbarcaderoConference2018\ControleTransacao\A4DTransacao.dproj=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2018/10/14 18:04:56.000.037,=C:\Users\ftath\Documents\EmbarcaderoConference2018\ControleTransacao\Unit1.pas</Transaction>
+    <Transaction>2018/10/14 18:13:17.000.070,C:\Users\ftath\Documents\EmbarcaderoConference2018\ControleTransacao\uTransactionAspect.pas=C:\Users\ftath\Documents\EmbarcaderoConference2018\ControleTransacao\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

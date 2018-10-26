@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6A532493-DEE1-43BE-9A2B-619982A1E6A2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Conference2018.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="HookDll.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Conference2018">
+        <MSBuild Projects="Conference2018.dproj"/>
+    </Target>
+    <Target Name="Conference2018:Clean">
+        <MSBuild Projects="Conference2018.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Conference2018:Make">
+        <MSBuild Projects="Conference2018.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HookDll">
+        <MSBuild Projects="HookDll.dproj"/>
+    </Target>
+    <Target Name="HookDll:Clean">
+        <MSBuild Projects="HookDll.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HookDll:Make">
+        <MSBuild Projects="HookDll.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Conference2018;HookDll"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Conference2018:Clean;HookDll:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Conference2018:Make;HookDll:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

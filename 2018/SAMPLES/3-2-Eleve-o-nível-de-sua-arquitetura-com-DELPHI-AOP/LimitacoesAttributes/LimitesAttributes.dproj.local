@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/04 23:08:45.000.838,C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Palestra Embarcadero\Project1.dproj=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/04 23:08:59.000.917,C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Palestra Embarcadero\Exemplo1.dproj=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Palestra Embarcadero\Project1.dproj</Transaction>
+    <Transaction>2018/10/18 01:21:10.000.629,C:\Users\ftath\Documents\EmbarcaderoConference2018\LimitacoesAttributes\Exemplo1.dproj=C:\Users\ftath\Documents\EmbarcaderoConference2018\LimitacoesAttributes\LimitesAttributes.dproj</Transaction>
+    <Transaction>2018/10/20 19:45:47.429,=C:\Users\ftath\Documents\EmbarcaderoConference2018\LimitacoesAttributes\Unit1.pas</Transaction>
+    <Transaction>2018/10/20 19:45:53.351,C:\Users\ftath\Documents\EmbarcaderoConference2018\LimitacoesAttributes\uClasseTeste.pas=C:\Users\ftath\Documents\EmbarcaderoConference2018\LimitacoesAttributes\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

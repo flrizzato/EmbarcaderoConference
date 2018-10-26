@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/01 12:02:34.000.487,C:\Novos Projetos\009-maestro-informatica\Projeto Entrega\servidor\UntMain.pas=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2018/03/01 12:02:34.000.487,C:\Novos Projetos\009-maestro-informatica\Projeto Entrega\servidor\UntMain.dfm=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm</Transaction>
+    <Transaction>2018/03/01 12:02:51.000.936,C:\Novos Projetos\009-maestro-informatica\Projeto Entrega\servidor\UntSrvMetodos.dfm=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2018/03/01 12:02:51.000.936,C:\Novos Projetos\009-maestro-informatica\Projeto Entrega\servidor\UntSrvMetodos.pas=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/03/01 12:03:15.000.311,C:\Novos Projetos\009-maestro-informatica\Projeto Entrega\servidor\UntWM.pas=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/03/01 12:03:15.000.311,C:\Novos Projetos\009-maestro-informatica\Projeto Entrega\servidor\UntWM.dfm=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2018/03/01 12:03:25.000.600,C:\Novos Projetos\009-maestro-informatica\Projeto Entrega\servidor\Servidor.dproj=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/03/08 11:41:06.000.150,C:\Novos Projetos\034-Avapp\common\Constantes.pas=C:\Novos Projetos\034-Avapp\Server\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 12:45:25.000.349,=C:\Eventos\Intensive Developer 2018 - SP\common\Constantes.pas</Transaction>
+    <Transaction>2018/03/22 12:45:41.000.368,=C:\Eventos\Intensive Developer 2018 - SP\common\Utils.pas</Transaction>
+    <Transaction>2018/03/24 15:13:06.000.776,C:\Eventos\Intensive Developer 2018 - SP\common\Utils.pas=</Transaction>
+    <Transaction>2018/08/06 16:48:01.000.924,=D:\Cursos\T001-Introducao-ao-Google-Firebase\classes\ULGTDataSetHelper.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMac iOSSimulator="iPhone5"/>
+		<NoProfile iOSSimulator="iPhone5" Android="0023109677"/>
+	</ActiveMobileDevice>
+</BorlandProject>

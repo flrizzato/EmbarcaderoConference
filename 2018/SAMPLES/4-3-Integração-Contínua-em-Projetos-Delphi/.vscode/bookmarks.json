@@ -1,0 +1,57 @@
+[
+	{
+		"path": "$ROOTPATH$\\src\\uCalculadora.pas",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 22,
+				"label": "Fonte - Dividir"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\tests\\uCalculadoraTests.pas",
+		"bookmarks": [
+			{
+				"line": 29,
+				"column": 21,
+				"label": "Test - Dividir"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\train.js",
+		"bookmarks": [
+			{
+				"line": 17,
+				"column": 5,
+				"label": "Train - CI"
+			},
+			{
+				"line": 33,
+				"column": 16,
+				"label": "Train - DUnit"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\gulpfile.js",
+		"bookmarks": [
+			{
+				"line": 22,
+				"column": 11,
+				"label": "Gulp - Build"
+			},
+			{
+				"line": 54,
+				"column": 11,
+				"label": "Gulp - Compile"
+			},
+			{
+				"line": 81,
+				"column": 11,
+				"label": "Gulp - Code Coverage"
+			}
+		]
+	}
+]

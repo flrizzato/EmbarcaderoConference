@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/31 00:08:19.000.491,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/27 21:38:16.000.438,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/27 22:47:35.000.397,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/14 22:15:58.000.729,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/09 21:20:52.000.317,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/15 15:15:59.000.551,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/15 15:42:17.000.088,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 23:45:49.000.260,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/09/11 19:13:04.000.431,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/30 15:23:10.000.304,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/11/08 09:00:09.000.444,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/11/26 16:53:10.000.690,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/12/01 22:40:50.000.720,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/12/10 23:08:49.000.399,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/01/16 01:02:28.000.976,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/01/16 01:05:48.000.952,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/02/21 18:19:53.000.112,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/02/21 21:32:51.000.025,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/02/24 21:12:33.000.829,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/20 19:48:03.000.193,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/30 22:58:29.000.998,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/11 19:38:26.000.474,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/17 22:39:23.000.210,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/27 20:16:50.000.749,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/13 21:29:40.000.912,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/18 22:15:14.000.343,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/23 23:19:39.000.107,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/13 00:03:34.000.332,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/05 23:02:41.000.822,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/11 22:24:38.000.459,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 21:30:46.000.115,=C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 21:31:46.000.888,C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\EC2018\Projetos\SRP\SOLID.SRP.dfm</Transaction>
+    <Transaction>2018/10/15 21:31:46.000.888,C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\EC2018\Projetos\SRP\SOLID.SRP.pas</Transaction>
+    <Transaction>2018/10/15 21:31:51.000.694,C:\Users\Andre\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\EC2018\Projetos\SRP\SRP.dproj</Transaction>
+    <Transaction>2018/10/15 22:18:48.000.775,D:\EC2018\Projetos\SRP\SOLID.SRP.dfm=D:\EC2018\Projetos\SRP\SOLID.SemSRP.dfm</Transaction>
+    <Transaction>2018/10/15 22:18:48.000.775,D:\EC2018\Projetos\SRP\SOLID.SRP.pas=D:\EC2018\Projetos\SRP\SOLID.SemSRP.pas</Transaction>
+    <Transaction>2018/10/15 22:18:54.000.068,=D:\EC2018\Projetos\SRP\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 22:19:02.000.209,D:\EC2018\Projetos\SRP\Unit1.pas=D:\EC2018\Projetos\SRP\SOLID.ComSRP.pas</Transaction>
+    <Transaction>2018/10/15 22:19:02.000.209,D:\EC2018\Projetos\SRP\Unit1.dfm=D:\EC2018\Projetos\SRP\SOLID.ComSRP.dfm</Transaction>
+    <Transaction>2018/10/17 23:21:51.000.837,=D:\Drive\EC2018\Projetos\SRP\Unit1.pas</Transaction>
+    <Transaction>2018/10/17 23:21:59.000.664,D:\Drive\EC2018\Projetos\SRP\Unit1.pas=D:\Drive\EC2018\Projetos\SRP\ExemploSemSRP.pas</Transaction>
+    <Transaction>2018/10/17 23:23:56.000.267,=D:\Drive\EC2018\Projetos\SRP\Unit1.pas</Transaction>
+    <Transaction>2018/10/17 23:24:05.000.449,D:\Drive\EC2018\Projetos\SRP\Unit1.pas=D:\Drive\EC2018\Projetos\SRP\ExemploComSRP.pas</Transaction>
+    <Transaction>2018/10/17 23:24:57.000.343,D:\Drive\EC2018\Projetos\SRP\SOLID.ComSRP.pas=</Transaction>
+    <Transaction>2018/10/17 23:24:59.000.851,D:\Drive\EC2018\Projetos\SRP\SOLID.SemSRP.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

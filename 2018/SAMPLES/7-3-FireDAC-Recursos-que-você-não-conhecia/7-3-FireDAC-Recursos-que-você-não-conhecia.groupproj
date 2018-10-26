@@ -1,0 +1,120 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{57FFB6CE-B327-4AC1-896C-1ABC37D0A354}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01 - Recovering Connection\RecoveringConnection.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02 - Commands in FDConnection\CommandsInFDConnection.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03 - Data Mapping\DataMapping.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="04 - SQL Dialect Abstraction\SQLDialectAbstraction.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="05 - Macros\Macros.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="06 - LocalSQL\LocalSQL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="07 - BathMove\BathMove.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="08 - ArrayDML\ArrayDML.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RecoveringConnection">
+        <MSBuild Projects="01 - Recovering Connection\RecoveringConnection.dproj"/>
+    </Target>
+    <Target Name="RecoveringConnection:Clean">
+        <MSBuild Projects="01 - Recovering Connection\RecoveringConnection.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RecoveringConnection:Make">
+        <MSBuild Projects="01 - Recovering Connection\RecoveringConnection.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CommandsInFDConnection">
+        <MSBuild Projects="02 - Commands in FDConnection\CommandsInFDConnection.dproj"/>
+    </Target>
+    <Target Name="CommandsInFDConnection:Clean">
+        <MSBuild Projects="02 - Commands in FDConnection\CommandsInFDConnection.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CommandsInFDConnection:Make">
+        <MSBuild Projects="02 - Commands in FDConnection\CommandsInFDConnection.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataMapping">
+        <MSBuild Projects="03 - Data Mapping\DataMapping.dproj"/>
+    </Target>
+    <Target Name="DataMapping:Clean">
+        <MSBuild Projects="03 - Data Mapping\DataMapping.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataMapping:Make">
+        <MSBuild Projects="03 - Data Mapping\DataMapping.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SQLDialectAbstraction">
+        <MSBuild Projects="04 - SQL Dialect Abstraction\SQLDialectAbstraction.dproj"/>
+    </Target>
+    <Target Name="SQLDialectAbstraction:Clean">
+        <MSBuild Projects="04 - SQL Dialect Abstraction\SQLDialectAbstraction.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SQLDialectAbstraction:Make">
+        <MSBuild Projects="04 - SQL Dialect Abstraction\SQLDialectAbstraction.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Macros">
+        <MSBuild Projects="05 - Macros\Macros.dproj"/>
+    </Target>
+    <Target Name="Macros:Clean">
+        <MSBuild Projects="05 - Macros\Macros.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Macros:Make">
+        <MSBuild Projects="05 - Macros\Macros.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LocalSQL">
+        <MSBuild Projects="06 - LocalSQL\LocalSQL.dproj"/>
+    </Target>
+    <Target Name="LocalSQL:Clean">
+        <MSBuild Projects="06 - LocalSQL\LocalSQL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LocalSQL:Make">
+        <MSBuild Projects="06 - LocalSQL\LocalSQL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BathMove">
+        <MSBuild Projects="07 - BathMove\BathMove.dproj"/>
+    </Target>
+    <Target Name="BathMove:Clean">
+        <MSBuild Projects="07 - BathMove\BathMove.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BathMove:Make">
+        <MSBuild Projects="07 - BathMove\BathMove.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArrayDML">
+        <MSBuild Projects="08 - ArrayDML\ArrayDML.dproj"/>
+    </Target>
+    <Target Name="ArrayDML:Clean">
+        <MSBuild Projects="08 - ArrayDML\ArrayDML.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArrayDML:Make">
+        <MSBuild Projects="08 - ArrayDML\ArrayDML.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RecoveringConnection;CommandsInFDConnection;DataMapping;SQLDialectAbstraction;Macros;LocalSQL;BathMove;ArrayDML"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RecoveringConnection:Clean;CommandsInFDConnection:Clean;DataMapping:Clean;SQLDialectAbstraction:Clean;Macros:Clean;LocalSQL:Clean;BathMove:Clean;ArrayDML:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RecoveringConnection:Make;CommandsInFDConnection:Make;DataMapping:Make;SQLDialectAbstraction:Make;Macros:Make;LocalSQL:Make;BathMove:Make;ArrayDML:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

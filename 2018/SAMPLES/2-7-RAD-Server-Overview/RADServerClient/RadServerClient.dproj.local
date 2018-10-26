@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/10 23:22:35.000.443,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 23:04:48.000.408,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/31 09:56:08.000.544,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/31 13:42:18.000.511,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/13 22:02:38.000.136,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/09/13 22:02:38.000.284,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\ServerConst1.pas</Transaction>
+    <Transaction>2018/09/13 22:03:31.000.026,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/09/13 22:03:59.000.241,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/09/13 22:04:33.000.964,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/09/13 22:04:33.000.692,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2018/09/13 22:32:57.000.058,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 22:06:12.000.779,=emsserverapi.dcp</Transaction>
+    <Transaction>2018/10/15 22:06:13.000.463,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/16 21:46:28.000.808,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/16 21:47:48.000.598,C:\Users\fabio\Desktop\Exemplo RAD Server\RADServerClient\uMain.fmx=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2018/10/16 21:47:48.000.598,C:\Users\fabio\Desktop\Exemplo RAD Server\RADServerClient\uMain.pas=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/16 21:47:59.000.514,C:\Users\fabio\Desktop\Exemplo RAD Server\RADServerClient\RadServerClient.dproj=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

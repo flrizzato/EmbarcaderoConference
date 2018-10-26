@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/23 00:21:01.000.309,C:\EVENTS\EC2018\MSAccess\GettingStarted.dproj=C:\EVENTS\EC2018\MSAccess\FDMSAccess.dproj</Transaction>
+    <Transaction>2018/10/23 00:21:10.000.645,C:\EVENTS\EC2018\MSAccess\fGettingStarted.dfm=C:\EVENTS\EC2018\MSAccess\uMainForm.dfm</Transaction>
+    <Transaction>2018/10/23 00:21:10.000.645,C:\EVENTS\EC2018\MSAccess\fGettingStarted.pas=C:\EVENTS\EC2018\MSAccess\uMainForm.pas</Transaction>
+  </Transactions>
+</BorlandProject>

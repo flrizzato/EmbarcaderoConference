@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/09/20 23:04:10.000.451,C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\uInterfaces.pas=C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\PerformanceDiagnostics.Interfaces.pas</Transaction>
+    <Transaction>2018/09/20 23:04:47.000.127,C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\uPerformanceDiagnostics.pas=C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\PeformanceDiagnostics.pas</Transaction>
+    <Transaction>2018/09/20 23:05:39.000.627,C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\uVirtualMethodInterceptor.pas=C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\PerformanceDiagnostics.VirtualMethodInterceptor.pas</Transaction>
+    <Transaction>2018/09/20 23:05:48.000.840,C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\PeformanceDiagnostics.pas=C:\Users\eduar\Documents\Embarcadero Conference\PermormanceDiagnostics_BETA\PerformanceDiagnostics.pas</Transaction>
+    <Transaction>2018/10/16 20:43:44.000.724,C:\Users\eduar\Documents\Projects\PerformanceDiagnostics4Delphi\sample\simple_class\Unit2.dfm=C:\Users\eduar\Documents\Projects\PerformanceDiagnostics4Delphi\sample\simple_class\uMainView.dfm</Transaction>
+    <Transaction>2018/10/16 20:43:44.000.724,C:\Users\eduar\Documents\Projects\PerformanceDiagnostics4Delphi\sample\simple_class\Unit2.pas=C:\Users\eduar\Documents\Projects\PerformanceDiagnostics4Delphi\sample\simple_class\uMainView.pas</Transaction>
+    <Transaction>2018/10/18 20:03:55.900,=C:\Users\eduar\Documents\Embarcadero Conference\Sample\PerformanceDiagnostics.Interfaces.pas</Transaction>
+    <Transaction>2018/10/18 20:03:55.909,=C:\Users\eduar\Documents\Embarcadero Conference\Sample\PerformanceDiagnostics.pas</Transaction>
+    <Transaction>2018/10/18 20:03:55.917,=C:\Users\eduar\Documents\Embarcadero Conference\Sample\PerformanceDiagnostics.VirtualMethodInterceptor.pas</Transaction>
+  </Transactions>
+</BorlandProject>

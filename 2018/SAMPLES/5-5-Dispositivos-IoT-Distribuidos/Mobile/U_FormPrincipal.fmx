@@ -1,0 +1,158 @@
+object FormPrincipal: TFormPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 342
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object LayoutCorpo: TLayout
+    Align = Client
+    Size.Width = 342.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object LabelMensagemPush: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Position.Y = 49.000000000000000000
+      Size.Width = 342.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlue
+      TextSettings.HorzAlign = Center
+      Text = 'Mensagem'
+      TabOrder = 1
+    end
+    object LabelMensagemUDP: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Size.Width = 342.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBrown
+      TextSettings.HorzAlign = Center
+      Text = 'Mensagem'
+      TabOrder = 0
+    end
+    object EditIPLocal: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 4
+      Text = '192.168.43.96'
+      Position.X = 40.000000000000000000
+      Position.Y = 138.000000000000000000
+      Margins.Left = 40.000000000000000000
+      Margins.Top = 40.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object EditIPServer: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 3
+      Text = '192.168.43.80'
+      Position.X = 40.000000000000000000
+      Position.Y = 210.000000000000000000
+      Margins.Left = 40.000000000000000000
+      Margins.Top = 40.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object EditIPControladora: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 2
+      Text = '192.168.43.110'
+      Position.X = 40.000000000000000000
+      Position.Y = 282.000000000000000000
+      Margins.Left = 40.000000000000000000
+      Margins.Top = 40.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object ToolBarTop: TToolBar
+    Size.Width = 342.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    OnClick = ToolBarTopClick
+    object ButtonPlayPush: TButton
+      Align = Left
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'playtoolbuttonbordered'
+      TabOrder = 0
+      Text = 'ButtonPlayPush'
+      OnClick = ButtonPlayPushClick
+    end
+    object ButtonEnvioUDP: TButton
+      Align = Right
+      Position.X = 262.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'composetoolbutton'
+      TabOrder = 1
+      Text = 'ButtonEnvioUDP'
+      OnClick = ButtonEnvioUDPClick
+    end
+  end
+  object PushManagerApp: TPushManager
+    AppID = '948633673342'
+    OnMessage = PushManagerAppMessage
+    OnPushChange = PushManagerAppPushChange
+    Left = 56
+    Top = 104
+  end
+  object NetHTTPRequestChat: TNetHTTPRequest
+    Asynchronous = False
+    ConnectionTimeout = 60000
+    ResponseTimeout = 60000
+    Client = NetHTTPClientChat
+    Left = 216
+    Top = 218
+  end
+  object NetHTTPClientChat: TNetHTTPClient
+    Asynchronous = False
+    ConnectionTimeout = 60000
+    ResponseTimeout = 60000
+    AllowCookies = True
+    HandleRedirects = True
+    UserAgent = 'Embarcadero URI Client/1.0'
+    Left = 216
+    Top = 282
+  end
+  object DSRestConnection: TDSRestConnection
+    Host = '192.168.0.29'
+    Port = 8181
+    LoginPrompt = False
+    Left = 216
+    Top = 157
+    UniqueId = '{FC07D9A3-6C41-4E66-9D39-B821CFA23612}'
+  end
+  object IdUDPServer: TIdUDPServer
+    Bindings = <>
+    DefaultPort = 0
+    Left = 96
+    Top = 352
+  end
+end

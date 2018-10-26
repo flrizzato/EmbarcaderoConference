@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/03/16 14:58:58.000.764,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/03 17:42:26.000.277,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/23 09:06:42.000.552,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/23 09:08:09.000.956,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/23 09:14:28.000.974,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/24 18:54:11.000.172,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/12 09:51:02.000.931,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/05 17:28:47.000.486,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/05 17:29:09.000.286,=C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/05 17:31:07.000.218,C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\ORMBr Diversos\Live-08062017\UsoDataSet\uCliente.dfm</Transaction>
+    <Transaction>2017/06/05 17:31:07.000.218,C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\ORMBr Diversos\Live-08062017\UsoDataSet\uCliente.pas</Transaction>
+    <Transaction>2017/06/05 17:31:41.000.874,C:\Users\isaque.pinheiro\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\ORMBr Diversos\Live-08062017\UsoDataSet\pCliente.dproj</Transaction>
+    <Transaction>2017/06/05 17:33:23.000.179,=D:\ORMBr Diversos\Live-08062017\Models\ormbr.model.cliente.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

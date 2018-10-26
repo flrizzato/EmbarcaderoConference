@@ -1,0 +1,55 @@
+object IWFormFinal: TIWFormFinal
+  Left = 0
+  Top = 0
+  Width = 555
+  Height = 400
+  RenderInvisibleControls = True
+  AllowPageAccess = True
+  ConnectionMode = cmAny
+  Background.Fixed = False
+  LayoutMgr = IWTemplateProcessorHTML1
+  HandleTabs = False
+  LeftToRight = True
+  LockUntilLoaded = True
+  LockOnSubmit = True
+  ShowHint = True
+  XPTheme = True
+  DesignLeft = 8
+  DesignTop = 8
+  object IWBTNACAO: TIWButton
+    Left = 450
+    Top = 16
+    Width = 105
+    Height = 25
+    Css = 'form-control'
+    Caption = 'IWBTNACAO'
+    Color = clBtnFace
+    Font.Color = clNone
+    Font.Size = 10
+    Font.Style = []
+    FriendlyName = 'IWBTNACAO'
+    TabOrder = 0
+    OnClick = IWBTNACAOClick
+  end
+  object IWACAO: TIWEdit
+    Left = 450
+    Top = 47
+    Width = 105
+    Height = 21
+    Font.Color = clNone
+    Font.Size = 10
+    Font.Style = []
+    FriendlyName = 'IWACAO'
+    SubmitOnAsyncEvent = True
+    TabOrder = 1
+    Text = 'IWACAO'
+  end
+  object IWTemplateProcessorHTML1: TIWTemplateProcessorHTML
+    MasterFormTag = False
+    TagType = ttIntraWeb
+    RenderStyles = False
+    MasterTemplate = 'Master.html'
+    Left = 264
+    Top = 184
+  end
+end

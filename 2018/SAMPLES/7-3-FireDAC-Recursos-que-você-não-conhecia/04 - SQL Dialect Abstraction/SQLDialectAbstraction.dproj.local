@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/15 19:04:58.000.508,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:05:28.000.492,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:08:32.000.817,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:14:12.000.501,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 11:04:58.000.761,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 11:05:58.000.431,C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\fSQLDialectAbstraction.pas</Transaction>
+    <Transaction>2018/10/21 11:05:58.000.431,C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\fSQLDialectAbstraction.dfm</Transaction>
+    <Transaction>2018/10/21 11:06:14.000.768,C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\SQLDialectAbstraction.dproj</Transaction>
+    <Transaction>2018/10/21 11:10:01.000.116,=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 11:10:42.000.950,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\Unit1.dfm=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\dSQLDialectAbstraction.dfm</Transaction>
+    <Transaction>2018/10/21 11:10:42.000.950,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\Unit1.pas=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\04 - SQL Dialect Abstraction\dSQLDialectAbstraction.pas</Transaction>
+  </Transactions>
+</BorlandProject>

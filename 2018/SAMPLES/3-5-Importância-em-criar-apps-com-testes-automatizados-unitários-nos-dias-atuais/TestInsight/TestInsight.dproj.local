@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/11 11:01:01.000.503,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/19 09:02:54.000.480,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/27 11:42:50.000.640,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/02/13 12:41:37.000.325,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/12 22:09:25.000.025,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/15 12:22:26.000.577,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/19 01:29:51.000.680,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/04 20:45:55.000.368,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/02 02:26:44.000.375,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/23 14:14:22.000.663,=C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/23 14:15:03.000.051,C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\Unit1.pas</Transaction>
+    <Transaction>2018/10/23 14:15:03.000.051,C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\Unit1.dfm</Transaction>
+    <Transaction>2018/10/23 14:15:04.000.343,C:\Users\juliomar\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\Project1.dproj</Transaction>
+    <Transaction>2018/10/23 14:15:55.000.779,=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\uExemplo.pas</Transaction>
+    <Transaction>2018/10/23 14:15:56.000.139,=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\uTestes.pas</Transaction>
+    <Transaction>2018/10/23 14:16:16.000.720,C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\Project1.dproj=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\TestInsigth.dproj</Transaction>
+    <Transaction>2018/10/23 14:16:49.000.552,C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\TestInsigth.dproj=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\TestInsight\TestInsight.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

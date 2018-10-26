@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/22 09:10:29.000.278,=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\DUnitX\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 09:11:48.000.328,=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\DUnitX\Unit2.pas</Transaction>
+    <Transaction>2018/10/22 10:06:31.000.746,C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\DUnitX\XStrings.pas=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\DUnitX\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 10:07:47.000.599,C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\DUnitX\XStringsTestes.pas=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\DUnitX\Unit2.pas</Transaction>
+    <Transaction>2018/10/23 11:31:38.000.571,C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\Mocks\DUnitXTeste.dproj=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\Mocks\DUnitXMock.dproj</Transaction>
+    <Transaction>2018/10/23 11:32:36.000.816,C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\Mocks\XStringsTestes.pas=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\Mocks\uTestes.pas</Transaction>
+    <Transaction>2018/10/23 11:33:35.000.996,C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\Mocks\XStrings.pas=C:\Users\juliomar\Desktop\3-5-Importância-em-criar-apps-com-testes-automatizados-unitários-nos-dias-atuais\Mocks\uExemplo.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="uExemplo.pas"/>
+    <File Path="uTestes.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

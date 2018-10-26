@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/15 19:04:58.000.508,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:05:28.000.492,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:08:32.000.817,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:14:12.000.501,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 09:47:12.000.779,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 09:47:44.000.403,C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\fDataMapping.pas</Transaction>
+    <Transaction>2018/10/21 09:47:44.000.403,C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\fDataMapping.dfm</Transaction>
+    <Transaction>2018/10/21 09:47:50.000.817,C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\DataMapping.dproj</Transaction>
+    <Transaction>2018/10/21 09:48:49.000.684,=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 09:48:58.000.785,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\Unit1.dfm=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\dDataMapping.dfm</Transaction>
+    <Transaction>2018/10/21 09:48:58.000.785,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\Unit1.pas=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\03 - Data Mapping\dDataMapping.pas</Transaction>
+  </Transactions>
+</BorlandProject>

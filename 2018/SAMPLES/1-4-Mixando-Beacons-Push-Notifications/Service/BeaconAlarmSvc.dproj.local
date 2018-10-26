@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/06 20:49:27.000.922,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/02/19 00:05:22.000.269,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/08 16:31:20.000.658,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 16:21:21.000.000,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 16:23:16.000.093,D:\SRC\RRA\Mobile\SmartTag\Service\BeaconAlarmService.dfm=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/10/21 16:23:16.000.093,D:\SRC\RRA\Mobile\SmartTag\Service\BeaconAlarmService.pas=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 16:23:58.000.426,D:\SRC\RRA\Mobile\SmartTag\Service\BeaconAlarmSvc.dproj=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/21 16:38:44.000.387,=D:\SRC\RRA\Mobile\SmartTag\Service\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 16:38:58.000.540,D:\SRC\RRA\Mobile\SmartTag\Service\aIni.pas=D:\SRC\RRA\Mobile\SmartTag\Service\Unit1.pas</Transaction>
+    <Transaction>2018/10/23 10:06:54.000.562,=D:\SRC\RRA\Mobile\SmartTag\PushDatsnap\Client\ccPush.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FC73E1CF-7D24-4CAF-88E8-598EAE6408CD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ConhecendoVMI\ConhecendoVMI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ControleTransacao\A4DTransacao.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AlterandoComponentes\AlterandoComponentes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LimitacoesAttributes\LimitesAttributes.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AlterandoComponentesLimitacoes\AlterandoComponentesLimitacoes.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ConhecendoVMI">
+        <MSBuild Projects="ConhecendoVMI\ConhecendoVMI.dproj"/>
+    </Target>
+    <Target Name="ConhecendoVMI:Clean">
+        <MSBuild Projects="ConhecendoVMI\ConhecendoVMI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConhecendoVMI:Make">
+        <MSBuild Projects="ConhecendoVMI\ConhecendoVMI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="A4DTransacao">
+        <MSBuild Projects="ControleTransacao\A4DTransacao.dproj"/>
+    </Target>
+    <Target Name="A4DTransacao:Clean">
+        <MSBuild Projects="ControleTransacao\A4DTransacao.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="A4DTransacao:Make">
+        <MSBuild Projects="ControleTransacao\A4DTransacao.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AlterandoComponentes">
+        <MSBuild Projects="AlterandoComponentes\AlterandoComponentes.dproj"/>
+    </Target>
+    <Target Name="AlterandoComponentes:Clean">
+        <MSBuild Projects="AlterandoComponentes\AlterandoComponentes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlterandoComponentes:Make">
+        <MSBuild Projects="AlterandoComponentes\AlterandoComponentes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LimitesAttributes">
+        <MSBuild Projects="LimitacoesAttributes\LimitesAttributes.dproj"/>
+    </Target>
+    <Target Name="LimitesAttributes:Clean">
+        <MSBuild Projects="LimitacoesAttributes\LimitesAttributes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LimitesAttributes:Make">
+        <MSBuild Projects="LimitacoesAttributes\LimitesAttributes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AlterandoComponentesLimitacoes">
+        <MSBuild Projects="AlterandoComponentesLimitacoes\AlterandoComponentesLimitacoes.dproj"/>
+    </Target>
+    <Target Name="AlterandoComponentesLimitacoes:Clean">
+        <MSBuild Projects="AlterandoComponentesLimitacoes\AlterandoComponentesLimitacoes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AlterandoComponentesLimitacoes:Make">
+        <MSBuild Projects="AlterandoComponentesLimitacoes\AlterandoComponentesLimitacoes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ConhecendoVMI;A4DTransacao;AlterandoComponentes;LimitesAttributes;AlterandoComponentesLimitacoes"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ConhecendoVMI:Clean;A4DTransacao:Clean;AlterandoComponentes:Clean;LimitesAttributes:Clean;AlterandoComponentesLimitacoes:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ConhecendoVMI:Make;A4DTransacao:Make;AlterandoComponentes:Make;LimitesAttributes:Make;AlterandoComponentesLimitacoes:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

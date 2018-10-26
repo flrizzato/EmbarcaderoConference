@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/09/18 19:33:42.000.128,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/09/18 21:37:06.000.506,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2018/10/19 19:05:05.000.230,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2018/10/19 19:05:39.000.679,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/10/19 19:05:41.000.257,=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2018/10/19 19:06:14.000.991,C:\EC 2018\FD_Client\ClientModuleUnit1.pas=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2018/10/19 19:06:14.000.991,C:\EC 2018\FD_Client\ClientModuleUnit1.dfm=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.dfm</Transaction>
+    <Transaction>2018/10/19 19:06:16.000.288,C:\EC 2018\FD_Client\ClientClassesUnit1.pas=\\Mac\Home\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/10/19 19:06:17.000.897,C:\EC 2018\FD_Client\Unit8.pas=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2018/10/19 19:06:17.000.897,C:\EC 2018\FD_Client\Unit8.dfm=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit8.dfm</Transaction>
+    <Transaction>2018/10/19 19:06:27.000.022,C:\EC 2018\FD_Client\FDClient.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2018/10/19 19:06:38.000.382,C:\EC 2018\FD_Client\FD_Client.dproj=C:\EC 2018\FD_Client\FDClient.dproj</Transaction>
+    <Transaction>2018/10/19 19:10:01.000.721,=C:\EC 2018\FD_Client\Unit2.pas</Transaction>
+    <Transaction>2018/10/19 19:13:53.000.393,C:\EC 2018\FD_Client\Dm.dfm=C:\EC 2018\FD_Client\Unit2.dfm</Transaction>
+    <Transaction>2018/10/19 19:13:53.000.393,C:\EC 2018\FD_Client\Dm.pas=C:\EC 2018\FD_Client\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

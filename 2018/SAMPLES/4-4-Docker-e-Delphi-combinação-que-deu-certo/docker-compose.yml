@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  service:
+    image: hunsche/delphi-dev
+    privileged: true
+    ports:
+      - '64211:64211'
+      - '9000:9000'

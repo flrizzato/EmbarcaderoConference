@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B49AF6F8-D5CE-44F6-89AD-A04C9E8BB06B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="001_datasnap_color\A_EC2018_DataSnapColor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="002_consome_color\B_EC2018_RestClient.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="003_pub_sub\C_EC2018_PubSub.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="004_enfileirador\D_EC2018_Enfileirador.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="005_consumidor\E_EC2018_Consumidor.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="A_EC2018_DataSnapColor">
+        <MSBuild Projects="001_datasnap_color\A_EC2018_DataSnapColor.dproj"/>
+    </Target>
+    <Target Name="A_EC2018_DataSnapColor:Clean">
+        <MSBuild Projects="001_datasnap_color\A_EC2018_DataSnapColor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="A_EC2018_DataSnapColor:Make">
+        <MSBuild Projects="001_datasnap_color\A_EC2018_DataSnapColor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="B_EC2018_RestClient">
+        <MSBuild Projects="002_consome_color\B_EC2018_RestClient.dproj"/>
+    </Target>
+    <Target Name="B_EC2018_RestClient:Clean">
+        <MSBuild Projects="002_consome_color\B_EC2018_RestClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="B_EC2018_RestClient:Make">
+        <MSBuild Projects="002_consome_color\B_EC2018_RestClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C_EC2018_PubSub">
+        <MSBuild Projects="003_pub_sub\C_EC2018_PubSub.dproj"/>
+    </Target>
+    <Target Name="C_EC2018_PubSub:Clean">
+        <MSBuild Projects="003_pub_sub\C_EC2018_PubSub.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C_EC2018_PubSub:Make">
+        <MSBuild Projects="003_pub_sub\C_EC2018_PubSub.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="D_EC2018_Enfileirador">
+        <MSBuild Projects="004_enfileirador\D_EC2018_Enfileirador.dproj"/>
+    </Target>
+    <Target Name="D_EC2018_Enfileirador:Clean">
+        <MSBuild Projects="004_enfileirador\D_EC2018_Enfileirador.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="D_EC2018_Enfileirador:Make">
+        <MSBuild Projects="004_enfileirador\D_EC2018_Enfileirador.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="E_EC2018_Consumidor">
+        <MSBuild Projects="005_consumidor\E_EC2018_Consumidor.dproj"/>
+    </Target>
+    <Target Name="E_EC2018_Consumidor:Clean">
+        <MSBuild Projects="005_consumidor\E_EC2018_Consumidor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="E_EC2018_Consumidor:Make">
+        <MSBuild Projects="005_consumidor\E_EC2018_Consumidor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="A_EC2018_DataSnapColor;B_EC2018_RestClient;C_EC2018_PubSub;D_EC2018_Enfileirador;E_EC2018_Consumidor"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="A_EC2018_DataSnapColor:Clean;B_EC2018_RestClient:Clean;C_EC2018_PubSub:Clean;D_EC2018_Enfileirador:Clean;E_EC2018_Consumidor:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="A_EC2018_DataSnapColor:Make;B_EC2018_RestClient:Make;C_EC2018_PubSub:Make;D_EC2018_Enfileirador:Make;E_EC2018_Consumidor:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

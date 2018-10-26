@@ -1,0 +1,26 @@
+libPush (ATENÇÃO! Instale este componente antes de abrir qualquer outro projeto)
+ - Componente auxiliar para gerenciamento do recebimento de Push Notifications
+
+PushDatasnapServer
+ - Aplicação Datasnap Server Win32 que gerencia o registro dos smartphones para o recebimento de push assim como faz o envio 
+   de push para os dispositivos. Possui métodos que podem ser chamados de qualquer outro aplicativo.
+   Esta aplicação deve ficar num servidor web (recomendo transforma-la num ISAPI para instalação no IIS e, assim, 
+   ter mais escalabilidade e robustez).
+
+PushDatasnapClient
+ - Aplicativo Android exemplo do consumo da API exporta pela aplicação anterior (PushDatasnapServer)
+
+BeaconAlarmSvc
+ - Serviço Android de detecção de afastamento e aproximação utilizado pelo projeto (DistanceAlarm)
+
+DistanceAlarm (ATENÇÃO! Antes de compilar ou rodar este projeto é necessário dar um Build no projeto BeaconAlarmSvc)
+ - Aplicativo Android exemplo de utilização de beacons. É um alarme por afastamento ou aproximação de beacons.
+ - O alarme consome a API Datasnap do projeto PushDatasnapServer para enviar a notificação via Push notification 
+   para a conta Google especificada no aplicativo.
+   A conta Google pode ter mais de um aparelho registrado, portanto, todos os aparelhos serão notificados.
+   Além de o aplicativo funcionar também como um serviço(BeaconAlarmSvc.dproj), o alarme também foi implementado na tela principal para
+   ficar mais fácil de debugar e verificar visualmente como tudo funciona.
+
+BeaconNotificationReceiver
+ - Aplicativo Android exemplo de registro e recebimento de notificações push.
+   Ele consome parte da API exposta pelo projeto PushDatasnapServer.

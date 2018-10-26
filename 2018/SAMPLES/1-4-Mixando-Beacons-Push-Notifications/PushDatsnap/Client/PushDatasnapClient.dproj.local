@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/05/20 19:12:33.000.769,=D:\work\Embarcadero\UseProjects\Unit2.pas</Transaction>
+    <Transaction>2018/05/20 19:13:40.000.423,D:\SRC\RRA\ETC\RRA\PushDatasnapClient\fAppPushClient.pas=D:\work\Embarcadero\UseProjects\Unit2.pas</Transaction>
+    <Transaction>2018/05/20 19:13:40.000.423,D:\SRC\RRA\ETC\RRA\PushDatasnapClient\fAppPushClient.fmx=D:\work\Embarcadero\UseProjects\Unit2.fmx</Transaction>
+    <Transaction>2018/05/20 19:13:57.000.544,D:\SRC\RRA\ETC\RRA\PushDatasnapClient\PushDatasnapClient.dproj=D:\work\Embarcadero\UseProjects\Project1.dproj</Transaction>
+    <Transaction>2018/05/20 22:08:04.000.170,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/05/20 23:22:01.000.423,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Helper.pas</Transaction>
+    <Transaction>2018/05/20 23:22:01.000.490,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Util.pas</Transaction>
+    <Transaction>2018/05/20 23:22:01.000.443,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Impl.pas</Transaction>
+    <Transaction>2018/05/20 23:22:01.000.468,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.pas</Transaction>
+    <Transaction>2018/05/20 23:31:17.000.140,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Impl.pas=</Transaction>
+    <Transaction>2018/05/20 23:31:17.000.089,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Helper.pas=</Transaction>
+    <Transaction>2018/05/20 23:31:17.000.177,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Util.pas=</Transaction>
+    <Transaction>2018/05/20 23:31:17.000.158,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.pas=</Transaction>
+    <Transaction>2018/05/21 00:57:28.000.001,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\lJSONReqResp.pas</Transaction>
+    <Transaction>2018/05/21 01:35:10.000.093,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Unit2.pas</Transaction>
+    <Transaction>2018/05/21 01:35:22.000.346,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\aConsts.pas=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Unit2.pas</Transaction>
+    <Transaction>2018/05/21 01:44:32.000.344,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\Lib.DeviceInfo.pas</Transaction>
+    <Transaction>2018/05/21 01:44:32.000.361,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\lPush.pas</Transaction>
+    <Transaction>2018/05/21 01:56:25.000.855,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\Lib.Android.Account.pas</Transaction>
+    <Transaction>2018/05/21 02:32:08.000.906,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\Lib.AndroidUtils.pas</Transaction>
+    <Transaction>2018/05/21 02:44:22.000.228,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\Lib.Ver.pas</Transaction>
+    <Transaction>2018/05/21 03:39:58.000.364,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/05/21 04:03:38.000.944,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\aPushClientDatasnapMethods.pas=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/05/21 05:40:31.000.106,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Unit1.pas</Transaction>
+    <Transaction>2018/05/21 05:41:54.000.274,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\aPushClientDatasnapMethods.pas=</Transaction>
+    <Transaction>2018/05/21 05:42:19.000.055,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Unit1.dfm=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\dPushServerMethods.dfm</Transaction>
+    <Transaction>2018/05/21 05:42:19.000.055,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\Unit1.pas=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\dPushServerMethods.pas</Transaction>
+    <Transaction>2018/05/21 05:43:35.000.431,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\dPushClient.pas=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\dPushServerMethods.pas</Transaction>
+    <Transaction>2018/05/21 05:43:35.000.431,D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\dPushClient.dfm=D:\SRC\RRA\ETC\RRA\PushDatasnap\Client\dPushServerMethods.dfm</Transaction>
+    <Transaction>2018/06/15 17:09:52.000.863,=D:\SRC\DROID\PushDatasnap\Client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/06/15 17:09:53.000.240,=D:\SRC\DROID\PushDatasnap\Client\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2018/06/15 17:15:57.000.766,D:\SRC\DROID\PushDatasnap\Client\ccPush.pas=D:\SRC\DROID\PushDatasnap\Client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/06/17 21:02:02.000.059,D:\SRC\DROID\PushDatasnap\Client\dPushClient.pas=</Transaction>
+    <Transaction>2018/06/17 21:19:24.000.353,=D:\SRC\DROID\PushDatasnap\Client\Unit1.pas</Transaction>
+    <Transaction>2018/06/17 21:19:41.000.213,D:\SRC\DROID\PushDatasnap\Client\Unit1.pas=D:\SRC\DROID\PushDatasnap\Lib\lPushData.pas</Transaction>
+    <Transaction>2018/06/17 21:26:15.000.939,D:\SRC\DROID\PushDatasnap\Lib\lPushData.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+		<PMacMini iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

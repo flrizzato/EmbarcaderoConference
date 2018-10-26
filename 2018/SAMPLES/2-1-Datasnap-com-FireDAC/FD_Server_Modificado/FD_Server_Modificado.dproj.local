@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/19 18:36:51.000.760,=C:\EC 2018\FD_Server\FormUnit1.pas</Transaction>
+    <Transaction>2018/10/19 18:36:52.000.041,=C:\EC 2018\FD_Server\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/10/19 18:36:57.000.854,=C:\EC 2018\FD_Server\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.635,=C:\EC 2018\FD_Server\js\serverfunctioninvoker.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.244,=C:\EC 2018\FD_Server\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.604,=C:\EC 2018\FD_Server\js\connection.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.730,=C:\EC 2018\FD_Server\css\serverfunctioninvoker.css</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.433,=C:\EC 2018\FD_Server\js\serverfunctions.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.791,=C:\EC 2018\FD_Server\templates\reversestring.html</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.354,=C:\EC 2018\FD_Server\js\callbackframework.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.682,=C:\EC 2018\FD_Server\css\main.css</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.463,=C:\EC 2018\FD_Server\js\base64-min.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.480,=C:\EC 2018\FD_Server\js\json2-min.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.292,=C:\EC 2018\FD_Server\js\json2.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.822,=C:\EC 2018\FD_Server\templates\serverfunctioninvoker.html</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.510,=C:\EC 2018\FD_Server\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.526,=C:\EC 2018\FD_Server\js\callbackframework-min.js</Transaction>
+    <Transaction>2018/10/19 18:37:00.000.182,=C:\EC 2018\FD_Server\js\base64.js</Transaction>
+    <Transaction>2018/10/19 18:37:01.000.119,=C:\EC 2018\FD_Server\images\expand.png</Transaction>
+    <Transaction>2018/10/19 18:37:01.000.088,=C:\EC 2018\FD_Server\images\collapse.png</Transaction>
+    <Transaction>2018/10/19 20:24:23.000.167,C:\EC 2018\FD_Server_Modificado\FD_Server_Modificado.dproj=C:\EC 2018\FD_Server_Modificado\FD_Server.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

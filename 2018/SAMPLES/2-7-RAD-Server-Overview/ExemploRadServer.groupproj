@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2DDEEB74-D245-4DD5-9E2B-0DCDDD11D4E0}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RADServerServidor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RADServerClient\RadServerClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RADServerServidor">
+        <MSBuild Projects="RADServerServidor.dproj"/>
+    </Target>
+    <Target Name="RADServerServidor:Clean">
+        <MSBuild Projects="RADServerServidor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RADServerServidor:Make">
+        <MSBuild Projects="RADServerServidor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RadServerClient">
+        <MSBuild Projects="RADServerClient\RadServerClient.dproj"/>
+    </Target>
+    <Target Name="RadServerClient:Clean">
+        <MSBuild Projects="RADServerClient\RadServerClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RadServerClient:Make">
+        <MSBuild Projects="RADServerClient\RadServerClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RADServerServidor;RadServerClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RADServerServidor:Clean;RadServerClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RADServerServidor:Make;RadServerClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/09/14 21:10:51.000.379,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/01 11:06:22.000.002,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/03 23:49:41.000.804,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 09:01:47.000.107,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 17:44:53.000.261,=C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 17:45:21.000.361,C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Eventos\Intensive Developer 2018 - SP\Mobile\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 17:45:21.000.361,C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Eventos\Intensive Developer 2018 - SP\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2018/03/22 17:45:26.000.255,C:\Users\adrianosantosvm\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Eventos\Intensive Developer 2018 - SP\Mobile\Mobile.dproj</Transaction>
+    <Transaction>2018/03/22 17:45:37.000.632,=C:\Eventos\Intensive Developer 2018 - SP\Mobile\Unit2.pas</Transaction>
+    <Transaction>2018/03/22 17:46:27.000.306,C:\Eventos\Intensive Developer 2018 - SP\Mobile\Unit2.pas=C:\Eventos\Intensive Developer 2018 - SP\Mobile\UntDMRest.pas</Transaction>
+    <Transaction>2018/03/22 17:46:27.000.306,C:\Eventos\Intensive Developer 2018 - SP\Mobile\Unit2.dfm=C:\Eventos\Intensive Developer 2018 - SP\Mobile\UntDMRest.dfm</Transaction>
+    <Transaction>2018/03/22 17:48:54.000.127,=C:\Eventos\Intensive Developer 2018 - SP\Mobile\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/03/22 17:49:03.000.892,=C:\Eventos\Intensive Developer 2018 - SP\Mobile\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2018/03/22 17:54:05.000.824,C:\Eventos\Intensive Developer 2018 - SP\Mobile\ClientModuleUnit1.pas=</Transaction>
+    <Transaction>2018/03/22 17:54:09.000.062,C:\Eventos\Intensive Developer 2018 - SP\Mobile\ClientClassesUnit1.pas=</Transaction>
+    <Transaction>2018/03/22 17:57:39.000.578,=C:\Eventos\Intensive Developer 2018 - SP\Mobile\Unit2.pas</Transaction>
+    <Transaction>2018/03/22 17:57:50.000.745,C:\Eventos\Intensive Developer 2018 - SP\Mobile\Unit2.pas=C:\Eventos\Intensive Developer 2018 - SP\Mobile\Constantes.pas</Transaction>
+    <Transaction>2018/03/22 18:00:28.000.367,C:\Eventos\Intensive Developer 2018 - SP\Mobile\Constantes.pas=</Transaction>
+    <Transaction>2018/03/22 18:00:34.000.268,=C:\Eventos\Intensive Developer 2018 - SP\common\Constantes.pas</Transaction>
+    <Transaction>2018/03/24 10:59:24.000.236,=C:\Eventos\Intensive Developer 2018 - SP\Mobile\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/03/24 10:59:41.000.797,=C:\Eventos\Intensive Developer 2018 - SP\Mobile\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2018/03/24 15:25:17.000.343,C:\Eventos\Intensive Developer 2018 - SP\Mobile\UntDMRest.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMac iOSSimulator="iPhone5"/>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+		<PmacOS iOSSimulator="iPhone5" iOSDevice64="" iOSDevice32=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/05/20 18:53:23.000.772,=D:\work\Embarcadero\UseProjects\FormUnit1.pas</Transaction>
+    <Transaction>2018/05/20 18:53:23.000.951,=D:\work\Embarcadero\UseProjects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/05/20 18:53:24.000.077,=D:\work\Embarcadero\UseProjects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/05/20 18:54:30.000.558,D:\SRC\RRA\ETC\RRA\PushDatasnap\fAppPushDatasnap.pas=D:\work\Embarcadero\UseProjects\FormUnit1.pas</Transaction>
+    <Transaction>2018/05/20 18:54:30.000.559,D:\SRC\RRA\ETC\RRA\PushDatasnap\fAppPushDatasnap.dfm=D:\work\Embarcadero\UseProjects\FormUnit1.dfm</Transaction>
+    <Transaction>2018/05/20 18:55:01.000.025,D:\SRC\RRA\ETC\RRA\PushDatasnap\wPushDatasnap.dfm=D:\work\Embarcadero\UseProjects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2018/05/20 18:55:01.000.025,D:\SRC\RRA\ETC\RRA\PushDatasnap\wPushDatasnap.pas=D:\work\Embarcadero\UseProjects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/05/20 18:55:52.000.711,D:\SRC\RRA\ETC\RRA\PushDatasnap\aPushMethods.dfm=D:\work\Embarcadero\UseProjects\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2018/05/20 18:55:52.000.711,D:\SRC\RRA\ETC\RRA\PushDatasnap\aPushMethods.pas=D:\work\Embarcadero\UseProjects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/05/20 18:56:14.000.725,D:\SRC\RRA\ETC\RRA\PushDatasnap\PushServerDatasnap.dproj=D:\work\Embarcadero\UseProjects\Project1.dproj</Transaction>
+    <Transaction>2018/05/20 18:58:47.000.212,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Unit1.pas</Transaction>
+    <Transaction>2018/05/20 19:33:48.000.861,D:\SRC\RRA\ETC\RRA\PushDatasnap\PushDatasnapServer.dproj=D:\SRC\RRA\ETC\RRA\PushDatasnap\PushServerDatasnap.dproj</Transaction>
+    <Transaction>2018/05/20 19:34:34.000.273,=D:\SRC\RRA\ETC\RRA\PushDatasnap\dDB.pas</Transaction>
+    <Transaction>2018/05/20 20:16:13.000.125,D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\dDB.pas=D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\aDBPush.pas</Transaction>
+    <Transaction>2018/05/20 20:16:13.000.125,D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\dDB.dfm=D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\aDBPush.dfm</Transaction>
+    <Transaction>2018/05/20 23:30:54.000.873,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Helper.pas</Transaction>
+    <Transaction>2018/05/20 23:30:54.000.916,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.pas</Transaction>
+    <Transaction>2018/05/20 23:30:54.000.937,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Util.pas</Transaction>
+    <Transaction>2018/05/20 23:30:54.000.895,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Impl.pas</Transaction>
+    <Transaction>2018/05/21 00:52:39.000.355,D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Util.pas=</Transaction>
+    <Transaction>2018/05/21 00:52:39.000.350,D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.pas=</Transaction>
+    <Transaction>2018/05/21 00:52:39.000.345,D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Impl.pas=</Transaction>
+    <Transaction>2018/05/21 00:52:39.000.338,D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\DataSetConverter4Delphi\src\DataSetConverter4D.Helper.pas=</Transaction>
+    <Transaction>2018/05/21 00:57:14.000.099,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\lJSONReqResp.pas</Transaction>
+    <Transaction>2018/05/21 01:34:48.000.143,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\Unit1.pas</Transaction>
+    <Transaction>2018/05/21 01:43:59.000.610,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\Lib.DeviceInfo.pas</Transaction>
+    <Transaction>2018/05/29 04:30:25.000.420,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\Unit1.pas</Transaction>
+    <Transaction>2018/05/29 04:31:02.000.110,D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\Lib.Data.Helpers.pas=D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\Unit1.pas</Transaction>
+    <Transaction>2018/05/29 04:39:12.000.847,=D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\Unit1.pas</Transaction>
+    <Transaction>2018/05/29 04:39:47.000.452,D:\SRC\RRA\ETC\RRA\PushDatasnap\Lib\Lib.Persistent.Helpers.pas=D:\SRC\RRA\ETC\RRA\PushDatasnap\Server\Unit1.pas</Transaction>
+    <Transaction>2018/06/17 21:25:57.000.840,D:\SRC\DROID\PushDatasnap\Lib\Lib.Data.Helpers.pas=</Transaction>
+    <Transaction>2018/06/17 21:26:05.000.685,D:\SRC\DROID\PushDatasnap\Lib\Lib.Persistent.Helpers.pas=</Transaction>
+    <Transaction>2018/06/17 21:26:08.000.746,D:\SRC\DROID\PushDatasnap\Lib\Lib.DeviceInfo.pas=</Transaction>
+    <Transaction>2018/06/17 22:36:24.000.290,=D:\SRC\RRA\Mobile\PushLaercio\Server\aDBPush.pas</Transaction>
+    <Transaction>2018/08/07 17:38:13.000.574,=D:\SRC\DROID\PushDatasnap\Server\Unit1.pas</Transaction>
+    <Transaction>2018/08/07 17:39:53.000.311,D:\SRC\DROID\Natus\lib\lHashNatus.pas=D:\SRC\DROID\PushDatasnap\Server\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="fAppPushDatasnap.pas"/>
+    <File Path="fAppPushDatasnap.dfm"/>
+    <File Path="aPushMethods.pas"/>
+    <File Path="aPushMethods.dfm"/>
+    <File Path="wPushDatasnap.pas"/>
+    <File Path="wPushDatasnap.dfm"/>
+    <File Path="aDBPush.pas"/>
+    <File Path="aDBPush.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

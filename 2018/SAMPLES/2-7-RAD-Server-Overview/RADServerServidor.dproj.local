@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/10 23:22:35.000.443,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/20 23:04:48.000.408,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/31 09:56:08.000.544,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/31 13:42:18.000.511,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/06 14:35:54.000.737,=emsserverapi.dcp</Transaction>
+    <Transaction>2018/09/06 14:35:55.000.403,=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/06 15:08:05.000.428,C:\Users\fabio\Desktop\Exemplo RAD Server\uResourceSample.dfm=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/09/06 15:08:05.000.428,C:\Users\fabio\Desktop\Exemplo RAD Server\uResourceSample.pas=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/06 15:08:18.000.965,C:\Users\fabio\Desktop\Exemplo RAD Server\Exemplo_RADServer.dproj=C:\Users\fabio\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/16 21:48:28.000.885,C:\Users\fabio\Desktop\Exemplo RAD Server\Exemplo_RADServer.dproj=C:\Users\fabio\Desktop\Exemplo RAD Server\RADServerServidor.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

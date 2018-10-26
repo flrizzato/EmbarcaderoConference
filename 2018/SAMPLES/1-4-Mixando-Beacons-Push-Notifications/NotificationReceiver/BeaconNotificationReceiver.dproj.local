@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/06 20:49:27.000.922,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/02/19 00:05:22.000.269,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/08 16:31:20.000.658,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 06:17:45.000.555,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 06:26:05.000.389,C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\fAppNotificationReceiver.fmx</Transaction>
+    <Transaction>2018/10/22 06:26:05.000.389,C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\fAppNotificationReceiver.pas</Transaction>
+    <Transaction>2018/10/22 06:26:28.000.032,C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\BeaconNotificationReceiver.dproj</Transaction>
+    <Transaction>2018/10/22 07:28:39.000.543,=D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 07:28:49.000.757,D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\Unit1.pas=D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\aConsts.pas</Transaction>
+    <Transaction>2018/10/22 07:46:32.000.319,=D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 07:47:59.000.016,D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\Unit1.pas=D:\SRC\RRA\Mobile\SmartTag\NotificationReceiver\aIni.pas</Transaction>
+    <Transaction>2018/10/23 06:29:04.000.241,=D:\SRC\RRA\Mobile\SmartTag\PushDatsnap\Client\ccPush.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

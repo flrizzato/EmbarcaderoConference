@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/12/16 17:33:58.000.640,=C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas</Transaction>
+    <Transaction>2017/12/16 17:33:58.000.885,=C:\Clientes Intraweb\IntensiveDelphi2017\UserSessionUnit.pas</Transaction>
+    <Transaction>2017/12/16 17:33:58.000.827,=C:\Clientes Intraweb\IntensiveDelphi2017\ServerController.pas</Transaction>
+    <Transaction>2017/12/16 19:25:44.000.200,C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.dfm=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormIndex.dfm</Transaction>
+    <Transaction>2017/12/16 19:25:44.000.200,C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormIndex.pas</Transaction>
+    <Transaction>2017/12/16 19:26:55.000.349,=C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas</Transaction>
+    <Transaction>2017/12/16 19:27:21.000.825,C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormDBGrid.pas</Transaction>
+    <Transaction>2017/12/16 19:27:21.000.825,C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.dfm=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormDBGrid.dfm</Transaction>
+    <Transaction>2017/12/17 18:23:45.000.652,=C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas</Transaction>
+    <Transaction>2017/12/17 18:32:02.000.388,C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormTableManual.pas</Transaction>
+    <Transaction>2017/12/17 18:32:02.000.389,C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.dfm=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormTableManual.dfm</Transaction>
+    <Transaction>2017/12/18 10:12:05.000.674,=C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas</Transaction>
+    <Transaction>2017/12/18 14:50:03.000.023,=C:\Clientes Intraweb\IntensiveDelphi2017\Unit2.pas</Transaction>
+    <Transaction>2017/12/18 14:50:28.000.529,C:\Clientes Intraweb\IntensiveDelphi2017\Unit2.pas=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormFinal.pas</Transaction>
+    <Transaction>2017/12/18 14:50:28.000.529,C:\Clientes Intraweb\IntensiveDelphi2017\Unit2.dfm=C:\Clientes Intraweb\IntensiveDelphi2017\U_IWFormFinal.dfm</Transaction>
+    <Transaction>2017/12/18 20:42:42.000.287,C:\Clientes Intraweb\IntensiveDelphi2017\Unit1.pas=</Transaction>
+    <Transaction>2018/10/21 15:44:59.000.761,C:\Demos Intraweb\Embarcadero Conference 2018\IntensiveDelphi2017.dproj=C:\Demos Intraweb\Embarcadero Conference 2018\EmbarcaderoConference2018.dproj</Transaction>
+    <Transaction>2018/10/21 16:21:35.000.743,=C:\Demos Intraweb\Embarcadero Conference 2018\U_FrmProdutos.pas</Transaction>
+    <Transaction>2018/10/21 16:23:33.000.740,=C:\Demos Intraweb\Embarcadero Conference 2018\U_FrmPadrao.pas</Transaction>
+    <Transaction>2018/10/21 22:19:02.000.074,=C:\Demos Intraweb\Embarcadero Conference 2018\U_IWFormTableManual.pas</Transaction>
+    <Transaction>2018/10/21 22:24:22.000.527,C:\Demos Intraweb\Embarcadero Conference 2018\U_FrmProdutos.pas=</Transaction>
+    <Transaction>2018/10/22 07:16:26.619,C:\Demos Intraweb\Embarcadero Conference 2018\U_FrmPadrao.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

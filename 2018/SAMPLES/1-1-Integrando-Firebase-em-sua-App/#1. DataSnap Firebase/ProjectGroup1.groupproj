@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A6429B1C-DC88-4DB9-ACFA-764B2A092BFD}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Mobile\Mobile.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DataSnap\Servidor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\#2. Firebase Autenticacao\firebase.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Mobile">
+        <MSBuild Projects="Mobile\Mobile.dproj"/>
+    </Target>
+    <Target Name="Mobile:Clean">
+        <MSBuild Projects="Mobile\Mobile.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Mobile:Make">
+        <MSBuild Projects="Mobile\Mobile.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Servidor">
+        <MSBuild Projects="DataSnap\Servidor.dproj"/>
+    </Target>
+    <Target Name="Servidor:Clean">
+        <MSBuild Projects="DataSnap\Servidor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Servidor:Make">
+        <MSBuild Projects="DataSnap\Servidor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="firebase">
+        <MSBuild Projects="..\#2. Firebase Autenticacao\firebase.dproj"/>
+    </Target>
+    <Target Name="firebase:Clean">
+        <MSBuild Projects="..\#2. Firebase Autenticacao\firebase.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="firebase:Make">
+        <MSBuild Projects="..\#2. Firebase Autenticacao\firebase.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Mobile;Servidor;firebase"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Mobile:Clean;Servidor:Clean;firebase:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Mobile:Make;Servidor:Make;firebase:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

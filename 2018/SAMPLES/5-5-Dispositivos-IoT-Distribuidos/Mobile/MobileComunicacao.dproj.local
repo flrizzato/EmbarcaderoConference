@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/14 12:40:28.000.760,=C:\Users\crist\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2018/07/14 12:40:28.000.545,=C:\Users\crist\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/07/14 12:40:28.000.660,=C:\Users\crist\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2018/10/13 15:58:13.000.261,=C:\Users\crist\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/13 15:59:02.000.048,C:\Laercio\ConferenciaEB2018\Mobile\U_FormPrincipal.fmx=C:\Users\crist\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2018/10/13 15:59:02.000.048,C:\Laercio\ConferenciaEB2018\Mobile\U_FormPrincipal.pas=C:\Users\crist\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/13 15:59:36.000.993,C:\Laercio\ConferenciaEB2018\Mobile\MobileComunicacao.dproj=C:\Users\crist\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2018/10/13 16:35:31.000.444,=C:\Laercio\ConferenciaEB2018\Mobile\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/10/13 16:36:22.000.925,C:\Laercio\ConferenciaEB2018\Mobile\U_Proxy.pas=C:\Laercio\ConferenciaEB2018\Mobile\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.169,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\Lib.Data.Helpers.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.205,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\Lib.DeviceInfo.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.269,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\Lib.Ver.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.312,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\lJSONReqResp.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.141,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\Lib.AndroidUtils.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.364,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\lPush.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.230,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\Lib.Persistent.Helpers.pas</Transaction>
+    <Transaction>2018/10/13 17:31:03.000.105,=C:\Laercio\ConferenciaEB2018\Mobile\Lib\Lib.Android.Account.pas</Transaction>
+    <Transaction>2018/10/15 20:06:59.000.050,C:\Laercio\ConferenciaEB2018\Mobile\MobileComunicacao.dproj=C:\Laercio\ConferenciaEB2018\Mobile\QualiData.dproj</Transaction>
+    <Transaction>2018/10/15 20:37:05.000.303,C:\Laercio\ConferenciaEB2018\Mobile\MobileComunicacao.dproj=C:\Laercio\ConferenciaEB2018\Mobile\QualiData.dproj</Transaction>
+    <Transaction>2018/10/15 20:46:27.000.971,C:\Laercio\ConferenciaEB2018\Mobile\QualiDataMed.dproj=C:\Laercio\ConferenciaEB2018\Mobile\MobileComunicacao.dproj</Transaction>
+    <Transaction>2018/10/15 20:47:01.000.730,C:\Laercio\ConferenciaEB2018\Mobile\MobileComunicacao.dproj=C:\Laercio\ConferenciaEB2018\Mobile\QualiDataMed.dproj</Transaction>
+    <Transaction>2018/10/15 20:49:28.000.660,C:\Laercio\ConferenciaEB2018\Mobile\QualiDataMed.dproj=C:\Laercio\ConferenciaEB2018\Mobile\MobileComunicacao.dproj</Transaction>
+    <Transaction>2018/10/15 20:56:52.000.213,C:\Laercio\ConferenciaEB2018\Mobile\MobileComunicacao.dproj=C:\Laercio\ConferenciaEB2018\Mobile\QualiDataMed.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="52001808fa8da400"/>
+	</ActiveMobileDevice>
+</BorlandProject>

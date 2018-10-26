@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/04/15 11:44:00.000.464,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/17 17:45:20.000.225,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/24 11:47:42.000.878,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/14 07:35:49.000.217,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/28 15:29:39.000.513,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/05/28 18:34:09.000.063,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/12 13:08:48.000.630,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/12 13:20:19.000.270,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/12 13:24:17.000.179,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/14 11:06:18.000.036,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/14 12:45:29.000.241,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/28 10:01:59.000.994,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/31 10:46:09.000.405,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/08 17:02:55.000.949,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/01/28 10:21:07.000.220,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/01/28 10:24:40.000.312,C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\Unit1.pas</Transaction>
+    <Transaction>2018/01/28 10:24:40.000.353,C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\Unit1.fmx</Transaction>
+    <Transaction>2018/01/28 10:24:54.000.482,C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\firebase.dproj</Transaction>
+    <Transaction>2018/01/28 10:41:42.000.327,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\sources\ChatFacade.pas</Transaction>
+    <Transaction>2018/01/28 10:41:42.000.573,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\sources\Firebase.Response.pas</Transaction>
+    <Transaction>2018/01/28 10:41:42.000.382,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\sources\Firebase.Auth.pas</Transaction>
+    <Transaction>2018/01/28 10:41:42.000.526,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\sources\Firebase.Request.pas</Transaction>
+    <Transaction>2018/01/28 10:41:42.000.426,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\sources\Firebase.Database.pas</Transaction>
+    <Transaction>2018/01/28 10:41:42.000.471,=C:\Users\Fabiano\Documents\Embarcadero\Studio\Projects\FirebaseAuthRecuperacaoSenha\sources\Firebase.Interfaces.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+		<PmacOS iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

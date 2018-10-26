@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7B1ECBE1-3D0B-4D7C-AF46-B02EE2EE4C24}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="UsoDataSet\ORMBrLive.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UsoDataSet\pCliente.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UsoDataSet\pStatus.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ORMBrLive">
+        <MSBuild Projects="UsoDataSet\ORMBrLive.dproj"/>
+    </Target>
+    <Target Name="ORMBrLive:Clean">
+        <MSBuild Projects="UsoDataSet\ORMBrLive.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ORMBrLive:Make">
+        <MSBuild Projects="UsoDataSet\ORMBrLive.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pCliente">
+        <MSBuild Projects="UsoDataSet\pCliente.dproj"/>
+    </Target>
+    <Target Name="pCliente:Clean">
+        <MSBuild Projects="UsoDataSet\pCliente.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pCliente:Make">
+        <MSBuild Projects="UsoDataSet\pCliente.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="pStatus">
+        <MSBuild Projects="UsoDataSet\pStatus.dproj"/>
+    </Target>
+    <Target Name="pStatus:Clean">
+        <MSBuild Projects="UsoDataSet\pStatus.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="pStatus:Make">
+        <MSBuild Projects="UsoDataSet\pStatus.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ORMBrLive;pCliente;pStatus"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ORMBrLive:Clean;pCliente:Clean;pStatus:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ORMBrLive:Make;pCliente:Make;pStatus:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

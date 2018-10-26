@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/15 19:04:58.000.508,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:05:28.000.492,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:08:32.000.817,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/15 20:14:12.000.501,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 13:03:14.000.682,=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 13:03:34.000.702,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\fLocalSQL.dfm=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/10/21 13:03:34.000.702,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\fLocalSQL.pas=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 13:03:38.000.311,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\LocalSQL.dproj=C:\Users\enoqu\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/21 13:05:14.000.571,=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 13:05:29.000.486,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\dLocalSQL.dfm=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\Unit1.dfm</Transaction>
+    <Transaction>2018/10/21 13:05:29.000.486,C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\dLocalSQL.pas=C:\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\06 - LocalSQL\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

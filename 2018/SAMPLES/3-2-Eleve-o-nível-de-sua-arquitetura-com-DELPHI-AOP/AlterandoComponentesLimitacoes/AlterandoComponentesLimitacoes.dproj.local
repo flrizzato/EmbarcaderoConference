@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018/10/20 19:55:07.724,=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2018/10/20 19:55:37.834,C:\Users\ftath\Documents\EmbarcaderoConference2018\AlterandoComponentesLimitacoes\AlterandoComponentesLimitacoes.dproj=C:\Users\ftath\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2018/10/20 19:56:08.620,=C:\Users\ftath\Documents\EmbarcaderoConference2018\AlterandoComponentesLimitacoes\uAtributos.pas</Transaction>
+    <Transaction>2018/10/20 19:56:08.633,=C:\Users\ftath\Documents\EmbarcaderoConference2018\AlterandoComponentesLimitacoes\uContextoAspecto.pas</Transaction>
+    <Transaction>2018/10/20 19:56:08.704,=C:\Users\ftath\Documents\EmbarcaderoConference2018\AlterandoComponentesLimitacoes\ufrmAlterandoComponentes.pas</Transaction>
+    <Transaction>2018/10/20 19:56:08.716,=C:\Users\ftath\Documents\EmbarcaderoConference2018\AlterandoComponentesLimitacoes\uLoginAspect.pas</Transaction>
+    <Transaction>2018/10/20 19:56:08.730,=C:\Users\ftath\Documents\EmbarcaderoConference2018\AlterandoComponentesLimitacoes\uMeuDataSet.pas</Transaction>
+  </Transactions>
+</BorlandProject>

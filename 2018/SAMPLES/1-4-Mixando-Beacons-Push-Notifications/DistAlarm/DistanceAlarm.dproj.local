@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/06 20:49:27.000.922,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/02/19 00:05:22.000.269,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/08 16:31:20.000.658,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/21 17:25:28.000.514,=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/21 17:32:43.000.232,D:\SRC\RRA\Mobile\SmartTag\DistAlarm\fAppDistAlarm.pas=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/21 17:32:43.000.232,D:\SRC\RRA\Mobile\SmartTag\DistAlarm\fAppDistAlarm.fmx=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2018/10/21 17:32:52.000.020,D:\SRC\RRA\Mobile\SmartTag\DistAlarm\DistanceAlarm.dproj=C:\Users\rriba\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/21 17:33:52.000.617,=D:\SRC\RRA\Mobile\SmartTag\Service\BeaconAlarmService.pas</Transaction>
+    <Transaction>2018/10/21 17:33:52.000.627,=D:\SRC\RRA\Mobile\SmartTag\Service\Android\Debug\BeaconAlarmSvc.jar</Transaction>
+    <Transaction>2018/10/21 18:25:44.000.863,=D:\SRC\RRA\Mobile\SmartTag\Service\aIni.pas</Transaction>
+    <Transaction>2018/10/23 08:41:58.000.940,=D:\SRC\RRA\Mobile\SmartTag\PushDatsnap\Client\ccPush.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services-ads-7.0.0.dex.jar"/>
+    <File Path="google-play-services-analytics-7.0.0.dex.jar"/>
+    <File Path="google-play-services-base-7.0.0.dex.jar"/>
+    <File Path="google-play-services-gcm-7.0.0.dex.jar"/>
+    <File Path="google-play-services-identity-7.0.0.dex.jar"/>
+    <File Path="google-play-services-maps-7.0.0.dex.jar"/>
+    <File Path="google-play-services-panorama-7.0.0.dex.jar"/>
+    <File Path="google-play-services-plus-7.0.0.dex.jar"/>
+    <File Path="google-play-services-wallet-7.0.0.dex.jar"/>
+    <File Path="..\Service\Android\Debug\BeaconAlarmSvc.jar"/>
+    <File Path="..\..\SmartTag"/>
+    <File Path="..\PushDatsnap"/>
+    <File Path="..\PushDatsnap\Client"/>
+    <File Path="..\PushDatsnap\Client\ccPush.pas"/>
+    <File Path="..\Service"/>
+    <File Path="..\Service\BeaconAlarmService.pas"/>
+    <File Path="..\Service\BeaconAlarmService.dfm"/>
+    <File Path="..\Service\aIni.pas"/>
+    <File Path="fAppDistAlarm.pas"/>
+    <File Path="fAppDistAlarm.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>
