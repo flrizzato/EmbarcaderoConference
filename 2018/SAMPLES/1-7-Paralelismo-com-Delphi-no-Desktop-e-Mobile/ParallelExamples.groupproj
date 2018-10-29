@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DB87B20F-E6A0-455E-9E7B-01BA5CE3C4B9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01 Task\Task01.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02 Futures\Future02.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03 TaskChaining\TaskChaining03.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="04 ParallelSquares\ParallelSquares04.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="05 ParallelFor\ParallelFor05.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="05 ParallelFor02\ParallelFor.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Task01">
+        <MSBuild Projects="01 Task\Task01.dproj"/>
+    </Target>
+    <Target Name="Task01:Clean">
+        <MSBuild Projects="01 Task\Task01.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Task01:Make">
+        <MSBuild Projects="01 Task\Task01.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Future02">
+        <MSBuild Projects="02 Futures\Future02.dproj"/>
+    </Target>
+    <Target Name="Future02:Clean">
+        <MSBuild Projects="02 Futures\Future02.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Future02:Make">
+        <MSBuild Projects="02 Futures\Future02.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TaskChaining03">
+        <MSBuild Projects="03 TaskChaining\TaskChaining03.dproj"/>
+    </Target>
+    <Target Name="TaskChaining03:Clean">
+        <MSBuild Projects="03 TaskChaining\TaskChaining03.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TaskChaining03:Make">
+        <MSBuild Projects="03 TaskChaining\TaskChaining03.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ParallelSquares04">
+        <MSBuild Projects="04 ParallelSquares\ParallelSquares04.dproj"/>
+    </Target>
+    <Target Name="ParallelSquares04:Clean">
+        <MSBuild Projects="04 ParallelSquares\ParallelSquares04.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ParallelSquares04:Make">
+        <MSBuild Projects="04 ParallelSquares\ParallelSquares04.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ParallelFor05">
+        <MSBuild Projects="05 ParallelFor\ParallelFor05.dproj"/>
+    </Target>
+    <Target Name="ParallelFor05:Clean">
+        <MSBuild Projects="05 ParallelFor\ParallelFor05.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ParallelFor05:Make">
+        <MSBuild Projects="05 ParallelFor\ParallelFor05.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ParallelFor">
+        <MSBuild Projects="05 ParallelFor02\ParallelFor.dproj"/>
+    </Target>
+    <Target Name="ParallelFor:Clean">
+        <MSBuild Projects="05 ParallelFor02\ParallelFor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ParallelFor:Make">
+        <MSBuild Projects="05 ParallelFor02\ParallelFor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Task01;Future02;TaskChaining03;ParallelSquares04;ParallelFor05;ParallelFor"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Task01:Clean;Future02:Clean;TaskChaining03:Clean;ParallelSquares04:Clean;ParallelFor05:Clean;ParallelFor:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Task01:Make;Future02:Make;TaskChaining03:Make;ParallelSquares04:Make;ParallelFor05:Make;ParallelFor:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
