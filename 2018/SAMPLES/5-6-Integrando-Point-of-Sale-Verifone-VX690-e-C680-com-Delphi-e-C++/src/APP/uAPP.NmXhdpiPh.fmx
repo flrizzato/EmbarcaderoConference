@@ -1,0 +1,78 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited sbxAPP: TScrollBox
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    Viewport.Width = 400.000000000000000000
+    Viewport.Height = 615.000000000000000000
+    inherited lytAPP: TLayout
+      Size.Width = 400.000000000000000000
+      Size.Height = 581.000000000000000000
+      inherited gbxProdutos: TGroupBox
+        Size.Width = 400.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        inherited edtDescricao: TEdit
+          Size.Width = 161.000000000000000000
+        end
+        inherited edtQtd: TSpinBox
+          Position.X = 256.000000000000000000
+        end
+        inherited edtTotal: TNumberBox
+          Position.X = 336.000000000000000000
+          Size.Width = 57.000000000000000000
+        end
+      end
+      inherited grbFormas: TGroupBox
+        Position.Y = 485.000000000000000000
+        Size.Width = 400.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited grdItens: TGrid
+        Size.Width = 380.000000000000000000
+        Viewport.Width = 380.000000000000000000
+        Viewport.Height = 385.000000000000000000
+      end
+      inherited lytTotais: TLayout
+        Size.Width = 400.000000000000000000
+        Size.Height = 28.000000000000000000
+        inherited lblValorTotal: TLabel
+          Position.X = 155.000000000000000000
+          Size.Height = 28.000000000000000000
+        end
+      end
+    end
+    inherited rctMensagens: TRectangle
+      Position.Y = 581.000000000000000000
+      Size.Width = 400.000000000000000000
+      inherited lblMensagens: TLabel
+        Size.Width = 400.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited BindingsList1: TBindingsList
+    inherited LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Columns = <
+        item
+          MemberName = 'codigo'
+        end
+        item
+          MemberName = 'descricao'
+          Width = 130
+        end
+        item
+          MemberName = 'unitario'
+        end
+        item
+          MemberName = 'qtd'
+          Header = 'Qtd'
+        end
+        item
+          MemberName = 'total'
+          Header = 'Total'
+        end>
+    end
+  end
+end

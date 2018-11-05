@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/20 13:59:03.000.216,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 10:03:33.000.772,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/22 13:10:35.000.391,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/23 11:12:18.000.593,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/23 11:18:14.000.846,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/09 09:52:02.000.601,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/22 09:23:15.000.824,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/22 09:25:09.000.128,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/22 09:40:23.000.949,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/22 10:26:38.000.836,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/27 08:44:45.000.581,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/09/27 09:15:04.000.206,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 13:10:52.000.827,=C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/22 14:11:05.000.119,C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\desenvolvimento\EmbarcaderoConference2018\UfrmPrincipal.pas</Transaction>
+    <Transaction>2018/10/22 14:11:05.000.119,C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\desenvolvimento\EmbarcaderoConference2018\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2018/10/22 14:11:29.000.444,C:\desenvolvimento\EmbarcaderoConference2018\UfrmPrincipal.pas=C:\desenvolvimento\EmbarcaderoConference2018\ECON2018.pas</Transaction>
+    <Transaction>2018/10/22 14:11:29.000.444,C:\desenvolvimento\EmbarcaderoConference2018\UfrmPrincipal.dfm=C:\desenvolvimento\EmbarcaderoConference2018\ECON2018.dfm</Transaction>
+    <Transaction>2018/10/22 14:11:51.000.092,C:\desenvolvimento\EmbarcaderoConference2018\ECON2018.dfm=C:\desenvolvimento\EmbarcaderoConference2018\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2018/10/22 14:11:51.000.092,C:\desenvolvimento\EmbarcaderoConference2018\ECON2018.pas=C:\desenvolvimento\EmbarcaderoConference2018\UfrmPrincipal.pas</Transaction>
+    <Transaction>2018/10/22 14:11:59.000.415,C:\Users\marcos.trindade\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\desenvolvimento\EmbarcaderoConference2018\ECON2018.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,47 @@
+inherited Form1_XLgXhdpiTb: TForm1_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited sbxAPP: TScrollBox
+    Size.Width = 800.000000000000000000
+    Size.Height = 1255.000000000000000000
+    Viewport.Width = 800.000000000000000000
+    Viewport.Height = 1255.000000000000000000
+    inherited lytAPP: TLayout
+      Size.Width = 800.000000000000000000
+      Size.Height = 1255.000000000000000000
+      inherited gbxProdutos: TGroupBox
+        Size.Width = 800.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited grbFormas: TGroupBox
+        Position.Y = 1159.000000000000000000
+        Size.Width = 800.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        inherited lytFormas: TLayout
+          inherited imgCartao: TImage
+            MultiResBitmap.Height = 64
+            MultiResBitmap.Width = 64
+          end
+          inherited imgDinheiro: TImage
+            MultiResBitmap.Height = 64
+            MultiResBitmap.Width = 64
+          end
+        end
+      end
+      inherited grdItens: TGrid
+        Size.Width = 780.000000000000000000
+        Viewport.Width = 780.000000000000000000
+        Viewport.Height = 385.000000000000000000
+      end
+      inherited lytTotais: TLayout
+        Size.Width = 800.000000000000000000
+        Size.Height = 702.000000000000000000
+        inherited lblValorTotal: TLabel
+          Position.X = 661.000000000000000000
+          Size.Height = 702.000000000000000000
+        end
+      end
+    end
+  end
+end

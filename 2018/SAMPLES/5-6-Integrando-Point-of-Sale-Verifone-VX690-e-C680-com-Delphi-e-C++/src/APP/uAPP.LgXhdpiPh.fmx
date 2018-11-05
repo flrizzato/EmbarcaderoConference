@@ -1,0 +1,56 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited sbxAPP: TScrollBox
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    Viewport.Width = 450.000000000000000000
+    Viewport.Height = 695.000000000000000000
+    inherited lytAPP: TLayout
+      Size.Width = 450.000000000000000000
+      Size.Height = 661.000000000000000000
+      inherited gbxProdutos: TGroupBox
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        inherited edtDescricao: TEdit
+          Size.Width = 145.000000000000000000
+        end
+        inherited edtQtd: TSpinBox
+          Position.X = 240.000000000000000000
+          Size.Width = 89.000000000000000000
+        end
+        inherited edtTotal: TNumberBox
+          Position.X = 344.000000000000000000
+          Size.Width = 65.000000000000000000
+        end
+      end
+      inherited grbFormas: TGroupBox
+        Position.Y = 565.000000000000000000
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited grdItens: TGrid
+        Size.Width = 430.000000000000000000
+        Viewport.Width = 430.000000000000000000
+        Viewport.Height = 385.000000000000000000
+      end
+      inherited lytTotais: TLayout
+        Size.Width = 450.000000000000000000
+        Size.Height = 108.000000000000000000
+        inherited lblValorTotal: TLabel
+          Position.X = 205.000000000000000000
+          Size.Height = 108.000000000000000000
+        end
+      end
+    end
+    inherited rctMensagens: TRectangle
+      Position.Y = 661.000000000000000000
+      Size.Width = 450.000000000000000000
+      inherited lblMensagens: TLabel
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

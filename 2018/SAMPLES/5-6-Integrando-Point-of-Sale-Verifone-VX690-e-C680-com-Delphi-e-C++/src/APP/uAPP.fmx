@@ -1,0 +1,329 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = Single
+  Caption = 'Pedidos'
+  ClientHeight = 642
+  ClientWidth = 359
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object sbxAPP: TScrollBox
+    Align = Client
+    Size.Width = 359.000000000000000000
+    Size.Height = 642.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 359.000000000000000000
+    Viewport.Height = 642.000000000000000000
+    object lytAPP: TLayout
+      Align = Client
+      Size.Width = 359.000000000000000000
+      Size.Height = 608.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object gbxProdutos: TGroupBox
+        Align = Top
+        StyledSettings = [Family, Size, FontColor, Other]
+        Size.Width = 359.000000000000000000
+        Size.Height = 72.000000000000000000
+        Size.PlatformDefault = False
+        Text = ' Produtos'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TabOrder = 1
+        object edtCodigo: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          Cursor = crIBeam
+          Position.X = 8.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 41.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          OnKeyDown = edtCodigoKeyDown
+          OnExit = edtCodigoExit
+        end
+        object edtDescricao: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 3
+          TabStop = False
+          DisableFocusEffect = True
+          ReadOnly = True
+          TextSettings.FontColor = claCornflowerblue
+          Position.X = 56.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Size, Style]
+        end
+        object edtQtd: TSpinBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          Cursor = crIBeam
+          Position.X = 208.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = edtQtdChange
+          OnKeyDown = edtQtdKeyDown
+        end
+        object edtTotal: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          TabStop = False
+          Cursor = crIBeam
+          ValueType = Float
+          DisableFocusEffect = True
+          ReadOnly = True
+          TextSettings.FontColor = claCornflowerblue
+          TextSettings.HorzAlign = Trailing
+          Position.X = 288.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyledSettings = [Family, Size, Style]
+        end
+        object edtValorTotalItem: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          TabStop = False
+          Cursor = crIBeam
+          ValueType = Float
+          ReadOnly = True
+          TextSettings.HorzAlign = Trailing
+          Position.X = 24.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          Visible = False
+        end
+      end
+      object grbFormas: TGroupBox
+        Align = Bottom
+        StyledSettings = [Family, Size, FontColor, Other]
+        Position.Y = 512.000000000000000000
+        Size.Width = 359.000000000000000000
+        Size.Height = 96.000000000000000000
+        Size.PlatformDefault = False
+        Text = ' Formas de pagamento '
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TabOrder = 0
+        object btnpagar: TSpeedButton
+          Align = Center
+          Size.Width = 129.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Pagar'
+          OnClick = btnpagarClick
+        end
+      end
+      object grdItens: TGrid
+        Align = Top
+        CanFocus = True
+        ClipChildren = True
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 72.000000000000000000
+        Size.Width = 339.000000000000000000
+        Size.Height = 385.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        StyledSettings = [Family, Style, FontColor]
+        TabOrder = 2
+        RowCount = 0
+        Options = [AlternatingRowBackground, ColLines, RowLines, RowSelect, Header, AutoDisplacement]
+        Viewport.Width = 335.000000000000000000
+        Viewport.Height = 360.000000000000000000
+      end
+      object lytTotais: TLayout
+        Align = Client
+        Size.Width = 359.000000000000000000
+        Size.Height = 55.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object lblValorTotal: TLabel
+          Align = Right
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Position.X = 114.000000000000000000
+          Size.Width = 235.000000000000000000
+          Size.Height = 55.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 24.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'R$ 0,00'
+          TabOrder = 3
+        end
+      end
+    end
+    object rctMensagens: TRectangle
+      Align = Bottom
+      Fill.Color = claBlack
+      Position.Y = 608.000000000000000000
+      Size.Width = 359.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      object lblMensagens: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 359.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'lblMensagens'
+        TabOrder = 0
+      end
+    end
+  end
+  object tblItens: TFDMemTable
+    Active = True
+    FieldDefs = <
+      item
+        Name = 'codigo'
+        DataType = ftInteger
+      end
+      item
+        Name = 'descricao'
+        DataType = ftString
+        Size = 80
+      end
+      item
+        Name = 'qtd'
+        DataType = ftInteger
+      end
+      item
+        Name = 'unitario'
+        DataType = ftFloat
+      end
+      item
+        Name = 'total'
+        DataType = ftFloat
+      end>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    StoreDefs = True
+    Left = 184
+    Top = 224
+    object tblItenscodigo: TIntegerField
+      DisplayLabel = 'Cod'
+      FieldName = 'codigo'
+    end
+    object tblItensdescricao: TStringField
+      DisplayLabel = 'Descri'#231#227'o'
+      FieldName = 'descricao'
+      Size = 80
+    end
+    object tblItensqtd: TIntegerField
+      DisplayLabel = 'QTD'
+      FieldName = 'qtd'
+    end
+    object tblItensunitario: TFloatField
+      DisplayLabel = 'Unit'#225'rio'
+      FieldName = 'unitario'
+    end
+    object tblItenstotal: TFloatField
+      FieldName = 'total'
+    end
+  end
+  object tblProdutos: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    Left = 248
+    Top = 224
+    object IntegerField1: TIntegerField
+      DisplayLabel = 'Cod'
+      FieldName = 'codigo'
+    end
+    object StringField1: TStringField
+      DisplayLabel = 'Descri'#231#227'o'
+      FieldName = 'descricao'
+      Size = 80
+    end
+    object FloatField1: TFloatField
+      DisplayLabel = 'Unit'#225'rio'
+      FieldName = 'unitario'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = tblItens
+    ScopeMappings = <>
+    Left = 232
+    Top = 304
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 116
+    Top = 181
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = grdItens
+      Columns = <
+        item
+          MemberName = 'codigo'
+          Header = 'CD'
+          Width = 44
+        end
+        item
+          MemberName = 'descricao'
+          Width = 130
+        end
+        item
+          MemberName = 'unitario'
+          Header = 'Uni'
+          Width = 60
+        end
+        item
+          MemberName = 'qtd'
+          Header = 'Qtd'
+          Width = 40
+        end
+        item
+          MemberName = 'total'
+          Header = 'Total'
+          Width = 60
+        end>
+    end
+  end
+  object RESTClient: TRESTClient
+    AutoCreateParams = False
+    BaseURL = 'http://172.20.10.7/servidor.cgi'
+    Params = <>
+    HandleRedirects = True
+    Left = 264
+    Top = 104
+  end
+  object RESTRequest: TRESTRequest
+    Client = RESTClient
+    Method = rmPOST
+    Params = <>
+    Resource = 'venda'
+    SynchronizedEvents = False
+    Left = 256
+    Top = 160
+  end
+end
