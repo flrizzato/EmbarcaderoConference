@@ -52,7 +52,7 @@ object frmAutenticacao: TfrmAutenticacao
         Size.PlatformDefault = False
         StyleLookup = 'tabitemcustom'
         TabOrder = 0
-        Text = 'Welcome BCockpit'
+        Text = ''
         ExplicitSize.cx = 8.000000000000000000
         ExplicitSize.cy = 8.000000000000000000
         object GridPanelLayout5: TGridPanelLayout
