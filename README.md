@@ -1,2 +1,2 @@
 # EmbarcaderoConference
-Apresentações e Exemplos do Embarcadero Conference (todas as edições desde 2012)
+Apresentações e Exemplos do Embarcadero Conference - Todas as edições a partir de 2012 !!!
