@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.357,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.678,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.393,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.643,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.769,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.821,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.480,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.616,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.391,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/06 22:41:07.000.498,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/18 22:57:27.000.070,=C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/18 22:57:46.000.468,C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\DownUp_Image\mobile\Unit1.pas</Transaction>
+    <Transaction>2016/04/18 22:57:46.000.468,C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Projetos\DownUp_Image\mobile\Unit1.fmx</Transaction>
+    <Transaction>2016/04/18 22:57:51.000.277,C:\Users\asrsa\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Projetos\DownUp_Image\mobile\DownImage.dproj</Transaction>
+    <Transaction>2016/04/18 22:58:19.000.877,=C:\Projetos\DownUp_Image\mobile\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2016/04/18 22:58:20.000.709,=C:\Projetos\DownUp_Image\mobile\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2016/09/02 16:03:54.000.774,=C:\Users\adrianosantos\OneDrive\00-projetos\01-andamento\DownUp\mobile\classes\xPlat.OpenPDF.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="0023109677" iOSSimulator="iPhone5"/>
+		<PMac-Home iOSSimulator="iPhone5"/>
+		<PMacRedeiPhone iOSSimulator="iPhone5"/>
+		<PMac-Simulator iOSSimulator="iPhone5"/>
+		<PMacEMBT iOSSimulator="iPhone5" iOSDevice64="_iosdevice_847eba261f35302aa4e48084fc9006a4e427d05c"/>
+		<PMac iOSSimulator="iPhone5"/>
+		<PMacEmbt iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
