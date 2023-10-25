@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2018/10/18 15:22:18.000.255,=C:\Users\Pichau\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/10/18 15:53:49.000.707,C:\Users\Pichau\Downloads\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\01 - Recovering Connection\fRecoveringConnection.pas=C:\Users\Pichau\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/10/18 15:53:49.000.707,C:\Users\Pichau\Downloads\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\01 - Recovering Connection\fRecoveringConnection.dfm=C:\Users\Pichau\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2018/10/18 15:53:56.000.405,C:\Users\Pichau\Downloads\ECON2018\7-3-FireDAC-Recursos-que-você-não-conhecia\01 - Recovering Connection\RecoveringConnection.dproj=C:\Users\Pichau\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
